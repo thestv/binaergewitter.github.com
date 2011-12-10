@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+    <channel>
+        <title>{{ site.title }}</title>
+	
+        <link>{{ site.url }}</link>
+        <description></description>
+        <lastBuildDate>{{Time.now.strftime("%a, %d %b %Y %H:%M:%S %z")}}</lastBuildDate>
+        <language>de</language>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+	
+        <itunes:summary>{{ site.summary }}</itunes:summary>
+        <itunes:author>{{ site.author }}</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="{{site.logo}}" />
+        <itunes:owner>
+            <itunes:name>{{ site.author }}</itunes:name>
+            <itunes:email>{{ site.email }}</itunes:email>
+        </itunes:owner>
+        <managingEditor>{{ "#{site.email} (#{site.author})" }}</managingEditor>
+        <copyright>Creative Commons BY-NC-SA 3.0 DE</copyright>
+        <itunes:subtitle>{{ site.subtitle }}</itunes:subtitle>
+        <itunes:keywords>{{ site.keywords.to_a.join(', ') }}</itunes:keywords>
+        <image>
+            <title>{{ site.title }}</title>
+            <url>{{ site.logo }}</url>
+            <link>{{ site.url }}</link>
+        </image>
+        {% for category in site.categories %}
+        <itunes:category text="{{ category }}">
+        {% endfor %}    
+        <media:copyright>Creative Commons BY-NC-SA 3.0 DE</media:copyright>
+        <media:thumbnail url="{{ site.url }}" />
+        <media:keywords>{{ site.keywords.to_a.join(', ') }}</media:keywords>
+        <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">{{site.categories.to_a.first}}</media:category>
+        <item>
+            <title>RTC S01E06: Californication</title>
+            <link>http://retinacast.de/rtc-s01e06-californication/</link>
+            <comments>http://retinacast.de/rtc-s01e06-californication/#comments</comments>
+            <pubDate>{{post.date.strftime("%a, %d %b %Y %H:%M:%S %z")}}</pubDate>
+            <dc:creator>{{post.author}}</dc:creator>
+            {% for category in post.categories %}
+            <category><![CDATA[{{ category }}]]></category>
+            {% endfor %}
+            <guid isPermaLink="false">{{ site.url }}{{ post.url }}</guid>
+            <description><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></description>
+            <content:encoded><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></content:encoded>
+            <wfw:commentRss>http://retinacast.de/rtc-s01e06-californication/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <enclosure url="http://download.retinacast.de/Retinacast_S01E06.mp3" length="22958753" type="audio/mpeg" />
+            <itunes:keywords>drogen,hank moody,hollywood,los angeles,schriftsteller,sex,showtime</itunes:keywords>
+            <itunes:subtitle>Retinacast S01E06: Californication  Mit dabei waren: Chef, hadez, Lukas, Phil und pfleidi    Serie   seit 2007 bei Showtime (Pay-TV) (daher auch soviel Sex und Drogen :)) Golden Globe (Hauptdarsteller) 2007 </itunes:subtitle>
+            <itunes:summary>Retinacast S01E06: Californication
+
+Mit dabei waren: Chef, hadez, Lukas, Phil und pfleidi
+
+
+
+Serie
+
+
+seit 2007 bei Showtime (Pay-TV) (daher auch soviel Sex und Drogen :))
+Golden Globe (Hauptdarsteller) 2007
+Produziert von Tom Kapinos (früher Autor bei Dawsons Creek)
+
+
+Verweis: Karen heißt mit Nachnamen Van Der Beek - so wie der Hauptdarsteller von „Dawson's Creek“
+
+
+
+Setting
+
+
+Hank vögelt sich durch LA
+Hauptcharaktere sind von New York nach LA gezogen
+
+
+Charaktere
+
+
+Hank Moody (David Duchovny) - Hauptfigur
+Karen (Natascha McElhone) - Hanks Frau
+Becca (Madeleine Martin) - Hanks Tochter
+Mia (Madeline Zima) - Hanks Rivalin
+(Charlie) Runkle (Evan Handler) - Hanks Manager
+Marcy (Runkle) (Pamela Adlon) - Runkles Frau
+
+
+Themen
+
+
+Titel der Serie: Rechtsstreit mit Red Hot Chili Peppers wegen des Albumtitels; Titel des Time Magazines 1972
+ferner bezeichnet der Ausdruck den Zuzug kalifornischstämmiger Amerikaner in die umliegenden Bundesstaaten
+„fornication“ ist das englische Wort für Unzucht
+Persiflage auf Hollywood / LA / Kalifornien
+Gesehen aus der Sicht von Hank, der aus NY nach LA kommt
+Sex / Drogen
+Hanks Romane sind nach Slayer-Alben benannt
+Comeback für David Duchovny nach Akte X
+
+
+Duchovny hat zwischen Akte X und Californication auch nichts von wirklicher Relevanz gemacht, nur Kleinscheiss
+
+Figur Hank zwischen Held und Anti-Held
+
+
+definitiv kein Held.  Versaut praktisch alles was er anfasst, eckt sozial immer an, Drogen / Alkoholprobleme, fährt total zerratzten Porsche
+
+praktisch keine fortlaufende Story; aneinandergereihte skandalöse Szenen
+Fokus auf Hank und 2-3 Nebenfiguren
+fast ausschließlich starke Frauen als Sexpartner (wenig Schlampen)
+komisch und tragisch zugleich
+wenn man das Konfliktpotential mit der prüden Gesellschaft, in der es spielt subtrahiert, bleibt erstaunlich wenig übrig (Chef)
+
+
+Stil
+
+
+Cross processing im Intro
+
+
+Referenzen zu anderen Serien
+
+
+Entourage
+Akte-X
+How I Met Your Mother
+
+
+Serie beziehe
+
+
+in Deutschland auf AXN (PayTV) zu sehen; 4. Staffel seit 13. Oktober 2011
+DVDs zu Staffel eins, zwei und drei im Handel
+
+
+Empfehlungen
+
+
+Red State (Chef)
+Perfect Sense (Phil)
+Cory Doctorow - Little Brother, Creative Commons Hörbuch (Lukas)
+The juice media rap news (pfleidi)
+Last Exile - Ginyoku no Fam (hadez)
+            </itunes:summary>
+            <itunes:author>Retinacast Crew</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>47:49</itunes:duration>
+            <media:content url="http://download.retinacast.de/Retinacast_S01E06.mp3" fileSize="22958753" type="audio/mpeg" />
+        </item>
+        <item>
+            <title>RTC PP E06: Grimm</title>
+            <link>http://retinacast.de/rtc-pp-e06-grimm/</link>
+            <comments>http://retinacast.de/rtc-pp-e06-grimm/#comments</comments>
+            <pubDate>Wed, 23 Nov 2011 12:37:42 +0000</pubDate>
+            <dc:creator>Lukas</dc:creator>
+            <category><![CDATA[CBS]]>
+            </category>
+            <category><![CDATA[Crime]]>
+            </category>
+            <category><![CDATA[Fantasy]]>
+            </category>
+            <category><![CDATA[Mystery]]>
+            </category>
+            <category><![CDATA[blutbad]]>
+            </category>
+            <category><![CDATA[grimm]]>
+            </category>
+            <category><![CDATA[märchen]]>
+            </category>
+            <category><![CDATA[mystery]]>
+            </category>
+
+            <guid isPermaLink="false">http://retinacast.de/?p=327</guid>
+            <description><![CDATA[Pilotenprüfung E06: Grimm
+
+Diesmal mit "Grimm", angeschaut von chef, lukas, momo, marcel und phil
+
+Verweise:
+
+Der Trailer zur ersten Folge bei Youtube
+]]>
+            </description>
+            <content:encoded><![CDATA[<h1>Pilotenprüfung E06: Grimm</h1>
+<p>Diesmal mit &#8220;Grimm&#8221;, angeschaut von <a href="http://twitter.com/grischder">chef</a>, <a href="http://twitter.com/blubser">lukas</a>, <a href="http://twitter.com/hdznrrd">momo</a>, <a href="http://twitter.com/xartaas">marcel</a> und <a href="http://twitter.com/philgrooves">phil</a></p>
+<h2>Verweise:</h2>
+<p><a href="http://www.youtube.com/watch?v=2rVy3RBJmNo">Der Trailer zur ersten Folge bei Youtube</a></p>
+<p class="wp-flattr-button"></p> <p><a href="http://retinacast.de/?flattrss_redirect&amp;id=327&amp;md5=e20e9686aa584686fe579198e5e35224" title="Flattr" target="_blank"><img src="http://retinacast.de/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>]]>
+            </content:encoded>
+            <wfw:commentRss>http://retinacast.de/rtc-pp-e06-grimm/feed/</wfw:commentRss>
+            <slash:comments>1</slash:comments>
+            <enclosure url="http://download.retinacast.de/Retinacast_PP_E06.mp3" length="11727434" type="audio/mpeg" />
+            <itunes:keywords>blutbad,grimm,märchen,mystery</itunes:keywords>
+            <itunes:subtitle>Pilotenprüfung E06: Grimm  Diesmal mit "Grimm", angeschaut von chef, lukas, momo, marcel und phil  Verweise:  Der Trailer zur ersten Folge bei Youtube</itunes:subtitle>
+            <itunes:summary>Pilotenprüfung E06: Grimm
+
+Diesmal mit "Grimm", angeschaut von chef, lukas, momo, marcel und phil
+
+Verweise:
+
+Der Trailer zur ersten Folge bei Youtube
+            </itunes:summary>
+            <itunes:author>Retinacast Crew</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>12:13</itunes:duration>
+            <media:content url="http://download.retinacast.de/Retinacast_PP_E06.mp3" fileSize="11727434" type="audio/mpeg" />
+        </item>
+        <item>
+            <title>RTC S01E05: Sherlock</title>
+            <link>http://retinacast.de/rtc-s01e05-sherlock/</link>
+            <comments>http://retinacast.de/rtc-s01e05-sherlock/#comments</comments>
+            <pubDate>Thu, 10 Nov 2011 13:39:40 +0000</pubDate>
+            <dc:creator>Lukas</dc:creator>
+            <category><![CDATA[BBC]]>
+            </category>
+            <category><![CDATA[Krimi]]>
+            </category>
+            <category><![CDATA[Podcast]]>
+            </category>
+            <category><![CDATA[bbc]]>
+            </category>
+            <category><![CDATA[fernsehen]]>
+            </category>
+            <category><![CDATA[krimi]]>
+            </category>
+            <category><![CDATA[modern]]>
+            </category>
+            <category><![CDATA[neuzeit]]>
+            </category>
+            <category><![CDATA[privatdetektiv]]>
+            </category>
+            <category><![CDATA[serie]]>
+            </category>
+            <category><![CDATA[sherlock holmes]]>
+            </category>
+
+            <guid isPermaLink="false">http://retinacast.de/?p=296</guid>
+            <description><![CDATA[RTC S01E05: Sherlock
+
+Mit dabei: Chef, Lukas, Marcel, pfleidi und Ingo
+
+
+News
+
+
+Neues Studio
+Neuer Server
+Pilotenprüfung
+Hörerfeedbackloop
+
+
+Moritz
+
+
+Doctor Who
+Seit 4.11 ZDF: Ijon Tichy Raumpilot
+
+Nils
+
+
+gute Spoilerregel, Empfehlungen am Ende, lockere Stimmung
+bitte immer die Namen nennen
+Lieder von Serien Intros
+
+
+
+
+Serie
+
+
+BBC Produktion
+Geschrieben von Steven Moffat und Mark Gatiss
+
+
+Moffat bekannt durch Coupling, beide schreiben Episoden für Doctor Who
+
+Wikipedia Eintrag
+IMDB
+In Deutschland im Ersten gelaufen / gute ...]]>
+            </description>
+            <content:encoded><![CDATA[<h1>RTC S01E05: Sherlock</h1>
+<p>Mit dabei: <a href="http://twitter.com/grischder">Chef</a>, <a href="http://twitter.com/blubser">Lukas</a>, <a href="http://twitter.com/xartas">Marcel</a>, <a href="http://twitter.com/pfleidi">pfleidi</a> und <a href="http://twitter.com/radiotux">Ingo</a><br />
+<span id="more-296"></span></p>
+<h2>News</h2>
+<ul>
+<li>Neues Studio</li>
+<li>Neuer Server</li>
+<li>Pilotenprüfung</li>
+<li>Hörerfeedbackloop
+<ul>
+<li>Moritz
+<ul>
+<li>Doctor Who</li>
+<li><a href="http://de.wikipedia.org/wiki/Ijon_Tichy:_Raumpilot">Seit 4.11 ZDF: Ijon Tichy Raumpilot</a></li>
+</ul>
+</li>
+<li>Nils
+<ul>
+<li>gute Spoilerregel, Empfehlungen am Ende, lockere Stimmung</li>
+<li>bitte immer die Namen nennen</li>
+<li>Lieder von Serien Intros</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>Serie</h2>
+<ul>
+<li>BBC Produktion</li>
+<li>Geschrieben von Steven Moffat und Mark Gatiss
+<ul>
+<li>Moffat bekannt durch Coupling, beide schreiben Episoden für Doctor Who</li>
+</ul>
+</li>
+<li><a href="http://de.wikipedia.org/wiki/Sherlock_(Fernsehserie)">Wikipedia Eintrag</a></li>
+<li><a href="http://www.imdb.de/title/tt1475582/">IMDB</a></li>
+<li>In Deutschland im Ersten gelaufen / gute Sendezeit</li>
+<li>Wurde 2009 produziert und 2010 ausgestrahlt</li>
+<li>Drei 90-minütige Folgen</li>
+<li>Ausblick: Serie geht in 2012 in 2. Staffel</li>
+<li>Unausgestrahlter Pilot ist Teil der Bluray-Ausgabe &#8211; interessant</li>
+<li>Einfluss anderer Serien und Einfluss der zurückkommt (House)</li>
+</ul>
+<h3>Setting</h3>
+<ul>
+<li>Sherlock Holmes im heutigen England</li>
+<li>Selbe Adresse wie in den Büchern: <a href="http://en.wikipedia.org/wiki/221B_Baker_Street">221b Baker Street</a></li>
+<li>Spielt in London und stellenweise in Cardiff (Wales)</li>
+<li>Einbinden moderner Elemente wie z.B. Blogs, SMS und Smartphones</li>
+<li>Nikotinpflaster statt Pfeife (&#8220;because it&#8217;s impossible to keep a smoking habit in london these days&#8230;&#8221;)</li>
+<li>Dr. John Watson als Veteran, der aus Afghanistan zurück gekehrt ist</li>
+</ul>
+<h3>Charaktere</h3>
+<ul>
+<li>Sherlock Holmes &#8211; Benedict Cumberbatch &#8211; auch der Hobbit (Film)</li>
+<li>Dr. John Watson &#8211; Martin Freeman &#8211; auch im Hobbit (der in Doyles Original, wie auch im Remake Afghanistan-Veteran ist&#8230;)</li>
+<li>Detective Inspector Lestrade</li>
+<li>Mrs. Hudson &#8211; Hausdame</li>
+<li>Sherlocks Bruder: Mycroft Holmes</li>
+<li>Moriarty &#8211; der Bösewicht&#8230;</li>
+</ul>
+<h3>Stil</h3>
+<ul>
+<li><a href="http://de.wikipedia.org/wiki/Tilt-und-Shift-Objektiv">Tilt-Shift Effekt</a></li>
+<li>Es wird viel mit Unschärfe gearbeitet</li>
+<li>Einblenden: Gedankengänge/Beobachtungen von Sherlock</li>
+</ul>
+<h3>Referenzen zu anderen Filmen und Serien</h3>
+<ul>
+<li><a href="http://www.amazon.de/Sherlock-Holmes-Robert-Downey-Jr/dp/B0035JL3RW/ref=sr_1_1?ie=UTF8&amp;qid=1320546429&amp;sr=8-1">Sherlock Holmes Kinofilm</a></li>
+<li>Kinostart für Sherlock Holmes 2 &#8211; Spiel im Schatten ab 22.12.2011</li>
+<li><a href="http://www.amazon.de/Dr-House-Season-Episoden-01-08/dp/B001UW5GTC/ref=sr_1_16?ie=UTF8&amp;qid=1320924140&amp;sr=8-16">House, MD</a></li>
+</ul>
+<h3>Serie beziehen</h3>
+<ul>
+<li><a href="http://www.amazon.de/Sherlock-Staffel-1-2-DVDs/dp/B0052AJ2KM/">bei Amazon</a></li>
+<li><a href="http://www.amazon.de/Complete-Sherlock-Wordsworth-Library-Collection/dp/1840220767">Gesamtausgabe mit 1408 Seiten</a></li>
+<li><a href="http://www.gutenberg.org/ebooks/search.html/?format=html&amp;default_prefix=all&amp;sort_order=downloads&amp;query=sherlock+holmes">Public Domain E-Books</a></li>
+</ul>
+<h3>Aktuelles</h3>
+<ul>
+<li>Neue Staffel Misftis</li>
+</ul>
+<h3>Sherlock Holmes Sekundärliteratur</h3>
+<ul>
+<li><a href="http://www.amazon.de/Sherlockian-Novel-Graham-Moore/dp/0446575887">The Sherlockian</a></li>
+<li><a href="http://www.amazon.de/Study-Sherlock-Stories-inspired-Holmes/dp/0812982460">A Study in Sherlock</a> </li>
+</ul>
+<h3>Empfehlungen</h3>
+<ul>
+<li><a href="http://www.folgenreich.de/markbrandis/">Mark Brandis</a> (Ingo)</li>
+<li><a href="http://www.amazon.de/Four-Lions-Riz-Ahmed/dp/B004IKXH1W/ref=sr_1_1?ie=UTF8&amp;qid=1320546677&amp;sr=8-1">Four Lions</a> (pfleidi)</li>
+<li><a href="http://www.amazon.de/Roseanne-Die-Komplett-Box-36-DVDs/dp/B0026L8MAQ">Roseanne &#8211; Sehr late-80ies, aber insgesammt exzellent gealterte, mutige Comedy</a> (Chef)</li>
+<li><a href="http://www.moviepilot.de/">moviepilot.de</a> (Lukas)</li>
+<li><a href="http://www.imdb.com/title/tt1440292/">Submarine</a></li>
+</ul>
+<p class="wp-flattr-button"></p> <p><a href="http://retinacast.de/?flattrss_redirect&amp;id=296&amp;md5=0a99f2dacb7de8c1a5715c63f69282e2" title="Flattr" target="_blank"><img src="http://retinacast.de/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>]]>
+            </content:encoded>
+            <wfw:commentRss>http://retinacast.de/rtc-s01e05-sherlock/feed/</wfw:commentRss>
+            <slash:comments>3</slash:comments>
+            <enclosure url="http://download.retinacast.de/Retinacast_S01E05.mp3" length="29524265" type="audio/mpeg" />
+            <itunes:keywords>bbc,fernsehen,krimi,modern,neuzeit,privatdetektiv,serie,sherlock holmes</itunes:keywords>
+            <itunes:subtitle>RTC S01E05: Sherlock  Mit dabei: Chef, Lukas, Marcel, pfleidi und Ingo   News   Neues Studio Neuer Server Pilotenprüfung Hörerfeedbackloop   Moritz   Doctor Who Seit 4.11 ZDF: Ijon Tichy Raumpilot  Nils   gute Spoilerregel, Empfehlungen am Ende,</itunes:subtitle>
+            <itunes:summary>RTC S01E05: Sherlock
+
+Mit dabei: Chef, Lukas, Marcel, pfleidi und Ingo
+
+
+News
+
+
+Neues Studio
+Neuer Server
+Pilotenprüfung
+Hörerfeedbackloop
+
+
+Moritz
+
+
+Doctor Who
+Seit 4.11 ZDF: Ijon Tichy Raumpilot
+
+Nils
+
+
+gute Spoilerregel, Empfehlungen am Ende, lockere Stimmung
+bitte immer die Namen nennen
+Lieder von Serien Intros
+
+
+
+
+Serie
+
+
+BBC Produktion
+Geschrieben von Steven Moffat und Mark Gatiss
+
+
+Moffat bekannt durch Coupling, beide schreiben Episoden für Doctor Who
+
+Wikipedia Eintrag
+IMDB
+In Deutschland im Ersten gelaufen / gute Sendezeit
+Wurde 2009 produziert und 2010 ausgestrahlt
+Drei 90-minütige Folgen
+Ausblick: Serie geht in 2012 in 2. Staffel
+Unausgestrahlter Pilot ist Teil der Bluray-Ausgabe - interessant
+Einfluss anderer Serien und Einfluss der zurückkommt (House)
+
+
+Setting
+
+
+Sherlock Holmes im heutigen England
+Selbe Adresse wie in den Büchern: 221b Baker Street
+Spielt in London und stellenweise in Cardiff (Wales)
+Einbinden moderner Elemente wie z.B. Blogs, SMS und Smartphones
+Nikotinpflaster statt Pfeife ("because it's impossible to keep a smoking habit in london these days...")
+Dr. John Watson als Veteran, der aus Afghanistan zurück gekehrt ist
+
+
+Charaktere
+
+
+Sherlock Holmes - Benedict Cumberbatch - auch der Hobbit (Film)
+Dr. John Watson - Martin Freeman - auch im Hobbit (der in Doyles Original, wie auch im Remake Afghanistan-Veteran ist...)
+Detective Inspector Lestrade
+Mrs. Hudson - Hausdame
+Sherlocks Bruder: Mycroft Holmes
+Moriarty - der Bösewicht...
+
+
+Stil
+
+
+Tilt-Shift Effekt
+Es wird viel mit Unschärfe gearbeitet
+Einblenden: Gedankengänge/Beobachtungen von Sherlock
+
+
+Referenzen zu anderen Filmen und Serien
+
+
+Sherlock Holmes Kinofilm
+Kinostart für Sherlock Holmes 2 - Spiel im Schatten ab 22.12.2011
+House, MD
+
+
+Serie beziehen
+
+
+bei Amazon
+Gesamtausgabe mit 1408 Seiten
+Public Domain E-Books
+
+
+Aktuelles
+
+
+Neue Staffel Misftis
+
+
+Sherlock Holmes Sekundärliteratur
+
+
+The Sherlockian
+A Study in Sherlock 
+
+
+Empfehlungen
+
+
+Mark Brandis (Ingo)
+Four Lions (pfleidi)
+Roseanne - Sehr late-80ies, aber insgesammt exzellent gealterte, mutige Comedy (Chef)
+moviepilot.de (Lukas)
+Submarine
+            </itunes:summary>
+            <itunes:author>Retinacast Crew</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>1:01:30</itunes:duration>
+            <media:content url="http://download.retinacast.de/Retinacast_S01E05.mp3" fileSize="29524265" type="audio/mpeg" />
+        </item>
+        <item>
+            <title>RTC PP E05: Person of Interest</title>
+            <link>http://retinacast.de/rtc-pp-e05-person-of-interest/</link>
+            <comments>http://retinacast.de/rtc-pp-e05-person-of-interest/#comments</comments>
+            <pubDate>Fri, 04 Nov 2011 12:37:10 +0000</pubDate>
+            <dc:creator>Lukas</dc:creator>
+            <category><![CDATA[CBS]]>
+            </category>
+            <category><![CDATA[Drama]]>
+            </category>
+            <category><![CDATA[Pilotenprüfung]]>
+            </category>
+            <category><![CDATA[9/11]]>
+            </category>
+            <category><![CDATA[amerika]]>
+            </category>
+            <category><![CDATA[cbs]]>
+            </category>
+            <category><![CDATA[person of interest]]>
+            </category>
+            <category><![CDATA[pilot]]>
+            </category>
+            <category><![CDATA[pilotenprüfung]]>
+            </category>
+            <category><![CDATA[überwachung]]>
+            </category>
+
+            <guid isPermaLink="false">http://retinacast.de/?p=263</guid>
+            <description><![CDATA[Pilotenprüfung: Person of Interest
+
+Heute nehmen wir "Person of Interst" unter die Lupe genommen und bewertet. "Wir" waren in diesem Fall Lukas, pfleidi, phil.
+
+Verweise:
+
+
+Gute Ratings in pre-screenings
+Michael Emerson bekannt aus Lost
+
+]]>
+            </description>
+            <content:encoded><![CDATA[<h1>Pilotenprüfung: <a href="http://www.imdb.com/title/tt1839578/">Person of Interest</a></h1>
+<p>Heute nehmen wir &#8220;Person of Interst&#8221; unter die Lupe genommen und bewertet. &#8220;Wir&#8221; waren in diesem Fall <a href="http://twitter.com/blubser">Lukas</a>, <a href="http://twitter.com/pfleidi">pfleidi</a>, <a href="http://twitter.com/philgrooves">phil</a>.</p>
+<h2>Verweise:</h2>
+<ul>
+<li><a href="http://www.fastcompany.com/1781182/jonathan-nolan-person-of-interest-cbs-jj-abrams">Gute Ratings</a> in pre-screenings</li>
+<li><a href="http://www.imdb.com/name/nm0256237/">Michael Emerson</a> bekannt aus <a href="http://www.imdb.com/title/tt0411008/">Lost</a></li>
+</ul>
+<p class="wp-flattr-button"></p> <p><a href="http://retinacast.de/?flattrss_redirect&amp;id=263&amp;md5=d760fea473706dace4982d4e6fdcee84" title="Flattr" target="_blank"><img src="http://retinacast.de/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>]]>
+            </content:encoded>
+            <wfw:commentRss>http://retinacast.de/rtc-pp-e05-person-of-interest/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <enclosure url="http://download.retinacast.de/Retinacast_PP_E05.mp3" length="14674882" type="audio/mpeg" />
+            <itunes:keywords>9/11,amerika,cbs,person of interest,pilot,pilotenprüfung,überwachung</itunes:keywords>
+            <itunes:subtitle>Pilotenprüfung: Person of Interest  Heute nehmen wir "Person of Interst" unter die Lupe genommen und bewertet. "Wir" waren in diesem Fall Lukas, pfleidi, phil.  Verweise:   Gute Ratings in pre-screenings Michael Emerson bekannt aus Lost</itunes:subtitle>
+            <itunes:summary>Pilotenprüfung: Person of Interest
+
+Heute nehmen wir "Person of Interst" unter die Lupe genommen und bewertet. "Wir" waren in diesem Fall Lukas, pfleidi, phil.
+
+Verweise:
+
+
+Gute Ratings in pre-screenings
+Michael Emerson bekannt aus Lost
+            </itunes:summary>
+            <itunes:author>Retinacast Crew</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>15:17</itunes:duration>
+            <media:content url="http://download.retinacast.de/Retinacast_PP_E05.mp3" fileSize="14674882" type="audio/mpeg" />
+        </item>
+        <item>
+            <title>RTC PP E04: Terra Nova</title>
+            <link>http://retinacast.de/rtc-pp-e04-terra-nova/</link>
+            <comments>http://retinacast.de/rtc-pp-e04-terra-nova/#comments</comments>
+            <pubDate>Mon, 24 Oct 2011 11:37:56 +0000</pubDate>
+            <dc:creator>Lukas</dc:creator>
+            <category><![CDATA[FOX]]>
+            </category>
+            <category><![CDATA[Pilotenprüfung]]>
+            </category>
+            <category><![CDATA[ScienceFiction]]>
+            </category>
+            <category><![CDATA[avatar]]>
+            </category>
+            <category><![CDATA[blade runner]]>
+            </category>
+            <category><![CDATA[dinosaurier]]>
+            </category>
+            <category><![CDATA[jurassic park]]>
+            </category>
+            <category><![CDATA[science fiction]]>
+            </category>
+            <category><![CDATA[scifi]]>
+            </category>
+            <category><![CDATA[terra nova]]>
+            </category>
+            <category><![CDATA[zukunft]]>
+            </category>
+
+            <guid isPermaLink="false">http://retinacast.de/?p=241</guid>
+            <description><![CDATA[Pilotenprüfung: Terra Nova
+
+Heute haben sich chef, pfleidi, lukas, hadez, Armin, phil und momo den Piloten von Terra Nova angeschaut und diesen kurz besprochen.
+
+Verweise:
+
+
+Hohe Produktionskosten
+Schwache Quoten
+
+
+Titelmelodie: A New Horizon (Leveling) von Pal Zoltan Illes
+]]>
+            </description>
+            <content:encoded><![CDATA[<h1>Pilotenprüfung: <a href="http://www.imdb.com/title/tt1641349/">Terra Nova</a></h1>
+<p>Heute haben sich <a href="http://twitter.com/grischder">chef</a>, <a href="http://twitter.com/pfleidi">pfleidi</a>, <a href="http://twitter.com/blubser">lukas</a>, <a href="http://twitter.com/hdznrrd">hadez</a>, <a href="http://twitter.com/rel0c8">Armin</a>, <a href="http://twitter.com/pgilgrooves">phil</a> und <a href="http://twitter.com/momorientes">momo</a> den Piloten von Terra Nova angeschaut und diesen kurz besprochen.</p>
+<h2>Verweise:</h2>
+<ul>
+<li><a href="http://www.serienjunkies.de/news/terra-nova-29057.html">Hohe Produktionskosten</a></li>
+<li><a href="http://tvbythenumbers.zap2it.com/2011/10/18/fox-terra-nova-disappointing-so-what/107593/?%3A+TvbythenumbersCancel%2FrenewFoxShows+%28Fox+RenewCancel%29">Schwache Quoten</a></li>
+</ul>
+<p><strong>Titelmelodie:</strong> <a href="http://www.jamendo.com/en/track/249252">A New Horizon (Leveling)</a> von <a href="http://www.jamendo.com/en/artist/Pal_Zoltan_Illes">Pal Zoltan Illes</a></p>
+<p class="wp-flattr-button"></p> <p><a href="http://retinacast.de/?flattrss_redirect&amp;id=241&amp;md5=07bc1b3df0b1ebe9b9016a36576e47f2" title="Flattr" target="_blank"><img src="http://retinacast.de/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>]]>
+            </content:encoded>
+            <wfw:commentRss>http://retinacast.de/rtc-pp-e04-terra-nova/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <enclosure url="http://download.retinacast.de/Retinacast_PP_E04.mp3" length="14098432" type="audio/mpeg" />
+            <itunes:keywords>avatar,blade runner,dinosaurier,FOX,jurassic park,science fiction,scifi,terra nova,zukunft</itunes:keywords>
+            <itunes:subtitle>Pilotenprüfung: Terra Nova  Heute haben sich chef, pfleidi, lukas, hadez, Armin, phil und momo den Piloten von Terra Nova angeschaut und diesen kurz besprochen.  Verweise:   Hohe Produktionskosten Schwache Quoten   </itunes:subtitle>
+            <itunes:summary>Pilotenprüfung: Terra Nova
+
+Heute haben sich chef, pfleidi, lukas, hadez, Armin, phil und momo den Piloten von Terra Nova angeschaut und diesen kurz besprochen.
+
+Verweise:
+
+
+Hohe Produktionskosten
+Schwache Quoten
+
+
+Titelmelodie: A New Horizon (Leveling) von Pal Zoltan Illes
+            </itunes:summary>
+            <itunes:author>Retinacast Crew</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>14:41</itunes:duration>
+            <media:content url="http://download.retinacast.de/Retinacast_PP_E04.mp3" fileSize="14098432" type="audio/mpeg" />
+        </item>
+        <item>
+            <title>RTC S01E04: Breaking Bad</title>
+            <link>http://retinacast.de/rtc-s01e04-breaking-bad/</link>
+            <comments>http://retinacast.de/rtc-s01e04-breaking-bad/#comments</comments>
+            <pubDate>Thu, 20 Oct 2011 11:37:42 +0000</pubDate>
+            <dc:creator>phil</dc:creator>
+            <category><![CDATA[AMC]]>
+            </category>
+            <category><![CDATA[Drama]]>
+            </category>
+            <category><![CDATA[Podcast]]>
+            </category>
+            <category><![CDATA[amc]]>
+            </category>
+            <category><![CDATA[drogen]]>
+            </category>
+            <category><![CDATA[fernsehen]]>
+            </category>
+            <category><![CDATA[serie]]>
+            </category>
+            <category><![CDATA[tv]]>
+            </category>
+            <category><![CDATA[US]]>
+            </category>
+
+            <guid isPermaLink="false">http://retinacast.de/?p=177</guid>
+            <description><![CDATA[“Wenn die Chemie stimmt ...”
+Mit dabei: Ingo, pfleidi, Chef, Lukas, Phil
+
+Breaking Bad
+
+	Breaking Bad in TheTVDB
+	Aktuell läuft 4. Staffel in den USA
+	Seit Januar 2008 auf AMC (dort läuft ebenfalls Mad Men und The Walking Dead)
+	Parallele zu Mad Men: Menschen die ein vordergründig normales Familienleben haben, daneben aber geheimen verwerflichen Tätigkeiten nachgehen
+	Produziert von Vince Gilligan (hat u.a. viele Folgen ...]]>
+            </description>
+            <content:encoded><![CDATA[<h1>“Wenn die Chemie stimmt &#8230;”</h1>
+<p>Mit dabei: <a href="http://twitter.com/radiotux">Ingo</a>, <a href="http://twitter.com/pfleidi">pfleidi</a>, <a href="http://twitter.com/grischder">Chef</a>, <a href="http://twitter.com/Blubser">Lukas</a>, <a href="http://twitter.com/philgrooves">Phil</a><br />
+<span id="more-177"></span></p>
+<h2><a href="http://www.imdb.com/title/tt0903747/">Breaking Bad</a></h2>
+<ul>
+<li><a href="http://thetvdb.com/?tab=series&amp;id=81189&amp;lid=7">Breaking Bad in TheTVDB</a></li>
+<li>Aktuell läuft 4. Staffel in den USA</li>
+<li>Seit Januar 2008 auf <a href="http://en.wikipedia.org/wiki/AMC_(TV_channel)">AMC</a> (dort läuft ebenfalls Mad Men und <a href="http://www.amazon.de/Walking-Dead-komplette-Staffel-Limited/dp/B0052PKIL4/ref=sr_1_1?ie=UTF8&amp;qid=1316367228&amp;sr=8-1">The Walking Dead</a>)</li>
+<li>Parallele zu Mad Men: Menschen die ein vordergründig normales Familienleben haben, daneben aber geheimen verwerflichen Tätigkeiten nachgehen</li>
+<li>Produziert von Vince Gilligan (hat u.a. viele Folgen für Akte X geschrieben)</li>
+</ul>
+<h2>Setting</h2>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Albuquerque,_New_Mexico">Spielt in Albuquerque, New Mexico</a></li>
+<li>Krebserkrankung ändert Walters Leben</li>
+<li>Auslöser: Kein Geld für Krebs-Behandlung / keine Rücklagen für Familie, Frau schwanger, Sohn Kinderlähmung</li>
+<li>Drogen herstellen und verkaufen will gelernt sein &#8211; some serious business!</li>
+<li>Walter und sein Komplize Jesse rutschen ins Verbrecherdasein ab</li>
+<li>DEA (Hank) ermittelt gegen Walter ohne seine geheime Identität (“Heisenberg”) zu kennen (permanente und sehr nahe Bedrohung)</li>
+<li>Auswirkungen auf die Familie wenn der Vater mit Drogen dealt, Walter verändert sich</li>
+<li>zu Beginn läuft das Drogengeschäft sehr einfach, bis die etablierten Drogenkartelle auf die hohe Qualität von Walters Meth aufmerksam werden</li>
+<li>Walter und Jesse geraten in das Machtgefüge der Drogenbosse → erzeugt viele Konflikte und Spannung in der Serie</li>
+</ul>
+<h2>Charaktere</h2>
+<ul>
+<li> <a href="http://en.wikipedia.org/wiki/Walter_White_%28Breaking_Bad%29">Walter White</a> (<a href="http://en.wikipedia.org/wiki/Bryan_Cranston">Bryan Cranston</a>), Protagonist und Antiheld</li>
+<li><a href="http://en.wikipedia.org/wiki/Skyler_White">Skyler White</a> (<a href="http://en.wikipedia.org/wiki/Anna_Gunn">Anna Gunn</a>), Walters Frau</li>
+<li><a href="http://en.wikipedia.org/wiki/Jesse_Pinkman">Jesse Pinkman</a> (<a href="http://en.wikipedia.org/wiki/Aaron_Paul">Aaron Paul</a>), Walters Komplize</li>
+<li><a href="http://en.wikipedia.org/wiki/Hank_Schrader">Hank Schrader</a> (<a href="http://en.wikipedia.org/wiki/Dean_Norris">Dean Norris</a>), Walters Schwager</li>
+<li><a href="http://en.wikipedia.org/wiki/Marie_Schrader">Marie Schrader</a> (<a href="http://en.wikipedia.org/wiki/Betsy_Brandt">Betsy Brandt</a>), Skylers Schwester</li>
+<li><a href="http://en.wikipedia.org/wiki/Walter_White,_Jr.">Walter White, Jr.</a> (<a href="http://en.wikipedia.org/wiki/RJ_Mitte">RJ Mitte</a>), Walters Sohn</li>
+<li><a href="http://en.wikipedia.org/wiki/Saul_Goodman_%28Breaking_Bad%29">Saul Goodman</a> (<a href="http://en.wikipedia.org/wiki/Bob_Odenkirk">Bob Odenkirk</a>), Anwalt von Walter und Jesse</li>
+</ul>
+<h2>Sonstiges</h2>
+<ul>
+<li>Durchbruch für Brian Cranston zum serious hollywood business wegen der großartigen Performance in Breaking Bad (drei Emmys)</li>
+<li>Serie lässt sich nicht auf ein Genre festlegen; Drama, Action/Thriller und Comedy wechseln sich ab</li>
+<li>teilweise sehr abstrakte Szenen und Kameraeinstellungen, die der Serie zusätzliche Tiefe verleihen</li>
+<li>Auswirkungen auf reales Leben (blue meth)</li>
+</ul>
+<h2>Wo zu beziehen?</h2>
+<ul>
+<li>In Deutschland auf Pay-TV Sender AXN (aktuell 1.-3. Staffel, 4. Staffel ab 10. November 2011)</li>
+<li><a href="http://www.amazon.de/Breaking-Bad-komplette-erste-Season/dp/B003X6UEXQ/ref=sr_1_1?ie=UTF8&amp;qid=1315487807&amp;sr=8-1">Staffel eins</a>, <a href="http://www.amazon.de/Breaking-Bad-komplette-zweite-Season/dp/B00451ASNY/ref=sr_1_2?ie=UTF8&amp;qid=1315487807&amp;sr=8-2">zwei</a> und <a href="http://www.amazon.de/Breaking-Bad-komplette-dritte-Season/dp/B004NNUDXY/ref=sr_1_3?ie=UTF8&amp;qid=1315487807&amp;sr=8-3">drei</a> gibt es als DVD zu kaufen, Staffel 4 nach dt. TV-Ausstrahlung</li>
+<li>Staffel vier läuft gerade in den USA</li>
+<li><a href="http://insidetv.ew.com/2011/08/14/breaking-bad-final-season/">Renewed for final season</a></li>
+</ul>
+<h2>Referenzen zu anderen Serien</h2>
+<ul>
+<li><a href="http://www.amazon.de/Die-Sopranos-ultimative-Mafiabox-Season/dp/B0012IP766/ref=sr_1_1?ie=UTF8&amp;qid=1315437989&amp;sr=8-1">The Sopranos</a></li>
+<li><a href="http://www.amazon.de/Weeds-Kleine-Deals-Nachbarn-Season/dp/B004856Y58/ref=sr_1_1?ie=UTF8&amp;qid=1315439095&amp;sr=8-1">Weeds</a></li>
+<li><a href="http://www.amazon.de/Mad-Men-Season-Jon-Hamm/dp/B002RLWLT8/ref=sr_1_1?ie=UTF8&amp;qid=1316364042&amp;sr=8-1">Mad Men</a></li>
+</ul>
+<h2>Empfehlungen</h2>
+<ul>
+<li><a href="http://www.amazon.de/COSMOS-Carl-Sagan/dp/B001NURALI/ref=sr_1_2?ie=UTF8&amp;qid=1315434522&amp;sr=8-2">Carl Sagans Cosmos</a> (pfleidi)</li>
+<li>Filmtipp vom Fantasy Filmfest 2011: <a href="http://www.imdb.com/title/tt1568816/">Phase 7</a> (Phil)</li>
+<li>EC2 Micro Instanzen als YouTube Proxy [<a href="http://www.stratumsecurity.com/blog/2010/12/03/shearing-firesheep-with-the-cloud/">1</a>] [<a href="http://www.dikant.de/2010/10/08/setting-up-a-vpn-server-on-amazon-ec2/">2</a>] (Lukas)</li>
+<li><a href="http://www.comedycentral.com/shows/roast-charlie-sheen/index.jhtml">Comedy Central Roast of Charlie Sheen</a> (Chef)</li>
+<li><a href="http://www.amazon.de/Castle-komplette-erste-Staffel-DVDs/dp/B00377ISA2/ref=sr_1_1?ie=UTF8&amp;qid=1316370948&amp;sr=8-1">Castle</a> (ingo)</li>
+</ul>
+<div><strong>Titelmelodie: </strong><a href="http://www.jamendo.com/en/track/249252">A New Horizon (Leveling)</a> von <a href="http://www.jamendo.com/en/artist/Pal_Zoltan_Illes">Pal Zoltan Illes</a></div>
+<p class="wp-flattr-button"></p> <p><a href="http://retinacast.de/?flattrss_redirect&amp;id=177&amp;md5=5d1012f8e4bae10a03a4766d93054aef" title="Flattr" target="_blank"><img src="http://retinacast.de/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>]]>
+            </content:encoded>
+            <wfw:commentRss>http://retinacast.de/rtc-s01e04-breaking-bad/feed/</wfw:commentRss>
+            <slash:comments>4</slash:comments>
+            <enclosure url="http://download.retinacast.de/Retinacast_S01E04.mp3" length="66750592" type="audio/mpeg" />
+            <itunes:keywords>amc,drogen,fernsehen,serie,tv,US</itunes:keywords>
+            <itunes:subtitle>“Wenn die Chemie stimmt ...” Mit dabei: Ingo, pfleidi, Chef, Lukas, Phil - Breaking Bad  Breaking Bad in TheTVDB   Aktuell läuft 4. Staffel in den USA   Seit Januar 2008 auf AMC (dort läuft ebenfalls Mad Men und The Walking Dead) </itunes:subtitle>
+            <itunes:summary>“Wenn die Chemie stimmt ...”
+Mit dabei: Ingo, pfleidi, Chef, Lukas, Phil
+
+Breaking Bad
+
+	Breaking Bad in TheTVDB
+	Aktuell läuft 4. Staffel in den USA
+	Seit Januar 2008 auf AMC (dort läuft ebenfalls Mad Men und The Walking Dead)
+	Parallele zu Mad Men: Menschen die ein vordergründig normales Familienleben haben, daneben aber geheimen verwerflichen Tätigkeiten nachgehen
+	Produziert von Vince Gilligan (hat u.a. viele Folgen für Akte X geschrieben)
+
+Setting
+
+	Spielt in Albuquerque, New Mexico
+	Krebserkrankung ändert Walters Leben
+	Auslöser: Kein Geld für Krebs-Behandlung / keine Rücklagen für Familie, Frau schwanger, Sohn Kinderlähmung
+	Drogen herstellen und verkaufen will gelernt sein - some serious business!
+	Walter und sein Komplize Jesse rutschen ins Verbrecherdasein ab
+	DEA (Hank) ermittelt gegen Walter ohne seine geheime Identität (“Heisenberg”) zu kennen (permanente und sehr nahe Bedrohung)
+	Auswirkungen auf die Familie wenn der Vater mit Drogen dealt, Walter verändert sich
+	zu Beginn läuft das Drogengeschäft sehr einfach, bis die etablierten Drogenkartelle auf die hohe Qualität von Walters Meth aufmerksam werden
+	Walter und Jesse geraten in das Machtgefüge der Drogenbosse → erzeugt viele Konflikte und Spannung in der Serie
+
+Charaktere
+
+	 Walter White (Bryan Cranston), Protagonist und Antiheld
+	Skyler White (Anna Gunn), Walters Frau
+	Jesse Pinkman (Aaron Paul), Walters Komplize
+	Hank Schrader (Dean Norris), Walters Schwager
+	Marie Schrader (Betsy Brandt), Skylers Schwester
+	Walter White, Jr. (RJ Mitte), Walters Sohn
+	Saul Goodman (Bob Odenkirk), Anwalt von Walter und Jesse
+
+Sonstiges
+
+	Durchbruch für Brian Cranston zum serious hollywood business wegen der großartigen Performance in Breaking Bad (drei Emmys)
+	Serie lässt sich nicht auf ein Genre festlegen; Drama, Action/Thriller und Comedy wechseln sich ab
+	teilweise sehr abstrakte Szenen und Kameraeinstellungen, die der Serie zusätzliche Tiefe verleihen
+	Auswirkungen auf reales Leben (blue meth)
+
+Wo zu beziehen?
+
+	In Deutschland auf Pay-TV Sender AXN (aktuell 1.-3. Staffel, 4. Staffel ab 10. November 2011)
+	Staffel eins, zwei und drei gibt es als DVD zu kaufen, Staffel 4 nach dt. TV-Ausstrahlung
+	Staffel vier läuft gerade in den USA
+	Renewed for final season
+
+Referenzen zu anderen Serien
+
+	The Sopranos
+	Weeds
+	Mad Men
+
+Empfehlungen
+
+	Carl Sagans Cosmos (pfleidi)
+	Filmtipp vom Fantasy Filmfest 2011: Phase 7 (Phil)
+	EC2 Micro Instanzen als YouTube Proxy [1] [2] (Lukas)
+	Comedy Central Roast of Charlie Sheen (Chef)
+	Castle (ingo)
+
+Titelmelodie: A New Horizon (Leveling) von Pal Zoltan Illes
+            </itunes:summary>
+            <itunes:author>Retinacast Crew</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>1:09:32</itunes:duration>
+            <media:content url="http://download.retinacast.de/Retinacast_S01E04.mp3" fileSize="66750592" type="audio/mpeg" />
+        </item>
+        <item>
+            <title>RTC PP E03: The Playboy Club</title>
+            <link>http://retinacast.de/rtc-pp-e03-the-playboy-club/</link>
+            <comments>http://retinacast.de/rtc-pp-e03-the-playboy-club/#comments</comments>
+            <pubDate>Wed, 05 Oct 2011 14:49:59 +0000</pubDate>
+            <dc:creator>Lukas</dc:creator>
+            <category><![CDATA[Drama]]>
+            </category>
+            <category><![CDATA[NBC]]>
+            </category>
+            <category><![CDATA[Pilotenprüfung]]>
+            </category>
+            <category><![CDATA[Sixties]]>
+            </category>
+            <category><![CDATA[abgesetzt]]>
+            </category>
+            <category><![CDATA[cancelled]]>
+            </category>
+            <category><![CDATA[mad men]]>
+            </category>
+            <category><![CDATA[nbc]]>
+            </category>
+            <category><![CDATA[playboy club]]>
+            </category>
+            <category><![CDATA[sixties]]>
+            </category>
+
+            <guid isPermaLink="false">http://retinacast.de/?p=246</guid>
+            <description><![CDATA[Pilotenprüfung: The Playboy Club
+
+Eine weitere Neuerung im aktuellen Serienkalender ist "The Playboy Club" von NBC und selbstverständlich haben wir (Lukas, chef, pfleidi, hadez, phil) uns den Piloten dazu angeschaut.
+
+Verweise:
+
+
+Kritik an der Serie
+
+
+UPDATE: Kurz nachdem wir den Piloten angeschaut haben, hat NBC die Serie schon abgesetzt
+
+Titelmelodie: A New Horizon (Leveling) von Pal Zoltan Illes
+]]>
+            </description>
+            <content:encoded><![CDATA[<h1>Pilotenprüfung: <a href="http://www.imdb.com/title/tt1797475/">The Playboy Club</a></h1>
+<p>Eine weitere Neuerung im aktuellen Serienkalender ist &#8220;The Playboy Club&#8221; von NBC und selbstverständlich haben wir (<a href="http://twitter.com/blubser">Lukas</a>, <a href="http://twitter.com/grischder">chef</a>, <a href="http://twitter.com/pfleidi">pfleidi</a>, <a href="http://twitter.com/hdznrrd">hadez</a>, <a href="http://twitter.com/philgrooves">phil</a>) uns den Piloten dazu angeschaut.</p>
+<h2>Verweise:</h2>
+<ul>
+<li><a href="http://www.digitalspy.co.uk/ustv/s173/the-playboy-club/news/a331934/playboy-club-ban-urged-by-parents-television-council.html">Kritik</a> an der Serie</li>
+</ul>
+<p>UPDATE: Kurz nachdem wir den Piloten angeschaut haben, hat NBC die Serie schon <a href="http://www.shockya.com/news/2011/10/04/the-playboy-club-cancelled/">abgesetzt</a></p>
+<p><strong>Titelmelodie:</strong> <a href="http://www.jamendo.com/en/track/249252">A New Horizon (Leveling)</a> von <a href="http://www.jamendo.com/en/artist/Pal_Zoltan_Illes">Pal Zoltan Illes</a></p>
+<p class="wp-flattr-button"></p> <p><a href="http://retinacast.de/?flattrss_redirect&amp;id=246&amp;md5=f97f8cd64b4abc69b37d8f75f1f52297" title="Flattr" target="_blank"><img src="http://retinacast.de/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>]]>
+            </content:encoded>
+            <wfw:commentRss>http://retinacast.de/rtc-pp-e03-the-playboy-club/feed/</wfw:commentRss>
+            <slash:comments>2</slash:comments>
+            <enclosure url="http://download.retinacast.de/Retinacast_PP_E03.mp3" length="8897978" type="audio/mpeg" />
+            <itunes:keywords>abgesetzt,cancelled,mad men,nbc,playboy club,sixties</itunes:keywords>
+            <itunes:subtitle>Pilotenprüfung: The Playboy Club  Eine weitere Neuerung im aktuellen Serienkalender ist "The Playboy Club" von NBC und selbstverständlich haben wir (Lukas, chef, pfleidi, hadez, phil) uns den Piloten dazu angeschaut.  Verweise:   Kritik an der Serie   </itunes:subtitle>
+            <itunes:summary>Pilotenprüfung: The Playboy Club
+
+Eine weitere Neuerung im aktuellen Serienkalender ist "The Playboy Club" von NBC und selbstverständlich haben wir (Lukas, chef, pfleidi, hadez, phil) uns den Piloten dazu angeschaut.
+
+Verweise:
+
+
+Kritik an der Serie
+
+
+UPDATE: Kurz nachdem wir den Piloten angeschaut haben, hat NBC die Serie schon abgesetzt
+
+Titelmelodie: A New Horizon (Leveling) von Pal Zoltan Illes
+            </itunes:summary>
+            <itunes:author>Retinacast Crew</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>9:16</itunes:duration>
+            <media:content url="http://download.retinacast.de/Retinacast_PP_E03.mp3" fileSize="8897978" type="audio/mpeg" />
+        </item>
+        <item>
+            <title>RTC PP E02: New Girl</title>
+            <link>http://retinacast.de/rtc-pp-e02-new-girl/</link>
+            <comments>http://retinacast.de/rtc-pp-e02-new-girl/#comments</comments>
+            <pubDate>Sat, 01 Oct 2011 11:37:37 +0000</pubDate>
+            <dc:creator>Lukas</dc:creator>
+            <category><![CDATA[Comedy]]>
+            </category>
+            <category><![CDATA[FOX]]>
+            </category>
+            <category><![CDATA[Pilotenprüfung]]>
+            </category>
+            <category><![CDATA[comedy]]>
+            </category>
+            <category><![CDATA[friend]]>
+            </category>
+            <category><![CDATA[how i met your mother]]>
+            </category>
+            <category><![CDATA[pilotenprüfung]]>
+            </category>
+            <category><![CDATA[US]]>
+            </category>
+
+            <guid isPermaLink="false">http://retinacast.de/?p=208</guid>
+            <description><![CDATA[Pilotenprüfung: New Girl
+
+Das Retinacast-Team kommentiert die Pilotfolge der Comedy-Serie "New Girl". Mit dabei: chef, marcel und lukas.
+
+Verweise:
+
+
+Zooey Deschanel (kennt man aus 500 Days of Summer)
+Béchamelsauce
+Sitcom
+How I Met Your Mother
+Erste Folge kostenlos bei iTunes für Besitzer eines US-Accounts
+
+
+Titelmelodie: A New Horizon (Leveling) von Pal Zoltan Illes
+]]>
+            </description>
+            <content:encoded><![CDATA[<h1>Pilotenprüfung: <a href="http://www.imdb.com/title/tt1826940/">New Girl</a></h1>
+<p>Das Retinacast-Team kommentiert die Pilotfolge der Comedy-Serie &#8220;New Girl&#8221;. Mit dabei: <a href="http://twitter.com/grischder">chef</a>, <a href="http://twitter.com/xartas">marcel</a> und <a href="http://twitter.com/blubser">lukas</a>.</p>
+<h2>Verweise:</h2>
+<ul>
+<li><a href="http://www.imdb.com/name/nm0221046/">Zooey Deschanel</a> (kennt man aus <a href="http://www.amazon.de/gp/product/B0030FXXLK">500 Days of Summer</a>)</li>
+<li><a href="http://de.wikipedia.org/wiki/Béchamelsauce">Béchamelsauce</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Sitcom">Sitcom</a></li>
+<li><a href="http://www.imdb.com/title/tt0460649/">How I Met Your Mother</a></li>
+<li>Erste Folge <a href="http://itunes.apple.com/us/tv-season/new-girl-season-1/id456119895">kostenlos bei iTunes</a> für Besitzer eines <a href="http://www.cultofmac.com/43040/get-a-u-s-itunes-account-anywhere-in-the-world-how-to/">US-Accounts</a></li>
+</ul>
+<p><strong>Titelmelodie:</strong> <a href="http://www.jamendo.com/en/track/249252">A New Horizon (Leveling)</a> von <a href="http://www.jamendo.com/en/artist/Pal_Zoltan_Illes">Pal Zoltan Illes</a></p>
+<p class="wp-flattr-button"></p> <p><a href="http://retinacast.de/?flattrss_redirect&amp;id=208&amp;md5=791dbec8e588e7d0a91a83fb8ec08c9f" title="Flattr" target="_blank"><img src="http://retinacast.de/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>]]>
+            </content:encoded>
+            <wfw:commentRss>http://retinacast.de/rtc-pp-e02-new-girl/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <enclosure url="http://download.retinacast.de/Retinacast_PP_E02.mp3" length="9625728" type="audio/mpeg" />
+            <itunes:keywords>comedy,FOX,friend,how i met your mother,pilotenprüfung,US</itunes:keywords>
+            <itunes:subtitle>Pilotenprüfung: New Girl  Das Retinacast-Team kommentiert die Pilotfolge der Comedy-Serie "New Girl". Mit dabei: chef, marcel und lukas.  Verweise:   Zooey Deschanel (kennt man aus 500 Days of Summer) Béchamelsauce Sitcom How I Met Your Mother </itunes:subtitle>
+            <itunes:summary>Pilotenprüfung: New Girl
+
+Das Retinacast-Team kommentiert die Pilotfolge der Comedy-Serie "New Girl". Mit dabei: chef, marcel und lukas.
+
+Verweise:
+
+
+Zooey Deschanel (kennt man aus 500 Days of Summer)
+Béchamelsauce
+Sitcom
+How I Met Your Mother
+Erste Folge kostenlos bei iTunes für Besitzer eines US-Accounts
+
+
+Titelmelodie: A New Horizon (Leveling) von Pal Zoltan Illes
+            </itunes:summary>
+            <itunes:author>Retinacast Crew</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>9:58</itunes:duration>
+            <media:content url="http://download.retinacast.de/Retinacast_PP_E02.mp3" fileSize="9625728" type="audio/mpeg" />
+        </item>
+        <item>
+            <title>RTC S01E03: Misfits</title>
+            <link>http://retinacast.de/rtc-s01e03-misfits/</link>
+            <comments>http://retinacast.de/rtc-s01e03-misfits/#comments</comments>
+            <pubDate>Thu, 29 Sep 2011 11:37:54 +0000</pubDate>
+            <dc:creator>Sven Pfleiderer</dc:creator>
+            <category><![CDATA[Comedy]]>
+            </category>
+            <category><![CDATA[Drama]]>
+            </category>
+            <category><![CDATA[E4]]>
+            </category>
+            <category><![CDATA[Fantasy]]>
+            </category>
+            <category><![CDATA[Podcast]]>
+            </category>
+            <category><![CDATA[e4]]>
+            </category>
+            <category><![CDATA[fernsehen]]>
+            </category>
+            <category><![CDATA[Misfits]]>
+            </category>
+            <category><![CDATA[serie]]>
+            </category>
+            <category><![CDATA[tv]]>
+            </category>
+            <category><![CDATA[UK]]>
+            </category>
+
+            <guid isPermaLink="false">http://retinacast.de/?p=169</guid>
+            <description><![CDATA[“Well, technically it was a gorilla”
+
+News
+
+
+  Neue Website
+  Feedback Formular
+  Equipment
+  Game of Thrones Staffel 2 hat einen Termin!
+  Überblick über den Cast der neuen GoT Charaktere in Staffel 2 auf TVOvermind.
+  Einigen Serien gehen jetzt weiter:
+  
+    19. September: Castle, HIMYM
+   ...]]>
+            </description>
+            <content:encoded><![CDATA[<p>“Well, technically it was a gorilla”<br />
+<span id="more-169"></span></p>
+<h2>News</h2>
+<ul>
+<li>Neue Website</li>
+<li>Feedback Formular</li>
+<li>Equipment</li>
+<li>Game of Thrones Staffel 2 hat einen Termin!</li>
+<li><a href="http://tvovermind.zap2it.com/cable/hbo/game-of-thrones/game-thrones-meet-faces-season-2/86984">Überblick über den Cast der neuen GoT Charaktere in Staffel 2 auf TVOvermind</a>.</li>
+<li>Einigen Serien gehen jetzt weiter:
+<ul>
+<li>19. September: Castle, HIMYM</li>
+<li>20. September: Glee</li>
+<li>22. September: TBBT</li>
+<li>23. September: Fringe</li>
+<li>2. Oktober: Dexter</li>
+<li>16. Oktober: The Walking Dead</li>
+<li>21. Oktober: Chuck</li>
+</ul>
+</li>
+</ul>
+<h2>Misfits</h2>
+<ul>
+<li><a href="http://www.imdb.com/title/tt1548850/">Misfits in der IMDB</a></li>
+<li><a href="http://thetvdb.com/?tab=series&amp;id=124051&amp;lid=7">Misfits in TheTVDB</a></li>
+<li><a href="http://en.wikipedia.org/wiki/E4_(channel)">Produziert von E4</a> (Unterhaltungssparte von <a href="http://en.wikipedia.org/wiki/E4_(channel)">Channel 4</a>)</li>
+<li>Setting: Community-Service in London</li>
+<li>Genre: Fantasy / Drama / Comedy &#8211; Interessante Mischung</li>
+<li>Die Sache mit den Bewährungsarbeitern</li>
+<li>Unfassbar viele großartige Szenen</li>
+<li><a href="http://www.youtube.com/watch?v=_4hnSwsJhMs">Großartige Party Locations</a>
+<ul>
+<li>uA. Containerlager, alles sehr Underground und Urban/Street gehalten</li>
+<li>Super Soundtrack, grade in den Clubscenen.</li>
+</ul>
+</li>
+<li><a href="http://www.e4.com/misfits/music-playlists.html">Offizielle Playlists</a>!</li>
+<li>Alles dabei, von kuschlig bis Drum and Bass und hartem Rave</li>
+<li>Interessante Sozialstudie über Delinquenz und Schichten in England</li>
+<li>“<a href="http://en.wikipedia.org/wiki/Chav">Chav”</a></li>
+<li>“<a href="http://en.wikipedia.org/wiki/ASBO">ASBO</a>”</li>
+</ul>
+<h2>Charaktere</h2>
+<ul>
+<li>Viele sehr Junge Darsteller in den Hauptrollen</li>
+<li>Die Meisten haben sind mit Misfits eingetiegen oder es ist ihre 2. oder 3. Produktion</li>
+<li>Hauptcharaktere
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Iwan_Rheon">Iwan Rheon</a> als <a href="http://en.wikipedia.org/wiki/Simon_Bellamy">Simon Bellamy</a>
+<ul>
+<li>“<a href="http://www.youtube.com/watch?v=aizVTnkd_WE">Melon Fucker!</a>”</li>
+</ul>
+</li>
+<li><a href="http://en.wikipedia.org/wiki/Lauren_Socha">Lauren Socha</a> als <a href="http://en.wikipedia.org/wiki/Kelly_Bailey_%28Misfits%29">Kelly Bailey</a>
+<ul>
+<li>“<a href="http://www.youtube.com/watch?v=ox0EckmB9tQ">Worst accent ever</a>”</li>
+<li><a href="http://www.youtube.com/watch?v=kWHbpKSCFP4">Lauren Socha hat wirklich so nen Akzent</a></li>
+<li>Akzent: “midlands”, “chav”, <a href="http://misfitse4.livejournal.com/141036.html">siehe auch</a></li>
+</ul>
+</li>
+<li><a href="http://en.wikipedia.org/wiki/Nathan_Stewart-Jarrett">Nathan Stewart-Jarrett</a> als <a href="http://en.wikipedia.org/wiki/Curtis_Donovan">Curtis Donovan</a>
+<ul>
+<li>“<a href="http://www.youtube.com/watch?v=apg-vQbT-c">The rolex sweep</a>”</li>
+</ul>
+</li>
+<li><a href="http://en.wikipedia.org/wiki/Antonia_Thomas">Antonia Thomas</a> als <a href="http://en.wikipedia.org/wiki/Alisha_Bailey">Alisha Bailey</a>
+<ul>
+<li>“<a href="http://www.youtube.com/watch?v=IQtqAXMRuyg">Worst superpower EVER</a>”</li>
+<li>“<a href="http://www.youtube.com/watch?v=o0t2YVRHAZY" title="Do I suck or blow?">Do I suck or blow?</a>“</li>
+</ul>
+</li>
+<li><a href="http://en.wikipedia.org/wiki/Robert_Sheehan">Robert Sheehan</a> als <a href="http://en.wikipedia.org/wiki/Nathan_Young_%28Misfits%29">Nathan Young</a>
+<ul>
+<li>“<a href="http://www.youtube.com/watch?v=zmwMCuN3gWM">I tripled myself</a>&#8220;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>Themen</h2>
+<ul>
+<li>Dialoge und Texte erster Güte</li>
+<li>Schöne Cinematographie, Setting, Atmo</li>
+<li>Drehorte in “<a href="http://en.wikipedia.org/wiki/Thamesmead">Trabentenstädten</a>”
+  </li>
+<li>Studie aller möglichen englischen Akzente™</li>
+<li>Nette Persiflage auf X-Men und Superheroes: Übermenschlich Begabte beim Müllsammeln</li>
+<li>Schwarzhumorig</li>
+<li>Britischer Humor</li>
+<li><a href="http://www.e4.com/misfits/music-playlists.html">Soundtrack</a></li>
+<li>Wee for Redshirts!</li>
+<li>Bildsprache mehr klassische Comedy als Drama mit Comedyelementen</li>
+<li>Bindung per Story oder per Charaktere und der <a href="http://en.wikipedia.org/wiki/Deus_ex_machina">Deus-Ex-Machina-Effekt</a></li>
+<li>Wenn was schiefläuft wird es exponentiell schlimmer</li>
+</ul>
+<h2>Wo zu beziehen?</h2>
+<ul>
+<li><a href="http://www.amazon.de/MISFITS-1-2-Robert-Sheehan/dp/B004REQLNK/ref=sr_1_2?s=dvd&amp;ie=UTF8&amp;qid=1315437347&amp;sr=1-2">Erste und zweite Staffel als Import</a></li>
+<li>Dritte Staffel beginnt am 11. November 2011</li>
+</ul>
+<h2>Referenzen zu anderen Serien/Filmen</h2>
+<ul>
+<li><a href="http://www.amazon.de/X-Men-Erste-Entscheidung-inkl-Digital/dp/B005EJIIW4/ref=sr_1_2?ie=UTF8&amp;qid=1315437472&amp;sr=8-2">X-Men</a></li>
+<li><a href="http://www.amazon.de/Heroes-Die-komplette-Serie-DVDs/dp/B005F78WGW/ref=sr_1_1?s=dvd&amp;ie=UTF8&amp;qid=1315437504&amp;sr=1-1">Heroes</a></li>
+<li><a href="http://www.imdb.com/title/tt1183865/">Alphas</a></li>
+<li><a href="http://www.imdb.com/title/tt1478964/">Attack the Block</a></li>
+<li><a href="http://www.amazon.de/Lost-komplette-Serie-Discs-Limited/dp/B004BJK7Q8/ref=sr_1_6?ie=UTF8&amp;qid=1316361526&amp;sr=8-6">Lost</a></li>
+</ul>
+<h2>Empfehlungen</h2>
+<ul>
+<li><a href="http://symphonyofscience.com/">Symphony of Science</a> z.B. <a href="http://www.youtube.com/watch?v=1PT90dAA49Q">a wave of reason </a>(pfleidi)</li>
+<li><a href="http://myepisodes.com/frontpage.php">MyEpisodes.com</a> (Lukas)</li>
+<li><a href="http://www.imdb.com/title/tt0481449/plotsummary">Hyperdrive</a> (Jan)</li>
+<li><a href="http://www.imdb.com/title/tt1478964/">Attack the Block</a> (Marcel)</li>
+<li><a href="http://www.imdb.com/title/tt0052520/">Twilight Zone (1959)</a> (Chef)</li>
+<li><a href="http://www.animenewsnetwork.com/encyclopedia/anime.php?id=3118">Noiseman Sound Insect (1997)</a> (hadez)</li>
+</ul>
+<div><strong>Titelmelodie: </strong><a href="http://www.jamendo.com/en/track/249252">A New Horizon (Leveling)</a> von <a href="http://www.jamendo.com/en/artist/Pal_Zoltan_Illes">Pal Zoltan Illes</a></div>
+<p class="wp-flattr-button"></p> <p><a href="http://retinacast.de/?flattrss_redirect&amp;id=169&amp;md5=7ceff724b7c20e737f446ef2657e9a5b" title="Flattr" target="_blank"><img src="http://retinacast.de/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>]]>
+            </content:encoded>
+            <wfw:commentRss>http://retinacast.de/rtc-s01e03-misfits/feed/</wfw:commentRss>
+            <slash:comments>2</slash:comments>
+            <enclosure url="http://download.retinacast.de/Retinacast_S01E03.mp3" length="51869824" type="audio/mpeg" />
+            <itunes:keywords>e4,fernsehen,Misfits,serie,tv,UK</itunes:keywords>
+            <itunes:subtitle>“Well, technically it was a gorilla” - News   Neue Website   Feedback Formular   Equipment   Game of Thrones Staffel 2 hat einen Termin!   Überblick über den Cast der neuen GoT Charaktere in Staffel 2 auf TVOvermind. </itunes:subtitle>
+            <itunes:summary>“Well, technically it was a gorilla”
+
+News
+
+
+  Neue Website
+  Feedback Formular
+  Equipment
+  Game of Thrones Staffel 2 hat einen Termin!
+  Überblick über den Cast der neuen GoT Charaktere in Staffel 2 auf TVOvermind.
+  Einigen Serien gehen jetzt weiter:
+  
+    19. September: Castle, HIMYM
+    20. September: Glee
+    22. September: TBBT
+    23. September: Fringe
+    2. Oktober: Dexter
+    16. Oktober: The Walking Dead
+    21. Oktober: Chuck
+  
+  
+
+
+Misfits
+
+
+  Misfits in der IMDB
+  Misfits in TheTVDB
+  Produziert von E4 (Unterhaltungssparte von Channel 4)
+  Setting: Community-Service in London
+  Genre: Fantasy / Drama / Comedy - Interessante Mischung
+  Die Sache mit den Bewährungsarbeitern
+  Unfassbar viele großartige Szenen
+  Großartige Party Locations
+  
+    uA. Containerlager, alles sehr Underground und Urban/Street gehalten
+    Super Soundtrack, grade in den Clubscenen.
+  
+  
+  Offizielle Playlists!
+  Alles dabei, von kuschlig bis Drum and Bass und hartem Rave
+  Interessante Sozialstudie über Delinquenz und Schichten in England
+  “Chav”
+  “ASBO”
+
+
+Charaktere
+
+
+  Viele sehr Junge Darsteller in den Hauptrollen
+  Die Meisten haben sind mit Misfits eingetiegen oder es ist ihre 2. oder 3. Produktion
+  Hauptcharaktere
+  
+    Iwan Rheon als Simon Bellamy
+    
+      “Melon Fucker!”
+    
+    
+    Lauren Socha als Kelly Bailey
+    
+      “Worst accent ever”
+      Lauren Socha hat wirklich so nen Akzent
+      Akzent: “midlands”, “chav”, siehe auch
+    
+    
+    Nathan Stewart-Jarrett als Curtis Donovan
+    
+      “The rolex sweep”
+    
+    
+    Antonia Thomas als Alisha Bailey
+    
+      “Worst superpower EVER”
+	“Do I suck or blow?“
+    
+    
+    Robert Sheehan als Nathan Young
+    
+      “I tripled myself"
+    
+    
+  
+  
+
+
+Themen
+
+
+  Dialoge und Texte erster Güte
+  Schöne Cinematographie, Setting, Atmo
+  Drehorte in “Trabentenstädten”
+  Studie aller möglichen englischen Akzente™
+  Nette Persiflage auf X-Men und Superheroes: Übermenschlich Begabte beim Müllsammeln
+  Schwarzhumorig
+  Britischer Humor
+  Soundtrack
+  Wee for Redshirts!
+  Bildsprache mehr klassische Comedy als Drama mit Comedyelementen
+  Bindung per Story oder per Charaktere und der Deus-Ex-Machina-Effekt
+  Wenn was schiefläuft wird es exponentiell schlimmer
+
+
+Wo zu beziehen?
+
+
+  Erste und zweite Staffel als Import
+  Dritte Staffel beginnt am 11. November 2011
+
+
+Referenzen zu anderen Serien/Filmen
+
+
+  X-Men
+  Heroes
+  Alphas
+  Attack the Block
+  Lost
+
+
+Empfehlungen
+
+
+  Symphony of Science z.B. a wave of reason (pfleidi)
+  MyEpisodes.com (Lukas)
+  Hyperdrive (Jan)
+  Attack the Block (Marcel)
+  Twilight Zone (1959) (Chef)
+  Noiseman Sound Insect (1997) (hadez)
+
+
+Titelmelodie: A New Horizon (Leveling) von Pal Zoltan Illes
+            </itunes:summary>
+            <itunes:author>Retinacast Crew</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>54:02</itunes:duration>
+            <media:content url="http://download.retinacast.de/Retinacast_S01E03.mp3" fileSize="51869824" type="audio/mpeg" />
+        </item>
+        <item>
+            <title>RTC PP E01: Homeland</title>
+            <link>http://retinacast.de/rtc-pp-e01-homeland/</link>
+            <comments>http://retinacast.de/rtc-pp-e01-homeland/#comments</comments>
+            <pubDate>Tue, 27 Sep 2011 11:37:00 +0000</pubDate>
+            <dc:creator>Lukas</dc:creator>
+            <category><![CDATA[Drama]]>
+            </category>
+            <category><![CDATA[Pilotenprüfung]]>
+            </category>
+            <category><![CDATA[Showtime]]>
+            </category>
+            <category><![CDATA[afghanistan]]>
+            </category>
+            <category><![CDATA[agenten]]>
+            </category>
+            <category><![CDATA[cia]]>
+            </category>
+            <category><![CDATA[drama]]>
+            </category>
+            <category><![CDATA[irak]]>
+            </category>
+            <category><![CDATA[pilotenprüfung]]>
+            </category>
+            <category><![CDATA[showtime]]>
+            </category>
+            <category><![CDATA[US]]>
+            </category>
+
+            <guid isPermaLink="false">http://retinacast.de/?p=199</guid>
+            <description><![CDATA[Pilotenprüfung: Homeland
+
+Das Retinacast-Team kommentiert die Pilotfolge der CIA-Drama-Serie "Homeland".
+
+Mit dabei: chef, phil, armin, timarcel, hadez, momo und lukas.
+
+Verweise
+
+
+24
+TVTropes
+
+
+Titelmelodie: A New Horizon (Leveling) von Pal Zoltan Illes
+]]>
+            </description>
+            <content:encoded><![CDATA[<h1>Pilotenprüfung: <a href="http://www.imdb.com/title/tt1796960/">Homeland</a></h1>
+<p>Das Retinacast-Team kommentiert die Pilotfolge der CIA-Drama-Serie &#8220;Homeland&#8221;.</p>
+<p>Mit dabei: <a href="http://twitter.com/grischder">chef</a>, <a href="http://twitter.com/philgrooves">phil</a>, <a href="http://twitter.com/rel0c8">armin</a>, <a href="http://twitter.com/xartas">timarcel</a>, <a href="http://twitter.com/hdznrrd">hadez</a>, <a href="http://twitter.com/momorientes">momo</a> und <a href="http://twitter.com/blubser">lukas</a>.</p>
+<h2>Verweise</h2>
+<ul>
+<li><a href="http://www.imdb.com/title/tt0285331/">24</a></li>
+<li><a href="http://tvtropes.org">TVTropes</a></li>
+</ul>
+<p><strong>Titelmelodie:</strong> <a href="http://www.jamendo.com/en/track/249252">A New Horizon (Leveling)</a> von <a href="http://www.jamendo.com/en/artist/Pal_Zoltan_Illes">Pal Zoltan Illes</a></p>
+<p class="wp-flattr-button"></p> <p><a href="http://retinacast.de/?flattrss_redirect&amp;id=199&amp;md5=7ffe663beb44c93d4886cbca0a34d51b" title="Flattr" target="_blank"><img src="http://retinacast.de/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>]]>
+            </content:encoded>
+            <wfw:commentRss>http://retinacast.de/rtc-pp-e01-homeland/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <enclosure url="http://download.retinacast.de/Retinacast_PP_E01.mp3" length="12935296" type="audio/mpeg" />
+            <itunes:keywords>afghanistan,agenten,cia,drama,irak,pilotenprüfung,showtime,US</itunes:keywords>
+            <itunes:subtitle>Pilotenprüfung: Homeland  Das Retinacast-Team kommentiert die Pilotfolge der CIA-Drama-Serie "Homeland".  Mit dabei: chef, phil, armin, timarcel, hadez, momo und lukas.  Verweise   24 TVTropes   Titelmelodie: A New Horizon (Leveling) von Pal Zoltan Illes</itunes:subtitle>
+            <itunes:summary>Pilotenprüfung: Homeland
+
+Das Retinacast-Team kommentiert die Pilotfolge der CIA-Drama-Serie "Homeland".
+
+Mit dabei: chef, phil, armin, timarcel, hadez, momo und lukas.
+
+Verweise
+
+
+24
+TVTropes
+
+
+Titelmelodie: A New Horizon (Leveling) von Pal Zoltan Illes
+            </itunes:summary>
+            <itunes:author>Retinacast Crew</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>13:25</itunes:duration>
+            <media:content url="http://download.retinacast.de/Retinacast_PP_E01.mp3" fileSize="12935296" type="audio/mpeg" />
+        </item>
+        <item>
+            <title>RTC S01E02: Firefly</title>
+            <link>http://retinacast.de/rtc-s01e02-firefly/</link>
+            <comments>http://retinacast.de/rtc-s01e02-firefly/#comments</comments>
+            <pubDate>Thu, 08 Sep 2011 11:37:00 +0000</pubDate>
+            <dc:creator>Sven Pfleiderer</dc:creator>
+            <category><![CDATA[FOX]]>
+            </category>
+            <category><![CDATA[Podcast]]>
+            </category>
+            <category><![CDATA[ScienceFiction]]>
+            </category>
+            <category><![CDATA[fernsehen]]>
+            </category>
+            <category><![CDATA[firefly]]>
+            </category>
+            <category><![CDATA[science fiction]]>
+            </category>
+            <category><![CDATA[serie]]>
+            </category>
+            <category><![CDATA[tv]]>
+            </category>
+
+            <guid isPermaLink="false">http://retinacast.de/?p=78</guid>
+            <description><![CDATA[You Can’t Take the Sky from Me
+Mit dabei: hadez, Helena, Ingo, Jan, Marcel, pfleidi
+
+Firefly
+
+	Produziert von FOX
+	Geschrieben von Joss Whedon, 2002-2003
+	Nach 13 Folgen gecancelt, weil... warum?
+	Dafür auf DVD erfolgreich, mit hardcore fandom
+	Serenity als inoffizieller “Abschluss”
+
+Setting
+
+	Space Western mit Fernost
+	Fluchen auf Chinesisch
+	Die Erde war zu voll, man hat sich ein neues Sonnensystem gesucht, Monde und Planeten mit ...]]>
+            </description>
+            <content:encoded><![CDATA[<h1>You Can’t Take the Sky from Me</h1>
+<p>Mit dabei: <a href="http://twitter.com/hdznrrd">hadez</a>, <a href="http://blog.miralys.de/">Helena</a>, <a href="http://twitter.com/radiotux">Ingo</a>, <a href="http://twitter.com/jvanvinkenroye">Jan</a>, <a href="http://twitter.com/xartas">Marcel</a>, <a href="http://twitter.com/pfleidi">pfleidi</a><br />
+<span id="more-78"></span></p>
+<h2><a href="http://de.wikipedia.org/wiki/Firefly_(Fernsehserie)">Firefly</a></h2>
+<ul>
+<li>Produziert von FOX</li>
+<li>Geschrieben von <a href="http://en.wikipedia.org/wiki/Joss_Whedon">Joss Whedon</a>, 2002-2003</li>
+<li>Nach 13 Folgen gecancelt, weil&#8230; warum?</li>
+<li>Dafür <a href="http://www.amazon.de/Firefly-Aufbruch-Serenity-komplette-Serie/dp/B00411RW82/ref=sr_1_1?ie=UTF8&amp;qid=1312981840&amp;sr=8-1">auf DVD</a> erfolgreich, mit hardcore fandom</li>
+<li><a href="http://www.amazon.de/Serenity-Flucht-neue-Welten-Einzel-DVD/dp/B000E6TXG2/ref=sr_1_1?ie=UTF8&amp;qid=1312981658&amp;sr=8-1">Serenity</a> als inoffizieller “Abschluss”</li>
+</ul>
+<h2>Setting</h2>
+<ul>
+<li>Space Western mit Fernost</li>
+<li>Fluchen auf Chinesisch</li>
+<li>Die Erde war zu voll, man hat sich ein neues Sonnensystem gesucht, Monde und Planeten mit Terraforming bewohnbar gemacht</li>
+<li>Bürgerkrieg (Browncoats vs. Alliance)</li>
+<li>Innere Welten: Alliance, vage faschistisch, aber nicht wirklich böse</li>
+<li>Äußere: Wilder Westen</li>
+</ul>
+<h3>Charaktere</h3>
+<ul>
+<li><a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/AntiHero">Malcolm Reynolds</a></li>
+<li><a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/ActionGirl">Zoe Alleyne Washburne</a></li>
+<li><a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/AcePilot">Hoban &#8220;Wash&#8221; Washburne</a></li>
+<li><a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/TheBigGuy">Jayne Cobb</a></li>
+<li><a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/TheEngineer">Kaywinnit Lee &#8220;Kaylee&#8221; Frye</a></li>
+<li><a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/TheSmartGuy">Simon Tam</a></li>
+</ul>
+<h3>Sonstiges</h3>
+<ul>
+<li><a href="http://unstoppablesignals.com/hnbf/">Weiterführung der Serie (Rechtekauf-Projekt wurde abgeblasen</a> )</li>
+<li><a href="http://serenity.st-city.net/chin.html">Flüche in Firefly</a></li>
+<li>Referenzen zu anderen Serien:
+<ul>
+<li><a href="http://www.imdb.com/title/tt0407362/">Battlestar Galactica</a></li>
+<li><a href="http://www.imdb.com/title/tt0436992/">Doctor Who</a></li>
+<li><a href="http://www.imdb.com/title/tt0485301/">Torchwood</a></li>
+<li><a href="http://www.imdb.com/title/tt1219024/">Castle</a></li>
+</ul>
+</li>
+<li>“<a href="http://www.youtube.com/watch?v=x-yHSaP0Dyg">She don’t like Firefly</a>”</li>
+</ul>
+<h2>Serie beziehen</h2>
+<ul>
+<li><a href="http://www.amazon.de/Firefly-Aufbruch-Serenity-komplette-Serie/dp/B00411RW82/ref=sr_1_1?s=dvd&amp;ie=UTF8&amp;qid=1312128387&amp;sr=1-1">Amazon DVD</a></li>
+<li><a href="http://www.amazon.de/Firefly-Aufbruch-Serenity-komplette-Blu-ray/dp/B001G1B7ZO/ref=sr_1_2?s=dvd&amp;ie=UTF8&amp;qid=1312128387&amp;sr=1-2">Amazon BlueRay</a></li>
+<li><a href="http://www.amazon.com/s?ie=UTF8&amp;keywords=Firefly&amp;rh=n%3A4366%2Ck%3AFirefly&amp;page=1">Comics</a></li>
+</ul>
+<h2>Empfehlungen</h2>
+<ul>
+<li><a href="http://mplayerx.org/">MplayerX für Mac OS X</a> (pfleidi)</li>
+<li><a href="http://www.amazon.de/Man-Earth-David-Lee-Smith/dp/B001GEVZ4Y/ref=sr_1_1?ie=UTF8&amp;qid=1312980498&amp;sr=8-1">The Man from Earth</a> (NICHT die Beschreibung lesen) (marcel)</li>
+<li><a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/HomePage">TVTropes</a> (marcel)</li>
+<li><a href="https://www.amazon.de/Black-Books-Complete-1-3-UK/dp/B000F5YYCK/ref=sr_1_1?ie=UTF8&amp;qid=1312128491&amp;sr=8-1">Black Books</a> <a href="http://de.wikipedia.org/wiki/Black_Books">http://de.wikipedia.org/wiki/Black_Books</a></li>
+<li><a href="http://www.amazon.de/Last-Stormlord-ebook/dp/B003CUDP8O/ref=sr_1_4?ie=UTF8&amp;qid=1312980547&amp;sr=8-4">Stormlord (Trilogie)</a> von Glenda Larke (Helena)</li>
+<li><a href="https://secure.wikimedia.org/wikipedia/en/wiki/Eden_of_the_East">Eden of the East</a> (hadez)</li>
+<li><a href="http://www.fedcon.de/">Fedcon</a></li>
+</ul>
+<p><strong>Titelmelodie: </strong><a href="http://www.jamendo.com/en/track/249252">A New Horizon (Leveling)</a> von <a href="http://www.jamendo.com/en/artist/Pal_Zoltan_Illes">Pal Zoltan Illes</a></p>
+<p class="wp-flattr-button"></p> <p><a href="http://retinacast.de/?flattrss_redirect&amp;id=78&amp;md5=4e974af705234f49efffdb4b0a0097c1" title="Flattr" target="_blank"><img src="http://retinacast.de/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>]]>
+            </content:encoded>
+            <wfw:commentRss>http://retinacast.de/rtc-s01e02-firefly/feed/</wfw:commentRss>
+            <slash:comments>1</slash:comments>
+            <enclosure url="http://download.retinacast.de/Retinacast_S01E02.mp3" length="48887936" type="audio/mpeg" />
+            <itunes:keywords>fernsehen,firefly,FOX,science fiction,serie,tv</itunes:keywords>
+            <itunes:subtitle>You Can’t Take the Sky from Me Mit dabei: hadez, Helena, Ingo, Jan, Marcel, pfleidi - Firefly  Produziert von FOX   Geschrieben von Joss Whedon, 2002-2003   Nach 13 Folgen gecancelt, weil... warum?   Dafür auf DVD erfolgreich, mit hardcore fandom </itunes:subtitle>
+            <itunes:summary>You Can’t Take the Sky from Me
+Mit dabei: hadez, Helena, Ingo, Jan, Marcel, pfleidi
+
+Firefly
+
+	Produziert von FOX
+	Geschrieben von Joss Whedon, 2002-2003
+	Nach 13 Folgen gecancelt, weil... warum?
+	Dafür auf DVD erfolgreich, mit hardcore fandom
+	Serenity als inoffizieller “Abschluss”
+
+Setting
+
+	Space Western mit Fernost
+	Fluchen auf Chinesisch
+	Die Erde war zu voll, man hat sich ein neues Sonnensystem gesucht, Monde und Planeten mit Terraforming bewohnbar gemacht
+	Bürgerkrieg (Browncoats vs. Alliance)
+	Innere Welten: Alliance, vage faschistisch, aber nicht wirklich böse
+	Äußere: Wilder Westen
+
+Charaktere
+
+	Malcolm Reynolds
+	Zoe Alleyne Washburne
+	Hoban "Wash" Washburne
+	Jayne Cobb
+	Kaywinnit Lee "Kaylee" Frye
+	Simon Tam
+
+Sonstiges
+
+	Weiterführung der Serie (Rechtekauf-Projekt wurde abgeblasen )
+	Flüche in Firefly
+	Referenzen zu anderen Serien:
+
+	Battlestar Galactica
+	Doctor Who
+	Torchwood
+	Castle
+
+
+	“She don’t like Firefly”
+
+Serie beziehen
+
+	Amazon DVD
+	Amazon BlueRay
+	Comics
+
+Empfehlungen
+
+	MplayerX für Mac OS X (pfleidi)
+	The Man from Earth (NICHT die Beschreibung lesen) (marcel)
+	TVTropes (marcel)
+	Black Books http://de.wikipedia.org/wiki/Black_Books
+	Stormlord (Trilogie) von Glenda Larke (Helena)
+	Eden of the East (hadez)
+	Fedcon
+
+Titelmelodie: A New Horizon (Leveling) von Pal Zoltan Illes
+            </itunes:summary>
+            <itunes:author>Retinacast Crew</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>50:55</itunes:duration>
+            <media:content url="http://download.retinacast.de/Retinacast_S01E02.mp3" fileSize="48887936" type="audio/mpeg" />
+        </item>
+        <item>
+            <title>RTC S01E01: Game of Thrones</title>
+            <link>http://retinacast.de/game-of-thrones/</link>
+            <comments>http://retinacast.de/game-of-thrones/#comments</comments>
+            <pubDate>Thu, 18 Aug 2011 20:23:17 +0000</pubDate>
+            <dc:creator>marcel</dc:creator>
+            <category><![CDATA[Fantasy]]>
+            </category>
+            <category><![CDATA[HBO]]>
+            </category>
+            <category><![CDATA[Mittelalter]]>
+            </category>
+            <category><![CDATA[Podcast]]>
+            </category>
+            <category><![CDATA[fantasy]]>
+            </category>
+            <category><![CDATA[fernsehen]]>
+            </category>
+            <category><![CDATA[game of thrones]]>
+            </category>
+            <category><![CDATA[hbo]]>
+            </category>
+            <category><![CDATA[serie]]>
+            </category>
+            <category><![CDATA[song of ice and fire]]>
+            </category>
+            <category><![CDATA[tv]]>
+            </category>
+
+            <guid isPermaLink="false">http://retinacast.de/?p=41</guid>
+            <description><![CDATA[A Podcast of Ice and Fire
+Mit dabei: Chef, Ingo, Jan, Marcel, pfleidi
+
+Wer sind wir und was machen wir eigentlich hier?
+
+	Vorstellen des Formats
+	Vorstellen der Teilnehmer
+	Ethik beim Spoilern
+	Ankündigungen
+
+Game of Thrones
+
+	Produziert von HBO
+	http://www.imdb.com/title/tt0944947/
+	http://thetvdb.com/?tab=series&#38;id=121361&#38;lid=7
+	Ausgestrahlt ab April 2011
+	Story basiert auf A Song of Ice and Fire
+
+Setting der Serie
+
+	Fantasywelt im Mittelalter (namedropping galore!)
+	Tonfall erwachsen, Brüste und Blut
+	Fabelwesen bisher nur am ...]]>
+            </description>
+            <content:encoded><![CDATA[<h1>A Podcast of Ice and Fire</h1>
+<p>Mit dabei: <a href="http://twitter.com/grischder">Chef</a>, <a href="http://twitter.com/radiotux">Ingo</a>, <a href="http://twitter.com/jvanvinkenroye">Jan</a>, <a href="http://twitter.com/xartas">Marcel</a>, <a href="http://twitter.com/pfleidi">pfleidi</a><br />
+<span id="more-41"></span></p>
+<h2>Wer sind wir und was machen wir eigentlich hier?</h2>
+<ul>
+<li>Vorstellen des Formats</li>
+<li>Vorstellen der Teilnehmer</li>
+<li>Ethik beim Spoilern</li>
+<li>Ankündigungen</li>
+</ul>
+<h2><a href="http://en.wikipedia.org/wiki/Game_of_thrones">Game of Thrones</a></h2>
+<ul>
+<li><a href="http://www.hbo.com/game-of-thrones/index.html">Produziert von HBO</a></li>
+<li><a href="http://www.imdb.com/title/tt0944947/">http://www.imdb.com/title/tt0944947/</a></li>
+<li><a href="http://thetvdb.com/?tab=series&amp;id=121361&amp;lid=7">http://thetvdb.com/?tab=series&amp;id=121361&amp;lid=7</a></li>
+<li>Ausgestrahlt ab April 2011</li>
+<li>Story basiert auf <a href="http://www.amazon.de/George-Martins-Thrones-4-Book-Boxed/dp/0345529057/ref=sr_1_1?ie=UTF8&amp;qid=1311515979&amp;sr=8-1">A Song of Ice and Fire</a></li>
+</ul>
+<h3>Setting der Serie</h3>
+<ul>
+<li>Fantasywelt im Mittelalter (namedropping galore!)</li>
+<li>Tonfall erwachsen, Brüste und Blut</li>
+<li>Fabelwesen bisher nur am Rande, werden aber regelmäßig erwähnt
+<ul>
+<li>z.B. Drachen oder White Walkers</li>
+</ul>
+</li>
+</ul>
+<h3>Charaktere</h3>
+<ul>
+<li>Als erstes fällt Eddard Stark aka Boromir auf</li>
+<li>“Oh fuck … Boromir!”</li>
+<li>Schon früh erkennbar welche Rollen die Charaktere spielen; trotzdem interessante Wandlungen mancher Chraraktere (z.B. Daenerys)</li>
+<li><a href="http://awoiaf.westeros.org/">http://awoiaf.westeros.org/</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Major_houses_in_A_Song_of_Ice_and_Fire">Die wichtigsten Häuser</a></li>
+<li><a href="http://cdn.screenrant.com/wp-content/uploads/Game-of-Thrones-Houses-infographic-Westeros-101-f.jpg">Stammbaum</a></li>
+<li>Hinweis: Viele sind in den Büchern ein paar Jahre jünger</li>
+</ul>
+<h3>Städte/Königreiche</h3>
+<ul>
+<li>Die sieben Königreiche
+<ul>
+<li>Norden/Winterfell</li>
+<li>Süden/King’s Landing</li>
+<li>Die Mauer</li>
+</ul>
+</li>
+<li>Castle Black</li>
+<li>Im Osten (bei den Dothrakis)</li>
+</ul>
+<h3>Referenzen zu ähnlichen Serien</h3>
+<ul>
+<li>Kings (NBC)</li>
+<li><a href="http://www.amazon.de/Rom-Superbox-kompletten-Staffeln-DVDs/dp/B001HUGYN4/ref=sr_1_1?s=dvd&amp;ie=UTF8&amp;qid=1312212623&amp;sr=1-1">Rome</a> (HBO)</li>
+<li><a href="http://www.imdb.com/title/tt1672189/">Camelot</a> (Starz)</li>
+<li><a href="http://www.amazon.de/Herr-Ringe-Spielfilm-Trilogie-DVDs/dp/B000WU2JI4/ref=sr_1_2?ie=UTF8&amp;qid=1312213300&amp;sr=8-2">Herr der Ringe</a> (viel weg gelassen)</li>
+<li><a href="http://www.amazon.de/Harry-Potter-Die-Jahre-DVDs/dp/B003CX4K76/ref=sr_1_3?s=dvd&amp;ie=UTF8&amp;qid=1312213364&amp;sr=1-3">Harry Potter</a> (ohne Buch nicht verständlich)</li>
+<li><a href="http://www.amazon.de/True-Blood-komplette-erste-Staffel/dp/B0033T0PKA/ref=sr_1_1?s=dvd&amp;ie=UTF8&amp;qid=1312213410&amp;sr=1-1">True Blood</a> (wirft die Story zum Fenster raus und erfindet eine eigene)</li>
+<li>GoT macht das ganz gut, man weiß um was es geht, wird aber nicht von Exposition erschlagen</li>
+</ul>
+<h3>Meinung zur Serie</h3>
+<ul>
+<li>pfleidi hat angefangen die Bücher zu lesen, will wissen wie es weiter geht</li>
+<li>In den Büchern sind Szenen ähnlich detailliert beschrieben wie in der Serie dargestellt</li>
+<li>Marcel ist vom &#8220;Production Value&#8221; total beeindruckt und will mehr Backstory wissen, gut erzählt ist es auch</li>
+<li>Chef fragt sich, wie viele menschen langfristig diesem hochkomplexen, düster-realistischem Fantasy-Epos folgen werden, wenn die erste Begeisterung über die Produktionswerte verflogen ist</li>
+<li>Ingo macht einen auf &#8220;Hater&#8221; (hat ja eh nen “anderen” Geschmack als der Rest der Crew)</li>
+</ul>
+<h3>Ich will die Serie schauen. Wie?</h3>
+<ul>
+<li><a href="http://www.amazon.com/Game-Thrones-Complete-First-Season/dp/B002IFT1ZA/ref=sr_1_1?s=movies-tv&amp;ie=UTF8&amp;qid=1311520991&amp;sr=1-1">Gibt es bei Amazon.com</a> zum Vorbestellen</li>
+<li>Bücher lesen: Am besten bei <a href="http://www.amazon.de/George-Martins-Thrones-4-Book-Boxed/dp/0345529057/ref=sr_1_1?ie=UTF8&amp;qid=1312040411&amp;sr=8-1">Amazon</a></li>
+<li>Der Stammbaum hilft bei den ersten Folgen. Es empfiehlt sich auch, den <a href="http://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire#Back_story">Background-Teil</a> des Wiki-Artikels zu lesen, der spoilert nicht und macht vieles klarer.</li>
+<li>Artikel in der Space View</li>
+<li>Wohl ab 2. November 2011 auf “TNT Serie” (Pay TV)</li>
+</ul>
+<h3>Sonstiges</h3>
+<ul>
+<li>Meinungen zur deutschen Übersetzung</li>
+<li><a href="http://www.youtube.com/watch?v=BmQzGKIEV2I">Komplettes ComicCon-Panel</a></li>
+<li><a href="http://www.youtube.com/watch?v=1yydcG9woWA">GoT Geigen-Intro</a></li>
+<li>Special Effects Breakdown: <a href="http://www.youtube.com/watch?v=jyjto2RqSLI">Eins</a>, <a href="http://www.youtube.com/watch?v=xkptadiDABo">Zwei</a></li>
+</ul>
+<h2>Empfehlungen</h2>
+<ul>
+<li><a href="http://www.amazon.de/Ohne-Limit-Blu-ray-Bradley-Cooper/dp/B004UJ3FU4/ref=sr_1_2?ie=UTF8&amp;qid=1312211944&amp;sr=8-2">Limitless</a> (pfleidi)</li>
+<li><a href="http://innatthecrossroads.com/">The Inn at the Crossroads</a> (marcel) (Ein Rezept probiert: <a href="http://innatthecrossroads.com/2011/07/03/peaches-in-honey/">Peaches in Honey</a>. Großartig.)</li>
+<li><a href="http://www.imdb.com/title/tt1492966/">Louie</a>, jetzt in der zweiten Staffel. (Chef)</li>
+</ul>
+<p><strong>Titelmelodie: </strong><a href="http://www.jamendo.com/en/track/249252">A New Horizon (Leveling)</a> von <a href="http://www.jamendo.com/en/artist/Pal_Zoltan_Illes">Pal Zoltan Illes</a></p>
+<p class="wp-flattr-button"></p> <p><a href="http://retinacast.de/?flattrss_redirect&amp;id=41&amp;md5=6849eacfb10225cd6d213751a00ae8f9" title="Flattr" target="_blank"><img src="http://retinacast.de/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>]]>
+            </content:encoded>
+            <wfw:commentRss>http://retinacast.de/game-of-thrones/feed/</wfw:commentRss>
+            <slash:comments>6</slash:comments>
+            <enclosure url="http://download.retinacast.de/Retinacast_S01E01.mp3" length="67489811" type="audio/mpeg" />
+            <itunes:keywords>fantasy,fernsehen,game of thrones,hbo,serie,song of ice and fire,tv</itunes:keywords>
+            <itunes:subtitle>A Podcast of Ice and Fire Mit dabei: Chef, Ingo, Jan, Marcel, pfleidi - Wer sind wir und was machen wir eigentlich hier?  Vorstellen des Formats   Vorstellen der Teilnehmer   Ethik beim Spoilern   Ankündigungen - Game of Thrones - </itunes:subtitle>
+            <itunes:summary>A Podcast of Ice and Fire
+Mit dabei: Chef, Ingo, Jan, Marcel, pfleidi
+
+Wer sind wir und was machen wir eigentlich hier?
+
+	Vorstellen des Formats
+	Vorstellen der Teilnehmer
+	Ethik beim Spoilern
+	Ankündigungen
+
+Game of Thrones
+
+	Produziert von HBO
+	http://www.imdb.com/title/tt0944947/
+	http://thetvdb.com/?tab=series&amp;id=121361&amp;lid=7
+	Ausgestrahlt ab April 2011
+	Story basiert auf A Song of Ice and Fire
+
+Setting der Serie
+
+	Fantasywelt im Mittelalter (namedropping galore!)
+	Tonfall erwachsen, Brüste und Blut
+	Fabelwesen bisher nur am Rande, werden aber regelmäßig erwähnt
+
+	z.B. Drachen oder White Walkers
+
+
+
+Charaktere
+
+	Als erstes fällt Eddard Stark aka Boromir auf
+	“Oh fuck … Boromir!”
+	Schon früh erkennbar welche Rollen die Charaktere spielen; trotzdem interessante Wandlungen mancher Chraraktere (z.B. Daenerys)
+	http://awoiaf.westeros.org/
+	Die wichtigsten Häuser
+	Stammbaum
+	Hinweis: Viele sind in den Büchern ein paar Jahre jünger
+
+Städte/Königreiche
+
+	Die sieben Königreiche
+
+	Norden/Winterfell
+	Süden/King’s Landing
+	Die Mauer
+
+
+	Castle Black
+	Im Osten (bei den Dothrakis)
+
+Referenzen zu ähnlichen Serien
+
+	Kings (NBC)
+	Rome (HBO)
+	Camelot (Starz)
+	Herr der Ringe (viel weg gelassen)
+	Harry Potter (ohne Buch nicht verständlich)
+	True Blood (wirft die Story zum Fenster raus und erfindet eine eigene)
+	GoT macht das ganz gut, man weiß um was es geht, wird aber nicht von Exposition erschlagen
+
+Meinung zur Serie
+
+	pfleidi hat angefangen die Bücher zu lesen, will wissen wie es weiter geht
+	In den Büchern sind Szenen ähnlich detailliert beschrieben wie in der Serie dargestellt
+	Marcel ist vom "Production Value" total beeindruckt und will mehr Backstory wissen, gut erzählt ist es auch
+	Chef fragt sich, wie viele menschen langfristig diesem hochkomplexen, düster-realistischem Fantasy-Epos folgen werden, wenn die erste Begeisterung über die Produktionswerte verflogen ist
+	Ingo macht einen auf "Hater" (hat ja eh nen “anderen” Geschmack als der Rest der Crew)
+
+Ich will die Serie schauen. Wie?
+
+	Gibt es bei Amazon.com zum Vorbestellen
+	Bücher lesen: Am besten bei Amazon
+	Der Stammbaum hilft bei den ersten Folgen. Es empfiehlt sich auch, den Background-Teil des Wiki-Artikels zu lesen, der spoilert nicht und macht vieles klarer.
+	Artikel in der Space View
+	Wohl ab 2. November 2011 auf “TNT Serie” (Pay TV)
+
+Sonstiges
+
+	Meinungen zur deutschen Übersetzung
+	Komplettes ComicCon-Panel
+	GoT Geigen-Intro
+	Special Effects Breakdown: Eins, Zwei
+
+Empfehlungen
+
+	Limitless (pfleidi)
+	The Inn at the Crossroads (marcel) (Ein Rezept probiert: Peaches in Honey. Großartig.)
+	Louie, jetzt in der zweiten Staffel. (Chef)
+
+Titelmelodie: A New Horizon (Leveling) von Pal Zoltan Illes
+            </itunes:summary>
+            <itunes:author>Retinacast Crew</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>1:08:25</itunes:duration>
+            <media:content url="http://download.retinacast.de/Retinacast_S01E01.mp3" fileSize="67489811" type="audio/mpeg" />
+        </item>
+        <media:credit role="author">Retinacast Crew</media:credit>
+        <media:rating>nonadult</media:rating>
+        <media:description type="plain">Eine alle drei Wochen erscheinende Gesprächsrunde, die sich um jeweils eine Serie dreht. Diese wird ausführlich beschrieben, diskutiert und mit ähnlichen Serien in Verbindung gebracht.</media:description>
+    </channel>
+</rss>
