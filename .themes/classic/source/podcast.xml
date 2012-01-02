@@ -20,7 +20,7 @@
             <itunes:name>{{ site.author }}</itunes:name>
             <itunes:email>{{ site.email }}</itunes:email>
         </itunes:owner>
-        <managingEditor>{{ "#{site.email} (#{site.author})" }}</managingEditor>
+        <managingEditor>{{site.email}} {{site.author}}</managingEditor>
         <copyright>Creative Commons BY-NC-SA 3.0 DE</copyright>
         <itunes:subtitle>{{ site.subtitle }}</itunes:subtitle>
         <itunes:keywords>{{ site.keywords.to_a.join(', ') }}</itunes:keywords>
