@@ -10,15 +10,14 @@
 # Output:
 # <audio preload='none' controls>
 #   <source src='http://site.com/audio.mp3' type='audio/mp3' />
-# </video>
+# </audio>
 
 require 'URI'
 
 module Jekyll
 
   class AudioTag < Liquid::Tag
-    @video = nil
-
+    
     def initialize(tag_name, markup, tokens)
       @markup = markup
       super
