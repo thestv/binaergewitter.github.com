@@ -20,30 +20,51 @@ module Jekyll
     @video = nil
 
     def initialize(tag_name, markup, tokens)
-      if markup =~ /((https?:\/\/|\/)(\S+))/i
-        @audio = $1
-        @mime_type = get_mime_type(@audio)
-      end
+      @markup = markup
       super
     end
 
     def render(context)
       output = super
-      if @audio
-        audio =  "<audio preload='none' controls>"
-        audio += "<source src='#{@audio}' type='#{@mime_type}'/></audio>"
-      else
-        "Error processing input, expected syntax: {% audio url/to/audio %}"
+
+      if @markup =~ /((https?:\/\/|\/)(\S+))/i
+        @audio = $1
+      elsif @markup =~ /([\w]+(\.[\w]+)*)/i
+        # Liquid does not expand variables on custom tags inside templates 
+        # so we need to look it up manually
+        @audio = look_up(context, $1)
       end
+
+      generate_html
     end 
 
     private
+
+    def look_up(context, name)
+      lookup = context
+
+      name.split(".").each do |value|
+        lookup = lookup[value]
+      end
+
+      lookup
+    end
+
+    def generate_html
+      if @audio
+        mime_type = get_mime_type(@audio)
+        audio =  "<audio preload='none' controls>"
+        audio += "<source src='#{@audio}' type='#{mime_type}'/></audio>"
+      else
+        "Error processing input, expected syntax: {% audio url/to/audio %}"
+      end
+    end
 
     def get_mime_type(audio)
       url = URI.parse(audio)
       if url.path =~ /.*\.ogg$/
         "audio/ogg"
-      else
+      elsif url.path =~ /.*\.mp3$/
         "audio/mp3"
       end
     end
