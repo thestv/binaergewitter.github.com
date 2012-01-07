@@ -1,0 +1,13 @@
+---
+layout: post
+title: "'test post'"
+date: 2012-01-07 14:45
+comments: true
+categories: 
+---
+
+
+# This is a test .....
+
+
+Asdfgtagassadaderfer {% audio http://graphics.stanford.edu/~monzy/DramainthePhD.mp3 %}
