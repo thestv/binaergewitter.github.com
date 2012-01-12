@@ -9,6 +9,11 @@ module Octopress
       date
     end
 
+    # Returns an RFC 2822 formatted date string
+    def date_to_rfc2822(date)
+      datetime(date).rfc2822
+    end
+
     # Returns an ordidinal date eg July 22 2007 -> July 22nd 2007
     def ordinalize(date)
       date = datetime(date)
