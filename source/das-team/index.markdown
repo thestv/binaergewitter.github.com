@@ -9,4 +9,4 @@ footer: true
 - Ingo Ebel
 - Sven Pfleiderer
 - Felix Richter
-- Marc Seeger
+- Marc Seeger ([@rb2k](https://twitter.com/#!/rb2k))
