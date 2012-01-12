@@ -12,7 +12,7 @@
 #   <source src='http://site.com/audio.mp3' type='audio/mp3' />
 # </audio>
 
-require 'URI'
+require 'uri'
 
 module Jekyll
 
