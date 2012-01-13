@@ -2,7 +2,7 @@
 # Author: Sven Pfleiderer http://blog.roothausen.de
 # Description: Easily output HTML5 audio
 #
-# Syntax {% video url/to/video [width height] [url/to/poster] %}
+# Syntax {% audio url/to/audio %}
 #
 # Example:
 # {% audio http://site.com/audio.mp3 %}
@@ -61,10 +61,13 @@ module Jekyll
 
     def get_mime_type(audio)
       url = URI.parse(audio)
-      if url.path =~ /.*\.ogg$/
+      case url.path
+      when /.*\.ogg$/
         "audio/ogg"
-      elsif url.path =~ /.*\.mp3$/
+      when /.*\.mp3$/
         "audio/mp3"
+      when /.*\.m4a$/
+        "audio/x-m4a"
       end
     end
 
