@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://blog.binaergewitter.de/blog/2012/01/07/test-post/</loc>
+        <lastmod>2012-01-12T21:42:24+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.binaergewitter.de/blog/archives/</loc>
+        <lastmod>2012-01-12T21:42:24+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.binaergewitter.de/das-team/</loc>
+        <lastmod>2012-01-13T01:06:39+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.binaergewitter.de/</loc>
+        <lastmod>2012-01-12T21:42:24+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.binaergewitter.de/podcast.xml</loc>
+        <lastmod>2012-01-13T00:50:27+01:00</lastmod>
+    </url>
+</urlset>
