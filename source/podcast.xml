@@ -27,9 +27,9 @@ layout: nil
       <itunes:email>{{ site.email }}</itunes:email>
     </itunes:owner>
     <managingEditor>{{  site.email }} ({{ site.author }})</managingEditor>
-    <copyright>Creative Commons BY-NC-SA 3.0 DE</copyright>
+    <copyright>{{ site.podcast_copyright }}</copyright>
     <itunes:subtitle>{{ site.subtitle }}</itunes:subtitle>
-    <itunes:keywords>{{ site.keywords.to_a.join(', ') }}</itunes:keywords>
+    <itunes:keywords>{{ site.keywords }}</itunes:keywords>
     <image>
       <title>{{ site.title }}</title>
       <url>{{  site.url  }}{{ site.logo }}</url>
@@ -38,10 +38,13 @@ layout: nil
     {% for category in site.categories %}
     <itunes:category text="{{ category }}" />
     {% endfor %}    
-    <media:copyright>Creative Commons BY-NC-SA 3.0 DE</media:copyright>
+    <media:copyright>{{ site.podcast_copyright }}</media:copyright>
     <media:thumbnail url="{{ site.url }}" />
-    <media:keywords>{{ site.keywords.to_a.join(', ') }}</media:keywords>
+    <media:keywords>{{ site.keywords }}</media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">{{site.categories.to_a.first}}</media:category>
+    <media:credit role="author">{{ site.author }}</media:credit>
+    <media:rating>nonadult</media:rating>
+    <media:description type="plain">{{ site.podcast_description }}</media:description>
     {% for post in site.posts limit: 30 %}
     <item>
       <title>{{ post.title }}</title>
@@ -53,25 +56,21 @@ layout: nil
       {% endfor %}
       <media:credit role="author">{{ site.author }}</media:credit>
       <media:rating>nonadult</media:rating>
-      <media:description type="plain">something, cheese</media:description>
       <guid isPermaLink="false">{{ site.url }}{{ post.url }}</guid>
       <description>
         <![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]>
       </description>
       {% if post.audio %}
       <enclosure url="{{ post.audio }}" length="0" type="audio/mpeg" />
+      <media:content url="{{ post.audio }}" fileSize="1" type="audio/mpeg" />
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
-      <itunes:subtitle></itunes:subtitle>
-      <itunes:summary></itunes:summary>
-      <itunes:author>Binaergewitter Crew</itunes:author>
+      <itunes:subtitle>{{ post.content | strip_html | truncate:255 | strip_newlines }}...</itunes:subtitle>
+      <itunes:summary>{{ post.content | strip_html }}</itunes:summary>
+      <itunes:author>{{ site.author }}</itunes:author>
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>1</itunes:duration>
-      <media:content url="{{ post.audio }}" fileSize="1" type="audio/mpeg" />
       {% endif %}
     </item>
     {% endfor %}
-    <media:credit role="author">{{ site.author }}</media:credit>
-    <media:rating>nonadult</media:rating>
-    <media:description type="plain">{{ site.podcast_description }}</media:description>
   </channel>
 </rss>
