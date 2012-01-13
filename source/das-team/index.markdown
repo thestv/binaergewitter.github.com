@@ -7,6 +7,6 @@ sharing: true
 footer: true
 ---
 - Ingo Ebel
-- Sven Pfleiderer
+- Sven Pfleiderer ([@pfleidi](https://twitter.com/#!/pfleidi))
 - Felix Richter
 - Marc Seeger ([@rb2k](https://twitter.com/#!/rb2k))
