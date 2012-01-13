@@ -11,7 +11,7 @@
     <description>Trolololo</description>
     <language>de</language>
 
-    <lastBuildDate>Fri, 13 Jan 2012 02:18:39 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 13 Jan 2012 12:11:38 +0100</lastBuildDate>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -26,7 +26,7 @@
     <managingEditor>feedback@retinacast.de (Binärgewitter Crew)</managingEditor>
     <copyright>Creative Commons BY-NC-SA 3.0 DE</copyright>
     <itunes:subtitle>Das Gewitter beginnt.</itunes:subtitle>
-    <itunes:keywords></itunes:keywords>
+    <itunes:keywords>podcast, technology, gadgets, web, opensource</itunes:keywords>
     <image>
       <title>Binärgewitter</title>
       <url>http://blog.binaergewitter.de/images/binaergewitter_logo.png</url>
@@ -35,8 +35,11 @@
         
     <media:copyright>Creative Commons BY-NC-SA 3.0 DE</media:copyright>
     <media:thumbnail url="http://blog.binaergewitter.de" />
-    <media:keywords></media:keywords>
+    <media:keywords>podcast, technology, gadgets, web, opensource</media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd"></media:category>
+    <media:credit role="author">Binärgewitter Crew</media:credit>
+    <media:rating>nonadult</media:rating>
+    <media:description type="plain">Trolololo</media:description>
     
     <item>
       <title>test post</title>
@@ -46,7 +49,6 @@
       
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
-      <media:description type="plain">something, cheese</media:description>
       <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/01/07/test-post/</guid>
       <description>
         <![CDATA[<h1>This is a test &#8230;..</h1>
@@ -56,18 +58,18 @@
       </description>
       
       <enclosure url="http://graphics.stanford.edu/~monzy/DramainthePhD.mp3" length="0" type="audio/mpeg" />
+      <media:content url="http://graphics.stanford.edu/~monzy/DramainthePhD.mp3" fileSize="1" type="audio/mpeg" />
       <itunes:keywords></itunes:keywords>
-      <itunes:subtitle></itunes:subtitle>
-      <itunes:summary></itunes:summary>
-      <itunes:author>Binaergewitter Crew</itunes:author>
+      <itunes:subtitle>This is a test &#8230;..OH HAI!&#8230;</itunes:subtitle>
+      <itunes:summary>This is a test &#8230;..
+
+OH HAI!
+</itunes:summary>
+      <itunes:author>Binärgewitter Crew</itunes:author>
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>1</itunes:duration>
-      <media:content url="http://graphics.stanford.edu/~monzy/DramainthePhD.mp3" fileSize="1" type="audio/mpeg" />
       
     </item>
     
-    <media:credit role="author">Binärgewitter Crew</media:credit>
-    <media:rating>nonadult</media:rating>
-    <media:description type="plain">Trolololo</media:description>
   </channel>
 </rss>
