@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 ---
-- Ingo Ebel
-- Sven Pfleiderer
-- Felix Richter
-- Marc Seeger
+- Ingo Ebel ([@ingoebel](https://twitter.com/#!/ingoebel))
+- Sven Pfleiderer ([@pfleidi](https://twitter.com/#!/pfleidi))
+- Felix Richter ([@makefoo](https://twitter.com/#!/makefoo))
+- Marc Seeger ([@rb2k](https://twitter.com/#!/rb2k)) ([blog](http://blog.marc-seeger.de/))
