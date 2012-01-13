@@ -8,6 +8,7 @@ subtitle: Das Gewitter beginnt.
 author: Binärgewitter Crew
 logo: /images/binaergewitter_logo.png
 simple_search: http://google.com/search
+keywords: podcast, technology, gadgets, web, opensource
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -57,6 +58,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # Podcast specific settings
 podcast_category: Technology
 podcast_description: Trolololo
+podcast_copyright: Creative Commons BY-NC-SA 3.0 DE
 
 # ----------------------- #
 #   3rd Party Settings    #
