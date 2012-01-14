@@ -1,0 +1,14 @@
+{% if site.piwik_analytics_host and site.piwik_analytics_id %}
+<!-- Piwik --> 
+<script type="text/javascript">
+  var pkBaseURL = (("https:" === document.location.protocol) ? "https://{{ site.piwik_analytics_host }}/" : "http://{{ site.piwik_analytics_host }}/");
+  document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+  </script><script type="text/javascript">
+  try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", {{ site.piwik_analytics_id }});
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+  } catch( err ) {}
+</script><noscript><p><img src="http://{{ site.piwik_analytics_host }}?idsite={{ site.piwik_analytics_id }}" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+{% endif %}
