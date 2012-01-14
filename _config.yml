@@ -57,7 +57,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 
 # Podcast specific settings
 podcast_category: Technology
-podcast_description: Trolololo
+podcast_description: Ein Podcast, der sich mit dem Web, Technologie und OpenSource Software auseinander setzt
 podcast_copyright: Creative Commons BY-NC-SA 3.0 DE
 
 # ----------------------- #
@@ -72,7 +72,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user: binaergewitter
-twitter_tweet_count: 4
+twitter_tweet_count: 5
 twitter_show_replies: false
 twitter_follow_button: true
 twitter_show_follower_count: false
@@ -104,3 +104,7 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# Piwik Analytics
+piwik_analytics_host: piwik.roothausen.de
+piwik_analytics_id: 3
