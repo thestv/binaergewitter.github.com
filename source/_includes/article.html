@@ -27,16 +27,6 @@
 <div class="entry-content">{{ content }}</div>
 {% endif %}
 
-{% if index or post.flattr != false %}
-  <div class="flattr-button">
-  {% include post/flattr.html %}
-  </div>
-{% elsif page.flattr != false %}
-  <div class="flattr-button">
-    {% include post/flattr.html %}
-  </div>
-{% endif %}
-
 {% if index and post.audio %}
   <div class="audio-content">
     {% audio post.audio %}
@@ -44,5 +34,15 @@
 {% elsif page.audio %}
   <div class="audio-content">
     {% audio page.audio %}
+  </div>
+{% endif %}
+
+{% if index or post.flattr != false %}
+  <div class="flattr-button">
+  {% include post/flattr.html %}
+  </div>
+{% elsif page.flattr != false %}
+  <div class="flattr-button">
+    {% include post/flattr.html %}
   </div>
 {% endif %}
