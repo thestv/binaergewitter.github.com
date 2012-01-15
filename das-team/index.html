@@ -260,6 +260,18 @@ Marc Seeger (@rb2k) (blog) Jan 12th, 2012 &hellip;">
 
 
 
+<!-- audio.js fallback -->
+<script src="/assets/audiojs/audio.min.js"></script>
+<script>
+  if (audiojs) {
+    $('audio').each(function (audioElement) {
+      audioElement.removeAttribute('controls');
+    });
+    audiojs.events.ready(function() {
+      var as = audiojs.createAll();
+    });
+  }
+</script>
 
 
 </body>
