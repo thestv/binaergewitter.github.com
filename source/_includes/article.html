@@ -16,9 +16,6 @@
   </header>
 {% endunless %}
 {% if index %}
-  {% if post.audio %}
-    {% audio post.audio %}
-  {% endif %}
   <div class="entry-content">{{ content | excerpt }}</div>
   {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
   {% if excerpted == 'true' %}
@@ -28,4 +25,13 @@
   {% endif %}
 {% else %}
 <div class="entry-content">{{ content }}</div>
+{% endif %}
+{% if index %}
+  {% if post.audio %}
+    {% audio post.audio %}
+  {% endif %}  
+{% else %}
+  {% if page.audio %}
+    {% audio page.audio %}
+  {% endif %}    
 {% endif %}
