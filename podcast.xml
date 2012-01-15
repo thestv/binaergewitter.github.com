@@ -8,10 +8,10 @@
     <atom:link href="http://blog.binaergewitter.de/"/>
     <atom:id>http://blog.binaergewitter.de/</atom:id>
 
-    <description>Trolololo</description>
+    <description>Ein Podcast, der sich mit dem Web, Technologie und OpenSource Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Fri, 13 Jan 2012 12:11:38 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jan 2012 01:49:26 +0100</lastBuildDate>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -25,7 +25,7 @@
     </itunes:owner>
     <managingEditor>feedback@retinacast.de (Binärgewitter Crew)</managingEditor>
     <copyright>Creative Commons BY-NC-SA 3.0 DE</copyright>
-    <itunes:subtitle>Das Gewitter beginnt.</itunes:subtitle>
+    <itunes:subtitle>Web, Technologie und OpenSource Software</itunes:subtitle>
     <itunes:keywords>podcast, technology, gadgets, web, opensource</itunes:keywords>
     <image>
       <title>Binärgewitter</title>
@@ -39,7 +39,7 @@
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd"></media:category>
     <media:credit role="author">Binärgewitter Crew</media:credit>
     <media:rating>nonadult</media:rating>
-    <media:description type="plain">Trolololo</media:description>
+    <media:description type="plain">Ein Podcast, der sich mit dem Web, Technologie und OpenSource Software auseinander setzt</media:description>
     
     <item>
       <title>test post</title>

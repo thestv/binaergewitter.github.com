@@ -10,7 +10,7 @@
 
   
   <meta name="description" content="Blog Archive 2012 test post
-Jan 07 2012 Recent Posts test post Github Repos Status updating... @binaergewitter on Github $.domReady(function(){ if &hellip;">
+Jan 07 2012 Recent Posts test post Flattr Github Repos Status updating... @binaergewitter on Github $.domReady(function &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -30,7 +30,37 @@ Jan 07 2012 Recent Posts test post Github Repos Status updating... @binaergewitt
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+
+        t.parentNode.insertBefore(s, t);
+    })();
+/* ]]> */
+</script>
+
   
+
+  
+<!-- Piwik --> 
+<script type="text/javascript">
+  var pkBaseURL = (("https:" === document.location.protocol) ? "https://piwik.roothausen.de/" : "http://piwik.roothausen.de/");
+  document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+  </script><script type="text/javascript">
+  try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+  } catch( err ) {}
+</script><noscript><p><img src="http://piwik.roothausen.de?idsite=3" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
 
 </head>
 
@@ -38,7 +68,7 @@ Jan 07 2012 Recent Posts test post Github Repos Status updating... @binaergewitt
   <header role="banner"><hgroup>
   <h1><a href="/">Binärgewitter</a></h1>
   
-    <h2>Das Gewitter beginnt.</h2>
+    <h2>Web, Technologie und OpenSource Software</h2>
   
 </hgroup>
 
@@ -108,6 +138,12 @@ Jan 07 2012 Recent Posts test post Github Repos Status updating... @binaergewitt
 </section>
 
 <section>
+  <h1>Flattr</h1>
+  <a class="FlattrButton" style="display:none;" href="http://binaergewitter.de"></a>
+</section>
+
+
+<section>
   <h1>Github Repos</h1>
   <ul id="gh_repos">
     <li class="loading">Status updating...</li>
@@ -144,7 +180,7 @@ Jan 07 2012 Recent Posts test post Github Repos Status updating... @binaergewitt
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
-      getTwitterFeed("binaergewitter", 4, false);
+      getTwitterFeed("binaergewitter", 5, false);
     });
   </script>
   <script src="/javascripts/twitter.js" type="text/javascript"> </script>
