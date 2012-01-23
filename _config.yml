@@ -18,7 +18,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /podcast.xml
+subscribe_rss: http://feeds.feedburner.com/binaergewitter-podcast
 subscribe_email:
 # RSS feeds can list your email address if you like
 email: feedback@retinacast.de
