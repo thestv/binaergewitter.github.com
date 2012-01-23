@@ -3,19 +3,16 @@ layout: page
 title: "impressum"
 date: 2012-01-23 08:45
 comments: false
-sharing: true
+sharing: false
 footer: true
 ---
 ViSdP und verantwortlich für den Inhalt:
 
-Ingo Ebel
-
-Katzenbachstr. 37
-
+Ingo Ebel  
+Katzenbachstr. 37  
 70563 Stuttgart
 
-Email: info@binaergewitter.de
-
+Email: info@binaergewitter.de  
 Tel./Fax.: 0700 46463235
 
 ## Datenschutz
