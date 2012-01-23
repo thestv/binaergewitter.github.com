@@ -4,7 +4,7 @@
   <title><![CDATA[Binärgewitter]]></title>
   <link href="http://blog.binaergewitter.de/atom.xml" rel="self"/>
   <link href="http://blog.binaergewitter.de/"/>
-  <updated>2012-01-23T21:44:48+01:00</updated>
+  <updated>2012-01-23T22:50:41+01:00</updated>
   <id>http://blog.binaergewitter.de/</id>
   <author>
     <name><![CDATA[Binärgewitter Crew]]></name>
@@ -14,13 +14,13 @@
 
   
   <entry>
-    <title type="html"><![CDATA[test post]]></title>
-    <link href="http://blog.binaergewitter.de/blog/2012/01/07/test-post/"/>
-    <updated>2012-01-07T14:45:00+01:00</updated>
-    <id>http://blog.binaergewitter.de/blog/2012/01/07/test-post</id>
-    <content type="html"><![CDATA[<h1>This is a test &#8230;..</h1>
+    <title type="html"><![CDATA[Erste Binaergewitter-Talk Sendung am Mittwoch]]></title>
+    <link href="http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch/"/>
+    <updated>2012-01-23T21:54:00+01:00</updated>
+    <id>http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch</id>
+    <content type="html"><![CDATA[<p>Am Mittwoch dem 25.01.2012 gehts endlich los mit Binaergewitter-Talk Ausgabe 1.</p>
 
-<p>OH HAI!</p>
+<p>Auch wenn unser Blog noch einiges an Arbeit benoetigt fangen wir ab ca. 20 Uhr auf <a href="http://streams.xenim.de/binaergewitter/">http://streams.xenim.de/binaergewitter/</a> an mit senden. Themen stehen noch nicht fest, aber ihr koennt wie immer im Chat mit dabei sein im freenode im Chan binaergewitter.</p>
 ]]></content>
   </entry>
   

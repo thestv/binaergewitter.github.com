@@ -11,7 +11,7 @@
     <description>Ein Podcast, der sich mit dem Web, Technologie und OpenSource Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Mon, 23 Jan 2012 21:44:48 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jan 2012 22:50:41 +0100</lastBuildDate>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -42,32 +42,20 @@
     <media:description type="plain">Ein Podcast, der sich mit dem Web, Technologie und OpenSource Software auseinander setzt</media:description>
     
     <item>
-      <title>test post</title>
-      <link>http://blog.binaergewitter.de/blog/2012/01/07/test-post/</link>
-      <comments>http://blog.binaergewitter.de/blog/2012/01/07/test-post/#comments</comments>
-      <pubDate>Sat, 07 Jan 2012 14:45:00 +0100</pubDate>
+      <title>Erste Binaergewitter-Talk Sendung am Mittwoch</title>
+      <link>http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch/</link>
+      <comments>http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch/#comments</comments>
+      <pubDate>Mon, 23 Jan 2012 21:54:00 +0100</pubDate>
       
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
-      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/01/07/test-post/</guid>
+      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch/</guid>
       <description>
-        <![CDATA[<h1>This is a test &#8230;..</h1>
+        <![CDATA[<p>Am Mittwoch dem 25.01.2012 gehts endlich los mit Binaergewitter-Talk Ausgabe 1.</p>
 
-<p>OH HAI!</p>
+<p>Auch wenn unser Blog noch einiges an Arbeit benoetigt fangen wir ab ca. 20 Uhr auf <a href="http://streams.xenim.de/binaergewitter/">http://streams.xenim.de/binaergewitter/</a> an mit senden. Themen stehen noch nicht fest, aber ihr koennt wie immer im Chat mit dabei sein im freenode im Chan binaergewitter.</p>
 ]]>
       </description>
-      
-      <enclosure url="http://graphics.stanford.edu/~monzy/DramainthePhD.mp3" length="0" type="audio/mpeg" />
-      <media:content url="http://graphics.stanford.edu/~monzy/DramainthePhD.mp3" fileSize="1" type="audio/mpeg" />
-      <itunes:keywords></itunes:keywords>
-      <itunes:subtitle>This is a test &#8230;..OH HAI!&#8230;</itunes:subtitle>
-      <itunes:summary>This is a test &#8230;..
-
-OH HAI!
-</itunes:summary>
-      <itunes:author>Binärgewitter Crew</itunes:author>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>1</itunes:duration>
       
     </item>
     
