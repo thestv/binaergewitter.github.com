@@ -29,10 +29,12 @@
 
 {% if index and post.audio %}
   <div class="audio-content">
+    <a href="{{ post.audio }}">Download {{ post.title }}</a>
     {% audio post.audio %}
   </div>
 {% elsif page.audio %}
   <div class="audio-content">
+    <a href="{{ page.audio }}">Download {{ page.title }}</a>
     {% audio page.audio %}
   </div>
 {% endif %}
