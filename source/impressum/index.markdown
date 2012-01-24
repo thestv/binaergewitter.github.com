@@ -43,4 +43,4 @@ Quellenangaben: [Disclaimer eRecht24](http://www.e-recht24.de/muster-disclaimer.
 
 ## Lizenz
 
-Aller Redaktioneller Inhalt von Binaergewitter ist unter Creative Commons BY-NC-SA lizenziert. Die nichtkommerzielle Weiterverbreitung und Weiterbearbeitung ist gestattet wenn der Urheber genannt wird. 
+Aller Redaktioneller Inhalt von Binaergewitter ist unter Creative Commons BY-NC-SA lizenziert. Die nichtkommerzielle Weiterverbreitung und Weiterbearbeitung ist gestattet wenn der Urheber genannt wird.
