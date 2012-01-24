@@ -11,7 +11,7 @@
     <description>Ein Podcast, der sich mit dem Web, Technologie und OpenSource Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Tue, 24 Jan 2012 09:26:43 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jan 2012 09:35:37 +0100</lastBuildDate>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -53,7 +53,7 @@
       <description>
         <![CDATA[<p>Am Mittwoch dem 25.01.2012 gehts endlich los mit Binaergewitter-Talk Ausgabe 1.</p>
 
-<p>Auch wenn unser Blog noch einiges an Arbeit benoetigt fangen wir ab ca. 20 Uhr auf <a href="http://streams.xenim.de/binaergewitter/">http://streams.xenim.de/binaergewitter/</a> an mit senden. Themen stehen noch nicht fest, aber ihr koennt wie immer im Chat mit dabei sein im freenode im Chan binaergewitter.</p>
+<p>Auch wenn unser Blog noch einiges an Arbeit benötigt fangen wir ab ca. 20 Uhr auf <a href="http://streams.xenim.de/binaergewitter/">http://streams.xenim.de/binaergewitter/</a> an mit senden. Themen stehen noch nicht fest, aber ihr koennt wie immer im Chat mit dabei sein im freenode im Chan binaergewitter.</p>
 ]]>
       </description>
       
@@ -71,7 +71,7 @@
       <description>
         <![CDATA[<p>Die erste Ausgabe unseres Formats beschäftigt sich mit Datenbanken und NoSQL. Diese neuen Datenbanken waren im Jahr 2010 schon Hype und werden uns sicher auch im Jahr 2011 stark begleiten. Warum soll man aber diese Datenbanken einsetzen? Welche gibt es und welche Stärken und Schwächen haben diese? Das versuchen Dirk, Marc, Sven und Ingo in 2,75 Stunden zu klären.</p>
 
-<p>== Shownotes / Timeline und Links</p>
+<h2>Shownotes / Timeline und Links</h2>
 
 <ul>
 <li>Vorstellung der Teilnehmer / Kurze Erklärung von NoSQL</li>
@@ -127,7 +127,7 @@
       <itunes:subtitle>Die erste Ausgabe unseres Formats beschäftigt sich mit Datenbanken und NoSQL. Diese neuen Datenbanken waren im Jahr 2010 schon Hype und werden uns sicher auch im Jahr 2011 stark begleiten. Warum soll man aber diese Datenbanken einsetzen? Welche gibt es &hellip;&#8230;</itunes:subtitle>
       <itunes:summary>Die erste Ausgabe unseres Formats beschäftigt sich mit Datenbanken und NoSQL. Diese neuen Datenbanken waren im Jahr 2010 schon Hype und werden uns sicher auch im Jahr 2011 stark begleiten. Warum soll man aber diese Datenbanken einsetzen? Welche gibt es und welche Stärken und Schwächen haben diese? Das versuchen Dirk, Marc, Sven und Ingo in 2,75 Stunden zu klären.
 
-== Shownotes / Timeline und Links
+Shownotes / Timeline und Links
 
 
 Vorstellung der Teilnehmer / Kurze Erklärung von NoSQL

@@ -4,7 +4,7 @@
   <title><![CDATA[Binärgewitter]]></title>
   <link href="http://blog.binaergewitter.de/atom.xml" rel="self"/>
   <link href="http://blog.binaergewitter.de/"/>
-  <updated>2012-01-24T09:26:43+01:00</updated>
+  <updated>2012-01-24T09:35:37+01:00</updated>
   <id>http://blog.binaergewitter.de/</id>
   <author>
     <name><![CDATA[Binärgewitter Crew]]></name>
@@ -20,7 +20,7 @@
     <id>http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch</id>
     <content type="html"><![CDATA[<p>Am Mittwoch dem 25.01.2012 gehts endlich los mit Binaergewitter-Talk Ausgabe 1.</p>
 
-<p>Auch wenn unser Blog noch einiges an Arbeit benoetigt fangen wir ab ca. 20 Uhr auf <a href="http://streams.xenim.de/binaergewitter/">http://streams.xenim.de/binaergewitter/</a> an mit senden. Themen stehen noch nicht fest, aber ihr koennt wie immer im Chat mit dabei sein im freenode im Chan binaergewitter.</p>
+<p>Auch wenn unser Blog noch einiges an Arbeit benötigt fangen wir ab ca. 20 Uhr auf <a href="http://streams.xenim.de/binaergewitter/">http://streams.xenim.de/binaergewitter/</a> an mit senden. Themen stehen noch nicht fest, aber ihr koennt wie immer im Chat mit dabei sein im freenode im Chan binaergewitter.</p>
 ]]></content>
   </entry>
   
@@ -31,7 +31,7 @@
     <id>http://blog.binaergewitter.de/blog/2011/01/09/binaergewitter-number-1-nosql</id>
     <content type="html"><![CDATA[<p>Die erste Ausgabe unseres Formats beschäftigt sich mit Datenbanken und NoSQL. Diese neuen Datenbanken waren im Jahr 2010 schon Hype und werden uns sicher auch im Jahr 2011 stark begleiten. Warum soll man aber diese Datenbanken einsetzen? Welche gibt es und welche Stärken und Schwächen haben diese? Das versuchen Dirk, Marc, Sven und Ingo in 2,75 Stunden zu klären.</p>
 
-<p>== Shownotes / Timeline und Links</p>
+<h2>Shownotes / Timeline und Links</h2>
 
 <ul>
 <li>Vorstellung der Teilnehmer / Kurze Erklärung von NoSQL</li>
