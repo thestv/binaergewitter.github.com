@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://blog.binaergewitter.de/blog/2011/01/09/binaergewitter-number-1-nosql/</loc>
+        <lastmod>2012-01-24T09:26:37+01:00</lastmod>
+    </url>
+    <url>
         <loc>
             http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch/
         </loc>
@@ -8,7 +12,7 @@
     </url>
     <url>
         <loc>http://blog.binaergewitter.de/blog/archives/</loc>
-        <lastmod>2012-01-23T22:50:07+01:00</lastmod>
+        <lastmod>2012-01-24T09:26:37+01:00</lastmod>
     </url>
     <url>
         <loc>http://blog.binaergewitter.de/das-team/</loc>
@@ -20,7 +24,7 @@
     </url>
     <url>
         <loc>http://blog.binaergewitter.de/</loc>
-        <lastmod>2012-01-23T22:50:07+01:00</lastmod>
+        <lastmod>2012-01-24T09:26:37+01:00</lastmod>
     </url>
     <url>
         <loc>http://blog.binaergewitter.de/podcast.xml</loc>
