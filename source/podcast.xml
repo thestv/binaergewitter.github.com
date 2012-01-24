@@ -7,7 +7,7 @@ layout: nil
   <channel>
     <title><![CDATA[{{ site.title }}]]></title>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/podcast.xml" rel="self"/>
+    <atom:link href="{{ site.subscribe_rss }}" rel="self"/>
     <atom:link href="{{ site.url }}/"/>
     <atom:id>{{ site.url }}/</atom:id>
 
