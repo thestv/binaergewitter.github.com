@@ -11,7 +11,7 @@
     <description>Ein Podcast, der sich mit dem Web, Technologie und OpenSource Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Tue, 24 Jan 2012 16:26:40 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jan 2012 19:35:04 +0100</lastBuildDate>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -56,6 +56,296 @@
 <p>Auch wenn unser Blog noch einiges an Arbeit benötigt fangen wir ab ca. 20 Uhr auf <a href="http://streams.xenim.de/binaergewitter/">http://streams.xenim.de/binaergewitter/</a> an mit senden. Themen stehen noch nicht fest, aber ihr koennt wie immer im Chat mit dabei sein im freenode im Chan binaergewitter.</p>
 ]]>
       </description>
+      
+    </item>
+    
+    <item>
+      <title>Binärgewitter #2: Sichere Systeme</title>
+      <link>http://blog.binaergewitter.de/blog/2011/04/16/binargewitter-number-2-sichere-systeme/</link>
+      <comments>http://blog.binaergewitter.de/blog/2011/04/16/binargewitter-number-2-sichere-systeme/#comments</comments>
+      <pubDate>Sat, 16 Apr 2011 19:26:00 +0200</pubDate>
+      
+      <media:credit role="author">Binärgewitter Crew</media:credit>
+      <media:rating>nonadult</media:rating>
+      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2011/04/16/binargewitter-number-2-sichere-systeme/</guid>
+      <description>
+        <![CDATA[<p>Ausgabe 2 von Binärgewitter dreht sich rund um Sichere Systeme und grundlägende Begriffe von Sicherheit bzw. IT Security. Mit dabei sind Pfleidi, Felix und Prof. Walter Kriha, moderiert von Ingo Ebel. Die Sendung soll einen Einblick in Sicherheit und Sichere Systeme geben. Eine weitere Binärgewitterfolge wird sich dann mit einzelnen Angriff- und Abwehrmaßnahmen beschäftigen.</p>
+
+<ul>
+<li>Prof. Walter Kriha
+
+<pre><code>- Website
+- Buch: Sichere Systeme
+</code></pre></li>
+<li><p> Trennung Security vs. Safety</p>
+
+<ul>
+<li> Security</li>
+<li> Safety</li>
+<li>Was bedeuten sichere Systeme
+
+<ul>
+<li>warum greift man jemanden an?</li>
+</ul>
+</li>
+<li>IT Security oder Information Security?
+
+<ul>
+<li>Systemsicherheit
+
+<ul>
+<li>Risikoquadrant</li>
+<li>Japan</li>
+</ul>
+</li>
+<li>Datensicherheit und Datenschutz?
+
+<ul>
+<li>Baut auf Systemsicherheit auf
+
+<ul>
+<li>IT-Grundschutz (BSI)</li>
+<li>ISO 27001</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p> Vertrauen</p>
+
+<ul>
+<li> In Software</li>
+<li> In Benutzer(gruppen)</li>
+<li> In Authoritäten
+
+<ul>
+<li> Signaturen</li>
+<li> CA-Systeme
+
+<ul>
+<li> Comodogate</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> Privacy / Privatsphäre (vs. Security?)
+
+<ul>
+<li> http://www.zeit.de/datenschutz/malte-spitz-vorratsdaten</li>
+<li> Datamining
+
+<ul>
+<li>Shack Portal (SSH)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> Warum Systeme angreifen?
+
+<ul>
+<li> WP: Hacker</li>
+<li> HB Gary vs Annoymous</li>
+</ul>
+</li>
+<li><p> Wo liegen Angriffsvektoren in IT Systemen?</p>
+
+<ul>
+<li> Angriffe auf Softwareebene
+
+<ul>
+<li> Buffer overflows, (aka unvalidated, trusted user input)</li>
+<li> Unvalidated input etc.</li>
+</ul>
+</li>
+<li> Angriffe auf Netzwerkebene
+
+<ul>
+<li> Man in the middle</li>
+<li> Mitlesen unverschlüsselter Kommunikation (Eavesdropping)</li>
+</ul>
+</li>
+<li> Angriffe auf Protokollebene
+
+<ul>
+<li> Beispiel: Kreditkarten-PIN</li>
+</ul>
+</li>
+<li> Angriffsvektor Benutzer/Mensch
+
+<ul>
+<li> Schwächstes Glied? -> Skrupel, Sozialer Druck</li>
+<li> Buch: Kevin Mitnick Kunst der Täuschung / Film: Hackers 2</li>
+<li> Buch: Hacking – The Next Generation</li>
+<li> Konfigurationsfehler / Bedienfehler – Verhaltensregel-Verletzung: sofortueberweisung.de</li>
+<li> Passwortsicherheit Top 10</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p> Security Patterns</p>
+
+<ul>
+<li> ACLs (Windows, Android)</li>
+<li> Sandbox Systeme</li>
+<li> Trends: Was erwartet uns in Zukunft?
+
+<ul>
+<li> Bruce Schneier Security in 2020</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+]]>
+      </description>
+      
+      <enclosure url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-04-13.RadioTux.Binaergewitter.2.mp3" length="0" type="audio/mpeg" />
+      <media:content url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-04-13.RadioTux.Binaergewitter.2.mp3" fileSize="1" type="audio/mpeg" />
+      <itunes:keywords></itunes:keywords>
+      <itunes:subtitle>Ausgabe 2 von Binärgewitter dreht sich rund um Sichere Systeme und grundlägende Begriffe von Sicherheit bzw. IT Security. Mit dabei sind Pfleidi, Felix und Prof. Walter Kriha, moderiert von Ingo Ebel. Die Sendung soll einen Einblick in Sicherheit und &hellip;&#8230;</itunes:subtitle>
+      <itunes:summary>Ausgabe 2 von Binärgewitter dreht sich rund um Sichere Systeme und grundlägende Begriffe von Sicherheit bzw. IT Security. Mit dabei sind Pfleidi, Felix und Prof. Walter Kriha, moderiert von Ingo Ebel. Die Sendung soll einen Einblick in Sicherheit und Sichere Systeme geben. Eine weitere Binärgewitterfolge wird sich dann mit einzelnen Angriff- und Abwehrmaßnahmen beschäftigen.
+
+
+Prof. Walter Kriha
+
+- Website
+- Buch: Sichere Systeme
+
+ Trennung Security vs. Safety
+
+
+ Security
+ Safety
+Was bedeuten sichere Systeme
+
+
+warum greift man jemanden an?
+
+
+IT Security oder Information Security?
+
+
+Systemsicherheit
+
+
+Risikoquadrant
+Japan
+
+
+Datensicherheit und Datenschutz?
+
+
+Baut auf Systemsicherheit auf
+
+
+IT-Grundschutz (BSI)
+ISO 27001
+
+
+
+
+
+
+
+
+ Vertrauen
+
+
+ In Software
+ In Benutzer(gruppen)
+ In Authoritäten
+
+
+ Signaturen
+ CA-Systeme
+
+
+ Comodogate
+
+
+
+
+
+
+ Privacy / Privatsphäre (vs. Security?)
+
+
+ http://www.zeit.de/datenschutz/malte-spitz-vorratsdaten
+ Datamining
+
+
+Shack Portal (SSH)
+
+
+
+
+ Warum Systeme angreifen?
+
+
+ WP: Hacker
+ HB Gary vs Annoymous
+
+
+ Wo liegen Angriffsvektoren in IT Systemen?
+
+
+ Angriffe auf Softwareebene
+
+
+ Buffer overflows, (aka unvalidated, trusted user input)
+ Unvalidated input etc.
+
+
+ Angriffe auf Netzwerkebene
+
+
+ Man in the middle
+ Mitlesen unverschlüsselter Kommunikation (Eavesdropping)
+
+
+ Angriffe auf Protokollebene
+
+
+ Beispiel: Kreditkarten-PIN
+
+
+ Angriffsvektor Benutzer/Mensch
+
+
+ Schwächstes Glied? -> Skrupel, Sozialer Druck
+ Buch: Kevin Mitnick Kunst der Täuschung / Film: Hackers 2
+ Buch: Hacking – The Next Generation
+ Konfigurationsfehler / Bedienfehler – Verhaltensregel-Verletzung: sofortueberweisung.de
+ Passwortsicherheit Top 10
+
+
+
+
+ Security Patterns
+
+
+ ACLs (Windows, Android)
+ Sandbox Systeme
+ Trends: Was erwartet uns in Zukunft?
+
+
+ Bruce Schneier Security in 2020
+
+
+
+
+
+
+</itunes:summary>
+      <itunes:author>Binärgewitter Crew</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1</itunes:duration>
       
     </item>
     
