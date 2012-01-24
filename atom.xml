@@ -4,7 +4,7 @@
   <title><![CDATA[Binärgewitter]]></title>
   <link href="http://blog.binaergewitter.de/atom.xml" rel="self"/>
   <link href="http://blog.binaergewitter.de/"/>
-  <updated>2012-01-24T19:35:04+01:00</updated>
+  <updated>2012-01-24T19:39:49+01:00</updated>
   <id>http://blog.binaergewitter.de/</id>
   <author>
     <name><![CDATA[Binärgewitter Crew]]></name>
@@ -32,11 +32,13 @@
     <content type="html"><![CDATA[<p>Ausgabe 2 von Binärgewitter dreht sich rund um Sichere Systeme und grundlägende Begriffe von Sicherheit bzw. IT Security. Mit dabei sind Pfleidi, Felix und Prof. Walter Kriha, moderiert von Ingo Ebel. Die Sendung soll einen Einblick in Sicherheit und Sichere Systeme geben. Eine weitere Binärgewitterfolge wird sich dann mit einzelnen Angriff- und Abwehrmaßnahmen beschäftigen.</p>
 
 <ul>
-<li>Prof. Walter Kriha
+<li> Prof. Walter Kriha
 
-<pre><code>- Website
-- Buch: Sichere Systeme
-</code></pre></li>
+<ul>
+<li>Website</li>
+<li>Buch: Sichere Systeme</li>
+</ul>
+</li>
 <li><p> Trennung Security vs. Safety</p>
 
 <ul>
@@ -77,16 +79,16 @@
 <li><p> Vertrauen</p>
 
 <ul>
-<li> In Software</li>
-<li> In Benutzer(gruppen)</li>
-<li> In Authoritäten
+<li>In Software</li>
+<li>In Benutzer(gruppen)</li>
+<li>In Authoritäten
 
 <ul>
-<li> Signaturen</li>
-<li> CA-Systeme
+<li>Signaturen</li>
+<li>CA-Systeme
 
 <ul>
-<li> Comodogate</li>
+<li>Comodogate</li>
 </ul>
 </li>
 </ul>
@@ -150,12 +152,12 @@
 <li><p> Security Patterns</p>
 
 <ul>
-<li> ACLs (Windows, Android)</li>
-<li> Sandbox Systeme</li>
-<li> Trends: Was erwartet uns in Zukunft?
+<li>ACLs (Windows, Android)</li>
+<li>Sandbox Systeme</li>
+<li>Trends: Was erwartet uns in Zukunft?
 
 <ul>
-<li> Bruce Schneier Security in 2020</li>
+<li>Bruce Schneier Security in 2020</li>
 </ul>
 </li>
 </ul>

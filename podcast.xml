@@ -11,7 +11,7 @@
     <description>Ein Podcast, der sich mit dem Web, Technologie und OpenSource Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Tue, 24 Jan 2012 19:35:04 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jan 2012 19:39:49 +0100</lastBuildDate>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -72,11 +72,13 @@
         <![CDATA[<p>Ausgabe 2 von Binärgewitter dreht sich rund um Sichere Systeme und grundlägende Begriffe von Sicherheit bzw. IT Security. Mit dabei sind Pfleidi, Felix und Prof. Walter Kriha, moderiert von Ingo Ebel. Die Sendung soll einen Einblick in Sicherheit und Sichere Systeme geben. Eine weitere Binärgewitterfolge wird sich dann mit einzelnen Angriff- und Abwehrmaßnahmen beschäftigen.</p>
 
 <ul>
-<li>Prof. Walter Kriha
+<li> Prof. Walter Kriha
 
-<pre><code>- Website
-- Buch: Sichere Systeme
-</code></pre></li>
+<ul>
+<li>Website</li>
+<li>Buch: Sichere Systeme</li>
+</ul>
+</li>
 <li><p> Trennung Security vs. Safety</p>
 
 <ul>
@@ -117,16 +119,16 @@
 <li><p> Vertrauen</p>
 
 <ul>
-<li> In Software</li>
-<li> In Benutzer(gruppen)</li>
-<li> In Authoritäten
+<li>In Software</li>
+<li>In Benutzer(gruppen)</li>
+<li>In Authoritäten
 
 <ul>
-<li> Signaturen</li>
-<li> CA-Systeme
+<li>Signaturen</li>
+<li>CA-Systeme
 
 <ul>
-<li> Comodogate</li>
+<li>Comodogate</li>
 </ul>
 </li>
 </ul>
@@ -190,12 +192,12 @@
 <li><p> Security Patterns</p>
 
 <ul>
-<li> ACLs (Windows, Android)</li>
-<li> Sandbox Systeme</li>
-<li> Trends: Was erwartet uns in Zukunft?
+<li>ACLs (Windows, Android)</li>
+<li>Sandbox Systeme</li>
+<li>Trends: Was erwartet uns in Zukunft?
 
 <ul>
-<li> Bruce Schneier Security in 2020</li>
+<li>Bruce Schneier Security in 2020</li>
 </ul>
 </li>
 </ul>
@@ -212,10 +214,12 @@
       <itunes:summary>Ausgabe 2 von Binärgewitter dreht sich rund um Sichere Systeme und grundlägende Begriffe von Sicherheit bzw. IT Security. Mit dabei sind Pfleidi, Felix und Prof. Walter Kriha, moderiert von Ingo Ebel. Die Sendung soll einen Einblick in Sicherheit und Sichere Systeme geben. Eine weitere Binärgewitterfolge wird sich dann mit einzelnen Angriff- und Abwehrmaßnahmen beschäftigen.
 
 
-Prof. Walter Kriha
+ Prof. Walter Kriha
 
-- Website
-- Buch: Sichere Systeme
+
+Website
+Buch: Sichere Systeme
+
 
  Trennung Security vs. Safety
 
@@ -257,16 +261,16 @@ ISO 27001
  Vertrauen
 
 
- In Software
- In Benutzer(gruppen)
- In Authoritäten
+In Software
+In Benutzer(gruppen)
+In Authoritäten
 
 
- Signaturen
- CA-Systeme
+Signaturen
+CA-Systeme
 
 
- Comodogate
+Comodogate
 
 
 
@@ -330,12 +334,12 @@ Shack Portal (SSH)
  Security Patterns
 
 
- ACLs (Windows, Android)
- Sandbox Systeme
- Trends: Was erwartet uns in Zukunft?
+ACLs (Windows, Android)
+Sandbox Systeme
+Trends: Was erwartet uns in Zukunft?
 
 
- Bruce Schneier Security in 2020
+Bruce Schneier Security in 2020
 
 
 
