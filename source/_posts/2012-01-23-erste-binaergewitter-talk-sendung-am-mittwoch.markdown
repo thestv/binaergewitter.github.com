@@ -3,7 +3,7 @@ layout: post
 title: "Erste Binaergewitter-Talk Sendung am Mittwoch"
 date: 2012-01-23 21:54
 comments: true
-categories: 
+categories: talk
 ---
 Am Mittwoch dem 25.01.2012 gehts endlich los mit Binaergewitter-Talk Ausgabe 1.
 
