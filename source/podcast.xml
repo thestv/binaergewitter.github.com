@@ -11,7 +11,7 @@ layout: nil
     <atom:link href="{{ site.url }}/"/>
     <atom:id>{{ site.url }}/</atom:id>
 
-    <description>{{ site.podcast_description_itunes }}</description>
+    <description>{{ site.podcast_description }}</description>
     <language>de</language>
 
     <lastBuildDate>{{ site.time | date_to_rfc2822 }}</lastBuildDate>
