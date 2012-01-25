@@ -11,7 +11,7 @@ layout: nil
     <atom:link href="{{ site.url }}/"/>
     <atom:id>{{ site.url }}/</atom:id>
 
-    <description>{{ site.podcast_description }}</description>
+    <description>{{ site.podcast_description_itunes }}</description>
     <language>de</language>
 
     <lastBuildDate>{{ site.time | date_to_rfc2822 }}</lastBuildDate>
@@ -35,9 +35,7 @@ layout: nil
       <url>{{  site.url  }}{{ site.logo }}</url>
       <link>{{ site.url }}</link>
     </image>
-    {% for category in site.categories %}
-    <itunes:category text="{{ category }}" />
-    {% endfor %}    
+    
     <media:copyright>{{ site.podcast_copyright }}</media:copyright>
     <media:thumbnail url="{{ site.url }}" />
     <media:keywords>{{ site.keywords }}</media:keywords>
@@ -51,8 +49,8 @@ layout: nil
       <link>{{ site.url }}{{ post.url }}</link>
       <comments>{{ site.url }}{{ post.url }}#comments</comments>
       <pubDate>{{ post.date | date_to_rfc2822 }}</pubDate>
-      {% for category in post.categories %}
-      <category><![CDATA[{{ category }}]]></category>
+      {% for post_category in post.categories %}
+      <category><![CDATA[{{ post_category }}]]></category>
       {% endfor %}
       <media:credit role="author">{{ site.author }}</media:credit>
       <media:rating>nonadult</media:rating>
