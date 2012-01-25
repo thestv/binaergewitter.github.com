@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Binärgewitter]]></title>
-  <link href="http://blog.binaergewitter.de/atom.xml" rel="self"/>
+  <title><![CDATA[Category: spezial | Binärgewitter]]></title>
+  <link href="http://blog.binaergewitter.de/blog/categories/spezial/atom.xml" rel="self"/>
   <link href="http://blog.binaergewitter.de/"/>
   <updated>2012-01-25T09:26:08+01:00</updated>
   <id>http://blog.binaergewitter.de/</id>
@@ -12,17 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Erste Binaergewitter-Talk Sendung am Mittwoch]]></title>
-    <link href="http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch/"/>
-    <updated>2012-01-23T21:54:00+01:00</updated>
-    <id>http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch</id>
-    <content type="html"><![CDATA[<p>Am Mittwoch dem 25.01.2012 gehts endlich los mit Binaergewitter-Talk Ausgabe 1.</p>
-
-<p>Auch wenn unser Blog noch einiges an Arbeit benötigt fangen wir ab ca. 20 Uhr auf <a href="http://streams.xenim.de/binaergewitter/">http://streams.xenim.de/binaergewitter/</a> an mit senden. Themen stehen noch nicht fest, aber ihr koennt wie immer im Chat mit dabei sein im freenode im Chan binaergewitter.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Binärgewitter #2: Sichere Systeme]]></title>
@@ -187,7 +176,7 @@
 <ol>
 <li>Persistenz von (Anwendungs)daten
 <ol>
-<li>Unterschied/Gemeinsamkeit Dateisystem &lt;&#8211;&gt; Datenbank</li>
+<li>Unterschied/Gemeinsamkeit Dateisystem &lt;--&gt; Datenbank</li>
 <li>Datensicherheit - WP: <a href="http://en.wikipedia.org/wiki/ACID">ACID</a></li>
 <li>Verteilung</li>
 </ol>
