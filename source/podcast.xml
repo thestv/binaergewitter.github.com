@@ -62,7 +62,7 @@ layout: nil
       <enclosure url="{{ post.audio }}" length="0" type="audio/mpeg" />
       <media:content url="{{ post.audio }}" fileSize="1" type="audio/mpeg" />
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
-      <itunes:subtitle>{{ post.content | strip_html | truncate:255 | strip_newlines }}...</itunes:subtitle>
+      <itunes:subtitle>{{ post.content | strip_html | truncate:255 | strip_newlines }}</itunes:subtitle>
       <itunes:summary>{{ post.content | strip_html }}</itunes:summary>
       <itunes:author>{{ site.author }}</itunes:author>
       <itunes:explicit>no</itunes:explicit>
