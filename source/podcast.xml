@@ -59,12 +59,12 @@ layout: nil
         <![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]>
       </description>
       {% if post.audio %}
-      <enclosure url="{{ post.audio }}" length="0" type="audio/mpeg" />
-      <media:content url="{{ post.audio }}" fileSize="1" type="audio/mpeg" />
+      <enclosure url="{{ post.audio }}" length="{% content_length post.audio %}" type="audio/mpeg" />
+      <media:content url="{{ post.audio }}" fileSize="{% content_length post.audio %}" type="audio/mpeg" />
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
       <itunes:subtitle>{{ post.title }}</itunes:subtitle>
       <itunes:summary>
-        <![CDATA[{{ post.content | strip_html | truncate 4000 | cdata_escape }}]]>
+        <![CDATA[{{ post.content | strip_html | truncate: 4000 | cdata_escape }}]]>
       </itunes:summary>
       <itunes:author>{{ site.author }}</itunes:author>
       <itunes:explicit>no</itunes:explicit>
