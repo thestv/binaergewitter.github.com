@@ -35,7 +35,7 @@ layout: nil
       <url>{{  site.url  }}{{ site.logo }}</url>
       <link>{{ site.url }}</link>
     </image>
-    
+
     <media:copyright>{{ site.podcast_copyright }}</media:copyright>
     <media:thumbnail url="{{ site.url }}" />
     <media:keywords>{{ site.keywords }}</media:keywords>
@@ -63,7 +63,9 @@ layout: nil
       <media:content url="{{ post.audio }}" fileSize="1" type="audio/mpeg" />
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
       <itunes:subtitle>{{ post.title }}</itunes:subtitle>
-      <itunes:summary>{{ post.content | strip_html }}</itunes:summary>
+      <itunes:summary>
+        <![CDATA[{{ post.content | strip_html | truncate 4000 | cdata_escape }}]]>
+      </itunes:summary>
       <itunes:author>{{ site.author }}</itunes:author>
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>1</itunes:duration>
