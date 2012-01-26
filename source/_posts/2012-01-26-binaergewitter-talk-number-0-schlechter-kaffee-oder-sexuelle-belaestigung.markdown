@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter #0 - schlechter Kaffee oder sexuelle Belästigung"
+title: "Binärgewitter Talk #0 - schlechter Kaffee oder sexuelle Belästigung"
 date: 2012-01-26 10:15
 comments: true
 categories: talk
