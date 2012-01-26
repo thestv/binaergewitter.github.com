@@ -4,14 +4,14 @@
   <channel>
     <title><![CDATA[Binärgewitter]]></title>
     <link>http://blog.binaergewitter.de</link>
-    <atom:link href="http://blog.binaergewitter.de/podcast.xml" rel="self"/>
+    <atom:link href="http://feeds.feedburner.com/binaergewitter-podcast" rel="self"/>
     <atom:link href="http://blog.binaergewitter.de/"/>
     <atom:id>http://blog.binaergewitter.de/</atom:id>
 
-    <description>Ein Podcast, der sich mit dem Web, Technologie und OpenSource Software auseinander setzt</description>
+    <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Wed, 25 Jan 2012 09:26:08 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jan 2012 12:17:51 +0100</lastBuildDate>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -21,9 +21,9 @@
     <itunes:category text="Technology" />
     <itunes:owner>
       <itunes:name>Binärgewitter Crew</itunes:name>
-      <itunes:email>feedback@retinacast.de</itunes:email>
+      <itunes:email>info@binaergewitter.de</itunes:email>
     </itunes:owner>
-    <managingEditor>feedback@retinacast.de (Binärgewitter Crew)</managingEditor>
+    <managingEditor>info@binaergewitter.de (Binärgewitter Crew)</managingEditor>
     <copyright>Creative Commons BY-NC-SA 3.0 DE</copyright>
     <itunes:subtitle>Web, Technologie und OpenSource Software</itunes:subtitle>
     <itunes:keywords>podcast, technology, gadgets, web, opensource</itunes:keywords>
@@ -32,251 +32,320 @@
       <url>http://blog.binaergewitter.de/images/binaergewitter_logo.png</url>
       <link>http://blog.binaergewitter.de</link>
     </image>
-    
-    <itunes:category text="spezial<p>Ausgabe 2 von Binärgewitter dreht sich rund um Sichere Systeme und grundlägende Begriffe von Sicherheit bzw. IT Security. Mit dabei sind Pfleidi, Felix und Prof. Walter Kriha, moderiert von Ingo Ebel. Die Sendung soll einen Einblick in Sicherheit und Sichere Systeme geben. Eine weitere Binärgewitterfolge wird sich dann mit einzelnen Angriff- und Abwehrmaßnahmen beschäftigen.</p>
 
-<ul>
-<li> Prof. Walter Kriha
-
-<ul>
-<li>Website</li>
-<li>Buch: Sichere Systeme</li>
-</ul>
-</li>
-<li><p> Trennung Security vs. Safety</p>
-
-<ul>
-<li> Security</li>
-<li> Safety</li>
-<li>Was bedeuten sichere Systeme
-
-<ul>
-<li>warum greift man jemanden an?</li>
-</ul>
-</li>
-<li>IT Security oder Information Security?
-
-<ul>
-<li>Systemsicherheit
-
-<ul>
-<li>Risikoquadrant</li>
-<li>Japan</li>
-</ul>
-</li>
-<li>Datensicherheit und Datenschutz?
-
-<ul>
-<li>Baut auf Systemsicherheit auf
-
-<ul>
-<li>IT-Grundschutz (BSI)</li>
-<li>ISO 27001</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p> Vertrauen</p>
-
-<ul>
-<li>In Software</li>
-<li>In Benutzer(gruppen)</li>
-<li>In Authoritäten
-
-<ul>
-<li>Signaturen</li>
-<li>CA-Systeme
-
-<ul>
-<li>Comodogate</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li> Privacy / Privatsphäre (vs. Security?)
-
-<ul>
-<li> http://www.zeit.de/datenschutz/malte-spitz-vorratsdaten</li>
-<li> Datamining
-
-<ul>
-<li>Shack Portal (SSH)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li> Warum Systeme angreifen?
-
-<ul>
-<li> WP: Hacker</li>
-<li> HB Gary vs Annoymous</li>
-</ul>
-</li>
-<li><p> Wo liegen Angriffsvektoren in IT Systemen?</p>
-
-<ul>
-<li> Angriffe auf Softwareebene
-
-<ul>
-<li> Buffer overflows, (aka unvalidated, trusted user input)</li>
-<li> Unvalidated input etc.</li>
-</ul>
-</li>
-<li> Angriffe auf Netzwerkebene
-
-<ul>
-<li> Man in the middle</li>
-<li> Mitlesen unverschlüsselter Kommunikation (Eavesdropping)</li>
-</ul>
-</li>
-<li> Angriffe auf Protokollebene
-
-<ul>
-<li> Beispiel: Kreditkarten-PIN</li>
-</ul>
-</li>
-<li> Angriffsvektor Benutzer/Mensch
-
-<ul>
-<li> Schwächstes Glied? -> Skrupel, Sozialer Druck</li>
-<li> Buch: Kevin Mitnick Kunst der Täuschung / Film: Hackers 2</li>
-<li> Buch: Hacking – The Next Generation</li>
-<li> Konfigurationsfehler / Bedienfehler – Verhaltensregel-Verletzung: sofortueberweisung.de</li>
-<li> Passwortsicherheit Top 10</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p> Security Patterns</p>
-
-<ul>
-<li>ACLs (Windows, Android)</li>
-<li>Sandbox Systeme</li>
-<li>Trends: Was erwartet uns in Zukunft?
-
-<ul>
-<li>Bruce Schneier Security in 2020</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-<p>Die erste Ausgabe unseres neuen Formats beschäftigt sich mit Datenbanken und NoSQL. Diese neuen Datenbanken waren im Jahr 2010 schon Hype und werden uns sicher auch im Jahr 2011 stark begleiten. Warum soll man aber diese Datenbanken einsetzen? Welche gibt es und welche Stärken und Schwächen haben diese? Das versuchen <a href="http://twitter.com/ddeimeke" target="_blank">Dirk</a>, <a href="http://twitter.com/rb2k" target="_blank">Marc</a>, <a href="http://twitter.com/pfleidi" target="_blank">Sven</a> und <a href="http://twitter.com/radiotux" target="_blank">Ingo</a> in 2,75 Stunden zu klären.</p>
-
-<p><strong>Shownotes / Timeline und Links</strong></p>
-
-<div>
-<ul id="internal-source-marker_0.9715123863425106">
-<li>Vorstellung der Teilnehmer / Kurze Erklärung von NoSQL
-<ul>
-<li>Marc: Masterthesis: <a href="http://blog.marc-seeger.de/2010/12/09/my-thesis-building-blocks-of-a-scalable-webcrawler">building blocks of a scalable webcrawler</a></li>
-</ul>
-</li>
-<li>Grundlegende Einsatzgebiete von Datenbanken
-<ol>
-<li>Persistenz von (Anwendungs)daten
-<ol>
-<li>Unterschied/Gemeinsamkeit Dateisystem &lt;&#8211;&gt; Datenbank</li>
-<li>Datensicherheit - WP: <a href="http://en.wikipedia.org/wiki/ACID">ACID</a></li>
-<li>Verteilung</li>
-</ol>
-</li>
-<li>Suchen
-<ol>
-<li>Via Indexierung (<a href="http://de.wikipedia.org/wiki/B%2B-Baum" target="_blank">B+Tree</a>)</li>
-<li>Volltextsuche</li>
-</ol>
-</li>
-<li>Navigation über Daten (Joins)</li>
-<li>Reporting</li>
-</ol>
-</li>
-<li>Grundlegende Klärung der Bezeichnung NoSQL</li>
-<li>Grenzen von DBs (<a href="http://de.wikipedia.org/wiki/CAP-Theorem" target="_blank">CAP-Theorem</a>)</li>
-<li>Unterschiede SQL/NoSQL
-<ol>
-<li>Grober Unterschied</li>
-<li>Zeilen/Spalten vs. Key-Value, Column-Stores, Dokumente, Graphen
-<ol>
-<li><a href="http://de.wikipedia.org/wiki/JSON">JSON</a></li>
-<li><a href="http://de.wikipedia.org/wiki/Resource_Description_Framework">Resource Description Framework</a></li>
-<li><a href="http://blog.radiotux.de/2010/12/13/sendung-graphdb/">Sendung über GraphDB</a></li>
-</ol>
-</li>
-</ol>
-</li>
-<li>Patterns bei der Implementierung
-<ol>
-<li>Papers: Stonebreaker <a href="http://highscalability.com/blog/2009/4/16/paper-the-end-of-an-architectural-era-its-time-for-a-complet.html">Paper: “The End Of An Architectural Era</a>”, <a href="http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf" target="_blank">Amazon Dynamo</a> (KeyValue), <a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/labs.google.com/en//papers/bigtable-osdi06.pdf " target="_blank">Google Bigtable</a> (ColumnStore), <a href="http://de.wikipedia.org/wiki/MapReduce" target="_blank">Map/Reduce</a>, <a href="http://www.google.com/research/pubs/pub36632.html" target="_blank">Dremel</a>, CAP, <a href="http://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf">Cassandra</a> …)</li>
-</ol>
-</li>
-<li>Datenbanksysteme
-  <ol>
-<li>Vor- und Nachteile (Datenschema, Zugriff)
-  <ol>
-  <li>Column Store: <a href="http://cassandra.apache.org/" target="_blank">Cassandra</a></li>
-  <li>Column Store: <a href="http://hbase.apache.org/" target="_blank">HBase</a> (BigTable)</li>
-  <li>Datastructure Store: <a href="http://redis.io/" target="_blank">Redis</a>
-  <ol>
-  <li><a href="http://www.pauladamsmith.com/articles/redis_under_the_hood.html">Redis: under the hood</a></li>
-  <li><a href="http://blog.mjrusso.com/2010/10/17/redis-from-the-ground-up.html">Redis, from the Ground Up</a></li>
-  </ol>
-  </li>
-  <li>DocumentStore: <a href="http://www.mongodb.org/" target="_blank">MongoDB</a>
-  <ol>
-  <li><a href="http://bsonspec.org/">BSON</a></li>
-  <li><a href="http://www.mongodb.org/display/DOCS/GridFS+Specification">GridFS</a></li>
-  </ol>
-  </li>
-  <li>DocumentStore/KV Store: <a href="http://couchdb.apache.org/" target="_blank">CouchDB </a>
-  <ol>
-  <li><a href="http://couchdb.apache.org/screenshots.html">Futon</a> + <a href="http://couchapp.org/page/index">CouchApps</a></li>
-  <li><a href="http://guide.couchdb.org/draft/notifications.html">_changes feed </a>+ Lucene/<a href="http://www.elasticsearch.com/">ElasticSearch</a></li>
-  </ol>
-  </li>
-  <li>Key Value Store: <a href="http://memcachedb.org/" target="_blank">MemcachedDB</a></li>
-  <li>Key Value Store: <a href="http://basho.com/Riak.html" target="_blank">Riak</a>
-  <ul>
-  <li><a href="http://www.basho.com/riaksearch.html">RiakSearch</a> API ist kompatibel zu: Apache <a href="http://lucene.apache.org/solr/" target="_blank">Solr</a>/<a href="http://lucene.apache.org/" target="_blank">Lucene</a></li>
-  </ul>
-  </li>
-  <li>Graph Database: <a href="http://neo4j.org">Neo4J</a> / <a href="http://www.sones.com/" target="_blank">GraphDB</a></li>
-  </ol>
-  </li>
-  <li>Einsatzgebiete
-  <ul>
-  <li>kkovacs.eu <a href="http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis" target="_blank">Vergleich der NoSQL Datenbanken</a></li>
-  <li>readwriteweb.com <a href="http://www.readwriteweb.com/cloud/2011/01/how-twitter-uses-nosql.php" target="_blank">NoSQL bei Twitter</a></li>
-  </ul>
-  </li>
-  <li><a href="http://codemonkeyism.com/nosql-polyglott-persistence/" target="_blank">Polyglot Persistence</a></li>
-  </ol>
-  </li>
-  <li>Ende</li>
-  </ul>
-  </div>
-
-&#8221; />
-    
-    <itunes:category text="talk<p>Am Mittwoch dem 25.01.2012 gehts endlich los mit Binaergewitter-Talk Ausgabe 1.</p>
-
-<p>Auch wenn unser Blog noch einiges an Arbeit benötigt fangen wir ab ca. 20 Uhr auf <a href="http://streams.xenim.de/binaergewitter/">http://streams.xenim.de/binaergewitter/</a> an mit senden. Themen stehen noch nicht fest, aber ihr koennt wie immer im Chat mit dabei sein im freenode im Chan binaergewitter.</p>
-&#8221; />
-        
     <media:copyright>Creative Commons BY-NC-SA 3.0 DE</media:copyright>
     <media:thumbnail url="http://blog.binaergewitter.de" />
     <media:keywords>podcast, technology, gadgets, web, opensource</media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd"></media:category>
     <media:credit role="author">Binärgewitter Crew</media:credit>
     <media:rating>nonadult</media:rating>
-    <media:description type="plain">Ein Podcast, der sich mit dem Web, Technologie und OpenSource Software auseinander setzt</media:description>
+    <media:description type="plain">Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</media:description>
+    
+    <item>
+      <title>Binärgewitter #0 - schlechter Kaffee oder sexuelle Belästigung</title>
+      <link>http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/</link>
+      <comments>http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/#comments</comments>
+      <pubDate>Thu, 26 Jan 2012 10:15:00 +0100</pubDate>
+      
+      <category><![CDATA[talk]]></category>
+      
+      <media:credit role="author">Binärgewitter Crew</media:credit>
+      <media:rating>nonadult</media:rating>
+      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/</guid>
+      <description>
+        <![CDATA[<h2>Einführung</h2>
+
+<ul>
+<li>Wer sind wir eigentlich und was machen wir hier?
+
+<ul>
+<li><a href="http://blog.binaergewitter.de/das-team/">Team Seite</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Unsere Infrastruktur</h2>
+
+<ul>
+<li>Wie hosten wir unsere Sachen nun?</li>
+<li>Was für Software setzen wir dafür ein?
+
+<ul>
+<li><a href="https://github.com/shopify/liquid">Liquid</a></li>
+<li><a href="http://jekyllrb.com/">Jekyll</a></li>
+<li><a href="http://octopress.org/">Octopress</a></li>
+<li>Ruby, Bundler, Rake, Piwik, audio.js &#8230;</li>
+</ul>
+</li>
+<li>Wie können die Hörer mitmachen?</li>
+<li><a href="https://github.com/binaergewitter">Auf Github</a>
+
+<ul>
+<li><a href="https://github.com/Binaergewitter/binaergewitter.github.com/commits/source">Commits</a></li>
+<li><a href="https://github.com/Binaergewitter/binaergewitter.github.com/issues?sort=created&amp;direction=desc&amp;state=open">Issue Tracker</a></li>
+</ul>
+</li>
+<li>Intro</li>
+</ul>
+
+
+<h2>Toter der Woche</h2>
+
+<ul>
+<li><a href="http://digitallife.today.msnbc.msn.com/_news/2012/01/14/10158059-programming-prodigy-passes-away-at-16-hear-her-philosophy-of-life">Arfa Karim Randhawa verstorben mit 16</a>
+
+<h2>In der Zwischenzeit</h2></li>
+<li>Weihnachten ;)</li>
+<li>28c3</li>
+<li>CES</li>
+<li>Megaupload ist tod</li>
+<li><a href="http://www.pro-linux.de/news/1/17946/desura-client-im-quellcode-freigegeben.html">Dezura Client unter GPL</a></li>
+<li><a href="http://www.numerama.com/magazine/21393-le-p2p-explose-apres-la-fermeture-de-megaupload.html">P2P Traffic explodiert zufaelliger weise am 19.Januar[fr]</a></li>
+<li>ACTA/SOPA/PiPA
+
+<ul>
+<li>You heard it here first! Sendung im letzten Jahr</li>
+<li>Facepalm <a href="http://www.golem.de/1201/89320.html">CDU will (mal wieder) Netzsperren</a>
+
+<h2>News</h2></li>
+</ul>
+</li>
+<li><a href="http://gigaom.com/mobile/webos-lives-hp-decides-to-open-source-the-platform/">HP gibt WebOS als OpenSource frei</a>
+
+<ul>
+<li>Gibt es den Sourcecode nun?</li>
+<li>Unter welcher Lizenz ist der Code freigegeben?</li>
+<li><a href="https://github.com/hpwebos">Es gibt einen leeren Github Account</a></li>
+<li><a href="http://www.golem.de/1201/89140.html">Microsoft Manager übernimmt WebOS</a></li>
+<li><a href="http://www.theverge.com/2012/1/25/2732672/open-webos-10-announced">HPWebOS Releaseplan</a></li>
+</ul>
+</li>
+<li><a href="http://www.golem.de/1112/88613.html">SPDY für Apache</a></li>
+<li><a href="https://github.com/jonasschneider/momentum">SPDY für Rack</a></li>
+<li><a href="http://www.golem.de/1201/89268.html">Google will TCP beschleunigen</a></li>
+<li><a href="http://www.ocert.org/advisories/ocert-2011-003.html">DoS Angriff mittels Hash Kollisonen</a>
+
+<ul>
+<li><a href="http://events.ccc.de/congress/2011/Fahrplan/events/4680.en.html">Vortrag vom 28c3</a></li>
+</ul>
+</li>
+<li><a href="http://www.adityaravishankar.com/projects/games/command-and-conquer/">C&amp;C original gibt es nun in HTML5</a></li>
+<li><a href="http://krebsonsecurity.com/2012/01/megasearch-aims-to-index-fraud-site-wares/">MegaSearch.cc - Die Kreditkartennummern Suchmaschine</a></li>
+<li><p><a href="http://www.allthingsdistributed.com/2012/01/The-AWS-Storage-Gateway.html">The AWS Storage Gateway</a></p>
+
+<h2>Themen</h2>
+
+<h1>Marc&#8217;s neuer HTPC/HomeServer</h1></li>
+<li><p><a href="http://flirc.tv/">Flirc</a> (marc)</p></li>
+<li><a href="https://www.amazon.de/dp/B005O43SI8/">AMD E-450 Mainboard: Asus-E45M1-M</a> (marc)</li>
+<li><a href="https://www.amazon.de/dp/B002A2U8KI/">LC-Power 1300MI Gehäuse Mini-ITX/M-ATX 75W</a> (marc)</li>
+<li>PCI Interrupt probleme unter Last ( irq 1[69]: nobody cared )</li>
+<li><a href="http://www.t3.com.au/2012/01/13/wii-balance-board-enters-guinness-book-of-records/">Wii Balance Board ist im Guiness Buch der Rekorde</a>
+
+<h2>Mimimi der Woche</h2></li>
+<li>Siehe AMD-E45M1-M (felix)</li>
+<li>iptables macht komische Sachen</li>
+<li>iptables -t nat -A PREROUTING -p tcp &#8211;dport 30009 -j DNAT &#8211;to $IP:30009</li>
+<li>iptables -A POSTROUTING -t nat -j MASQUERADE</li>
+</ul>
+
+
+<h2>Lesefoo</h2>
+
+<ul>
+<li><a href="http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html">The magic of consistent hashing</a> (pfleidi)</li>
+<li><a href="https://www.destroyallsoftware.com/talks/wat">Wat</a> (Felix, pfleidi, Marc)
+
+<ul>
+<li><a href="http://knowyourmeme.com/memes/wat">Wat meme</a></li>
+</ul>
+</li>
+<li><a href="http://www.amazon.de/gp/product/B0058NV1IY/trektrip">Star Trek - Deep Space Nine 8.01: Offenbarung</a></li>
+<li><a href="http://www.amazon.de/gp/product/B005OUKLG4/trektrip">Star Trek - Next Generation auf Blu-ray</a></li>
+<li><a href="http://www.youtube.com/watch?v=fHUQ3aGLa5Q">Unterschied auf YouTube</a></li>
+<li><a href="http://amzn.to/w9FQDJ">Eloquent Ruby</a></li>
+<li><a href="http://research.google.com/pubs/pub37200.html">Tenzing A SQL Implementation On The MapReduce Framework</a></li>
+<li><a href="http://codeascraft.etsy.com/2012/01/23/solr-bittorrent-index-replication/">Turbocharging Solr Index Replication with BitTorrent</a></li>
+<li><a href="http://www.amazon.de/gp/product/1933929669/retinacast-21">Ultra Fuckers</a></li>
+<li><a href="http://dougvitale.wordpress.com/2011/12/21/deprecated-linux-networking-commands-and-their-replacements/">deprecated linux networking commands and their replacements</a></li>
+<li><a href="http://code.google.com/p/reaver-wps/">Recover Wifi Protected Setup access</a></li>
+<li><a href="http://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf">WPS Brute Force Paper</a></li>
+</ul>
+
+
+<h2>Picks</h2>
+
+<ul>
+<li><a href="https://buy.louisck.net">Louis CK at the Beacon Theatre</a> (pfleidi)
+
+<ul>
+<li><a href="https://buy.louisck.net/news">Stellungnahme nach 12 Tagen</a></li>
+</ul>
+</li>
+<li><a href="http://www.trybloc.com/courses">Trybloc</a> (pfleidi)</li>
+<li><a href="http://www.iozone.org/">iozone</a> (ingo)</li>
+<li><a href="http://ulissesaraujo.wordpress.com/2008/12/08/deploying-honeypots-with-honeyd/">honeyd</a> -> Software die einfach fertig ist</li>
+<li><a href="http://freelancing-gods.com/posts/backing_up_with_backup">Backup with Backup</a></li>
+<li><a href="http://travis-ci.org/">Travis CI</a></li>
+<li><a href="http://www.minipwner.com/">Minipwner (aka. Krebsplug)</a></li>
+<li><a href="http://python-for-humans.heroku.com">Python for Humans</a></li>
+</ul>
+
+]]>
+      </description>
+      
+      <enclosure url="http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3" length="113277056" type="audio/mpeg" />
+      <media:content url="http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3" fileSize="113277056" type="audio/mpeg" />
+      <itunes:keywords></itunes:keywords>
+      <itunes:subtitle>Binärgewitter #0 - schlechter Kaffee oder sexuelle Belästigung</itunes:subtitle>
+      <itunes:summary>
+        <![CDATA[Einführung
+
+
+Wer sind wir eigentlich und was machen wir hier?
+
+
+Team Seite
+
+
+
+
+
+Unsere Infrastruktur
+
+
+Wie hosten wir unsere Sachen nun?
+Was für Software setzen wir dafür ein?
+
+
+Liquid
+Jekyll
+Octopress
+Ruby, Bundler, Rake, Piwik, audio.js &#8230;
+
+
+Wie können die Hörer mitmachen?
+Auf Github
+
+
+Commits
+Issue Tracker
+
+
+Intro
+
+
+
+Toter der Woche
+
+
+Arfa Karim Randhawa verstorben mit 16
+
+In der Zwischenzeit
+Weihnachten ;)
+28c3
+CES
+Megaupload ist tod
+Dezura Client unter GPL
+P2P Traffic explodiert zufaelliger weise am 19.Januar[fr]
+ACTA/SOPA/PiPA
+
+
+You heard it here first! Sendung im letzten Jahr
+Facepalm CDU will (mal wieder) Netzsperren
+
+News
+
+
+HP gibt WebOS als OpenSource frei
+
+
+Gibt es den Sourcecode nun?
+Unter welcher Lizenz ist der Code freigegeben?
+Es gibt einen leeren Github Account
+Microsoft Manager übernimmt WebOS
+HPWebOS Releaseplan
+
+
+SPDY für Apache
+SPDY für Rack
+Google will TCP beschleunigen
+DoS Angriff mittels Hash Kollisonen
+
+
+Vortrag vom 28c3
+
+
+C&amp;C original gibt es nun in HTML5
+MegaSearch.cc - Die Kreditkartennummern Suchmaschine
+The AWS Storage Gateway
+
+Themen
+
+Marc&#8217;s neuer HTPC/HomeServer
+Flirc (marc)
+AMD E-450 Mainboard: Asus-E45M1-M (marc)
+LC-Power 1300MI Gehäuse Mini-ITX/M-ATX 75W (marc)
+PCI Interrupt probleme unter Last ( irq 1[69]: nobody cared )
+Wii Balance Board ist im Guiness Buch der Rekorde
+
+Mimimi der Woche
+Siehe AMD-E45M1-M (felix)
+iptables macht komische Sachen
+iptables -t nat -A PREROUTING -p tcp &#8211;dport 30009 -j DNAT &#8211;to $IP:30009
+iptables -A POSTROUTING -t nat -j MASQUERADE
+
+
+
+Lesefoo
+
+
+The magic of consistent hashing (pfleidi)
+Wat (Felix, pfleidi, Marc)
+
+
+Wat meme
+
+
+Star Trek - Deep Space Nine 8.01: Offenbarung
+Star Trek - Next Generation auf Blu-ray
+Unterschied auf YouTube
+Eloquent Ruby
+Tenzing A SQL Implementation On The MapReduce Framework
+Turbocharging Solr Index Replication with BitTorrent
+Ultra Fuckers
+deprecated linux networking commands and their replacements
+Recover Wifi Protected Setup access
+WPS Brute Force Paper
+
+
+
+Picks
+
+
+Louis CK at the Beacon Theatre (pfleidi)
+
+
+Stellungnahme nach 12 Tagen
+
+
+Trybloc (pfleidi)
+iozone (ingo)
+honeyd -> Software die einfach fertig ist
+Backup with Backup
+Travis CI
+Minipwner (aka. Krebsplug)
+Python for Humans
+
+
+]]>
+      </itunes:summary>
+      <itunes:author>Binärgewitter Crew</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1</itunes:duration>
+      
+    </item>
     
     <item>
       <title>Erste Binaergewitter-Talk Sendung am Mittwoch</title>
@@ -299,6 +368,294 @@
     </item>
     
     <item>
+      <title>Binärgewitter #3: Arbeiten und Lernen im Hackerspace</title>
+      <link>http://blog.binaergewitter.de/blog/2011/08/24/binargewitter-number-3-arbeiten-und-lernen-im-hackerspace/</link>
+      <comments>http://blog.binaergewitter.de/blog/2011/08/24/binargewitter-number-3-arbeiten-und-lernen-im-hackerspace/#comments</comments>
+      <pubDate>Wed, 24 Aug 2011 15:57:00 +0200</pubDate>
+      
+      <category><![CDATA[spezial]]></category>
+      
+      <media:credit role="author">Binärgewitter Crew</media:credit>
+      <media:rating>nonadult</media:rating>
+      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2011/08/24/binargewitter-number-3-arbeiten-und-lernen-im-hackerspace/</guid>
+      <description>
+        <![CDATA[<p>Diesmal ein gar nicht so technisches Thema, aber trotzdem f&uuml;r uns Geeks interessant. Es geht um die Hackerspaces, die Kultur und warum das Lernen und Arbeiten in solchen Umgebungen einfacherer ist als in der Schule und im Studium. Mit dabei sind diesmal pfleidi, Felix, Jan und hadez. Moderation: Ingo</p>
+
+
+
+
+<h2>Links</h2>
+
+
+
+
+<h3>Hackerspaces allgemein</h3>
+
+
+
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Hackerspace">http://en.wikipedia.org/wiki/Hackerspace</a></li>
+<li><a href="http://hackerspaces.org/wiki/Design_Patterns">http://hackerspaces.org/wiki/Design_Patterns</a></li>
+</ul>
+
+
+
+
+<h3>Arbeitsdefinition &#8220;Hacker&#8221;</h3>
+
+
+
+
+<ul>
+<li><a href="http://de.wikipedia.org/wiki/Tech_Model_Railroad_Club">http://de.wikipedia.org/wiki/Tech_Model_Railroad_Club</a></li>
+<li><a href="http://de.wikipedia.org/wiki/Hacker#Die_Hackerkultur_der_Hobbyisten_aus_der_Homecomputerszene">http://de.wikipedia.org/wiki/Hacker#Die_Hackerkultur_der_Hobbyisten_aus_der_Homecomputerszene</a></li>
+<li>Wau Holland &acirc;&euro;&oelig;atypisches Benutzerverhalten&acirc;&euro;</li>
+<li>zentrale Anlaufstelle</li>
+<li>Unterschied zu Coworking</li>
+</ul>
+
+
+
+
+<h3>shackspace im speziellen</h3>
+
+
+
+
+<ul>
+<li><a href="http://vimeo.com/shackspace">http://vimeo.com/shackspace</a></li>
+<li><a href="http://shackspace.de/wiki/doku.php">http://shackspace.de/wiki/doku.php</a></li>
+<li>@freenode #shackspace</li>
+</ul>
+
+
+
+
+<h3>Arbeiten in Hackerspaces</h3>
+
+
+
+
+<h4>Andere Beipspiele</h4>
+
+
+
+
+<ul>
+<li><a href="http://manifesto.softwarecraftsmanship.org/">http://manifesto.softwarecraftsmanship.org/</a></li>
+<li><a href="http://www.extremeprogramming.org/">http://www.extremeprogramming.org/</a></li>
+</ul>
+
+
+
+
+<h4>Infrastrukturprojekte</h4>
+
+
+
+
+<ul>
+<li>Stromverkabelung</li>
+<li>Portal</li>
+</ul>
+
+
+
+
+<h4>&#8220;freie&#8221; Projekte</h4>
+
+
+
+
+<ul>
+<li>Blinkende Dinge</li>
+<li>Spielbasteien</li>
+<li>Krebs
+<ul>
+<li><a href="https://github.com/krebscode/painload">https://github.com/krebscode/painload</a></li>
+<li><a href="http://shackspace.de/wiki/doku.php?id=project:krebs">http://shackspace.de/wiki/doku.php?id=project:krebs</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+<h4>Veranstaltungen</h4>
+
+
+
+
+<ul>
+<li>LHC</li>
+<li>NOT <a href="http://largehardoncollider.com/">http://largehardoncollider.com/</a></li>
+<li><a href="http://shackspace.de/wiki/doku.php?id=event:lhc-ii">http://shackspace.de/wiki/doku.php?id=event:lhc-ii</a></li>
+</ul>
+
+
+
+
+<h2>Weiterf&uuml;hrende Links</h2>
+
+
+
+
+<ul>
+<li><a href="http://hackerspaces.org/">http://hackerspaces.org</a></li>
+<li><a href="http://hackerspaces.org/wiki/List_of_Hacker_Spaces">List of Hacker Spaces &ndash; HackerspaceWiki &ndash; Hackerspaces</a></li>
+<li><a href="http://shackspace.de/">http://shackspace.de</a></li>
+<li><a href="http://shackspace.de/wiki">http://shackspace.de/wiki</a></li>
+<li><a href="http://chaosradio.ccc.de/cre134.html">http://chaosradio.ccc.de/cre134.html</a></li>
+</ul>
+
+]]>
+      </description>
+      
+      <enclosure url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" length="85420625" type="audio/mpeg" />
+      <media:content url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" fileSize="85420625" type="audio/mpeg" />
+      <itunes:keywords></itunes:keywords>
+      <itunes:subtitle>Binärgewitter #3: Arbeiten und Lernen im Hackerspace</itunes:subtitle>
+      <itunes:summary>
+        <![CDATA[Diesmal ein gar nicht so technisches Thema, aber trotzdem f&uuml;r uns Geeks interessant. Es geht um die Hackerspaces, die Kultur und warum das Lernen und Arbeiten in solchen Umgebungen einfacherer ist als in der Schule und im Studium. Mit dabei sind diesmal pfleidi, Felix, Jan und hadez. Moderation: Ingo
+
+
+
+
+Links
+
+
+
+
+Hackerspaces allgemein
+
+
+
+
+
+http://en.wikipedia.org/wiki/Hackerspace
+http://hackerspaces.org/wiki/Design_Patterns
+
+
+
+
+
+Arbeitsdefinition &#8220;Hacker&#8221;
+
+
+
+
+
+http://de.wikipedia.org/wiki/Tech_Model_Railroad_Club
+http://de.wikipedia.org/wiki/Hacker#Die_Hackerkultur_der_Hobbyisten_aus_der_Homecomputerszene
+Wau Holland &acirc;&euro;&oelig;atypisches Benutzerverhalten&acirc;&euro;
+zentrale Anlaufstelle
+Unterschied zu Coworking
+
+
+
+
+
+shackspace im speziellen
+
+
+
+
+
+http://vimeo.com/shackspace
+http://shackspace.de/wiki/doku.php
+@freenode #shackspace
+
+
+
+
+
+Arbeiten in Hackerspaces
+
+
+
+
+Andere Beipspiele
+
+
+
+
+
+http://manifesto.softwarecraftsmanship.org/
+http://www.extremeprogramming.org/
+
+
+
+
+
+Infrastrukturprojekte
+
+
+
+
+
+Stromverkabelung
+Portal
+
+
+
+
+
+&#8220;freie&#8221; Projekte
+
+
+
+
+
+Blinkende Dinge
+Spielbasteien
+Krebs
+
+https://github.com/krebscode/painload
+http://shackspace.de/wiki/doku.php?id=project:krebs
+
+
+
+
+
+
+
+Veranstaltungen
+
+
+
+
+
+LHC
+NOT http://largehardoncollider.com/
+http://shackspace.de/wiki/doku.php?id=event:lhc-ii
+
+
+
+
+
+Weiterf&uuml;hrende Links
+
+
+
+
+
+http://hackerspaces.org
+List of Hacker Spaces &ndash; HackerspaceWiki &ndash; Hackerspaces
+http://shackspace.de
+http://shackspace.de/wiki
+http://chaosradio.ccc.de/cre134.html
+
+
+]]>
+      </itunes:summary>
+      <itunes:author>Binärgewitter Crew</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1</itunes:duration>
+      
+    </item>
+    
+    <item>
       <title>Binärgewitter #2: Sichere Systeme</title>
       <link>http://blog.binaergewitter.de/blog/2011/04/16/binargewitter-number-2-sichere-systeme/</link>
       <comments>http://blog.binaergewitter.de/blog/2011/04/16/binargewitter-number-2-sichere-systeme/#comments</comments>
@@ -312,43 +669,42 @@
       <description>
         <![CDATA[<p>Ausgabe 2 von Binärgewitter dreht sich rund um Sichere Systeme und grundlägende Begriffe von Sicherheit bzw. IT Security. Mit dabei sind Pfleidi, Felix und Prof. Walter Kriha, moderiert von Ingo Ebel. Die Sendung soll einen Einblick in Sicherheit und Sichere Systeme geben. Eine weitere Binärgewitterfolge wird sich dann mit einzelnen Angriff- und Abwehrmaßnahmen beschäftigen.</p>
 
-<ul>
-<li> Prof. Walter Kriha
 
+
+
+<div>
+<ul id="internal-source-marker_0.01693269656971097">
+<li>Prof. Walter Kriha
 <ul>
-<li>Website</li>
-<li>Buch: Sichere Systeme</li>
+<li><a href="http://kriha.org">Website</a></li>
+<li>Buch: <a href="http://www.amazon.de/gp/product/3540789588/ref=as_li_ss_tl?ie=UTF8&amp;tag=trektrip&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=3540789588" target="_blank">Sichere Systeme</a></li>
 </ul>
 </li>
-<li><p> Trennung Security vs. Safety</p>
-
+<li>Trennung Security vs. Safety
 <ul>
-<li> Security</li>
-<li> Safety</li>
+<li><a href="http://en.wikipedia.org/wiki/Computer_security">Security</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Safety">Safety</a></li>
+</ul>
+</li>
 <li>Was bedeuten sichere Systeme
-
 <ul>
 <li>warum greift man jemanden an?</li>
 </ul>
 </li>
 <li>IT Security oder Information Security?
-
 <ul>
 <li>Systemsicherheit
-
 <ul>
-<li>Risikoquadrant</li>
+<li><a href="http://upload.wikimedia.org/wikipedia/commons/8/80/Risk_matrix_with_simple_quadrant_strategy.jpg">Risikoquadrant</a></li>
 <li>Japan</li>
 </ul>
 </li>
 <li>Datensicherheit und Datenschutz?
-
 <ul>
 <li>Baut auf Systemsicherheit auf
-
 <ul>
-<li>IT-Grundschutz (BSI)</li>
-<li>ISO 27001</li>
+<li><a href="https://www.bsi.bund.de/DE/Themen/ITGrundschutz/itgrundschutz_node.html">IT-Grundschutz</a> (BSI)</li>
+<li><a href="http://iso27001security.com/">ISO 27001</a></li>
 </ul>
 </li>
 </ul>
@@ -356,128 +712,120 @@
 </ul>
 </li>
 </ul>
-</li>
-<li><p> Vertrauen</p>
-
+<ul>
+<li>Vertrauen
 <ul>
 <li>In Software</li>
 <li>In Benutzer(gruppen)</li>
 <li>In Authoritäten
-
 <ul>
 <li>Signaturen</li>
 <li>CA-Systeme
-
 <ul>
-<li>Comodogate</li>
+<li><a href="http://www.f-secure.com/weblog/archives/00002128.html">Comodogate</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-</li>
-<li> Privacy / Privatsphäre (vs. Security?)
-
-<ul>
-<li> http://www.zeit.de/datenschutz/malte-spitz-vorratsdaten</li>
-<li> Datamining
-
-<ul>
-<li>Shack Portal (SSH)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li> Warum Systeme angreifen?
-
-<ul>
-<li> WP: Hacker</li>
-<li> HB Gary vs Annoymous</li>
-</ul>
-</li>
-<li><p> Wo liegen Angriffsvektoren in IT Systemen?</p>
-
-<ul>
-<li> Angriffe auf Softwareebene
-
-<ul>
-<li> Buffer overflows, (aka unvalidated, trusted user input)</li>
-<li> Unvalidated input etc.</li>
-</ul>
-</li>
-<li> Angriffe auf Netzwerkebene
-
-<ul>
-<li> Man in the middle</li>
-<li> Mitlesen unverschlüsselter Kommunikation (Eavesdropping)</li>
-</ul>
-</li>
-<li> Angriffe auf Protokollebene
-
-<ul>
-<li> Beispiel: Kreditkarten-PIN</li>
-</ul>
-</li>
-<li> Angriffsvektor Benutzer/Mensch
-
-<ul>
-<li> Schwächstes Glied? -> Skrupel, Sozialer Druck</li>
-<li> Buch: Kevin Mitnick Kunst der Täuschung / Film: Hackers 2</li>
-<li> Buch: Hacking – The Next Generation</li>
-<li> Konfigurationsfehler / Bedienfehler – Verhaltensregel-Verletzung: sofortueberweisung.de</li>
-<li> Passwortsicherheit Top 10</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p> Security Patterns</p>
-
-<ul>
-<li>ACLs (Windows, Android)</li>
-<li>Sandbox Systeme</li>
-<li>Trends: Was erwartet uns in Zukunft?
-
-<ul>
-<li>Bruce Schneier Security in 2020</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+  </li>
+<li>Privacy / Privatsphäre (vs. Security?)
+  <ul>
+  <li><a href="http://www.zeit.de/datenschutz/malte-spitz-vorratsdaten">http://www.zeit.de/datenschutz/malte-spitz-vorratsdaten</a></li>
+  <li>Datamining</li>
+  <li>Shack Portal (SSH)</li>
+  </ul>
+  </li>
+  <li>Warum Systeme angreifen?
+  <ul>
+  <li>WP: <a href="http://de.wikipedia.org/wiki/Hacker">Hacker</a></li>
+  <li><a href="http://www.zdnet.de/news/wirtschaft_sicherheit_security_bericht__anonymous__hackt_sicherheitsfirma_story-39001024-41548071-1.htm">HB Gary vs Annoymous</a></li>
+  </ul>
+  </li>
+  <li>Wo liegen Angriffsvektoren in IT Systemen?
+  <ul>
+  <li>Angriffe auf Softwareebene
+  <ul>
+  <li>Buffer overflows, (aka unvalidated, trusted user input)</li>
+  <li>Unvalidated input etc.</li>
+  </ul>
+  </li>
+  <li>Angriffe auf Netzwerkebene
+  <ul>
+  <li>Man in the middle</li>
+  <li>Mitlesen unverschlüsselter Kommunikation (Eavesdropping)</li>
+  </ul>
+  </li>
+  <li>Angriffe auf Protokollebene
+  <ul>
+  <li><a href="http://events.ccc.de/congress/2010/Fahrplan/events/4211.en.html">Beispiel: Kreditkarten-PIN</a></li>
+  </ul>
+  </li>
+  <li>Angriffsvektor Benutzer/Mensch
+  <ul>
+  <li>Schwächstes Glied? -&gt; Skrupel, Sozialer Druck</li>
+  <li>Buch: <a href="http://www.amazon.de/gp/product/3826615697/ref=as_li_ss_tl?ie=UTF8&amp;tag=trektrip&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=3826615697" target="_blank">Kevin Mitnick Kunst der Täuschung</a> / Film: <a href="http://www.imdb.com/title/tt0159784/">Hackers 2</a></li>
+  <li>Buch: <a href="http://www.amazon.de/gp/product/0596154577/ref=as_li_ss_tl?ie=UTF8&amp;tag=trektrip&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=0596154577" target="_blank">Hacking - The Next Generation</a></li>
+  <li>Konfigurationsfehler / Bedienfehler - Verhaltensregel-Verletzung: <a href="http://sofortueberweisung.de/">sofortueberweisung.de</a></li>
+  <li>Passwortsicherheit Top 10</li>
+  </ul>
+  </li>
+  </ul>
+  </li>
+  </ul>
+  <ul>
+  <li>Security Patterns
+  <ul>
+  <li>ACLs (Windows, Android)</li>
+  <li>Sandbox Systeme</li>
+  </ul>
+  <div>
+  <ul id="internal-source-marker_0.01693269656971097">
+  <li>Trends: Was erwartet uns in Zukunft?
+  <ul>
+  <li><a href="http://www.schneier.com/blog/archives/2010/12/security_in_202.html" target="_blank">Bruce Schneier Security in 2020</a></li>
+  </ul>
+  </li>
+  </ul>
+  </div></li>
+  </ul>
+  </div>
 
 ]]>
       </description>
       
-      <enclosure url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-04-13.RadioTux.Binaergewitter.2.mp3" length="0" type="audio/mpeg" />
-      <media:content url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-04-13.RadioTux.Binaergewitter.2.mp3" fileSize="1" type="audio/mpeg" />
+      <enclosure url="http://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3" length="121261142" type="audio/mpeg" />
+      <media:content url="http://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3" fileSize="121261142" type="audio/mpeg" />
       <itunes:keywords></itunes:keywords>
-      <itunes:subtitle>Ausgabe 2 von Binärgewitter dreht sich rund um Sichere Systeme und grundlägende Begriffe von Sicherheit bzw. IT Security. Mit dabei sind Pfleidi, Felix und Prof. Walter Kriha, moderiert von Ingo Ebel. Die Sendung soll einen Einblick in Sicherheit und &hellip;&#8230;</itunes:subtitle>
-      <itunes:summary>Ausgabe 2 von Binärgewitter dreht sich rund um Sichere Systeme und grundlägende Begriffe von Sicherheit bzw. IT Security. Mit dabei sind Pfleidi, Felix und Prof. Walter Kriha, moderiert von Ingo Ebel. Die Sendung soll einen Einblick in Sicherheit und Sichere Systeme geben. Eine weitere Binärgewitterfolge wird sich dann mit einzelnen Angriff- und Abwehrmaßnahmen beschäftigen.
+      <itunes:subtitle>Binärgewitter #2: Sichere Systeme</itunes:subtitle>
+      <itunes:summary>
+        <![CDATA[Ausgabe 2 von Binärgewitter dreht sich rund um Sichere Systeme und grundlägende Begriffe von Sicherheit bzw. IT Security. Mit dabei sind Pfleidi, Felix und Prof. Walter Kriha, moderiert von Ingo Ebel. Die Sendung soll einen Einblick in Sicherheit und Sichere Systeme geben. Eine weitere Binärgewitterfolge wird sich dann mit einzelnen Angriff- und Abwehrmaßnahmen beschäftigen.
 
 
- Prof. Walter Kriha
 
+
+
+
+Prof. Walter Kriha
 
 Website
 Buch: Sichere Systeme
 
 
- Trennung Security vs. Safety
+Trennung Security vs. Safety
+
+Security
+Safety
 
 
- Security
- Safety
 Was bedeuten sichere Systeme
-
 
 warum greift man jemanden an?
 
 
 IT Security oder Information Security?
 
-
 Systemsicherheit
-
 
 Risikoquadrant
 Japan
@@ -485,9 +833,7 @@ Japan
 
 Datensicherheit und Datenschutz?
 
-
 Baut auf Systemsicherheit auf
-
 
 IT-Grundschutz (BSI)
 ISO 27001
@@ -499,17 +845,14 @@ ISO 27001
 
 
 
- Vertrauen
-
+Vertrauen
 
 In Software
 In Benutzer(gruppen)
 In Authoritäten
 
-
 Signaturen
 CA-Systeme
-
 
 Comodogate
 
@@ -517,77 +860,71 @@ Comodogate
 
 
 
+  
+Privacy / Privatsphäre (vs. Security?)
+  
+  http://www.zeit.de/datenschutz/malte-spitz-vorratsdaten
+  Datamining
+  Shack Portal (SSH)
+  
+  
+  Warum Systeme angreifen?
+  
+  WP: Hacker
+  HB Gary vs Annoymous
+  
+  
+  Wo liegen Angriffsvektoren in IT Systemen?
+  
+  Angriffe auf Softwareebene
+  
+  Buffer overflows, (aka unvalidated, trusted user input)
+  Unvalidated input etc.
+  
+  
+  Angriffe auf Netzwerkebene
+  
+  Man in the middle
+  Mitlesen unverschlüsselter Kommunikation (Eavesdropping)
+  
+  
+  Angriffe auf Protokollebene
+  
+  Beispiel: Kreditkarten-PIN
+  
+  
+  Angriffsvektor Benutzer/Mensch
+  
+  Schwächstes Glied? -&gt; Skrupel, Sozialer Druck
+  Buch: Kevin Mitnick Kunst der Täuschung / Film: Hackers 2
+  Buch: Hacking - The Next Generation
+  Konfigurationsfehler / Bedienfehler - Verhaltensregel-Verletzung: sofortueberweisung.de
+  Passwortsicherheit Top 10
+  
+  
+  
+  
+  
+  
+  Security Patterns
+  
+  ACLs (Windows, Android)
+  Sandbox Systeme
+  
+  
+  
+  Trends: Was erwartet uns in Zukunft?
+  
+  Bruce Schneier Security in 2020
+  
+  
+  
+  
+  
+  
 
- Privacy / Privatsphäre (vs. Security?)
-
-
- http://www.zeit.de/datenschutz/malte-spitz-vorratsdaten
- Datamining
-
-
-Shack Portal (SSH)
-
-
-
-
- Warum Systeme angreifen?
-
-
- WP: Hacker
- HB Gary vs Annoymous
-
-
- Wo liegen Angriffsvektoren in IT Systemen?
-
-
- Angriffe auf Softwareebene
-
-
- Buffer overflows, (aka unvalidated, trusted user input)
- Unvalidated input etc.
-
-
- Angriffe auf Netzwerkebene
-
-
- Man in the middle
- Mitlesen unverschlüsselter Kommunikation (Eavesdropping)
-
-
- Angriffe auf Protokollebene
-
-
- Beispiel: Kreditkarten-PIN
-
-
- Angriffsvektor Benutzer/Mensch
-
-
- Schwächstes Glied? -> Skrupel, Sozialer Druck
- Buch: Kevin Mitnick Kunst der Täuschung / Film: Hackers 2
- Buch: Hacking – The Next Generation
- Konfigurationsfehler / Bedienfehler – Verhaltensregel-Verletzung: sofortueberweisung.de
- Passwortsicherheit Top 10
-
-
-
-
- Security Patterns
-
-
-ACLs (Windows, Android)
-Sandbox Systeme
-Trends: Was erwartet uns in Zukunft?
-
-
-Bruce Schneier Security in 2020
-
-
-
-
-
-
-</itunes:summary>
+]]>
+      </itunes:summary>
       <itunes:author>Binärgewitter Crew</itunes:author>
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>1</itunes:duration>
@@ -704,11 +1041,12 @@ Bruce Schneier Security in 2020
 ]]>
       </description>
       
-      <enclosure url="http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3" length="0" type="audio/mpeg" />
-      <media:content url="http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3" fileSize="1" type="audio/mpeg" />
+      <enclosure url="http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3" length="155536183" type="audio/mpeg" />
+      <media:content url="http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3" fileSize="155536183" type="audio/mpeg" />
       <itunes:keywords></itunes:keywords>
-      <itunes:subtitle>Die erste Ausgabe unseres neuen Formats beschäftigt sich mit Datenbanken und NoSQL. Diese neuen Datenbanken waren im Jahr 2010 schon Hype und werden uns sicher auch im Jahr 2011 stark begleiten. Warum soll man aber diese Datenbanken einsetzen? Welche &hellip;&#8230;</itunes:subtitle>
-      <itunes:summary>Die erste Ausgabe unseres neuen Formats beschäftigt sich mit Datenbanken und NoSQL. Diese neuen Datenbanken waren im Jahr 2010 schon Hype und werden uns sicher auch im Jahr 2011 stark begleiten. Warum soll man aber diese Datenbanken einsetzen? Welche gibt es und welche Stärken und Schwächen haben diese? Das versuchen Dirk, Marc, Sven und Ingo in 2,75 Stunden zu klären.
+      <itunes:subtitle>Binaergewitter #1 - NoSQL</itunes:subtitle>
+      <itunes:summary>
+        <![CDATA[Die erste Ausgabe unseres neuen Formats beschäftigt sich mit Datenbanken und NoSQL. Diese neuen Datenbanken waren im Jahr 2010 schon Hype und werden uns sicher auch im Jahr 2011 stark begleiten. Warum soll man aber diese Datenbanken einsetzen? Welche gibt es und welche Stärken und Schwächen haben diese? Das versuchen Dirk, Marc, Sven und Ingo in 2,75 Stunden zu klären.
 
 Shownotes / Timeline und Links
 
@@ -803,7 +1141,8 @@ Vor- und Nachteile (Datenschema, Zugriff)
   
   
 
-</itunes:summary>
+]]>
+      </itunes:summary>
       <itunes:author>Binärgewitter Crew</itunes:author>
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>1</itunes:duration>

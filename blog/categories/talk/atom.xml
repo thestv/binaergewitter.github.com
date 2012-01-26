@@ -4,14 +4,161 @@
   <title><![CDATA[Category: talk | Binärgewitter]]></title>
   <link href="http://blog.binaergewitter.de/blog/categories/talk/atom.xml" rel="self"/>
   <link href="http://blog.binaergewitter.de/"/>
-  <updated>2012-01-25T09:26:08+01:00</updated>
+  <updated>2012-01-26T12:17:51+01:00</updated>
   <id>http://blog.binaergewitter.de/</id>
   <author>
     <name><![CDATA[Binärgewitter Crew]]></name>
-    <email><![CDATA[feedback@retinacast.de]]></email>
+    <email><![CDATA[info@binaergewitter.de]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Binärgewitter #0 - schlechter Kaffee oder sexuelle Belästigung]]></title>
+    <link href="http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/"/>
+    <updated>2012-01-26T10:15:00+01:00</updated>
+    <id>http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-number-0-schlechter-kaffee-oder-sexuelle-belaestigung</id>
+    <content type="html"><![CDATA[<h2>Einführung</h2>
+
+<ul>
+<li>Wer sind wir eigentlich und was machen wir hier?
+
+<ul>
+<li><a href="http://blog.binaergewitter.de/das-team/">Team Seite</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Unsere Infrastruktur</h2>
+
+<ul>
+<li>Wie hosten wir unsere Sachen nun?</li>
+<li>Was für Software setzen wir dafür ein?
+
+<ul>
+<li><a href="https://github.com/shopify/liquid">Liquid</a></li>
+<li><a href="http://jekyllrb.com/">Jekyll</a></li>
+<li><a href="http://octopress.org/">Octopress</a></li>
+<li>Ruby, Bundler, Rake, Piwik, audio.js ...</li>
+</ul>
+</li>
+<li>Wie können die Hörer mitmachen?</li>
+<li><a href="https://github.com/binaergewitter">Auf Github</a>
+
+<ul>
+<li><a href="https://github.com/Binaergewitter/binaergewitter.github.com/commits/source">Commits</a></li>
+<li><a href="https://github.com/Binaergewitter/binaergewitter.github.com/issues?sort=created&amp;direction=desc&amp;state=open">Issue Tracker</a></li>
+</ul>
+</li>
+<li>Intro</li>
+</ul>
+
+
+<h2>Toter der Woche</h2>
+
+<ul>
+<li><a href="http://digitallife.today.msnbc.msn.com/_news/2012/01/14/10158059-programming-prodigy-passes-away-at-16-hear-her-philosophy-of-life">Arfa Karim Randhawa verstorben mit 16</a>
+
+<h2>In der Zwischenzeit</h2></li>
+<li>Weihnachten ;)</li>
+<li>28c3</li>
+<li>CES</li>
+<li>Megaupload ist tod</li>
+<li><a href="http://www.pro-linux.de/news/1/17946/desura-client-im-quellcode-freigegeben.html">Dezura Client unter GPL</a></li>
+<li><a href="http://www.numerama.com/magazine/21393-le-p2p-explose-apres-la-fermeture-de-megaupload.html">P2P Traffic explodiert zufaelliger weise am 19.Januar[fr]</a></li>
+<li>ACTA/SOPA/PiPA
+
+<ul>
+<li>You heard it here first! Sendung im letzten Jahr</li>
+<li>Facepalm <a href="http://www.golem.de/1201/89320.html">CDU will (mal wieder) Netzsperren</a>
+
+<h2>News</h2></li>
+</ul>
+</li>
+<li><a href="http://gigaom.com/mobile/webos-lives-hp-decides-to-open-source-the-platform/">HP gibt WebOS als OpenSource frei</a>
+
+<ul>
+<li>Gibt es den Sourcecode nun?</li>
+<li>Unter welcher Lizenz ist der Code freigegeben?</li>
+<li><a href="https://github.com/hpwebos">Es gibt einen leeren Github Account</a></li>
+<li><a href="http://www.golem.de/1201/89140.html">Microsoft Manager übernimmt WebOS</a></li>
+<li><a href="http://www.theverge.com/2012/1/25/2732672/open-webos-10-announced">HPWebOS Releaseplan</a></li>
+</ul>
+</li>
+<li><a href="http://www.golem.de/1112/88613.html">SPDY für Apache</a></li>
+<li><a href="https://github.com/jonasschneider/momentum">SPDY für Rack</a></li>
+<li><a href="http://www.golem.de/1201/89268.html">Google will TCP beschleunigen</a></li>
+<li><a href="http://www.ocert.org/advisories/ocert-2011-003.html">DoS Angriff mittels Hash Kollisonen</a>
+
+<ul>
+<li><a href="http://events.ccc.de/congress/2011/Fahrplan/events/4680.en.html">Vortrag vom 28c3</a></li>
+</ul>
+</li>
+<li><a href="http://www.adityaravishankar.com/projects/games/command-and-conquer/">C&amp;C original gibt es nun in HTML5</a></li>
+<li><a href="http://krebsonsecurity.com/2012/01/megasearch-aims-to-index-fraud-site-wares/">MegaSearch.cc - Die Kreditkartennummern Suchmaschine</a></li>
+<li><p><a href="http://www.allthingsdistributed.com/2012/01/The-AWS-Storage-Gateway.html">The AWS Storage Gateway</a></p>
+
+<h2>Themen</h2>
+
+<h1>Marc's neuer HTPC/HomeServer</h1></li>
+<li><p><a href="http://flirc.tv/">Flirc</a> (marc)</p></li>
+<li><a href="https://www.amazon.de/dp/B005O43SI8/">AMD E-450 Mainboard: Asus-E45M1-M</a> (marc)</li>
+<li><a href="https://www.amazon.de/dp/B002A2U8KI/">LC-Power 1300MI Gehäuse Mini-ITX/M-ATX 75W</a> (marc)</li>
+<li>PCI Interrupt probleme unter Last ( irq 1[69]: nobody cared )</li>
+<li><a href="http://www.t3.com.au/2012/01/13/wii-balance-board-enters-guinness-book-of-records/">Wii Balance Board ist im Guiness Buch der Rekorde</a>
+
+<h2>Mimimi der Woche</h2></li>
+<li>Siehe AMD-E45M1-M (felix)</li>
+<li>iptables macht komische Sachen</li>
+<li>iptables -t nat -A PREROUTING -p tcp --dport 30009 -j DNAT --to $IP:30009</li>
+<li>iptables -A POSTROUTING -t nat -j MASQUERADE</li>
+</ul>
+
+
+<h2>Lesefoo</h2>
+
+<ul>
+<li><a href="http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html">The magic of consistent hashing</a> (pfleidi)</li>
+<li><a href="https://www.destroyallsoftware.com/talks/wat">Wat</a> (Felix, pfleidi, Marc)
+
+<ul>
+<li><a href="http://knowyourmeme.com/memes/wat">Wat meme</a></li>
+</ul>
+</li>
+<li><a href="http://www.amazon.de/gp/product/B0058NV1IY/trektrip">Star Trek - Deep Space Nine 8.01: Offenbarung</a></li>
+<li><a href="http://www.amazon.de/gp/product/B005OUKLG4/trektrip">Star Trek - Next Generation auf Blu-ray</a></li>
+<li><a href="http://www.youtube.com/watch?v=fHUQ3aGLa5Q">Unterschied auf YouTube</a></li>
+<li><a href="http://amzn.to/w9FQDJ">Eloquent Ruby</a></li>
+<li><a href="http://research.google.com/pubs/pub37200.html">Tenzing A SQL Implementation On The MapReduce Framework</a></li>
+<li><a href="http://codeascraft.etsy.com/2012/01/23/solr-bittorrent-index-replication/">Turbocharging Solr Index Replication with BitTorrent</a></li>
+<li><a href="http://www.amazon.de/gp/product/1933929669/retinacast-21">Ultra Fuckers</a></li>
+<li><a href="http://dougvitale.wordpress.com/2011/12/21/deprecated-linux-networking-commands-and-their-replacements/">deprecated linux networking commands and their replacements</a></li>
+<li><a href="http://code.google.com/p/reaver-wps/">Recover Wifi Protected Setup access</a></li>
+<li><a href="http://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf">WPS Brute Force Paper</a></li>
+</ul>
+
+
+<h2>Picks</h2>
+
+<ul>
+<li><a href="https://buy.louisck.net">Louis CK at the Beacon Theatre</a> (pfleidi)
+
+<ul>
+<li><a href="https://buy.louisck.net/news">Stellungnahme nach 12 Tagen</a></li>
+</ul>
+</li>
+<li><a href="http://www.trybloc.com/courses">Trybloc</a> (pfleidi)</li>
+<li><a href="http://www.iozone.org/">iozone</a> (ingo)</li>
+<li><a href="http://ulissesaraujo.wordpress.com/2008/12/08/deploying-honeypots-with-honeyd/">honeyd</a> -> Software die einfach fertig ist</li>
+<li><a href="http://freelancing-gods.com/posts/backing_up_with_backup">Backup with Backup</a></li>
+<li><a href="http://travis-ci.org/">Travis CI</a></li>
+<li><a href="http://www.minipwner.com/">Minipwner (aka. Krebsplug)</a></li>
+<li><a href="http://python-for-humans.heroku.com">Python for Humans</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Erste Binaergewitter-Talk Sendung am Mittwoch]]></title>
