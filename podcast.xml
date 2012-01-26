@@ -11,7 +11,7 @@
     <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Thu, 26 Jan 2012 12:30:20 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jan 2012 12:33:21 +0100</lastBuildDate>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -43,15 +43,15 @@
     
     <item>
       <title>Binärgewitter Talk #0 - schlechter Kaffee oder sexuelle Belästigung</title>
-      <link>http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/</link>
-      <comments>http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/#comments</comments>
+      <link>http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-talk-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/</link>
+      <comments>http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-talk-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/#comments</comments>
       <pubDate>Thu, 26 Jan 2012 10:15:00 +0100</pubDate>
       
       <category><![CDATA[talk]]></category>
       
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
-      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/</guid>
+      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-talk-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/</guid>
       <description>
         <![CDATA[<h2>Einführung</h2>
 
