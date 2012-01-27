@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Abonnieren"
-date: 2012-01-24 16:06
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 Natürlich könnt ihr uns auch abonnieren. Wir sind schließlich ein Podcast. Entweder manuell oder mit den vielen Tools und Verzeichnissen die es da draußen gibt.
@@ -23,3 +22,4 @@ Natürlich könnt ihr uns auch abonnieren. Wir sind schließlich ein Podcast. En
 ## podcast.de
 
 [http://www.podcast.de/podcast/6774/](http://www.podcast.de/podcast/6774/)
+

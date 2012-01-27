@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "das Team"
-date: 2012-01-12 21:26
 comments: false
-sharing: true
+sharing: false
 footer: true
 ---
 - Ingo Ebel ([@ingoebel](https://twitter.com/ingoebel))
@@ -15,3 +14,4 @@ footer: true
 
 - hadez ([@hdznrrd](https://twitter.com/hdznrrd))
 - Markus Schlichting ([@madmas](https://twitter.com/madmas))
+

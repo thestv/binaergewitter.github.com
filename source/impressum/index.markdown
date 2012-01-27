@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "impressum"
-date: 2012-01-23 08:45
 comments: false
 sharing: false
 footer: true
@@ -64,3 +63,4 @@ Quellenangabe: [Martin Herbst](http://www.brisoft.de/de/impressum/erklarung-zum-
 ## Lizenz
 
 Aller Redaktioneller Inhalt von Binaergewitter ist unter Creative Commons BY-NC-SA lizenziert. Die nichtkommerzielle Weiterverbreitung und Weiterbearbeitung ist gestattet wenn der Urheber genannt wird.
+

@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "live"
-date: 2012-01-24 14:12
-comments: true
-sharing: true
+comments: false
+sharing: false
 footer: true
 ---
 ## Live-Sendung
@@ -25,3 +24,4 @@ Einen eigenen Terminkalender haben wir zur Zeit nicht. Kann aber noch in Kürze 
 
 * [webcal://hoersuppe.de/podcast/binaergewitter/ical/](webcal://hoersuppe.de/podcast/binaergewitter/ical/)
 * [http://hoersuppe.de/podcast/binaergewitter/ical/](http://hoersuppe.de/podcast/binaergewitter/ical/)
+
