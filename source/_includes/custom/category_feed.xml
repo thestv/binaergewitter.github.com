@@ -1,27 +1,77 @@
 ---
 layout: nil
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
 
-  <title><![CDATA[{{ page.title }} | {{ site.title }}]]></title>
-  <link href="{{ site.url }}/{{ page.feed_url }}" rel="self"/>
-  <link href="{{ site.url }}/"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}/</id>
-  <author>
-    <name><![CDATA[{{ site.author | strip_html }}]]></name>
-    {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+  <channel>
+    <title><![CDATA[{{ site.title }} | {{ page.title }}]]></title>
+    <link href="{{ site.url }}/{{ page.feed_url }}" rel="self"/>
+    <link href="{{ site.url }}/"/>
+    <atom:link href="{{ site.subscribe_rss }}" rel="self"/>
+    <atom:link href="{{ site.url }}/"/>
+    <atom:id>{{ site.url }}/</atom:id>
 
-  {% for post in site.categories[page.category] limit: 5 %}
-  <entry>
-    <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
-    <link href="{{ site.url }}{{ post.url }}"/>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>{{ site.url }}{{ post.id }}</id>
-    <content type="html"><![CDATA[{{ post.content | expand_urls: site.url | markdownify | cdata_escape }}]]></content>
-  </entry>
-  {% endfor %}
-</feed>
+    <description>{{ site.podcast_description }}</description>
+    <language>de</language>
+
+    <lastBuildDate>{{ site.time | date_to_rfc2822 }}</lastBuildDate>
+    <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
+
+    <itunes:summary>{{ site.summary }}</itunes:summary>
+    <itunes:author>{{ site.author }}</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="{{ site.url  }}{{ site.logo }}" />
+    <itunes:category text="{{ site.podcast_category }}" />
+    <itunes:owner>
+      <itunes:name>{{ site.author }}</itunes:name>
+      <itunes:email>{{ site.email }}</itunes:email>
+    </itunes:owner>
+    <managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
+    <copyright>{{ site.podcast_copyright }}</copyright>
+    <itunes:subtitle>{{ site.subtitle }}</itunes:subtitle>
+    <itunes:keywords>{{ site.keywords }}</itunes:keywords>
+    <image>
+      <title>{{ site.title }}</title>
+      <url>{{  site.url  }}{{ site.logo }}</url>
+      <link>{{ site.url }}</link>
+    </image>
+
+    <media:copyright>{{ site.podcast_copyright }}</media:copyright>
+    <media:thumbnail url="{{ site.url }}" />
+    <media:keywords>{{ site.keywords }}</media:keywords>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">{{site.categories.to_a.first}}</media:category>
+    <media:credit role="author">{{ site.author }}</media:credit>
+    <media:rating>nonadult</media:rating>
+    <media:description type="plain">{{ site.podcast_description }}</media:description>
+    {% for post in site.categories[page.category] limit: 30 %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <comments>{{ site.url }}{{ post.url }}#comments</comments>
+      <pubDate>{{ post.date | date_to_rfc2822 }}</pubDate>
+      {% for post_category in post.categories %}
+      <category><![CDATA[{{ post_category }}]]></category>
+      {% endfor %}
+      <media:credit role="author">{{ site.author }}</media:credit>
+      <media:rating>nonadult</media:rating>
+      <guid isPermaLink="false">{{ site.url }}{{ post.url }}</guid>
+      <description>
+        <![CDATA[{{ post.content | markdownify | expand_urls: site.url | cdata_escape }}]]>
+      </description>
+      {% if post.audio %}
+      <enclosure url="{{ post.audio }}" length="{% content_length post.audio %}" type="audio/mpeg" />
+      <media:content url="{{ post.audio }}" fileSize="{% content_length post.audio %}" type="audio/mpeg" />
+      <itunes:keywords>{{ post.tags }}</itunes:keywords>
+      <itunes:subtitle>{{ post.title }}</itunes:subtitle>
+      <itunes:summary>
+        <![CDATA[{{ post.content | markdownify | strip_html | truncate: 4000 | cdata_escape }}]]>
+      </itunes:summary>
+      <itunes:author>{{ site.author }}</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1</itunes:duration>
+      {% endif %}
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
