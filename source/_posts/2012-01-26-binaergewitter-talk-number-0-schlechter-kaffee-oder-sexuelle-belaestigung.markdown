@@ -3,14 +3,17 @@ layout: post
 title: "Binärgewitter Talk #0 - schlechter Kaffee oder sexuelle Belästigung"
 date: 2012-01-26 10:15
 comments: true
+sharing: true
 categories: talk
 audio: http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3 
 ---
 ## Einführung
+
 - Wer sind wir eigentlich und was machen wir hier?
     * [Team Seite]( http://blog.binaergewitter.de/das-team/ )
 
 ## Unsere Infrastruktur
+
 - Wie hosten wir unsere Sachen nun?
 - Was für Software setzen wir dafür ein?
     * [Liquid]( https://github.com/shopify/liquid )
@@ -25,18 +28,22 @@ audio: http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3
  
 ## Toter der Woche
  - [Arfa Karim Randhawa verstorben mit 16](http://digitallife.today.msnbc.msn.com/_news/2012/01/14/10158059-programming-prodigy-passes-away-at-16-hear-her-philosophy-of-life )
+
 ## In der Zwischenzeit
 * Weihnachten ;)
 * 28c3
+   - [Vortrag: Building a Distributed Satellite Ground Station Network]( http://www.youtube.com/watch?v=qeyTZ8naunk ) 
 * CES
-* Megaupload ist tod
+* Megaupload ist tot
  - [Dezura Client unter GPL]( http://www.pro-linux.de/news/1/17946/desura-client-im-quellcode-freigegeben.html )
  - [P2P Traffic explodiert zufaelliger weise am 19.Januar[fr]](http://www.numerama.com/magazine/21393-le-p2p-explose-apres-la-fermeture-de-megaupload.html )
 * ACTA/SOPA/PiPA
     - You heard it here first! Sendung im letzten Jahr
     - Facepalm [CDU will (mal wieder) Netzsperren]( http://www.golem.de/1201/89320.html )
+    - [Herpderpedia Twitter Account]( https://twitter.com/#!/herpderpedia )
 
 ## News
+
 - [HP gibt WebOS als OpenSource frei]( http://gigaom.com/mobile/webos-lives-hp-decides-to-open-source-the-platform/ )
     * Gibt es den Sourcecode nun?
     * Unter welcher Lizenz ist der Code freigegeben?
@@ -51,6 +58,7 @@ audio: http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3
 - [C&C original gibt es nun in HTML5]( http://www.adityaravishankar.com/projects/games/command-and-conquer/ )
 - [MegaSearch.cc - Die Kreditkartennummern Suchmaschine](http://krebsonsecurity.com/2012/01/megasearch-aims-to-index-fraud-site-wares/ )
 - [The AWS Storage Gateway](http://www.allthingsdistributed.com/2012/01/The-AWS-Storage-Gateway.html )
+
 ## Themen
 
 ### Marc's neuer HTPC/HomeServer
@@ -68,6 +76,7 @@ audio: http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3
   * iptables -A POSTROUTING -t nat -j MASQUERADE
  
 ## Lesefoo
+
 - [The magic of consistent hashing]( http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html ) (pfleidi)
 - [Wat](https://www.destroyallsoftware.com/talks/wat ) (Felix, pfleidi, Marc)
     * [Wat meme]( http://knowyourmeme.com/memes/wat )
@@ -83,6 +92,7 @@ audio: http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3
 - [WPS Brute Force Paper](http://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf )
 
 ## Picks
+
 - [Louis CK at the Beacon Theatre]( https://buy.louisck.net ) (pfleidi)
     * [Stellungnahme nach 12 Tagen]( https://buy.louisck.net/news )
 - [Trybloc]( http://www.trybloc.com/courses ) (pfleidi)
