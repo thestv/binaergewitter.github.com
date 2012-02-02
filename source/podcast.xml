@@ -59,9 +59,10 @@ layout: nil
       <description>
         <![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]>
       </description>
-      {% if post.audio %}
-      <enclosure url="{{ post.audio }}" length="{% content_length post.audio %}" type="audio/mpeg" />
-      <media:content url="{{ post.audio }}" fileSize="{% content_length post.audio %}" type="audio/mpeg" />
+      {% assign podcast_audio = post.audio.mp3 %}
+      {% if podcast_audio %}
+      <enclosure url="{{ podcast_audio }}" length="{% content_length podcast_audio %}" type="audio/mpeg" />
+      <media:content url="{{ podcast_audio}}" fileSize="{% content_length podcast_audio %}" type="audio/mpeg" />
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
       <itunes:subtitle>{{ post.title }}</itunes:subtitle>
       <itunes:summary>
