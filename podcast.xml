@@ -11,7 +11,7 @@
     <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Thu, 02 Feb 2012 16:12:04 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 02 Feb 2012 16:28:44 +0100</lastBuildDate>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -42,16 +42,16 @@
     <media:description type="plain">Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</media:description>
     
     <item>
-      <title>Binärgewitter Talk #2 - Klettphone</title>
-      <link>http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-2-klettphone/</link>
-      <comments>http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-2-klettphone/#comments</comments>
+      <title>Binärgewitter Talk #1 - Klettphone</title>
+      <link>http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-1-klettphone/</link>
+      <comments>http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-1-klettphone/#comments</comments>
       <pubDate>Thu, 02 Feb 2012 16:00:00 +0100</pubDate>
       
       <category><![CDATA[talk]]></category>
       
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
-      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-2-klettphone/</guid>
+      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-1-klettphone/</guid>
       <description>
         <![CDATA[<h2>In eigener Sache</h2>
 
@@ -230,7 +230,7 @@
       <enclosure url="http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.mp3" length="115017856" type="audio/mpeg" />
       <media:content url="http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.mp3" fileSize="115017856" type="audio/mpeg" />
       <itunes:keywords></itunes:keywords>
-      <itunes:subtitle>Binärgewitter Talk #2 - Klettphone</itunes:subtitle>
+      <itunes:subtitle>Binärgewitter Talk #1 - Klettphone</itunes:subtitle>
       <itunes:summary>
         <![CDATA[In eigener Sache
 
