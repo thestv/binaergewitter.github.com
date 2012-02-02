@@ -59,7 +59,7 @@ module Jekyll
 
         player_html += "</audio>"
       else
-        "Error processing input, Syntas: {% audio url/to/audio, [, url/to/audio2] %}"
+        "Error processing input, Syntax: {% audio url/to/audio, [, url/to/audio2] %}"
       end
 
     end
