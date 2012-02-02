@@ -1,24 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
 
-  <title><![CDATA[Category: talk | Binärgewitter]]></title>
-  <link href="http://blog.binaergewitter.de/blog/categories/talk/atom.xml" rel="self"/>
-  <link href="http://blog.binaergewitter.de/"/>
-  <updated>2012-02-02T16:28:44+01:00</updated>
-  <id>http://blog.binaergewitter.de/</id>
-  <author>
-    <name><![CDATA[Binärgewitter Crew]]></name>
-    <email><![CDATA[info@binaergewitter.de]]></email>
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+  <channel>
+    <title><![CDATA[Binärgewitter | Category: talk]]></title>
+    <link href="http://blog.binaergewitter.de/blog/categories/talk/atom.xml" rel="self"/>
+    <link href="http://blog.binaergewitter.de/"/>
+    <atom:link href="http://feeds.feedburner.com/binaergewitter-podcast" rel="self"/>
+    <atom:link href="http://blog.binaergewitter.de/"/>
+    <atom:id>http://blog.binaergewitter.de/</atom:id>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Binärgewitter Talk #1 - Klettphone]]></title>
-    <link href="http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-1-klettphone/"/>
-    <updated>2012-02-02T16:00:00+01:00</updated>
-    <id>http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-1-klettphone</id>
-    <content type="html"><![CDATA[<h2>In eigener Sache</h2>
+    <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</description>
+    <language>de</language>
+
+    <lastBuildDate>Thu, 02 Feb 2012 16:30:52 +0100</lastBuildDate>
+    <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
+
+    <itunes:summary></itunes:summary>
+    <itunes:author>Binärgewitter Crew</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://blog.binaergewitter.de/images/binaergewitter_logo.png" />
+    <itunes:category text="Technology" />
+    <itunes:owner>
+      <itunes:name>Binärgewitter Crew</itunes:name>
+      <itunes:email>info@binaergewitter.de</itunes:email>
+    </itunes:owner>
+    <managingEditor>info@binaergewitter.de (Binärgewitter Crew)</managingEditor>
+    <copyright>Creative Commons BY-NC-SA 3.0 DE</copyright>
+    <itunes:subtitle>Web, Technologie und OpenSource Software</itunes:subtitle>
+    <itunes:keywords>podcast, technology, gadgets, web, opensource</itunes:keywords>
+    <image>
+      <title>Binärgewitter</title>
+      <url>http://blog.binaergewitter.de/images/binaergewitter_logo.png</url>
+      <link>http://blog.binaergewitter.de</link>
+    </image>
+
+    <media:copyright>Creative Commons BY-NC-SA 3.0 DE</media:copyright>
+    <media:thumbnail url="http://blog.binaergewitter.de" />
+    <media:keywords>podcast, technology, gadgets, web, opensource</media:keywords>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd"></media:category>
+    <media:credit role="author">Binärgewitter Crew</media:credit>
+    <media:rating>nonadult</media:rating>
+    <media:description type="plain">Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</media:description>
+    
+    <item>
+      <title>Binärgewitter Talk #1 - Klettphone</title>
+      <link>http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-1-klettphone/</link>
+      <comments>http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-1-klettphone/#comments</comments>
+      <pubDate>Thu, 02 Feb 2012 16:00:00 +0100</pubDate>
+      
+      <category><![CDATA[talk]]></category>
+      
+      <media:credit role="author">Binärgewitter Crew</media:credit>
+      <media:rating>nonadult</media:rating>
+      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-1-klettphone/</guid>
+      <description>
+        <![CDATA[<h2>In eigener Sache</h2>
 
 <ul>
 <li>Octopod nun mit weniger Fehlern und mehr Awesomeness
@@ -189,15 +225,206 @@
 <li><a href="http://latinrapper.com/blogs/?p=1893">Alien Brain Cocktail</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Binärgewitter Talk #0 - schlechter Kaffee oder sexuelle Belästigung]]></title>
-    <link href="http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-talk-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/"/>
-    <updated>2012-01-26T10:15:00+01:00</updated>
-    <id>http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-talk-number-0-schlechter-kaffee-oder-sexuelle-belaestigung</id>
-    <content type="html"><![CDATA[<h2>Einführung</h2>
+]]>
+      </description>
+      
+      <enclosure url="http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.mp3" length="115017856" type="audio/mpeg" />
+      <media:content url="http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.mp3" fileSize="115017856" type="audio/mpeg" />
+      <itunes:keywords></itunes:keywords>
+      <itunes:subtitle>Binärgewitter Talk #1 - Klettphone</itunes:subtitle>
+      <itunes:summary>
+        <![CDATA[In eigener Sache
+
+
+Octopod nun mit weniger Fehlern und mehr Awesomeness
+
+
+Import von "alten" BG Spezial Folgen
+404 Seite mit HTTPCat
+Diverse Fixes: Feed, Flattr Support, ...
+
+
+Intro von DerRaiden
+makefu hat eigenen Blog
+
+
+
+Toter der Woche
+
+
+Arusha verstorben
+
+
+
+News
+
+
+You wouldn't Download a car at TPB
+Kürschnergate: Spass mit "reply all"
+Y-Combinator ruft dazu auf Startups zu gründen um Holywood die Basis zu entziehen
+HTTP 7xx: Developer error Erweiterungen
+
+
+Ballmer Peak
+Coffee Protocol
+
+
+Twitter veröffentlicht Version 2.0 ihres Bootstrap Frameworks
+Jedes dritte Android Tablet ist ein Kindle Fire
+
+
+Kindle Fire ist raus und die Reviews eher bescheiden
+siehe auch
+
+
+Humble Bundle für Android
+ID Software bietet nun alle seine OSS Spiele auf Github an
+Neue Programmiersprache rust
+
+
+CoffeeScript Buch
+
+
+The 'Apple for Business' Strategy - Adapt or Die
+Google bringt Seite, die JS und Dart übersichtlich vergleicht
+Super Malware on the way
+Sudo mit Sicherheitslücke
+
+
+Format String attack
+Exploit von "phonelit" crew
+Mit "fortify source" nen pain zu exploiten
+Sudo make me a sandwich
+
+
+
+
+
+Themen
+
+Aufgabenverwaltung (Todo Management)
+
+
+Aktueller Bezug: Wunderkit geht in die Beta Phase
+6wunderkinder bekommen VC
+Blog von Tobi zu Wunderkit
+Todo Lists don't work
+
+
+Entscheidungen fällen bei zu vielen Optionen funktioniert bei Menschen schlecht
+Bei Todos mit unterschiedlichem Aufwand wird immer das weniger aufwändige gewählt
+
+
+
+
+
+Verfügbare Software
+
+
+Remember the milk
+Google tasks
+Wunderlist
+Do it tomorrow
+Taskwarrior
+Wunderkit
+Offenes Fenster im Texteditor
+Emacs org-mode
+Papier :)
+Post-Its
+
+
+
+Oder gleich komplett Tools wie
+
+
+Redmine
+trac
+github
+Jira
+
+
+
+Lustige Dinge im Internet finden und verwalten
+
+
+Tumblelogs
+Konkreter bezug: pfleidi tauscht Soup.io gegen Tumblr
+Script zum Export von Bildern auf Soup
+
+
+
+Lesefoo
+
+
+HTML5, please (pfleidi)
+Scaling Github (pfleidi)
+Supercolliding a PHP array (pfleidi)
+Natural Language Processing with Python(O'Reilly)
+
+
+
+Mimimi der Woche
+
+
+Berechnung der Spieldauer von VBR codierten mp3s (pfleidi)
+
+
+Mutagen Python Code
+
+
+Kommentare pfleidis Blog
+S/MIME + Mutt so easy...
+
+
+
+Picks
+
+
+Google/Amazon/twitter/facebook API Keys bei github --> magic strings
+
+
+dabei wird man verdammt viel schlechten (oder auch guten) code sehen
+
+
+Klettband auf der Rueckseite des Bildschirms(felix)
+
+
+Padphone
+
+
+WPUT, rsync, curl (ingo)
+This american life und die passende App (pfleidi)
+Colordiff wenn man svn verwenden muss (pfleidi)
+
+
+keine Ausreden mehr! git svn co
+
+
+Top 20 HTML5 Games (pfleidi)
+Alien Brain Cocktail
+
+
+]]>
+      </itunes:summary>
+      <itunes:author>Binärgewitter Crew</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1</itunes:duration>
+      
+    </item>
+    
+    <item>
+      <title>Binärgewitter Talk #0 - schlechter Kaffee oder sexuelle Belästigung</title>
+      <link>http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-talk-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/</link>
+      <comments>http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-talk-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/#comments</comments>
+      <pubDate>Thu, 26 Jan 2012 10:15:00 +0100</pubDate>
+      
+      <category><![CDATA[talk]]></category>
+      
+      <media:credit role="author">Binärgewitter Crew</media:credit>
+      <media:rating>nonadult</media:rating>
+      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-talk-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/</guid>
+      <description>
+        <![CDATA[<h2>Einführung</h2>
 
 <ul>
 <li>Wer sind wir eigentlich und was machen wir hier?
@@ -237,13 +464,22 @@
 <h2>Toter der Woche</h2>
 
 <ul>
-<li><a href="http://digitallife.today.msnbc.msn.com/_news/2012/01/14/10158059-programming-prodigy-passes-away-at-16-hear-her-philosophy-of-life">Arfa Karim Randhawa verstorben mit 16</a>
+<li><a href="http://digitallife.today.msnbc.msn.com/_news/2012/01/14/10158059-programming-prodigy-passes-away-at-16-hear-her-philosophy-of-life">Arfa Karim Randhawa verstorben mit 16</a></li>
+</ul>
 
-<h2>In der Zwischenzeit</h2></li>
+
+<h2>In der Zwischenzeit</h2>
+
+<ul>
 <li>Weihnachten ;)</li>
-<li>28c3</li>
+<li>28c3
+
+<ul>
+<li><a href="http://www.youtube.com/watch?v=qeyTZ8naunk">Vortrag: Building a Distributed Satellite Ground Station Network</a></li>
+</ul>
+</li>
 <li>CES</li>
-<li>Megaupload ist tod</li>
+<li>Megaupload ist tot</li>
 <li><a href="http://www.pro-linux.de/news/1/17946/desura-client-im-quellcode-freigegeben.html">Dezura Client unter GPL</a></li>
 <li><a href="http://www.numerama.com/magazine/21393-le-p2p-explose-apres-la-fermeture-de-megaupload.html">P2P Traffic explodiert zufaelliger weise am 19.Januar[fr]</a></li>
 <li>ACTA/SOPA/PiPA
@@ -251,6 +487,7 @@
 <ul>
 <li>You heard it here first! Sendung im letzten Jahr</li>
 <li>Facepalm <a href="http://www.golem.de/1201/89320.html">CDU will (mal wieder) Netzsperren</a></li>
+<li><a href="https://twitter.com/#!/herpderpedia">Herpderpedia Twitter Account</a></li>
 </ul>
 </li>
 </ul>
@@ -280,11 +517,11 @@
 </li>
 <li><a href="http://www.adityaravishankar.com/projects/games/command-and-conquer/">C&amp;C original gibt es nun in HTML5</a></li>
 <li><a href="http://krebsonsecurity.com/2012/01/megasearch-aims-to-index-fraud-site-wares/">MegaSearch.cc - Die Kreditkartennummern Suchmaschine</a></li>
-<li><a href="http://www.allthingsdistributed.com/2012/01/The-AWS-Storage-Gateway.html">The AWS Storage Gateway</a>
-
-<h2>Themen</h2></li>
+<li><a href="http://www.allthingsdistributed.com/2012/01/The-AWS-Storage-Gateway.html">The AWS Storage Gateway</a></li>
 </ul>
 
+
+<h2>Themen</h2>
 
 <h3>Marc's neuer HTPC/HomeServer</h3>
 
@@ -356,18 +593,210 @@
 <li><a href="http://python-for-humans.heroku.com">Python for Humans</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Erste Binaergewitter-Talk Sendung am Mittwoch]]></title>
-    <link href="http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch/"/>
-    <updated>2012-01-23T21:54:00+01:00</updated>
-    <id>http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch</id>
-    <content type="html"><![CDATA[<p>Am Mittwoch dem 25.01.2012 gehts endlich los mit Binaergewitter-Talk Ausgabe 1.</p>
+]]>
+      </description>
+      
+      <enclosure url="http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3" length="113277056" type="audio/mpeg" />
+      <media:content url="http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3" fileSize="113277056" type="audio/mpeg" />
+      <itunes:keywords></itunes:keywords>
+      <itunes:subtitle>Binärgewitter Talk #0 - schlechter Kaffee oder sexuelle Belästigung</itunes:subtitle>
+      <itunes:summary>
+        <![CDATA[Einführung
+
+
+Wer sind wir eigentlich und was machen wir hier?
+
+
+Team Seite
+
+
+
+
+
+Unsere Infrastruktur
+
+
+Wie hosten wir unsere Sachen nun?
+Was für Software setzen wir dafür ein?
+
+
+Liquid
+Jekyll
+Octopress
+Ruby, Bundler, Rake, Piwik, audio.js ...
+
+
+Wie können die Hörer mitmachen?
+Auf Github
+
+
+Commits
+Issue Tracker
+
+
+Intro
+
+
+
+Toter der Woche
+
+
+Arfa Karim Randhawa verstorben mit 16
+
+
+
+In der Zwischenzeit
+
+
+Weihnachten ;)
+28c3
+
+
+Vortrag: Building a Distributed Satellite Ground Station Network
+
+
+CES
+Megaupload ist tot
+Dezura Client unter GPL
+P2P Traffic explodiert zufaelliger weise am 19.Januar[fr]
+ACTA/SOPA/PiPA
+
+
+You heard it here first! Sendung im letzten Jahr
+Facepalm CDU will (mal wieder) Netzsperren
+Herpderpedia Twitter Account
+
+
+
+
+
+News
+
+
+HP gibt WebOS als OpenSource frei
+
+
+Gibt es den Sourcecode nun?
+Unter welcher Lizenz ist der Code freigegeben?
+Es gibt einen leeren Github Account
+Microsoft Manager übernimmt WebOS
+HPWebOS Releaseplan
+
+
+SPDY für Apache
+SPDY für Rack
+Google will TCP beschleunigen
+DoS Angriff mittels Hash Kollisonen
+
+
+Vortrag vom 28c3
+
+
+C&amp;C original gibt es nun in HTML5
+MegaSearch.cc - Die Kreditkartennummern Suchmaschine
+The AWS Storage Gateway
+
+
+
+Themen
+
+Marc's neuer HTPC/HomeServer
+
+
+Flirc (marc)
+AMD E-450 Mainboard: Asus-E45M1-M (marc)
+LC-Power 1300MI Gehäuse Mini-ITX/M-ATX 75W (marc)
+PCI Interrupt probleme unter Last ( irq 1[69]: nobody cared ) (felix)
+Wii Balance Board ist im Guiness Buch der Rekorde
+
+
+
+Mimimi der Woche
+
+
+Siehe AMD-E45M1-M (felix)
+iptables macht komische Sachen
+
+
+iptables -t nat -A PREROUTING -p tcp --dport 30009 -j DNAT --to $IP:30009
+iptables -A POSTROUTING -t nat -j MASQUERADE
+
+
+
+
+
+Lesefoo
+
+
+The magic of consistent hashing (pfleidi)
+Wat (Felix, pfleidi, Marc)
+
+
+Wat meme
+
+
+Star Trek - Deep Space Nine 8.01: Offenbarung
+
+
+Star Trek - Next Generation auf Blu-ray
+Unterschied auf YouTube
+
+
+Eloquent Ruby
+Tenzing A SQL Implementation On The MapReduce Framework
+Turbocharging Solr Index Replication with BitTorrent
+Ultra Fuckers
+deprecated linux networking commands and their replacements
+Recover Wifi Protected Setup access
+WPS Brute Force Paper
+
+
+
+Picks
+
+
+Louis CK at the Beacon Theatre (pfleidi)
+
+
+Stellungnahme nach 12 Tagen
+
+
+Trybloc (pfleidi)
+iozone (ingo)
+honeyd -> Software die einfach fertig ist
+Backup with Backup
+Travis CI
+Minipwner (aka. Krebsplug)
+Python for Humans
+
+
+]]>
+      </itunes:summary>
+      <itunes:author>Binärgewitter Crew</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1</itunes:duration>
+      
+    </item>
+    
+    <item>
+      <title>Erste Binaergewitter-Talk Sendung am Mittwoch</title>
+      <link>http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch/</link>
+      <comments>http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch/#comments</comments>
+      <pubDate>Mon, 23 Jan 2012 21:54:00 +0100</pubDate>
+      
+      <category><![CDATA[talk]]></category>
+      
+      <media:credit role="author">Binärgewitter Crew</media:credit>
+      <media:rating>nonadult</media:rating>
+      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch/</guid>
+      <description>
+        <![CDATA[<p>Am Mittwoch dem 25.01.2012 gehts endlich los mit Binaergewitter-Talk Ausgabe 1.</p>
 
 <p>Auch wenn unser Blog noch einiges an Arbeit benötigt fangen wir ab ca. 20 Uhr auf <a href="http://streams.xenim.de/binaergewitter/">http://streams.xenim.de/binaergewitter/</a> an mit senden. Themen stehen noch nicht fest, aber ihr koennt wie immer im Chat mit dabei sein im freenode im Chan binaergewitter.</p>
-]]></content>
-  </entry>
-  
-</feed>
+]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>

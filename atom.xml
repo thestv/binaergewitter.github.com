@@ -4,7 +4,7 @@
   <title><![CDATA[Binärgewitter]]></title>
   <link href="http://blog.binaergewitter.de/atom.xml" rel="self"/>
   <link href="http://blog.binaergewitter.de/"/>
-  <updated>2012-02-02T16:28:44+01:00</updated>
+  <updated>2012-02-02T16:30:52+01:00</updated>
   <id>http://blog.binaergewitter.de/</id>
   <author>
     <name><![CDATA[Binärgewitter Crew]]></name>
@@ -237,13 +237,22 @@
 <h2>Toter der Woche</h2>
 
 <ul>
-<li><a href="http://digitallife.today.msnbc.msn.com/_news/2012/01/14/10158059-programming-prodigy-passes-away-at-16-hear-her-philosophy-of-life">Arfa Karim Randhawa verstorben mit 16</a>
+<li><a href="http://digitallife.today.msnbc.msn.com/_news/2012/01/14/10158059-programming-prodigy-passes-away-at-16-hear-her-philosophy-of-life">Arfa Karim Randhawa verstorben mit 16</a></li>
+</ul>
 
-<h2>In der Zwischenzeit</h2></li>
+
+<h2>In der Zwischenzeit</h2>
+
+<ul>
 <li>Weihnachten ;)</li>
-<li>28c3</li>
+<li>28c3
+
+<ul>
+<li><a href="http://www.youtube.com/watch?v=qeyTZ8naunk">Vortrag: Building a Distributed Satellite Ground Station Network</a></li>
+</ul>
+</li>
 <li>CES</li>
-<li>Megaupload ist tod</li>
+<li>Megaupload ist tot</li>
 <li><a href="http://www.pro-linux.de/news/1/17946/desura-client-im-quellcode-freigegeben.html">Dezura Client unter GPL</a></li>
 <li><a href="http://www.numerama.com/magazine/21393-le-p2p-explose-apres-la-fermeture-de-megaupload.html">P2P Traffic explodiert zufaelliger weise am 19.Januar[fr]</a></li>
 <li>ACTA/SOPA/PiPA
@@ -251,6 +260,7 @@
 <ul>
 <li>You heard it here first! Sendung im letzten Jahr</li>
 <li>Facepalm <a href="http://www.golem.de/1201/89320.html">CDU will (mal wieder) Netzsperren</a></li>
+<li><a href="https://twitter.com/#!/herpderpedia">Herpderpedia Twitter Account</a></li>
 </ul>
 </li>
 </ul>
@@ -280,11 +290,11 @@
 </li>
 <li><a href="http://www.adityaravishankar.com/projects/games/command-and-conquer/">C&amp;C original gibt es nun in HTML5</a></li>
 <li><a href="http://krebsonsecurity.com/2012/01/megasearch-aims-to-index-fraud-site-wares/">MegaSearch.cc - Die Kreditkartennummern Suchmaschine</a></li>
-<li><a href="http://www.allthingsdistributed.com/2012/01/The-AWS-Storage-Gateway.html">The AWS Storage Gateway</a>
-
-<h2>Themen</h2></li>
+<li><a href="http://www.allthingsdistributed.com/2012/01/The-AWS-Storage-Gateway.html">The AWS Storage Gateway</a></li>
 </ul>
 
+
+<h2>Themen</h2>
 
 <h3>Marc&#8217;s neuer HTPC/HomeServer</h3>
 
