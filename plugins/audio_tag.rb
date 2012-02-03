@@ -2,7 +2,7 @@
 # Author: Sven Pfleiderer http://blog.roothausen.de
 # Description: Easily output HTML5 audio
 #
-# Syntax {% audio url/to/audio, [, url/to/audio2] %}
+# Syntax {% audio url/to/audio [, url/to/audio2] %}
 #
 # Example:
 # {% audio http://site.com/audio.mp3, http://site.com/audio.ogg %}
@@ -59,7 +59,7 @@ module Jekyll
 
         player_html += "</audio>"
       else
-        "Error processing input, Syntax: {% audio url/to/audio, [, url/to/audio2] %}"
+        "Error processing input, Syntax: {% audio url/to/audio [, url/to/audio2] %}"
       end
 
     end
