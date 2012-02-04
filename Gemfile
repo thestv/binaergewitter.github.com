@@ -15,4 +15,10 @@ group :development do
   gem 'liquid', '2.2.2'
 end
 
+group :test do
+  gem 'rake'
+  gem 'rspec'
+  gem 'w3c_validators'
+end
+
 gem 'sinatra', '1.2.6'

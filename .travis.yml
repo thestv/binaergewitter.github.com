@@ -1,0 +1,6 @@
+language: ruby
+rvm:
+  - 1.9.3
+# uncomment this line if your project needs to run something other than `rake`:
+before_script: bundle exec generate
+script: bundle exec spec
