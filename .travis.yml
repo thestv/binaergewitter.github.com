@@ -7,5 +7,5 @@ branches:
 rvm:
   - 1.9.3
 # uncomment this line if your project needs to run something other than `rake`:
-before_script: bundle exec generate
-script: bundle exec spec
+before_script: bundle exec rake generate
+script: bundle exec rake spec
