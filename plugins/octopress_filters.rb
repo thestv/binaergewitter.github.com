@@ -71,6 +71,11 @@ module OctopressLiquidFilters
     input.gsub(/<!\[CDATA\[/, '&lt;![CDATA[').gsub(/\]\]>/, ']]&gt;')
   end
 
+  # Encodes URIs conforming to RFC 3986
+  def url_encode(url)
+    URI.escape(url, Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))
+  end
+
   # Replaces relative urls with full urls
   def expand_urls(input, url='')
     url ||= '/'
