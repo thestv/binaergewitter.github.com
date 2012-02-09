@@ -1,6 +1,12 @@
-{% if site.flattr %}
+{% if site.flattr_uid %}
 <section>
-  <h1>Flattr</h1>
-  <a class="FlattrButton" style="display:none;" href="{{ site.flattr_main_page_url }}"></a>
+<h1>Flattr</h1>
+<a class="FlattrButton" style="display:none;"
+  title="{{ site.title }}"
+  data-flattr-uid="{{ site.flattr_uid }}"
+  data-flattr-tags="{{ site.flattr_tags }}"
+  data-flattr-category="audio"
+  href="{{ site.url }}">
+</a>
 </section>
 {% endif %}
