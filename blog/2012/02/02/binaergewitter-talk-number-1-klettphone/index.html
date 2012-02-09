@@ -287,14 +287,22 @@ Diverse ...">
 
 
 
-  <div class="audio-content">
-    <a href="http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.mp3">Download Binärgewitter Talk #1 - Klettphone</a>
-    <audio preload='none' controls><source src='http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.mp3' type='audio/mp3'/></audio>
-  </div>
 
 
 
-  <div class="flattr-button">
+
+<div class="audio-content">
+  
+  <a href="http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.mp3">Download mp3</a><br />
+  
+  <a href="http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.ogg">Download ogg</a><br />
+  
+  <audio preload='none' controls><source src='http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.mp3' type='audio/mp3' /><source src='http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.ogg' type='audio/ogg' /></audio>
+</div>
+
+
+
+<div class="flattr-button">
   <a class="FlattrButton" style="display:none;"
   
   
@@ -306,7 +314,7 @@ Diverse ...">
   href="http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-1-klettphone/">
 </a>
 
-  </div>
+</div>
 
 
   <footer>
@@ -354,6 +362,8 @@ Diverse ...">
         <a class="basic-alignment left" href="/blog/2012/01/26/binaergewitter-talk-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/" title="Previous Post: Binärgewitter Talk #0 - schlechter Kaffee oder sexuelle Belästigung">&laquo; Binärgewitter Talk #0 - schlechter Kaffee oder sexuelle Belästigung</a>
       
       
+        <a class="basic-alignment right" href="/blog/2012/02/09/binaergewitter-talk-number-2-syncender-podwal/" title="next Post: Binärgewitter Talk #2 - Syncender Podwal">Binärgewitter Talk #2 - Syncender Podwal &raquo;</a>
+      
     </p>
   </footer>
 </article>
@@ -373,6 +383,10 @@ Diverse ...">
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/02/09/binaergewitter-talk-number-2-syncender-podwal/">Binärgewitter Talk #2 - Syncender Podwal</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/02/02/binaergewitter-talk-number-1-klettphone/">Binärgewitter Talk #1 - Klettphone</a>
       </li>
     
@@ -386,10 +400,6 @@ Diverse ...">
     
       <li class="post">
         <a href="/blog/2011/08/24/binargewitter-number-3-arbeiten-und-lernen-im-hackerspace/">Binärgewitter #3: Arbeiten und Lernen im Hackerspace</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/04/16/binargewitter-number-2-sichere-systeme/">Binärgewitter #2: Sichere Systeme</a>
       </li>
     
   </ul>
@@ -519,18 +529,6 @@ Diverse ...">
 
 
 
-<!-- audio.js fallback -->
-<script src="/assets/audiojs/audio.min.js"></script>
-<script>
-  if (audiojs) {
-    $('audio').each(function (audioElement) {
-      audioElement.removeAttribute('controls');
-    });
-    audiojs.events.ready(function() {
-      var as = audiojs.createAll();
-    });
-  }
-</script>
 
 
 </body>

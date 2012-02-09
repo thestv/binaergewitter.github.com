@@ -244,14 +244,18 @@
 
 
 
-  <div class="audio-content">
-    <a href="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3">Download Binärgewitter #3: Arbeiten und Lernen im Hackerspace</a>
-    <audio preload='none' controls><source src='http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3' type='audio/mp3'/></audio>
-  </div>
 
 
 
-  <div class="flattr-button">
+
+<div class="audio-content">
+  
+  <audio preload='none' controls><source src='http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3' type='audio/mp3' /></audio>
+</div>
+
+
+
+<div class="flattr-button">
   <a class="FlattrButton" style="display:none;"
   
   
@@ -263,7 +267,7 @@
   href="http://blog.binaergewitter.de/blog/2011/08/24/binargewitter-number-3-arbeiten-und-lernen-im-hackerspace/">
 </a>
 
-  </div>
+</div>
 
 
   <footer>
@@ -332,6 +336,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/02/09/binaergewitter-talk-number-2-syncender-podwal/">Binärgewitter Talk #2 - Syncender Podwal</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/02/02/binaergewitter-talk-number-1-klettphone/">Binärgewitter Talk #1 - Klettphone</a>
       </li>
     
@@ -345,10 +353,6 @@
     
       <li class="post">
         <a href="/blog/2011/08/24/binargewitter-number-3-arbeiten-und-lernen-im-hackerspace/">Binärgewitter #3: Arbeiten und Lernen im Hackerspace</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/04/16/binargewitter-number-2-sichere-systeme/">Binärgewitter #2: Sichere Systeme</a>
       </li>
     
   </ul>
@@ -478,18 +482,6 @@
 
 
 
-<!-- audio.js fallback -->
-<script src="/assets/audiojs/audio.min.js"></script>
-<script>
-  if (audiojs) {
-    $('audio').each(function (audioElement) {
-      audioElement.removeAttribute('controls');
-    });
-    audiojs.events.ready(function() {
-      var as = audiojs.createAll();
-    });
-  }
-</script>
 
 
 </body>

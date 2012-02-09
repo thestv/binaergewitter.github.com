@@ -284,14 +284,22 @@ Was für Software setzen ...">
 
 
 
-  <div class="audio-content">
-    <a href="http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3">Download Binärgewitter Talk #0 - schlechter Kaffee oder sexuelle Belästigung</a>
-    <audio preload='none' controls><source src='http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3' type='audio/mp3'/></audio>
-  </div>
 
 
 
-  <div class="flattr-button">
+
+<div class="audio-content">
+  
+  <a href="http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3">Download mp3</a><br />
+  
+  <a href="http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.ogg">Download ogg</a><br />
+  
+  <audio preload='none' controls><source src='http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3' type='audio/mp3' /><source src='http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.ogg' type='audio/ogg' /></audio>
+</div>
+
+
+
+<div class="flattr-button">
   <a class="FlattrButton" style="display:none;"
   
   
@@ -303,7 +311,7 @@ Was für Software setzen ...">
   href="http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-talk-number-0-schlechter-kaffee-oder-sexuelle-belaestigung/">
 </a>
 
-  </div>
+</div>
 
 
   <footer>
@@ -372,6 +380,10 @@ Was für Software setzen ...">
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/02/09/binaergewitter-talk-number-2-syncender-podwal/">Binärgewitter Talk #2 - Syncender Podwal</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/02/02/binaergewitter-talk-number-1-klettphone/">Binärgewitter Talk #1 - Klettphone</a>
       </li>
     
@@ -385,10 +397,6 @@ Was für Software setzen ...">
     
       <li class="post">
         <a href="/blog/2011/08/24/binargewitter-number-3-arbeiten-und-lernen-im-hackerspace/">Binärgewitter #3: Arbeiten und Lernen im Hackerspace</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/04/16/binargewitter-number-2-sichere-systeme/">Binärgewitter #2: Sichere Systeme</a>
       </li>
     
   </ul>
@@ -518,18 +526,6 @@ Was für Software setzen ...">
 
 
 
-<!-- audio.js fallback -->
-<script src="/assets/audiojs/audio.min.js"></script>
-<script>
-  if (audiojs) {
-    $('audio').each(function (audioElement) {
-      audioElement.removeAttribute('controls');
-    });
-    audiojs.events.ready(function() {
-      var as = audiojs.createAll();
-    });
-  }
-</script>
 
 
 </body>

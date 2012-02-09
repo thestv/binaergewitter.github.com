@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
-<atom:link rel="payment" href="https://flattr.com/submit/auto?url=https%3A%2F%2Fdevelopers.flattr.net%2F&amp;user_id=binaergewitter" type="text/html" />
+
+  <atom:link rel="payment" href="https://flattr.com/submit/auto?url=https%3A%2F%2Fdevelopers.flattr.net%2F&amp;user_id=binaergewitter" type="text/html" />
 
   <channel>
     <title><![CDATA[Binärgewitter]]></title>
@@ -12,7 +13,7 @@
     <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Thu, 02 Feb 2012 16:51:48 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Feb 2012 14:53:05 +0100</lastBuildDate>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -41,6 +42,480 @@
     <media:credit role="author">Binärgewitter Crew</media:credit>
     <media:rating>nonadult</media:rating>
     <media:description type="plain">Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</media:description>
+    
+    <item>
+      <title>Binärgewitter Talk #2 - Syncender Podwal</title>
+      <link>http://blog.binaergewitter.de/blog/2012/02/09/binaergewitter-talk-number-2-syncender-podwal/</link>
+      <comments>http://blog.binaergewitter.de/blog/2012/02/09/binaergewitter-talk-number-2-syncender-podwal/#comments</comments>
+      <pubDate>Thu, 09 Feb 2012 11:07:00 +0100</pubDate>
+      
+      <category><![CDATA[talk]]></category>
+      
+      <media:credit role="author">Binärgewitter Crew</media:credit>
+      <media:rating>nonadult</media:rating>
+      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/02/09/binaergewitter-talk-number-2-syncender-podwal/</guid>
+      <description>
+        <![CDATA[<h2>Octopod</h2>
+
+<ul>
+<li>&#8220;<a href="http://www.youtube.com/watch?v=2tJjNVVwRCY">Fuck it, we&#8217;ll do it live!</a>&#8221;</li>
+<li>Nativer HTML5 Player mit mp3 UND ogg vorbis</li>
+<li>Downloadlinks in mehreren Formaten</li>
+<li>Verbesserungen am Feed</li>
+<li><a href="http://travis-ci.org/#!/Binaergewitter/binaergewitter.github.com/builds">TravisCI</a> Test Integration</li>
+</ul>
+
+
+<h2>Toter der Woche</h2>
+
+<ul>
+<li><a href="http://www.kleinezeitung.at/nachrichten/chronik/2942716/gestrandeter-pottwal-belgiens-kueste-gestorben.story">Gestrandeter Podwal an Belgiens Kueste</a></li>
+</ul>
+
+
+<h2>News</h2>
+
+<ul>
+<li><a href="http://corte.si/posts/security/openfeint-udid-deanonymization/index.html">De-anonymize Apple UDIDs with OpenFeint</a></li>
+<li><a href="http://blog.flattr.net/2012/02/winter-update-github-tweets-extensions/">Flattr bringt neue Erweiterungen</a>
+
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/opjnhfkbdoopgfbefgbdkpjnbghffmln">Chrome Plugin</a></li>
+<li><a href="http://news.techeye.net/security/german-endorses-chrome-as-most-secure-browser">Chrome der sicherste Browser laut deutscher Regierung</a></li>
+<li>Github und Twitter Support</li>
+<li><a href="http://developers.flattr.net/feed/">API für Feeds, so dass Clients direkt über die API flattrn können</a></li>
+</ul>
+</li>
+<li><a href="http://blog.mozilla.com/blog/2012/01/31/firefox-adds-powerful-new-developer-tools/">Firefox 10 bringt neue Entwicklertools</a></li>
+<li><a href="http://www.golem.de/news/mozilla-push-nachrichten-fuers-web-1202-89555.html">Mozilla Pushnachrichten fürs Web</a></li>
+<li><a href="http://tools.ietf.org/html/draft-ietf-appsawg-xdash-02">&#8220;X-&#8221; Protocol Prefix deprecated - Good luck with that</a></li>
+<li><a href="http://scoopertino.com/apple-blasts-into-supermarkets-with-revolutionary-apple-water/">Apple Water</a></li>
+<li><a href="http://www.golem.de/news/solve-for-x-google-sucht-ideen-die-wie-science-fiction-klingen-1202-89582.html">Google sucht nach radikalen Lösungen für globale Probleme</a></li>
+<li><a href="http://googleblog.blogspot.com/2012/02/introducing-chrome-for-android.html">Google bringt Chrome für Android</a>
+
+<ul>
+<li><a href="http://www.golem.de/news/browser-google-veroeffentlicht-chrome-fuer-android-1202-89619.html">Golem Artikel</a></li>
+<li><a href="http://www.golem.de/news/adobe-chrome-fuer-android-bekommt-kein-flash-1202-89623.html">Chrome für Android bekommt kein Flash</a></li>
+</ul>
+</li>
+<li><a href="http://www.golem.de/news/touchpad-hps-sourcecode-vom-unveroeffentlichten-android-kernel-1202-89642.html">HP veröffentlicht angepassten Android Kernel fürs Touchpad</a></li>
+<li><a href="http://groups.google.com/group/nodejs/browse_thread/thread/85f6a3829bc64cb6?pli=1">Ryan Dahl tritt als Projektleiter von Node.js zurück</a></li>
+<li><a href="http://www.itworld.com/it-managementstrategy/247344/facebooks-man-middle-attack-our-data">Facebook is a Man-in-the-Middle Attack</a>
+
+<ul>
+<li><a href="https://secure.mysociety.org/admin/lists/pipermail/developers-public/2011-October/007647.html">Richard Stallman Rider</a></li>
+</ul>
+</li>
+<li><a href="http://www.heise.de/newsticker/meldung/Trustwave-verkaufte-Man-in-the-Middle-Zertifikat-1429722.html">Trustwave</a></li>
+<li><a href="http://news.hitb.org/content/php-security-patch-creates-critical-vulnerability">Tausche Hash Collision gegen Buffer Overflow</a></li>
+</ul>
+
+
+<h2>Themen</h2>
+
+<h4>Aktuelles</h4>
+
+<ul>
+<li><a href="http://forums.dropbox.com/topic.php?id=52900">Dropbox Foto Import</a>
+
+<ul>
+<li><a href="http://www.golem.de/news/cloudspeicher-dropbox-verschenkt-4-5-gbyte-zusatzspeicher-1202-89566.html">Golem Artikel</a></li>
+<li>Auch: Wie bekomme ich bis zu 5GB Speicher indem ich Mediengewitter importiere</li>
+</ul>
+</li>
+</ul>
+
+
+<h4>Was können wir syncen?</h4>
+
+<ul>
+<li>Dateien
+
+<ul>
+<li><a href="https://www.dropbox.com/referrals/NTM2OTk0Mjk?src=global9">Dropbox</a></li>
+<li><a href="http://www.wuala.com/de/">Wuala</a></li>
+<li><a href="https://www.insynchq.com">Insync</a></li>
+<li><a href="http://www.aerofs.com/">AeroFS</a></li>
+<li><a href="https://github.com/bazaarlabs/gitdocs">Gitdocs</a></li>
+<li>Rsync/Unison/iFolder</li>
+<li>Git + chrontab
+
+<ul>
+<li>git repository mit &#8220;sync&#8221; user + public key auth
+32 * * * * (cd /home/user/autosync/ ; git add -A . ; git commit -m autocommit ; git pull ;git push)</li>
+</ul>
+</li>
+<li>sparkleshare</li>
+<li>githubhq</li>
+<li>Siehe auch <a href="http://blog.radiotux.de/2011/04/21/radiotux-talk-127-mersenne-primzahl/">RadioTux Talk 127</a></li>
+</ul>
+</li>
+<li>Notizen
+
+<ul>
+<li>Evernote</li>
+</ul>
+</li>
+<li>Todo-Listen
+
+<ul>
+<li><a href="http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-1-klettphone/">Siehe letzte Sendung</a></li>
+</ul>
+</li>
+<li>Musik
+
+<ul>
+<li>ITunes Match</li>
+<li>Google Music</li>
+<li><a href="http://www.subsonic.org/pages/index.jsp">Subsonic</a></li>
+</ul>
+</li>
+<li>Kontakte / Kalender
+
+<ul>
+<li>Google</li>
+<li>iCloud</li>
+<li><a href="http://fruux.com/">Fruux</a></li>
+<li>Groupware</li>
+<li><a href="http://blog.roothausen.de/2010/10/25/distributed-contact-management-using-http/">Distributed contact management using HTTP</a></li>
+<li>MS Exchange
+
+<ul>
+<li>Zarafa</li>
+<li>open xchange</li>
+<li>horde / kolab</li>
+<li>tine</li>
+<li>roundcube</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Nachrichten/Chats/Email/&#8230;</li>
+<li>Passwörter
+
+<ul>
+<li>KeepassX mit Dropbox</li>
+<li>1Password</li>
+<li>Browser Sync</li>
+</ul>
+</li>
+<li>Browserdaten
+
+<ul>
+<li>Firefox sync</li>
+<li>Opera sync</li>
+<li>Google sync</li>
+</ul>
+</li>
+<li>Sachen die wir in naher Zukunft sehen/lesen wollen
+
+<ul>
+<li>getspool.com</li>
+<li>radbox.me</li>
+<li>Boxee&#8217;s &#8216;watch later&#8217;</li>
+<li>instapaper</li>
+<li>nzb.su &#8220;in den Warenkorb&#8221;</li>
+<li><a href="http://airvideoapp.com/">airvideo</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h4>Wo fehlen gute Lösungen?</h4>
+
+<ul>
+<li>Sync von IM-History (pfleidi)</li>
+<li>Twitter (PMs / Mentions / gelesene Tweets)</li>
+<li>Sync von Application State (Ich will einen Rechner verlassen, den nächsten aufklappen und weiter arbeiten)</li>
+</ul>
+
+
+<h2>Lesefoo</h2>
+
+<ul>
+<li><a href="http://open-advice.org/">Open Advice</a> (Ingo)</li>
+<li><a href="http://jonikorpi.com/leaving-old-IE-behind/">Leaving old IE behind</a> (pfleidi)</li>
+<li><a href="http://parislemon.com/post/15604811641/why-i-hate-android">Why I hate Android</a> (pfleidi)</li>
+<li><a href="http://umumble.com/blogs/company_intel/385/">From Sand to Processor</a></li>
+<li><a href="http://www.net-security.org/insecuremag.php">(In)Secure Magazine 33</a></li>
+<li><a href="http://www.igvita.com/2012/02/06/sstable-and-log-structured-storage-leveldb/">SSTable and log structured storage with LevelDB</a></li>
+<li><a href="http://patshaughnessy.net/2012/1/25/my-first-impression-of-rubinius-internals">My first impression of Rubinius Internals</a></li>
+<li><a href="http://blog.bjrn.se/2008/10/lets-build-mp3-decoder.html">Let&#8217;s build an MP3 decoder!</a></li>
+</ul>
+
+
+<h2>Mimimi der Woche</h2>
+
+<ul>
+<li>pacman4 Update (pfleidi)</li>
+<li>Adblock Plus für Chrome lässt immer mehr Werbung durch</li>
+<li><a href="http://euer.krebsco.de/blog/2012/02/06/awstats-and-lighttpd/">awstats und lighttpd</a> (Felix, pfleidi)</li>
+</ul>
+
+
+<h2>Picks</h2>
+
+<ul>
+<li><a href="http://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/">xargs</a> (pfleidi)
+
+<ul>
+<li>find /Volumes/Untitled/DCIM -type f | xargs basename | xargs -I name rm -v ~/magnets/images/name</li>
+</ul>
+</li>
+<li><a href="https://www.amazon.de/dp/B000NCY0GU/ref=as_li_ss_til?tag=retinacast-21">Griffin Elevator Laptop Stand</a></li>
+<li><a href="http://tapbots.com/software/tweetbot/">Tweetbot</a> (pfleidi)</li>
+<li><a href="https://github.com/albertz/shairport">Shairport</a> (Marc)</li>
+<li><a href="http://amzn.to/zXXLaH">Bose Companion 20</a> (Marc)</li>
+<li><a href="http://www.patrick-wied.at/projects/heatmap-keyboard/">Keyboard Heatmap</a>
+
+<ul>
+<li><a href="http://www.mahdiyusuf.com/post/9947002105/most-pressed-keys-and-programming-syntaxes-1">Programming Languages Heatmaps</a></li>
+</ul>
+</li>
+<li>[powertop2 + wilde Kernel Parameter = mehr energie](</li>
+<li>[offlineimap + IDLE]</li>
+<li><a href="http://www.youtube.com/watch?v=Dy9MtG8jbE4">Steve Jobs stellt android tablet vor</a></li>
+</ul>
+
+]]>
+      </description>
+      
+       
+      
+      <enclosure url="http://download.binaergewitter.de/2012-02-08.Binaergewitter.Talk.2.mp3" length="141810912" type="audio/mpeg" />
+      <media:content url="http://download.binaergewitter.de/2012-02-08.Binaergewitter.Talk.2.mp3" fileSize="141810912" type="audio/mpeg" />
+      <itunes:keywords></itunes:keywords>
+      <itunes:subtitle>Binärgewitter Talk #2 - Syncender Podwal</itunes:subtitle>
+      <itunes:summary>
+        <![CDATA[Octopod
+
+
+&#8220;Fuck it, we&#8217;ll do it live!&#8221;
+Nativer HTML5 Player mit mp3 UND ogg vorbis
+Downloadlinks in mehreren Formaten
+Verbesserungen am Feed
+TravisCI Test Integration
+
+
+
+Toter der Woche
+
+
+Gestrandeter Podwal an Belgiens Kueste
+
+
+
+News
+
+
+De-anonymize Apple UDIDs with OpenFeint
+Flattr bringt neue Erweiterungen
+
+
+Chrome Plugin
+Chrome der sicherste Browser laut deutscher Regierung
+Github und Twitter Support
+API für Feeds, so dass Clients direkt über die API flattrn können
+
+
+Firefox 10 bringt neue Entwicklertools
+Mozilla Pushnachrichten fürs Web
+&#8220;X-&#8221; Protocol Prefix deprecated - Good luck with that
+Apple Water
+Google sucht nach radikalen Lösungen für globale Probleme
+Google bringt Chrome für Android
+
+
+Golem Artikel
+Chrome für Android bekommt kein Flash
+
+
+HP veröffentlicht angepassten Android Kernel fürs Touchpad
+Ryan Dahl tritt als Projektleiter von Node.js zurück
+Facebook is a Man-in-the-Middle Attack
+
+
+Richard Stallman Rider
+
+
+Trustwave
+Tausche Hash Collision gegen Buffer Overflow
+
+
+
+Themen
+
+Aktuelles
+
+
+Dropbox Foto Import
+
+
+Golem Artikel
+Auch: Wie bekomme ich bis zu 5GB Speicher indem ich Mediengewitter importiere
+
+
+
+
+
+Was können wir syncen?
+
+
+Dateien
+
+
+Dropbox
+Wuala
+Insync
+AeroFS
+Gitdocs
+Rsync/Unison/iFolder
+Git + chrontab
+
+
+git repository mit &#8220;sync&#8221; user + public key auth
+32 * * * * (cd /home/user/autosync/ ; git add -A . ; git commit -m autocommit ; git pull ;git push)
+
+
+sparkleshare
+githubhq
+Siehe auch RadioTux Talk 127
+
+
+Notizen
+
+
+Evernote
+
+
+Todo-Listen
+
+
+Siehe letzte Sendung
+
+
+Musik
+
+
+ITunes Match
+Google Music
+Subsonic
+
+
+Kontakte / Kalender
+
+
+Google
+iCloud
+Fruux
+Groupware
+Distributed contact management using HTTP
+MS Exchange
+
+
+Zarafa
+open xchange
+horde / kolab
+tine
+roundcube
+
+
+
+
+Nachrichten/Chats/Email/&#8230;
+Passwörter
+
+
+KeepassX mit Dropbox
+1Password
+Browser Sync
+
+
+Browserdaten
+
+
+Firefox sync
+Opera sync
+Google sync
+
+
+Sachen die wir in naher Zukunft sehen/lesen wollen
+
+
+getspool.com
+radbox.me
+Boxee&#8217;s &#8216;watch later&#8217;
+instapaper
+nzb.su &#8220;in den Warenkorb&#8221;
+airvideo
+
+
+
+
+
+Wo fehlen gute Lösungen?
+
+
+Sync von IM-History (pfleidi)
+Twitter (PMs / Mentions / gelesene Tweets)
+Sync von Application State (Ich will einen Rechner verlassen, den nächsten aufklappen und weiter arbeiten)
+
+
+
+Lesefoo
+
+
+Open Advice (Ingo)
+Leaving old IE behind (pfleidi)
+Why I hate Android (pfleidi)
+From Sand to Processor
+(In)Secure Magazine 33
+SSTable and log structured storage with LevelDB
+My first impression of Rubinius Internals
+Let&#8217;s build an MP3 decoder!
+
+
+
+Mimimi der Woche
+
+
+pacman4 Update (pfleidi)
+Adblock Plus für Chrome lässt immer mehr Werbung durch
+awstats und lighttpd (Felix, pfleidi)
+
+
+
+Picks
+
+
+xargs (pfleidi)
+
+
+find /Volumes/Untitled/DCIM -type f | xargs basename | xargs -I name rm -v ~/magnets/images/name
+
+
+Griffin Elevator Laptop Stand
+Tweetbot (pfleidi)
+Shairport (Marc)
+Bose Companion 20 (Marc)
+Keyboard Heatmap
+
+
+Programming Languages Heatmaps
+
+
+[powertop2 + wilde Kernel Parameter = mehr energie](
+[offlineimap + IDLE]
+Steve Jobs stellt android tablet vor
+
+
+]]>
+      </itunes:summary>
+      <itunes:author>Binärgewitter Crew</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1</itunes:duration>
+      
+    </item>
     
     <item>
       <title>Binärgewitter Talk #1 - Klettphone</title>
@@ -227,6 +702,8 @@
 
 ]]>
       </description>
+      
+       
       
       <enclosure url="http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.mp3" length="115017856" type="audio/mpeg" />
       <media:content url="http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.mp3" fileSize="115017856" type="audio/mpeg" />
@@ -596,6 +1073,8 @@ Alien Brain Cocktail
 ]]>
       </description>
       
+       
+      
       <enclosure url="http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3" length="113277056" type="audio/mpeg" />
       <media:content url="http://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0.mp3" fileSize="113277056" type="audio/mpeg" />
       <itunes:keywords></itunes:keywords>
@@ -943,8 +1422,10 @@ Python for Humans
 ]]>
       </description>
       
-      <enclosure url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" length="85420625" type="audio/mpeg" />
-      <media:content url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" fileSize="85420625" type="audio/mpeg" />
+       
+      
+      <enclosure url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" length="Liquid error: Network is unreachable - connect(2)" type="audio/mpeg" />
+      <media:content url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" fileSize="Liquid error: Network is unreachable - connect(2)" type="audio/mpeg" />
       <itunes:keywords></itunes:keywords>
       <itunes:subtitle>Binärgewitter #3: Arbeiten und Lernen im Hackerspace</itunes:subtitle>
       <itunes:summary>
@@ -1225,6 +1706,8 @@ http://chaosradio.ccc.de/cre134.html
 ]]>
       </description>
       
+       
+      
       <enclosure url="http://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3" length="121261142" type="audio/mpeg" />
       <media:content url="http://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3" fileSize="121261142" type="audio/mpeg" />
       <itunes:keywords></itunes:keywords>
@@ -1471,6 +1954,8 @@ Privacy / Privatsphäre (vs. Security?)
 
 ]]>
       </description>
+      
+       
       
       <enclosure url="http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3" length="155536183" type="audio/mpeg" />
       <media:content url="http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3" fileSize="155536183" type="audio/mpeg" />

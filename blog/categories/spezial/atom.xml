@@ -12,7 +12,7 @@
     <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Thu, 02 Feb 2012 16:51:48 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Feb 2012 14:53:05 +0100</lastBuildDate>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -187,8 +187,8 @@
 ]]>
       </description>
       
-      <enclosure url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" length="85420625" type="audio/mpeg" />
-      <media:content url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" fileSize="85420625" type="audio/mpeg" />
+      <enclosure url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" length="Liquid error: Network is unreachable - connect(2)" type="audio/mpeg" />
+      <media:content url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" fileSize="Liquid error: Network is unreachable - connect(2)" type="audio/mpeg" />
       <itunes:keywords></itunes:keywords>
       <itunes:subtitle>Binärgewitter #3: Arbeiten und Lernen im Hackerspace</itunes:subtitle>
       <itunes:summary>
@@ -469,8 +469,8 @@ http://chaosradio.ccc.de/cre134.html
 ]]>
       </description>
       
-      <enclosure url="http://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3" length="121261142" type="audio/mpeg" />
-      <media:content url="http://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3" fileSize="121261142" type="audio/mpeg" />
+      <enclosure url="{"mp3"=>"http://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3"}" length="Liquid error: bad URI(is not URI?): {"mp3"=>"http://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3"}" type="audio/mpeg" />
+      <media:content url="{"mp3"=>"http://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3"}" fileSize="Liquid error: bad URI(is not URI?): {"mp3"=>"http://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3"}" type="audio/mpeg" />
       <itunes:keywords></itunes:keywords>
       <itunes:subtitle>Binärgewitter #2: Sichere Systeme</itunes:subtitle>
       <itunes:summary>
@@ -716,8 +716,8 @@ Privacy / Privatsphäre (vs. Security?)
 ]]>
       </description>
       
-      <enclosure url="http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3" length="155536183" type="audio/mpeg" />
-      <media:content url="http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3" fileSize="155536183" type="audio/mpeg" />
+      <enclosure url="{"mp3"=>"http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3"}" length="Liquid error: bad URI(is not URI?): {"mp3"=>"http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3"}" type="audio/mpeg" />
+      <media:content url="{"mp3"=>"http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3"}" fileSize="Liquid error: bad URI(is not URI?): {"mp3"=>"http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3"}" type="audio/mpeg" />
       <itunes:keywords></itunes:keywords>
       <itunes:subtitle>Binaergewitter #1 - NoSQL</itunes:subtitle>
       <itunes:summary>
