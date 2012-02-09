@@ -9,3 +9,8 @@ rvm:
 
 before_script: bundle exec rake generate
 script: bundle exec rake spec
+
+notifications:
+  email:
+    - mail@marc-seeger.de
+    - redaktion-ml@radiotux.de 
