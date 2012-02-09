@@ -14,3 +14,4 @@ notifications:
   email:
     - mail@marc-seeger.de
     - talk-ml@binaergewitter.de
+  irc: "irc.freenode.org#binaergewitter"
