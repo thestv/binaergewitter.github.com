@@ -17,7 +17,7 @@ layout: nil
 
     {% if site.flattr_uid %}
     <atom:link rel="payment"
-      href="https://flattr.com/submit/auto?url={{ site.url | url_encode }}&amp;user_id={{ site.flattr_uid }}&amp;title={{ site.title }}&amp;category={{ site.flattr_category }}"
+      href="https://flattr.com/submit/auto?url={{ site.url | url_encode }}&amp;user_id={{ site.flattr_uid }}&amp;title={{ site.title }}&amp;category={{ site.flattr_category }}&amp;tags=[{{ site.flattr_tags }}]"
       type="text/html"
       />
     {% endif %}
@@ -66,7 +66,7 @@ layout: nil
 
       {% if site.flattr_uid %}
       <atom:link rel="payment"
-        href="https://flattr.com/submit/auto?url={{ post_url | url_encode }}&amp;user_id={{ site.flattr_uid }}&amp;title={{ site.title }}&amp;category={{ site.flattr_category }}"
+        href="https://flattr.com/submit/auto?url={{ post_url | url_encode }}&amp;user_id={{ site.flattr_uid }}&amp;title={{ site.title }}&amp;category={{ site.flattr_category }}&amp;tags=[{{ site.flattr_tags }}]"
         type="text/html"
         />
       {% endif %}
