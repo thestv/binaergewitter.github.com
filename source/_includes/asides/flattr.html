@@ -1,12 +1,14 @@
 {% if site.flattr_uid %}
 <section>
-<h1>Flattr</h1>
-<a class="FlattrButton" style="display:none;"
-  title="{{ site.title }}"
-  data-flattr-uid="{{ site.flattr_uid }}"
-  data-flattr-tags="{{ site.flattr_tags }}"
-  data-flattr-category="audio"
-  href="{{ site.url }}">
-</a>
+<div class="flattr-button">
+  <h1>Flattr</h1>
+  <a class="FlattrButton" style="display:none;"
+    title="{{ site.title }}"
+    data-flattr-uid="{{ site.flattr_uid }}"
+    data-flattr-tags="{{ site.flattr_tags }}"
+    data-flattr-category="{{ site.flattr_category }}"
+    href="{{ site.url }}">
+  </a>
+</div>
 </section>
 {% endif %}
