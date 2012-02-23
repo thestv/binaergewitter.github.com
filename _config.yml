@@ -110,7 +110,6 @@ piwik_analytics_host: piwik.roothausen.de
 piwik_analytics_id: 3
 
 #Flattr
-flattr: true
-flattr_main_page_url: http://binaergewitter.de
 flattr_uid:	binaergewitter
+flattr_category: audio
 flattr_tags: podcast, tech, software

@@ -2,21 +2,31 @@
 layout: nil
 ---
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  >
 
-  <atom:link rel="payment" href="https://flattr.com/submit/auto?url=https%3A%2F%2Fdevelopers.flattr.net%2F&amp;user_id={{ site.flattr_uid }}" type="text/html" />
 
   <channel>
     <title><![CDATA[{{ site.title }}]]></title>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ site.subscribe_rss }}" rel="self"/>
-    <atom:link href="{{ site.url }}/"/>
+    <atom:link href="{{ site.subscribe_rss }}" rel="self" type="application/rss+xml" />
     <atom:id>{{ site.url }}/</atom:id>
+
+    {% if site.flattr_uid %}
+    <atom:link rel="payment"
+      href="https://flattr.com/submit/auto?url={{ site.url | url_encode }}&amp;user_id={{ site.flattr_uid }}&amp;title={{ site.title }}&amp;category={{ site.flattr_category }}&amp;tags=[{{ site.flattr_tags }}]"
+      type="text/html"
+      />
+    {% endif %}
 
     <description>{{ site.podcast_description }}</description>
     <language>de</language>
 
     <lastBuildDate>{{ site.time | date_to_rfc2822 }}</lastBuildDate>
+    <atom:updated>{{ site.time | date_to_xmlschema }}</atom:updated>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary>{{ site.summary }}</itunes:summary>
@@ -46,17 +56,28 @@ layout: nil
     <media:rating>nonadult</media:rating>
     <media:description type="plain">{{ site.podcast_description }}</media:description>
     {% for post in site.posts limit: 30 %}
+    {% capture post_url %}{{ site.url }}{{ post.url }}{% endcapture %}
     <item>
       <title>{{ post.title }}</title>
-      <link>{{ site.url }}{{ post.url }}</link>
+      <link>post_url</link>
       <comments>{{ site.url }}{{ post.url }}#comments</comments>
       <pubDate>{{ post.date | date_to_rfc2822 }}</pubDate>
+      <atom:updated>{{ post.date | date_to_xmlschema }}</atom:updated>
+
+      {% if site.flattr_uid %}
+      <atom:link rel="payment"
+        href="https://flattr.com/submit/auto?url={{ post_url | url_encode }}&amp;user_id={{ site.flattr_uid }}&amp;title={{ site.title }}&amp;category={{ site.flattr_category }}&amp;tags=[{{ site.flattr_tags }}]"
+        type="text/html"
+        />
+      {% endif %}
+
       {% for post_category in post.categories %}
       <category><![CDATA[{{ post_category }}]]></category>
       {% endfor %}
+
       <media:credit role="author">{{ site.author }}</media:credit>
       <media:rating>nonadult</media:rating>
-      <guid isPermaLink="false">{{ site.url }}{{ post.url }}</guid>
+      <guid isPermaLink="false">{{ site.url }}{{ post.id }}</guid>
       <description>
         <![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]>
       </description>
@@ -73,7 +94,6 @@ layout: nil
       </itunes:summary>
       <itunes:author>{{ site.author }}</itunes:author>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>1</itunes:duration>
       {% endif %}
     </item>
     {% endfor %}

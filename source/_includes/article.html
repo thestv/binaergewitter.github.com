@@ -43,11 +43,7 @@
 {% endif %}
 
 {% if index or post.flattr != false %}
-<div class="flattr-button">
   {% include post/flattr.html %}
-</div>
 {% elsif page.flattr != false %}
-<div class="flattr-button">
   {% include post/flattr.html %}
-</div>
 {% endif %}
