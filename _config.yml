@@ -9,7 +9,8 @@ author: Binärgewitter Crew
 logo: /images/binaergewitter_logo.png
 simple_search: http://google.com/search
 keywords: podcast, technology, gadgets, web, opensource
-description:
+description: Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt
+
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -57,7 +58,6 @@ default_asides: [asides/recent_posts.html, asides/flattr.html, asides/github.htm
 
 # Podcast specific settings
 podcast_category: Technology
-podcast_description: Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt
 podcast_copyright: Creative Commons BY-NC-SA 3.0 DE
 
 # ----------------------- #

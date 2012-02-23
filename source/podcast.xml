@@ -23,7 +23,7 @@ layout: nil
       />
     {% endif %}
 
-    <description>{{ site.podcast_description }}</description>
+    <description>{{ site.description }}</description>
     <language>de</language>
 
     <lastBuildDate>{{ site.time | date_to_rfc2822 }}</lastBuildDate>
@@ -55,7 +55,7 @@ layout: nil
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">{{site.categories.to_a.first}}</media:category>
     <media:credit role="author">{{ site.author }}</media:credit>
     <media:rating>nonadult</media:rating>
-    <media:description type="plain">{{ site.podcast_description }}</media:description>
+    <media:description type="plain">{{ site.description }}</media:description>
     {% for post in site.posts limit: 30 %}
     {% capture post_url %}{{ site.url }}{{ post.url }}{% endcapture %}
     <item>
