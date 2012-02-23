@@ -1,0 +1,17 @@
+language: ruby
+
+branches:
+  only:
+    - source
+
+rvm:
+  - 1.9.3
+
+before_script: bundle exec rake generate
+script: bundle exec rake spec
+
+notifications:
+  email:
+    - mail@marc-seeger.de
+    - talk-ml@binaergewitter.de
+  irc: "irc.freenode.org#binaergewitter"

@@ -12,7 +12,7 @@
     <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Thu, 09 Feb 2012 14:53:05 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 23 Feb 2012 11:05:02 +0100</lastBuildDate>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -187,8 +187,8 @@
 ]]>
       </description>
       
-      <enclosure url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" length="Liquid error: Network is unreachable - connect(2)" type="audio/mpeg" />
-      <media:content url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" fileSize="Liquid error: Network is unreachable - connect(2)" type="audio/mpeg" />
+      <enclosure url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" length="85420625" type="audio/mpeg" />
+      <media:content url="http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3" fileSize="85420625" type="audio/mpeg" />
       <itunes:keywords></itunes:keywords>
       <itunes:subtitle>Binärgewitter #3: Arbeiten und Lernen im Hackerspace</itunes:subtitle>
       <itunes:summary>
