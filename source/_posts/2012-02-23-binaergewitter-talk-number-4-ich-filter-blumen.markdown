@@ -9,12 +9,10 @@ audio:
   mp3: http://download.binaergewitter.de/2012-02-22.Binaergewitter.Talk.4.mp3
   ogg: http://download.binaergewitter.de/2012-02-22.Binaergewitter.Talk.4.ogg
 ---
-Diesmal wieder das ganze Team versammelt, gehts diesmal nicht nur um Tote sondern auch um Untote, außerdem haben wir uns dem Thema Mailserver gewidmet.
+Komplett versammelt, gehts diesmal nicht nur um Tote sondern auch um Untote, außerdem haben wir uns dem Thema Mailserver gewidmet.
  
 ## Nachtrag der letzten Sendung
 - [Apple kündigt Änderungen in der Adressbuch API an]( http://allthingsd.com/20120215/apple-app-access-to-contact-data-will-require-explicit-user-permission/ )
-    * Diskussionen DRM benutzung für private Daten?
-    * Einsatz von [Capability-Based Security]( http://en.wikipedia.org/wiki/Capability-based_security )?
 
 ## Toter der Woche
 - [Lordi Schlagzeuger tot]( http://www.focus.de/kultur/musik/hardrockband-lordi-schlagzeuger-stirbt-im-alter-von-38-jahren_aid_714479.html )
@@ -57,11 +55,11 @@ Diesmal wieder das ganze Team versammelt, gehts diesmal nicht nur um Tote sonder
 
 ### MTA
 - [MTA Comparison]( http://shearer.org/MTA_Comparison )
-- Sendmail
-- Postfix
-- Exim
-- Qmail
-- nullmailer
+- [WP: Sendmail](http://de.wikipedia.org/wiki/Sendmail )
+- [Postfix](http://de.postfix.org/ )
+- [Exim](http://www.exim.org/ )
+- [WP: Qmail](http://de.wikipedia.org/wiki/Qmail )
+- [nullmailer](http://untroubled.org/nullmailer/ )
 
 #### Konfigurationshilfen
 - [IRedmail]( http://www.iredmail.org/ )
@@ -76,7 +74,7 @@ Diesmal wieder das ganze Team versammelt, gehts diesmal nicht nur um Tote sonder
 - Einsatz von Adresstags um zu sehen wo Spam herkommt
 
 ### andere Dinge
- - fail2ban
+ - [fail2ban](http://www.fail2ban.org/wiki/index.php/Main_Page )
 
 ## Lesefoo
 - [Erklärung von Interface mit Hilfe von Pulp Fiction]( http://stackoverflow.com/questions/9107385/multiple-inheritance-in-actionscript-3/9108998#9108998 ) (pfleidi)
