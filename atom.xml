@@ -4,7 +4,7 @@
   <title><![CDATA[Binärgewitter]]></title>
   <link href="http://blog.binaergewitter.de/atom.xml" rel="self"/>
   <link href="http://blog.binaergewitter.de/"/>
-  <updated>2012-02-23T11:05:02+01:00</updated>
+  <updated>2012-02-23T11:15:41+01:00</updated>
   <id>http://blog.binaergewitter.de/</id>
   <author>
     <name><![CDATA[Binärgewitter Crew]]></name>
@@ -18,18 +18,12 @@
     <link href="http://blog.binaergewitter.de/blog/2012/02/23/binaergewitter-talk-number-4-ich-filter-blumen/"/>
     <updated>2012-02-23T11:07:00+01:00</updated>
     <id>http://blog.binaergewitter.de/blog/2012/02/23/binaergewitter-talk-number-4-ich-filter-blumen</id>
-    <content type="html"><![CDATA[<p>Diesmal wieder das ganze Team versammelt, gehts diesmal nicht nur um Tote sondern auch um Untote, außerdem haben wir uns dem Thema Mailserver gewidmet.</p>
+    <content type="html"><![CDATA[<p>Komplett versammelt, gehts diesmal nicht nur um Tote sondern auch um Untote, außerdem haben wir uns dem Thema Mailserver gewidmet.</p>
 
 <h2>Nachtrag der letzten Sendung</h2>
 
 <ul>
-<li><a href="http://allthingsd.com/20120215/apple-app-access-to-contact-data-will-require-explicit-user-permission/">Apple kündigt Änderungen in der Adressbuch API an</a>
-
-<ul>
-<li>Diskussionen DRM benutzung für private Daten?</li>
-<li>Einsatz von <a href="http://en.wikipedia.org/wiki/Capability-based_security">Capability-Based Security</a>?</li>
-</ul>
-</li>
+<li><a href="http://allthingsd.com/20120215/apple-app-access-to-contact-data-will-require-explicit-user-permission/">Apple kündigt Änderungen in der Adressbuch API an</a></li>
 </ul>
 
 
@@ -112,11 +106,11 @@
 
 <ul>
 <li><a href="http://shearer.org/MTA_Comparison">MTA Comparison</a></li>
-<li>Sendmail</li>
-<li>Postfix</li>
-<li>Exim</li>
-<li>Qmail</li>
-<li>nullmailer</li>
+<li><a href="http://de.wikipedia.org/wiki/Sendmail">WP: Sendmail</a></li>
+<li><a href="http://de.postfix.org/">Postfix</a></li>
+<li><a href="http://www.exim.org/">Exim</a></li>
+<li><a href="http://de.wikipedia.org/wiki/Qmail">WP: Qmail</a></li>
+<li><a href="http://untroubled.org/nullmailer/">nullmailer</a></li>
 </ul>
 
 
@@ -147,7 +141,7 @@
 <h3>andere Dinge</h3>
 
 <ul>
-<li>fail2ban</li>
+<li><a href="http://www.fail2ban.org/wiki/index.php/Main_Page">fail2ban</a></li>
 </ul>
 
 
