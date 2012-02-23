@@ -16,9 +16,9 @@ layout: nil
     <atom:id>{{ site.url }}/</atom:id>
 
     {% if site.flattr_uid %}
-    {% capture flattr_submit_url %}{{ site.url }}&user_id={{ site.flattr_uid }}&title={{ site.title | url_encode }}&category={{ site.flattr_category }}&tags={{ site.flattr_tags }}{% endcapture %}
+    {% capture flattr_submit_url %}{{ site.url | encode_url }}&amp;user_id={{ site.flattr_uid }}&amp;title={{ site.title | url_encode }}&amp;category={{ site.flattr_category }}&amp;tags={{ site.flattr_tags }}{% endcapture %}
     <atom:link rel="payment"
-      href="https://flattr.com/submit/auto?url={{ flattr_submit_url | url_encode }}"
+      href="https://flattr.com/submit/auto?url={{ flattr_submit_url }}"
       type="text/html"
       />
     {% endif %}
@@ -66,9 +66,9 @@ layout: nil
       <atom:updated>{{ post.date | date_to_xmlschema }}</atom:updated>
 
       {% if site.flattr_uid %}
-      {% capture flattr_submit_url %}{{ post_url }}&user_id={{ site.flattr_uid }}&title={{ post.title | url_encode }}&category={{ site.flattr_category }}&tags={{ site.flattr_tags }}{% endcapture %}
+      {% capture flattr_submit_url %}{{ post_url | url_encode }}&amp;user_id={{ site.flattr_uid }}&amp;title={{ post.title | url_encode }}&amp;category={{ site.flattr_category }}&amp;tags={{ site.flattr_tags }}{% endcapture %}
       <atom:link rel="payment"
-        href="https://flattr.com/submit/auto?url={{ flattr_submit_url | url_encode }}"
+        href="https://flattr.com/submit/auto?url={{ flattr_submit_url }}"
         type="text/html"
       />
 
