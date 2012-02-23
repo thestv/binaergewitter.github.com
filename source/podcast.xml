@@ -59,7 +59,7 @@ layout: nil
     {% capture post_url %}{{ site.url }}{{ post.url }}{% endcapture %}
     <item>
       <title>{{ post.title }}</title>
-      <link>post_url</link>
+      <link>{{ post_url }}</link>
       <comments>{{ site.url }}{{ post.url }}#comments</comments>
       <pubDate>{{ post.date | date_to_rfc2822 }}</pubDate>
       <atom:updated>{{ post.date | date_to_xmlschema }}</atom:updated>
