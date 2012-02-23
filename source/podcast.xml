@@ -16,7 +16,7 @@ layout: nil
     <atom:id>{{ site.url }}/</atom:id>
 
     {% if site.flattr_uid %}
-    {% capture flattr_submit_url %}{{ site.url | encode_url }}&amp;user_id={{ site.flattr_uid }}&amp;title={{ site.title | url_encode }}&amp;category={{ site.flattr_category }}&amp;tags={{ site.flattr_tags }}{% endcapture %}
+    {% capture flattr_submit_url %}{{ site.url | url_encode }}&amp;user_id={{ site.flattr_uid }}&amp;title={{ site.title | url_encode }}&amp;category={{ site.flattr_category }}&amp;tags={{ site.flattr_tags }}{% endcapture %}
     <atom:link rel="payment"
       href="https://flattr.com/submit/auto?url={{ flattr_submit_url }}"
       type="text/html"
