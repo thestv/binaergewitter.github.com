@@ -100,7 +100,7 @@ audio:
     * [spool](https://getspool.com/)
     * [radbox](http://radbox.me/)
     * [Boxee](http://www.boxee.tv/)'s 'watch later'
-    * [Instapaper]http://www.instapaper.com/)
+    * [Instapaper](http://www.instapaper.com/)
     * [nzb](https://nzb.su/) "in den Warenkorb"
     * [airvideo](http://airvideoapp.com/)
 
@@ -137,8 +137,8 @@ audio:
 - [Bose Companion 20](http://amzn.to/zXXLaH ) (Marc)
 - [Keyboard Heatmap](http://www.patrick-wied.at/projects/heatmap-keyboard/ )
     * [Programming Languages Heatmaps]( http://www.mahdiyusuf.com/post/9947002105/most-pressed-keys-and-programming-syntaxes-1 )
-- [powertop2 + wilde Kernel Parameter = mehr energie](
-- [offlineimap + IDLE]
+- [powertop2 + wilde Kernel Parameter = mehr energie](https://aur.archlinux.org/packages.php?ID=48935)
+- [offlineimap + IDLE](http://offlineimap.org/)
 - [Steve Jobs stellt android tablet vor](http://www.youtube.com/watch?v=Dy9MtG8jbE4 )
 
 
