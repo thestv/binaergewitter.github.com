@@ -88,8 +88,9 @@ layout: nil
       {% if post.audio.mp3 %} {% assign podcast_audio = post.audio.mp3 %}
       {% else %} {% assign podcast_audio = post.audio %}
       {% endif %}
-      <enclosure url="{{ podcast_audio }}" length="{% content_length podcast_audio %}" type="audio/mpeg" />
-      <media:content url="{{ podcast_audio}}" fileSize="{% content_length podcast_audio %}" type="audio/mpeg" />
+      {% assign_audio_metadata podcast_audio_meta = podcast_audio %}
+      <enclosure url="{{ podcast_audio }}" length="{{ podcast_audio_meta.content_length }}" type="{{ podcast_audio_meta.content_type }}" />
+      <media:content url="{{ podcast_audio}}" fileSize="{{ podcast_audio_meta.content_length }}" type="{{ podcast_audio_meta.content_type }}" />
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
       <itunes:subtitle>{{ post.title }}</itunes:subtitle>
       <itunes:summary>
