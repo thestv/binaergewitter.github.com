@@ -60,48 +60,48 @@ audio:
     * [Insync](https://www.insynchq.com )
     * [AeroFS](http://www.aerofs.com/ )
     * [Gitdocs]( https://github.com/bazaarlabs/gitdocs )
-    * Rsync/Unison/iFolder
+    * [Rsync](http://rsync.samba.org/)/[Unison](https://www.cis.upenn.edu/~bcpierce/unison/)/[iFolder](http://ifolder.com/ifolder)
     * Git + chrontab
         - git repository mit "sync" user + public key auth
         32 * * * * (cd /home/user/autosync/ ; git add -A . ; git commit -m autocommit ; git pull ;git push)
-    * sparkleshare
-    * githubhq
+    * [sparkleshare](http://sparkleshare.org/)
+    * [gitlabhq](http://gitlabhq.com/)
     * Siehe auch [RadioTux Talk 127]( http://blog.radiotux.de/2011/04/21/radiotux-talk-127-mersenne-primzahl/ )
 - Notizen
-    * Evernote
+    * [Evernote](http://evernote.com/)
 - Todo-Listen
     * [Siehe letzte Sendung]( http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-1-klettphone/ )
 - Musik
-    * ITunes Match
-    * Google Music
+    * [iTunes Match](https://www.apple.com/itunes/itunes-match/)
+    * [Google Music](http://music.google.com)
     * [Subsonic](http://www.subsonic.org/pages/index.jsp )
 - Kontakte / Kalender
     * Google
-    * iCloud
+    * [iCloud](https://www.apple.com/icloud/)
     * [Fruux](http://fruux.com/)
     * Groupware
     * [Distributed contact management using HTTP]( http://blog.roothausen.de/2010/10/25/distributed-contact-management-using-http/ )
     * MS Exchange
-        - Zarafa
-        - open xchange
-        - horde / kolab
-        - tine
-        - roundcube
+        - [Zarafa](http://www.zarafa.com/)
+        - [open xchange](https://www.open-xchange.com)
+        - [horde](http://www.horde.org/) / [kolab](http://www.kolab.org/)
+        - [tine](http://www.tine20.org/)
+        - [roundcube](http://www.roundcube.net/)
 - Nachrichten/Chats/Email/...
 - Passwörter
-    * KeepassX mit Dropbox
-    * 1Password
+    * [KeepassX](https://www.keepassx.org/) mit [Dropbox](http://www.dropbox.com/)
+    * [1Password](https://agilebits.com/products/1password)
     * Browser Sync
 - Browserdaten
-    * Firefox sync
-    * Opera sync
-    * Google sync
+    * [Firefox sync](https://www.mozilla.org/en-US/mobile/sync/)
+    * [Opera sync](http://www.opera.com/link/)
+    * [Google sync](http://www.google.com/mobile/sync/)
 - Sachen die wir in naher Zukunft sehen/lesen wollen
-    * getspool.com
-    * radbox.me
-    * Boxee's 'watch later'
-    * instapaper
-    * nzb.su "in den Warenkorb"
+    * [spool](https://getspool.com/)
+    * [radbox](http://radbox.me/)
+    * [Boxee](http://www.boxee.tv/)'s 'watch later'
+    * [Instapaper]http://www.instapaper.com/)
+    * [nzb](https://nzb.su/) "in den Warenkorb"
     * [airvideo](http://airvideoapp.com/)
 
 #### Wo fehlen gute Lösungen?
