@@ -35,10 +35,13 @@
 
 {% if podcast_audio %}
 <div class="audio-content">
+   {% audio podcast_audio %}
+  <p id="download-buttons">
   {% for url in podcast_audio %}
-  <a href="{{ url[1] }}">Download {{ url[0] }}</a><br />
+  <a href="{{ url[1] }}"><img src="{{ root_url }}/images/audio_{{ url[0] }}_button.png"
+    title="download {{ url[0] }}" alt="download {{ url[0] }}" style="border:0; border-radius:0;" /></a>
   {% endfor %}
-  {% audio podcast_audio %}
+  </p>
 </div>
 {% endif %}
 
