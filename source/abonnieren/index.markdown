@@ -23,3 +23,6 @@ Natürlich könnt ihr uns auch abonnieren. Wir sind schließlich ein Podcast. En
 
 [http://www.podcast.de/podcast/6774/](http://www.podcast.de/podcast/6774/)
 
+## RSS Kommentarfeed
+
+[http://feeds.feedburner.com/binaergewitter-comments](http://feeds.feedburner.com/binaergewitter-comments)
