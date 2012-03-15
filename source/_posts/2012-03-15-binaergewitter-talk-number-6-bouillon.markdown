@@ -43,13 +43,14 @@ audio:
 ## Themen
 
 - SSH KnowHow
-  * [Bash as a Service]( Bash as a Service | Guillermo Rauch's Devthought )
+  * [Bash as a Service](http://www.devthought.com/2012/03/13/bash-as-a-service/)
   * [Komfortabel Arbeiten mit SSH]( http://blog.roothausen.de/2006/12/17/komfortabel-arbeiten-mit-ssh/ )
   * [Tunneln mit SSH]( http://blog.roothausen.de/2006/03/29/ssh-tunnel/ )
   * [Tunneln mit Putty]( http://blog.marc-seeger.de/2007/11/08/tunneling-everything-via-ssh-aka-fighting-the-nazi-firewall-of-death/ )
-  * ~/.ssh/config
+  * [~/.ssh/config](http://www.linuxmanpages.com/man5/ssh_config.5.php)
   * Enterprise-Loop: while true; do ssh host ; done 
   * [SSH Hacks]( http://matt.might.net/articles/ssh-hacks/ )
+  * [Propmpt](http://www.panic.com/blog/2011/04/introducing-prompt-ssh-for-ios/)
   * [Putty]( http://www.chiark.greenend.org.uk/~sgtatham/putty/ )
   * [Cygwin]( http://cygwin.org/ )
 
