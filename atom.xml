@@ -4,7 +4,7 @@
   <title><![CDATA[Binärgewitter]]></title>
   <link href="http://blog.binaergewitter.de/atom.xml" rel="self"/>
   <link href="http://blog.binaergewitter.de/"/>
-  <updated>2012-03-22T14:42:02+01:00</updated>
+  <updated>2012-03-22T14:43:59+01:00</updated>
   <id>http://blog.binaergewitter.de/</id>
   <author>
     <name><![CDATA[Binärgewitter Crew]]></name>
@@ -361,17 +361,6 @@
 <li><a href="http://joelb.me/scrollpath/">jQuery scrollpath Demo</a> (pfleidi)</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Binärgewitter Talk #6 - Bash as a Service!]]></title>
-    <link href="http://blog.binaergewitter.de/blog/2012/03/14/binaergewitter-talk-number-6-bash-as-a-service/"/>
-    <updated>2012-03-14T23:07:00+01:00</updated>
-    <id>http://blog.binaergewitter.de/blog/2012/03/14/binaergewitter-talk-number-6-bash-as-a-service</id>
-    <content type="html"><![CDATA[<p>Die 3 von der Tankstelle unterhalten sich diesmal u.a. über SSH.</p>
-
-<p>Shownotes folgen sobald unser Piratenpad wieder online ist.</p>
 ]]></content>
   </entry>
   

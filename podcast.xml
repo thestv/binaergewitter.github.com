@@ -23,8 +23,8 @@
     <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Thu, 22 Mar 2012 14:42:02 +0100</lastBuildDate>
-    <atom:updated>2012-03-22T14:42:02+01:00</atom:updated>
+    <lastBuildDate>Thu, 22 Mar 2012 14:43:59 +0100</lastBuildDate>
+    <atom:updated>2012-03-22T14:43:59+01:00</atom:updated>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -803,55 +803,6 @@ Geocities-izer(makefu)
 jQuery scrollpath Demo (pfleidi)
 
 
-]]>
-      </itunes:summary>
-      <itunes:author>Binärgewitter Crew</itunes:author>
-      <itunes:explicit>no</itunes:explicit>
-      
-    </item>
-    
-    
-    <item>
-      <title>Binärgewitter Talk #6 - Bash as a Service!</title>
-      <link>http://blog.binaergewitter.de/blog/2012/03/14/binaergewitter-talk-number-6-bash-as-a-service/</link>
-      <comments>http://blog.binaergewitter.de/blog/2012/03/14/binaergewitter-talk-number-6-bash-as-a-service/#comments</comments>
-      <pubDate>Wed, 14 Mar 2012 23:07:00 +0100</pubDate>
-      <atom:updated>2012-03-14T23:07:00+01:00</atom:updated>
-
-      
-      
-      <atom:link rel="payment"
-        href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de%2Fblog%2F2012%2F03%2F14%2Fbinaergewitter-talk-number-6-bash-as-a-service%2F&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter%20Talk%20%236%20-%20Bash%20as%20a%20Service!&amp;category=audio&amp;tags=podcast,tech,software"
-        type="text/html"
-      />
-
-      
-
-      
-      <category><![CDATA[talk]]></category>
-      
-
-      <media:credit role="author">Binärgewitter Crew</media:credit>
-      <media:rating>nonadult</media:rating>
-      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/03/14/binaergewitter-talk-number-6-bash-as-a-service</guid>
-      <description>
-        <![CDATA[<p>Die 3 von der Tankstelle unterhalten sich diesmal u.a. über SSH.</p>
-
-<p>Shownotes folgen sobald unser Piratenpad wieder online ist.</p>
-]]>
-      </description>
-      
-       
-      
-      
-      <enclosure url="http://download.binaergewitter.de/2012-03-07.Binaergewitter.Talk.5.mp3" length="103184512" type="audio/mpeg" />
-      <media:content url="http://download.binaergewitter.de/2012-03-07.Binaergewitter.Talk.5.mp3" fileSize="103184512" type="audio/mpeg" />
-      <itunes:keywords></itunes:keywords>
-      <itunes:subtitle>Binärgewitter Talk #6 - Bash as a Service!</itunes:subtitle>
-      <itunes:summary>
-        <![CDATA[Die 3 von der Tankstelle unterhalten sich diesmal u.a. über SSH.
-
-Shownotes folgen sobald unser Piratenpad wieder online ist.
 ]]>
       </itunes:summary>
       <itunes:author>Binärgewitter Crew</itunes:author>
