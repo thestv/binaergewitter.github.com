@@ -35,8 +35,8 @@ Unsere Internetseiten verwenden an mehreren Stellen, beispielsweise in der Komme
 ### Datenschutzerklärung für die Nutzung von Twitter
 
 Auf unseren Seiten sind Funktionen des Dienstes Twitter eingebunden. Diese Funktionen werden angeboten durch die Twitter Inc., 795 Folsom St., Suite 600, San Francisco, CA 94107, USA. Durch das Benutzen von Twitter und der Funktion "Re-Tweet" werden die von Ihnen besuchten Webseiten mit Ihrem Twitter-Account verknüpft und anderen Nutzern bekannt gegeben. Dabei werden auch Daten an Twitter übertragen.
-Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Twitter erhalten. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Twitter unter http://twitter.com/privacy.
-Ihre Datenschutzeinstellungen bei Twitter können Sie in den Konto-Einstellungen unter http://twitter.com/account/settings ändern.
+Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Twitter erhalten. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Twitter unter [http://twitter.com/privacy](http://twitter.com/privacy).
+Ihre Datenschutzeinstellungen bei Twitter können Sie in den Konto-Einstellungen unter [http://twitter.com/account/settings](http://twitter.com/account/settings) ändern.
 
 Quellenangaben: [Disclaimer eRecht24](http://www.e-recht24.de/muster-disclaimer.htm), [Twitter Datenschutzerklärung](http://twitter.com/privacy)
 
@@ -47,11 +47,11 @@ gestellt. Disqus ist ein interaktives Kommentarsystem, das es dem Nutzer ermögl
 Internetangeboten, die Disqus als Kommentarsystem verwenden, zu kommentieren. Außerdem können sich die Nutzer über 
 bestehende Accounts bei Facebook (über Facebook Connect), Twitter, Yahoo und OpenID anmelden. Auch die Erstellung von 
 Kommentare ohne Registrierung und Anmeldung (als “Gast”) ist möglich. Nähere Informationen zu Disqus und seinen 
-Funktionen finden Sie unter www.disqus.com.
+Funktionen finden Sie unter [www.disqus.com](https://disqus.com/).
 
 Ihre Daten werden Disqus  verarbeitet und auf Systemen von Disqus gespeichert. Für die Erhebung, Verarbeitung und 
 Nutzung der betreffenden Daten gelten die Nutzungsbedingungen und Datenschutzhinweise von Disqus, zu finden unter 
-[http://docs.disqus.com/help/30/](http://docs.disqus.com/help/30/) und [http://docs.disqus.com/help/29/](. Wenn Sie sich 
+[http://docs.disqus.com/help/30/](http://docs.disqus.com/help/30/) und [http://docs.disqus.com/help/29/](http://docs.disqus.com/help/29/). Wenn Sie sich 
 über Ihren Facebook-, Twitter-, 
 Yahoo- oder OpenID-Account anmelden, werden auch von diesen Anbietern möglicherweise Daten erhoben, gespeichert und 
 genutzt. Einzelheiten dazu finden sich in den Datenschutzbestimmungen des jeweiligen Anbieters.
