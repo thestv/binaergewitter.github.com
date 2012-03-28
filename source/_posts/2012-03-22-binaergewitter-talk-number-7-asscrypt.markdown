@@ -52,7 +52,7 @@ Wieder zur 4, rocken wir diesmal noch mal durchs Mailuniversium und durchs Monit
 - [Why monitoring sucks - for now]( http://gigaom.com/2012/02/12/why-monitoring-sucks-for-now/ )
 
 ### selbst gehostete Software
-- [Nagios]( http://www.nagios.org/ ) / icinga
+- [Nagios]( http://www.nagios.org/ ) / [icinga](https://www.icinga.org/)
 - [Shinken]( http://www.shinken-monitoring.org/ )
 - [OpenSMART]( http://opensmart.sourceforge.net/ )
 - [Monit]( http://mmonit.com/monit/ )
@@ -107,7 +107,7 @@ Wieder zur 4, rocken wir diesmal noch mal durchs Mailuniversium und durchs Monit
 ## Picks
 - [Vytautas Mineral Water!It's Earth Juice!](http://www.youtube.com/watch?feature=player_embedded&v=nITLob098W8 ) (makefu)
     - [Powerthirst]( http://www.youtube.com/watch?v=qRuNxHqwazs )
-- mumble (ingo)
+- [mumble](http://mumble.sourceforge.net/) (ingo)
 - [GitX(L)]( http://gitx.laullon.com/ ) (pfleidi)
 - [Baikal](https://github.com/jeromeschneider/Baikal/blob/master/INSTALL.md )
 - [Juan of the dead]( http://www.imdb.com/title/tt1838571/ ), [Chronicle]( http://www.imdb.com/title/tt1706593/ ) (pfleidi)
