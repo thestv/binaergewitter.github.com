@@ -23,8 +23,8 @@
     <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Thu, 22 Mar 2012 14:54:13 +0100</lastBuildDate>
-    <atom:updated>2012-03-22T14:54:13+01:00</atom:updated>
+    <lastBuildDate>Thu, 29 Mar 2012 12:26:14 +0200</lastBuildDate>
+    <atom:updated>2012-03-29T12:26:14+02:00</atom:updated>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -56,6 +56,411 @@
     
     
     <item>
+      <title>Binärgewitter Talk #7 - EDGE rauscht im Schritt</title>
+      <link>http://blog.binaergewitter.de/blog/2012/03/29/binaergewitter-talk-number-8-edge-rauscht-im-schritt/</link>
+      <comments>http://blog.binaergewitter.de/blog/2012/03/29/binaergewitter-talk-number-8-edge-rauscht-im-schritt/#comments</comments>
+      <pubDate>Thu, 29 Mar 2012 12:00:00 +0200</pubDate>
+      <atom:updated>2012-03-29T12:00:00+02:00</atom:updated>
+
+      
+      
+      <atom:link rel="payment"
+        href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de%2Fblog%2F2012%2F03%2F29%2Fbinaergewitter-talk-number-8-edge-rauscht-im-schritt%2F&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter%20Talk%20%237%20-%20EDGE%20rauscht%20im%20Schritt&amp;category=audio&amp;tags=podcast,tech,software"
+        type="text/html"
+      />
+
+      
+
+      
+      <category><![CDATA[talk]]></category>
+      
+
+      <media:credit role="author">Binärgewitter Crew</media:credit>
+      <media:rating>nonadult</media:rating>
+      
+      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/03/29/binaergewitter-talk-number-8-edge-rauscht-im-schritt</guid>
+      
+      <description>
+        <![CDATA[<p>Vollbesetzt rauschen wir durch die Wasserleitung, bringen alles über IP und qutaschen über Webprojekte.</p>
+
+<h3>Nachtrag</h3>
+
+<ul>
+<li><a href="http://www.wired.com/wiredscience/2012/03/birdman-admits-hoax/">Vogelmann fake</a></li>
+</ul>
+
+
+<h2>Toter der Woche</h2>
+
+<ul>
+<li><a href="http://www.rp-online.de/bergisches-land/solingen/nachrichten/feuer-200-tauben-tot-zuechter-verletzt-1.2769408">200 Tauben bei Brand gestorben</a>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/IP_over_Avian_Carriers">Taubeninternet</a></li>
+</ul>
+</li>
+<li>[FDP bei 1.2 Prozent] (http://stat.tagesschau.de/wahlen/2012-03-25-LT-DE-SL/index.shtml )</li>
+<li><a href="http://tagesschau.de/kultur/haraldschmidt108.html">Harald Schmidt Show</a></li>
+</ul>
+
+
+<h2>News</h2>
+
+<ul>
+<li><a href="http://www.heise.de/newsticker/meldung/Schneller-Internetzugang-ueber-die-Wasserleitung-1478269.html">Internet durch die Wasserleitung</a>
+
+<ul>
+<li><a href="http://www.google.com/onceuponatime/tisp/">Google TiSP</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h3>Mobile</h3>
+
+<ul>
+<li><a href="http://www.elcomsoft.com/WP/BH-EU-2012-WP.pdf">Paper über Sicherheit mobiler Passwortmanager</a>
+
+<ul>
+<li><a href="http://www.forbes.com/sites/andygreenberg/2012/03/27/heres-how-law-enforcement-cracks-your-iphones-security-code-video/">Iphone PIN dingens</a></li>
+</ul>
+</li>
+<li><a href="http://www.netbooknews.de/66026/nokia-plant-zwei-neue-low-end-smartphones-mit-meego/">Doch noch MeeGo Telefone</a></li>
+<li><a href="http://www.golem.de/news/e-book-reader-amazon-bringt-kindle-touch-nach-deutschland-1203-90799.html">Kindle Touch kommt nach Deutschland</a></li>
+<li><a href="http://www.getshitter.com/">Twitter shitter</a></li>
+</ul>
+
+
+<h3>Web</h3>
+
+<ul>
+<li><a href="http://www.theregister.co.uk/2012/03/22/chrome_number_one_for_a_day/">Chrome schlägt IE für einen Tag</a></li>
+<li><a href="http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/">JavaScript debugging wird toller: Sourcemaps</a></li>
+<li><a href="http://hacks.mozilla.org/2012/03/browserquest/">Mozilla Browserquest</a></li>
+<li><a href="http://www.exploit-db.com/exploits/18665/">In PHP eingebauter Webserver anfällig für DoS</a></li>
+<li><a href="http://blogs.msdn.com/b/ie/archive/2012/03/25/speed-and-mobility-an-approach-for-http-2-0-to-make-mobile-apps-and-the-web-faster.aspx">Auch Microsoft will bei HTTP 2.0 mitmischen</a>
+
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/mpbpobfflnpcgagjijhmgnchggcjblin?hl=en-US">SPDY Indicator für Chrome</a></li>
+</ul>
+</li>
+<li><a href="http://www.labnol.org/internet/website-uptime-monitor/21060/">Uptime monitoring mit Google Docs</a></li>
+<li><a href="http://support.apple.com/kb/HT3296?viewlocale=en_US&amp;locale=en_US">Apple TV lernt Fernbedienungen</a></li>
+</ul>
+
+
+<h3>Cloud</h3>
+
+<ul>
+<li><a href="http://www.golem.de/news/cloud-storage-riak-cs-ist-kompatibel-zu-amazon-s3-und-mandantenfaehig-1203-90791.html">Basho bringt Riak CS</a>
+
+<ul>
+<li><a href="http://basho.com/products/riakcs/">Offizielle Seite</a></li>
+</ul>
+</li>
+<li><a href="http://zerovm.org/">ZeroVM</a>
+
+<ul>
+<li><a href="http://bigdatacraft.com/dazo">Blogpost</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Themen</h2>
+
+<h3>Webprojekte</h3>
+
+<ul>
+<li>Welches Einsatzgebiet?
+
+<ul>
+<li>Kleine/grosse Projekte?</li>
+<li>Hobbyprojekt oder für Kunden/Arbeitgeber?</li>
+<li>Client / Serverseite?</li>
+</ul>
+</li>
+<li>Fertige Software
+
+<ul>
+<li>Wordpress</li>
+<li>S9Y</li>
+<li>Drupal</li>
+<li>Octopress/Octopod</li>
+</ul>
+</li>
+<li>Programmiersprachen
+
+<ul>
+<li>Ruby</li>
+<li>Python</li>
+<li>JavaScript/CoffeeScript</li>
+<li>Scala</li>
+<li>Groovy</li>
+<li>PHP</li>
+</ul>
+</li>
+<li>Frameworks Server
+
+<ul>
+<li>Rails</li>
+<li>Sinatra/Padrino</li>
+<li>Django</li>
+<li>Flask</li>
+<li><a href="http://webpy.org/">Web.py</a></li>
+<li><a href="http://www.web2py.com/">Web2Py</a></li>
+<li><a href="http://www.senchalabs.org/connect/">Connect</a> / <a href="http://expressjs.com/">Express</a></li>
+<li><a href="http://liftweb.net/">Lift</a></li>
+<li><a href="http://www.playframework.org/">Play</a></li>
+<li>Grails</li>
+<li>Symphony</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Lesefoo</h2>
+
+<ul>
+<li><a href="http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html">Execution in the kingdom of nouns</a> (pfleidi)
+-<a href="http://patshaughnessy.net/2012/3/23/why-you-should-be-excited-about-garbage-collection-in-ruby-2-0">Why You Should Be Excited About Garbage Collection in Ruby 2.0</a>
+
+<ul>
+<li><a href="http://vimeo.com/38994805">Garbage Collection Japaner</a></li>
+</ul>
+</li>
+<li><a href="http://incubator.apache.org/kafka/design.html">Apache Kafka design whitepappaper</a> (pfleidi)</li>
+<li><a href="http://plasmasturm.org/log/6debug/">Six Stages of Debugging</a></li>
+<li><a href="http://37signals.com/svn/posts/3137-using-event-capturing-to-improve-basecamp-page-load-times">Event capturing macht Dinge schnell</a></li>
+<li><a href="http://matt.might.net/articles/js-church/">Church encodings, the U combinator and the Y combinator in JavaScript
+</a> (pfleidi)</li>
+</ul>
+
+
+<h2>Mimimi der Woche</h2>
+
+<ul>
+<li>Kopfhörer Kabel (pfleidi)</li>
+<li>MicroSD Karte Wear Leveling Fail (makefu)</li>
+</ul>
+
+
+<h2>Picks</h2>
+
+<ul>
+<li><a href="https://addons.mozilla.org/de/thunderbird/addon/remove-duplicate-messages/">Remove duplicate messages</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/chklaanhfefbnpoihckbnefhakgolnmc">JSONView</a> (pfleidi)</li>
+<li><a href="https://chrome.google.com/webstore/detail/gbammbheopgpmaagmckhpjbfgdfkpadb">XML Tree</a> (pfleidi)</li>
+<li><a href="http://www.youtube.com/watch?v=YXh9RQCvxmg">Stephen Colbert interviewt Neil deGrasse Tyson</a> (pfleidi)</li>
+<li><a href="http://www.youtube.com/watch?v=9RExQFZzHXQ">The poetry of science</a> (pfleidi)</li>
+<li><a href="http://www.wired.com/cloudline/2011/10/backblazes-basic-cloud/">Backblaze Artikel zu Pods</a>
+
+<ul>
+<li><a href="www.backblaze.com">Website</a></li>
+</ul>
+</li>
+</ul>
+
+]]>
+      </description>
+      
+       
+      
+      
+      <enclosure url="http://download.binaergewitter.de/2012-03-28.Binaergewitter.Talk.8.mp3" length="115901823" type="audio/mpeg" />
+      <media:content url="http://download.binaergewitter.de/2012-03-28.Binaergewitter.Talk.8.mp3" fileSize="115901823" type="audio/mpeg" />
+      <itunes:keywords></itunes:keywords>
+      <itunes:subtitle>Binärgewitter Talk #7 - EDGE rauscht im Schritt</itunes:subtitle>
+      <itunes:summary>
+        <![CDATA[Vollbesetzt rauschen wir durch die Wasserleitung, bringen alles über IP und qutaschen über Webprojekte.
+
+Nachtrag
+
+
+Vogelmann fake
+
+
+
+Toter der Woche
+
+
+200 Tauben bei Brand gestorben
+
+
+Taubeninternet
+
+
+[FDP bei 1.2 Prozent] (http://stat.tagesschau.de/wahlen/2012-03-25-LT-DE-SL/index.shtml )
+Harald Schmidt Show
+
+
+
+News
+
+
+Internet durch die Wasserleitung
+
+
+Google TiSP
+
+
+
+
+
+Mobile
+
+
+Paper über Sicherheit mobiler Passwortmanager
+
+
+Iphone PIN dingens
+
+
+Doch noch MeeGo Telefone
+Kindle Touch kommt nach Deutschland
+Twitter shitter
+
+
+
+Web
+
+
+Chrome schlägt IE für einen Tag
+JavaScript debugging wird toller: Sourcemaps
+Mozilla Browserquest
+In PHP eingebauter Webserver anfällig für DoS
+Auch Microsoft will bei HTTP 2.0 mitmischen
+
+
+SPDY Indicator für Chrome
+
+
+Uptime monitoring mit Google Docs
+Apple TV lernt Fernbedienungen
+
+
+
+Cloud
+
+
+Basho bringt Riak CS
+
+
+Offizielle Seite
+
+
+ZeroVM
+
+
+Blogpost
+
+
+
+
+
+Themen
+
+Webprojekte
+
+
+Welches Einsatzgebiet?
+
+
+Kleine/grosse Projekte?
+Hobbyprojekt oder für Kunden/Arbeitgeber?
+Client / Serverseite?
+
+
+Fertige Software
+
+
+Wordpress
+S9Y
+Drupal
+Octopress/Octopod
+
+
+Programmiersprachen
+
+
+Ruby
+Python
+JavaScript/CoffeeScript
+Scala
+Groovy
+PHP
+
+
+Frameworks Server
+
+
+Rails
+Sinatra/Padrino
+Django
+Flask
+Web.py
+Web2Py
+Connect / Express
+Lift
+Play
+Grails
+Symphony
+
+
+
+
+
+Lesefoo
+
+
+Execution in the kingdom of nouns (pfleidi)
+-Why You Should Be Excited About Garbage Collection in Ruby 2.0
+
+
+Garbage Collection Japaner
+
+
+Apache Kafka design whitepappaper (pfleidi)
+Six Stages of Debugging
+Event capturing macht Dinge schnell
+Church encodings, the U combinator and the Y combinator in JavaScript
+ (pfleidi)
+
+
+
+Mimimi der Woche
+
+
+Kopfhörer Kabel (pfleidi)
+MicroSD Karte Wear Leveling Fail (makefu)
+
+
+
+Picks
+
+
+Remove duplicate messages
+JSONView (pfleidi)
+XML Tree (pfleidi)
+Stephen Colbert interviewt Neil deGrasse Tyson (pfleidi)
+The poetry of science (pfleidi)
+Backblaze Artikel zu Pods
+
+
+Website
+
+
+
+
+]]>
+      </itunes:summary>
+      <itunes:author>Binärgewitter Crew</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      
+    </item>
+    
+    
+    <item>
       <title>Binärgewitter Talk #7 - Asscrypt!</title>
       <link>http://blog.binaergewitter.de/blog/2012/03/22/binaergewitter-talk-number-7-asscrypt/</link>
       <comments>http://blog.binaergewitter.de/blog/2012/03/22/binaergewitter-talk-number-7-asscrypt/#comments</comments>
@@ -77,7 +482,9 @@
 
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
+      
       <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/03/22/binaergewitter-talk-number-7-asscrypt</guid>
+      
       <description>
         <![CDATA[<p>Wieder zur 4, rocken wir diesmal noch mal durchs Mail- und zum ersten Mal durchs Monitoringuniversum.</p>
 
@@ -522,7 +929,9 @@ jQuery scrollpath Demo (pfleidi)
 
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
+      
       <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/03/15/binaergewitter-talk-number-6-bouillon</guid>
+      
       <description>
         <![CDATA[<h2>Toter der Woche</h2>
 
@@ -841,7 +1250,9 @@ Bat Phone (makefu)
 
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
+      
       <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/03/08/binaergewitter-talk-number-5-geckphone</guid>
+      
       <description>
         <![CDATA[<p>Wegen Head-Crash ohne die Computergenerierte Stimme Ingo. Aber mit <a href="http://twitter.com/pfleidi">pfleidi</a>, der die Moderation übernommen hat und sowie <a href="http://twitter.com/rb2k">Marc</a> und <a href="http://twitter.com/makefoo">felix</a>.</p>
 
@@ -1170,7 +1581,9 @@ HTTPie (pfleidi)
 
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
+      
       <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/02/23/binaergewitter-talk-number-4-ich-filter-blumen</guid>
+      
       <description>
         <![CDATA[<p>Komplett versammelt, gehts diesmal nicht nur um Tote sondern auch um Untote, außerdem haben wir uns dem Thema Mailserver gewidmet.</p>
 
@@ -1525,7 +1938,9 @@ https://github.com/igrigorik/mneme
 
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
+      
       <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/02/16/binaergewitter-talk-number-3-retrospektive-kohaerenz-kann-durch-indirektion-geloest-werden</guid>
+      
       <description>
         <![CDATA[<h2>Nachtrag</h2>
 
@@ -1802,7 +2217,9 @@ cloudflare
 
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
+      
       <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/02/09/binaergewitter-talk-number-2-syncender-podwal</guid>
+      
       <description>
         <![CDATA[<h2>Octopod</h2>
 
@@ -2289,7 +2706,9 @@ Steve Jobs stellt android tablet vor
 
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
+      
       <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/02/02/binaergewitter-talk-number-1-klettphone</guid>
+      
       <description>
         <![CDATA[<h2>In eigener Sache</h2>
 
@@ -2674,7 +3093,9 @@ Alien Brain Cocktail
 
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
+      
       <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/01/26/binaergewitter-talk-number-0-schlechter-kaffee-oder-sexuelle-belaestigung</guid>
+      
       <description>
         <![CDATA[<h2>Einführung</h2>
 
@@ -3055,7 +3476,9 @@ Python for Humans
 
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
+      
       <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/01/23/erste-binaergewitter-talk-sendung-am-mittwoch</guid>
+      
       <description>
         <![CDATA[<p>Am Mittwoch dem 25.01.2012 gehts endlich los mit Binaergewitter-Talk Ausgabe 1.</p>
 
@@ -3088,7 +3511,9 @@ Python for Humans
 
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
+      
       <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2011/08/24/binargewitter-number-3-arbeiten-und-lernen-im-hackerspace</guid>
+      
       <description>
         <![CDATA[<p>Diesmal ein gar nicht so technisches Thema, aber trotzdem f&uuml;r uns Geeks interessant. Es geht um die Hackerspaces, die Kultur und warum das Lernen und Arbeiten in solchen Umgebungen einfacherer ist als in der Schule und im Studium. Mit dabei sind diesmal pfleidi, Felix, Jan und hadez. Moderation: Ingo</p>
 
@@ -3391,7 +3816,9 @@ http://chaosradio.ccc.de/cre134.html
 
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
+      
       <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2011/04/16/binargewitter-number-2-sichere-systeme</guid>
+      
       <description>
         <![CDATA[<p>Ausgabe 2 von Binärgewitter dreht sich rund um Sichere Systeme und grundlägende Begriffe von Sicherheit bzw. IT Security. Mit dabei sind Pfleidi, Felix und Prof. Walter Kriha, moderiert von Ingo Ebel. Die Sendung soll einen Einblick in Sicherheit und Sichere Systeme geben. Eine weitere Binärgewitterfolge wird sich dann mit einzelnen Angriff- und Abwehrmaßnahmen beschäftigen.</p>
 
@@ -3682,7 +4109,9 @@ Privacy / Privatsphäre (vs. Security?)
 
       <media:credit role="author">Binärgewitter Crew</media:credit>
       <media:rating>nonadult</media:rating>
+      
       <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2011/01/09/binaergewitter-number-1-nosql</guid>
+      
       <description>
         <![CDATA[<p>Die erste Ausgabe unseres neuen Formats beschäftigt sich mit Datenbanken und NoSQL. Diese neuen Datenbanken waren im Jahr 2010 schon Hype und werden uns sicher auch im Jahr 2011 stark begleiten. Warum soll man aber diese Datenbanken einsetzen? Welche gibt es und welche Stärken und Schwächen haben diese? Das versuchen <a href="http://twitter.com/ddeimeke" target="_blank">Dirk</a>, <a href="http://twitter.com/rb2k" target="_blank">Marc</a>, <a href="http://twitter.com/pfleidi" target="_blank">Sven</a> und <a href="http://twitter.com/radiotux" target="_blank">Ingo</a> in 2,75 Stunden zu klären.</p>
 
