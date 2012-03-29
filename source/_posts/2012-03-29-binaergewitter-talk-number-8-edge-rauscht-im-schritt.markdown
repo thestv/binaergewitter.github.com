@@ -19,7 +19,7 @@ Vollbesetzt rauschen wir durch die Wasserleitung, bringen alles über IP und qut
 
 - [200 Tauben bei Brand gestorben]( http://www.rp-online.de/bergisches-land/solingen/nachrichten/feuer-200-tauben-tot-zuechter-verletzt-1.2769408 )
   * [Taubeninternet]( http://en.wikipedia.org/wiki/IP_over_Avian_Carriers )
-- [FDP bei 1.2 Prozent] (http://stat.tagesschau.de/wahlen/2012-03-25-LT-DE-SL/index.shtml )
+- [FDP bei 1.2 Prozent](http://stat.tagesschau.de/wahlen/2012-03-25-LT-DE-SL/index.shtml )
 - [Harald Schmidt Show](http://tagesschau.de/kultur/haraldschmidt108.html )
 
 ## News
