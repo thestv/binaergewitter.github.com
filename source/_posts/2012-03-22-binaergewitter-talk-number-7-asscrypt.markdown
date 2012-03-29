@@ -12,7 +12,7 @@ audio:
 Wieder zur 4., rocken wir diesmal noch mal durchs Mail- und zum ersten Mal durchs Monitoringuniversum.
 
 ## Nachtrag zur letzten Sendung
-- Leistungsschutzrecht
+- WP:[Leistungsschutzrecht](http://de.wikipedia.org/wiki/Verwandte_Schutzrechte )
 
 ## Toter der Woche
 - [Yoda - der haesslichste Hund der Welt gestorben](http://www.innsalzach24.de/nachrichten/welt/haesslichster-hund-welt-gestorben-1987196.html )
@@ -53,7 +53,7 @@ Wieder zur 4., rocken wir diesmal noch mal durchs Mail- und zum ersten Mal durch
 - [Why monitoring sucks - for now]( http://gigaom.com/2012/02/12/why-monitoring-sucks-for-now/ )
 
 ### selbst gehostete Software
-- [Nagios]( http://www.nagios.org/ ) / icinga
+- [Nagios]( http://www.nagios.org/ ) /  [icinga](https://www.icinga.org/)
 - [Shinken]( http://www.shinken-monitoring.org/ )
 - [OpenSMART]( http://opensmart.sourceforge.net/ )
 - [Monit]( http://mmonit.com/monit/ )
