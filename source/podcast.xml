@@ -80,7 +80,11 @@ layout: nil
 
       <media:credit role="author">{{ site.author }}</media:credit>
       <media:rating>nonadult</media:rating>
+      {% if post.release %}
+      <guid isPermaLink="false">{{ site.url }}{{ post.id }}-{{ post.release }}</guid>
+      {% else %}
       <guid isPermaLink="false">{{ site.url }}{{ post.id }}</guid>
+      {% endif %}
       <description>
         <![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]>
       </description>
