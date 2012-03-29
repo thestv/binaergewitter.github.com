@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Binärgewitter Talk #7 - Asscrypt!"
-date: 2012-03-14 23:07
+date: 2012-03-22 14:07
 comments: true
 categories: talk
 sharing: true
@@ -9,10 +9,11 @@ audio:
   mp3: http://download.binaergewitter.de/2012-03-21.Binaergewitter.Talk.7.mp3
   ogg: http://download.binaergewitter.de/2012-03-21.Binaergewitter.Talk.7.ogg
 ---
-Wieder zur 4, rocken wir diesmal noch mal durchs Mailuniversium und durchs Monitoring.
+Wieder zur 4, rocken wir diesmal noch mal durchs Mail- und zum ersten Mal durchs Monitoringuniversum.
 
 ## Nachtrag zur letzten Sendung
 - Leistungsschutzrecht
+
 ## Toter der Woche
 - [Yoda - der haesslichste Hund der Welt gestorben](http://www.innsalzach24.de/nachrichten/welt/haesslichster-hund-welt-gestorben-1987196.html )
     * [Titanic Kommentar]( http://www.titanic-magazin.de/uploads/pics/ Beckstein_01.jpg )
