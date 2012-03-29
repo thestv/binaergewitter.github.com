@@ -23,8 +23,8 @@
     <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Thu, 29 Mar 2012 12:29:39 +0200</lastBuildDate>
-    <atom:updated>2012-03-29T12:29:39+02:00</atom:updated>
+    <lastBuildDate>Thu, 29 Mar 2012 12:30:44 +0200</lastBuildDate>
+    <atom:updated>2012-03-29T12:30:44+02:00</atom:updated>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -56,7 +56,7 @@
     
     
     <item>
-      <title>Binärgewitter Talk #7 - EDGE rauscht im Schritt</title>
+      <title>Binärgewitter Talk #8 - EDGE rauscht im Schritt</title>
       <link>http://blog.binaergewitter.de/blog/2012/03/29/binaergewitter-talk-number-8-edge-rauscht-im-schritt/</link>
       <comments>http://blog.binaergewitter.de/blog/2012/03/29/binaergewitter-talk-number-8-edge-rauscht-im-schritt/#comments</comments>
       <pubDate>Thu, 29 Mar 2012 12:00:00 +0200</pubDate>
@@ -65,7 +65,7 @@
       
       
       <atom:link rel="payment"
-        href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de%2Fblog%2F2012%2F03%2F29%2Fbinaergewitter-talk-number-8-edge-rauscht-im-schritt%2F&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter%20Talk%20%237%20-%20EDGE%20rauscht%20im%20Schritt&amp;category=audio&amp;tags=podcast,tech,software"
+        href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de%2Fblog%2F2012%2F03%2F29%2Fbinaergewitter-talk-number-8-edge-rauscht-im-schritt%2F&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter%20Talk%20%238%20-%20EDGE%20rauscht%20im%20Schritt&amp;category=audio&amp;tags=podcast,tech,software"
         type="text/html"
       />
 
@@ -270,7 +270,7 @@
       <enclosure url="http://download.binaergewitter.de/2012-03-28.Binaergewitter.Talk.8.mp3" length="115901823" type="audio/mpeg" />
       <media:content url="http://download.binaergewitter.de/2012-03-28.Binaergewitter.Talk.8.mp3" fileSize="115901823" type="audio/mpeg" />
       <itunes:keywords></itunes:keywords>
-      <itunes:subtitle>Binärgewitter Talk #7 - EDGE rauscht im Schritt</itunes:subtitle>
+      <itunes:subtitle>Binärgewitter Talk #8 - EDGE rauscht im Schritt</itunes:subtitle>
       <itunes:summary>
         <![CDATA[Vollbesetzt rauschen wir durch die Wasserleitung, bringen alles über IP und qutaschen über Webprojekte.
 
