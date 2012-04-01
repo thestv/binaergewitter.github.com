@@ -112,5 +112,5 @@ Vollbesetzt rauschen wir durch die Wasserleitung, bringen alles über IP und qut
 - [Stephen Colbert interviewt Neil deGrasse Tyson]( http://www.youtube.com/watch?v=YXh9RQCvxmg ) (pfleidi)
 - [The poetry of science]( http://www.youtube.com/watch?v=9RExQFZzHXQ ) (pfleidi)
 - [Backblaze Artikel zu Pods]( http://www.wired.com/cloudline/2011/10/backblazes-basic-cloud/ )
-    - [Website](www.backblaze.com )
+    - [Website](http://www.backblaze.com )
 
