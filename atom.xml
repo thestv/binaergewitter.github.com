@@ -4,7 +4,7 @@
   <title><![CDATA[Binärgewitter]]></title>
   <link href="http://blog.binaergewitter.de/atom.xml" rel="self"/>
   <link href="http://blog.binaergewitter.de/"/>
-  <updated>2012-03-29T19:24:42+02:00</updated>
+  <updated>2012-04-02T21:14:15+02:00</updated>
   <id>http://blog.binaergewitter.de/</id>
   <author>
     <name><![CDATA[Binärgewitter Crew]]></name>
@@ -113,44 +113,44 @@
 
 <ul>
 <li>Kleine/grosse Projekte?</li>
-<li>Hobbyprojekt oder für Kunden/Arbeitgeber?</li>
+<li>Hobbyprojekt oder für Kunden / Arbeitgeber?</li>
 <li>Client / Serverseite?</li>
 </ul>
 </li>
 <li>Fertige Software
 
 <ul>
-<li>Wordpress</li>
-<li>S9Y</li>
-<li>Drupal</li>
-<li>Octopress/Octopod</li>
+<li><a href="https://wordpress.org/">Wordpress</a></li>
+<li><a href="http://www.s9y.org/">S9Y</a></li>
+<li><a href="https://drupal.org/">Drupal</a></li>
+<li><a href="http://octopress.org/">Octopress</a> / <a href="https://github.com/Binaergewitter/binaergewitter.github.com/tree/source">Octopod</a></li>
 </ul>
 </li>
 <li>Programmiersprachen
 
 <ul>
-<li>Ruby</li>
-<li>Python</li>
-<li>JavaScript/CoffeeScript</li>
-<li>Scala</li>
-<li>Groovy</li>
-<li>PHP</li>
+<li><a href="http://www.ruby-lang.org/">Ruby</a></li>
+<li><a href="http://www.python.org/">Python</a></li>
+<li>JavaScript / <a href="http://coffeescript.org/">CoffeeScript</a></li>
+<li><a href="http://www.scala-lang.org/">Scala</a></li>
+<li><a href="http://groovy.codehaus.org/">Groovy</a></li>
+<li><a href="http://www.php.net/">PHP</a></li>
 </ul>
 </li>
 <li>Frameworks Server
 
 <ul>
-<li>Rails</li>
-<li>Sinatra/Padrino</li>
-<li>Django</li>
-<li>Flask</li>
+<li><a href="http://rubyonrails.org/">Rails</a></li>
+<li><a href="http://www.sinatrarb.com/">Sinatra</a> / <a href="http://www.padrinorb.com/">Padrino</a></li>
+<li><a href="https://www.djangoproject.com/">Django</a></li>
+<li><a href="http://flask.pocoo.org/">Flask</a></li>
 <li><a href="http://webpy.org/">Web.py</a></li>
 <li><a href="http://www.web2py.com/">Web2Py</a></li>
 <li><a href="http://www.senchalabs.org/connect/">Connect</a> / <a href="http://expressjs.com/">Express</a></li>
 <li><a href="http://liftweb.net/">Lift</a></li>
 <li><a href="http://www.playframework.org/">Play</a></li>
-<li>Grails</li>
-<li>Symphony</li>
+<li><a href="http://grails.org/">Grails</a></li>
+<li><a href="http://www.symfony-project.org/">Symphony</a></li>
 </ul>
 </li>
 </ul>
@@ -193,7 +193,7 @@
 <li><a href="http://www.wired.com/cloudline/2011/10/backblazes-basic-cloud/">Backblaze Artikel zu Pods</a>
 
 <ul>
-<li><a href="www.backblaze.com">Website</a></li>
+<li><a href="http://www.backblaze.com">Website</a></li>
 </ul>
 </li>
 </ul>
