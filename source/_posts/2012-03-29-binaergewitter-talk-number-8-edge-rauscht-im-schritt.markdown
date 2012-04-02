@@ -59,32 +59,32 @@ Vollbesetzt rauschen wir durch die Wasserleitung, bringen alles über IP und qut
 
 - Welches Einsatzgebiet?
     * Kleine/grosse Projekte?
-    * Hobbyprojekt oder für Kunden/Arbeitgeber?
+    * Hobbyprojekt oder für Kunden / Arbeitgeber?
     * Client / Serverseite?
 - Fertige Software
-    * Wordpress
-    * S9Y
-    * Drupal
-    * Octopress/Octopod
+    * [Wordpress](https://wordpress.org/)
+    * [S9Y](http://www.s9y.org/)
+    * [Drupal](https://drupal.org/)
+    * [Octopress](http://octopress.org/) / [Octopod](https://github.com/Binaergewitter/binaergewitter.github.com/tree/source)
 - Programmiersprachen
-    * Ruby
-    * Python
-    * JavaScript/CoffeeScript
-    * Scala
-    * Groovy
-    * PHP
+    * [Ruby](http://www.ruby-lang.org/)
+    * [Python](http://www.python.org/)
+    * JavaScript / [CoffeeScript](http://coffeescript.org/)
+    * [Scala](http://www.scala-lang.org/)
+    * [Groovy](http://groovy.codehaus.org/)
+    * [PHP](http://www.php.net/)
 - Frameworks Server
-    * Rails
-    * Sinatra/Padrino
-    * Django
-    * Flask
+    * [Rails](http://rubyonrails.org/)
+    * [Sinatra](http://www.sinatrarb.com/) / [Padrino](http://www.padrinorb.com/)
+    * [Django](https://www.djangoproject.com/)
+    * [Flask](http://flask.pocoo.org/)
     * [Web.py](http://webpy.org/ )
     * [Web2Py]( http://www.web2py.com/ )
     * [Connect]( http://www.senchalabs.org/connect/ ) / [Express]( http://expressjs.com/ )
     * [Lift]( http://liftweb.net/ )
     * [Play]( http://www.playframework.org/ )
-    * Grails
-    * Symphony
+    * [Grails](http://grails.org/)
+    * [Symphony](http://www.symfony-project.org/)
 
 ## Lesefoo
 
