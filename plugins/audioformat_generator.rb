@@ -86,6 +86,15 @@ module Jekyll
           post = Post.new(self, self.source, dir, entry)
           puts post.audioformats.inspect
 
+          # Monkeypatch:
+          # On preview environment (localhost), publish all posts
+          if ENV.has_key?('OCTOPRESS_ENV') && ENV['OCTOPRESS_ENV'] == 'preview' && post.data.has_key?('published') && post.data['published'] == false
+            post.published = true
+            # Set preview mode flag (if necessary), `rake generate` will check for it
+            # to prevent pushing preview posts to productive environment
+            File.open(".preview-mode", "w") {}
+          end
+
           if post.published && (self.future || post.date <= self.time)
             self.posts << post
             post.categories.each { |c| self.categories[c] << post }
