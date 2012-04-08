@@ -36,6 +36,7 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: categories
+audioformat_feed_dir: audioformat_feeds
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
 
