@@ -3,8 +3,8 @@ layout: post
 title: "Binärgewitter #2: Sichere Systeme"
 date: 2011-04-16 19:26
 comments: true
-categories: spezial 
-audio:
+categories: spezial
+audioformats:
   mp3: http://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3
 ---
 

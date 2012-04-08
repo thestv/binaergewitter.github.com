@@ -5,7 +5,7 @@ date: 2012-03-22 14:07
 comments: true
 categories: talk
 sharing: true
-audio:
+audioformats:
   mp3: http://download.binaergewitter.de/2012-03-21.Binaergewitter.Talk.7.mp3
   ogg: http://download.binaergewitter.de/2012-03-21.Binaergewitter.Talk.7.ogg
 ---

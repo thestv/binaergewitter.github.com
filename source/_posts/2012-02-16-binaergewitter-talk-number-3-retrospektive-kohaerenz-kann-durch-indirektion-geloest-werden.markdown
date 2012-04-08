@@ -5,7 +5,7 @@ date: 2012-02-16 11:07
 comments: true
 categories: talk
 sharing: true
-audio:
+audioformats:
   mp3: http://download.binaergewitter.de/2012-02-15.Binaergewitter.Talk.3.mp3
   ogg: http://download.binaergewitter.de/2012-02-15.Binaergewitter.Talk.3.ogg
 ---

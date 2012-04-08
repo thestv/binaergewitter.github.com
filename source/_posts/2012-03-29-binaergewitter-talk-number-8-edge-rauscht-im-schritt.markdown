@@ -5,7 +5,7 @@ date: 2012-03-29 12:00
 comments: true
 categories: talk
 sharing: true
-audio:
+audioformats:
   mp3: http://download.binaergewitter.de/2012-03-28.Binaergewitter.Talk.8.mp3
   ogg: http://download.binaergewitter.de/2012-03-28.Binaergewitter.Talk.8.ogg
 ---
