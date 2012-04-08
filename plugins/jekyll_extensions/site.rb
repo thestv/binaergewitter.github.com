@@ -1,40 +1,22 @@
 # encoding: utf-8
+#
+# Monkey patches hooking into Jekyll::Site core to add category indexes and feeds
+#
+# Jekyll category page generator.
+# http://recursive-design.com/projects/jekyll-plugins/
+#
+# Version: 0.1.4 (201101061053)
+#
+# Category generator:
+# Copyright (c) 2010 Dave Perrett, http://recursive-design.com/
+#
+# Audiofeed generator:
+#
+# Copyright (c) 2012 Sven Pfleiderer, http://blog.roothausen.de/
+#
+# Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
 
 module Jekyll
-
-  class AudioFormatFeed < Page
-
-    # Initializes a new AudioFormatFeed.
-    #
-    #  +base+            is the String path to the <source>.
-    #  +audioformat_feed_dir+ is the String path between <source> and the audio format folder.
-    #  +audioformat+     is the audio format currently being processed.
-    def initialize(site, base, audioformat_feed_dir, audioformat)
-      @site = site
-      @base = base
-      @dir  = audioformat_feed_dir
-      @name = 'podcast.xml'
-      self.process(@name)
-      # Read the YAML data from the layout page.
-      self.read_yaml(File.join(base, '_includes/custom'), 'audioformat_feed.xml')
-      self.data['audioformat']    = audioformat
-      # Set the title for this page.
-      title_prefix             = site.config['audioformat_title_prefix'] || 'Audio format: '
-      self.data['title']       = "#{title_prefix}#{audioformat}"
-      # Set the meta-description for this page.
-      meta_description_prefix  = site.config['audioformat_meta_description_prefix'] || 'Audio format: '
-      self.data['description'] = "#{meta_description_prefix}#{audioformat}"
-
-      # Set the correct feed URL.
-      self.data['feed_url'] = "#{audioformat_feed_dir}/#{name}"
-    end
-
-    # Returns the object as a debug String.
-    def inspect
-      "#<Jekyll:CategoryFeed @name=#{@name.inspect}> @base=#{@base.inspect} @dir=#{@dir.inspect} @data=#{self.data.inspect} @site=#{@site}"
-    end
-
-  end
 
   # The Site class is a built-in Jekyll class with access to global site config information.
   class Site
@@ -47,7 +29,6 @@ module Jekyll
     #
     # Returns nothing
     def reset
-      puts "Calling Site.reset"
       self.time            = if self.config['time']
                                Time.parse(self.config['time'].to_s)
                              else
@@ -84,7 +65,6 @@ module Jekyll
       entries.each do |entry|
         if Post.valid?(entry)
           post = Post.new(self, self.source, dir, entry)
-          puts post.audioformats.inspect
 
           # Monkeypatch:
           # On preview environment (localhost), publish all posts
@@ -113,6 +93,75 @@ module Jekyll
       end
     end
 
+    # Creates an instance of CategoryIndex for each category page, renders it, and
+    # writes the output to a file.
+    #
+    #  +category_dir+ is the String path to the category folder.
+    #  +category+     is the category currently being processed.
+    def write_category_index(category_dir, category)
+      index = CategoryIndex.new(self, self.source, category_dir, category)
+      index.render(self.layouts, site_payload)
+      index.write(self.dest)
+      # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
+      self.pages << index
+
+      # Create an Atom-feed for each index.
+      feed = CategoryFeed.new(self, self.source, category_dir, category)
+      feed.render(self.layouts, site_payload)
+      feed.write(self.dest)
+      # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
+      self.pages << feed
+    end
+
+    # Loops through the list of category pages and processes each one.
+    def write_category_indexes
+      if self.layouts.key? 'category_index'
+        dir = self.config['category_dir'] || 'categories'
+        self.categories.keys.each do |category|
+          self.write_category_index(File.join(dir, category.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase), category)
+        end
+
+        # Throw an exception if the layout couldn't be found.
+      else
+        throw "No 'category_index' layout found."
+      end
+    end
+
+    # Creates an instance of CategoryIndex for each category page, renders it, and
+    # writes the output to a file.
+    #
+    #  +category_dir+ is the String path to the category folder.
+    #  +category+     is the category currently being processed.
+    def write_category_index(category_dir, category)
+      index = CategoryIndex.new(self, self.source, category_dir, category)
+      index.render(self.layouts, site_payload)
+      index.write(self.dest)
+      # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
+      self.pages << index
+
+      # Create an Atom-feed for each index.
+      feed = CategoryFeed.new(self, self.source, category_dir, category)
+      feed.render(self.layouts, site_payload)
+      feed.write(self.dest)
+      # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
+      self.pages << feed
+    end
+
+    # Loops through the list of category pages and processes each one.
+    def write_category_indexes
+      if self.layouts.key? 'category_index'
+        dir = self.config['category_dir'] || 'categories'
+        self.categories.keys.each do |category|
+          self.write_category_index(File.join(dir, category.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase), category)
+        end
+
+        # Throw an exception if the layout couldn't be found.
+      else
+        throw "No 'category_index' layout found."
+      end
+    end
+
+
     # Creates an instance of AudioFormatFeed for each audio format, renders it, and
     # writes the output to a file.
     #
@@ -132,8 +181,6 @@ module Jekyll
     def write_audioformat_feeds
       dir = self.config['audioformat_feed_dir'] || 'audioformat_feeds'
 
-      puts "@audioformats: #{self.audioformats}"
-
       self.audioformats.keys.each do |audioformat|
         puts "Processing #{audioformat}"
         self.write_audioformat_feed(File.join(dir, audioformat.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase), audioformat)
@@ -142,26 +189,6 @@ module Jekyll
 
   end
 
-  # The Post class is a built-in Jekyll class
-  class Post
 
-    def audioformats
-      formats = self.data["audioformats"] || {}
-      formats.keys
-    end
-
-  end
-
-  # Jekyll hook - the generate method is called by jekyll, and generates all of the category pages.
-  class GenerateAudioFormatFeeds < Generator
-    safe true
-    priority :low
-
-    def generate(site)
-      site.write_audioformat_feeds
-    end
-
-  end
 
 end
-
