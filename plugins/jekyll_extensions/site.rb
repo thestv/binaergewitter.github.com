@@ -11,7 +11,6 @@
 # Copyright (c) 2010 Dave Perrett, http://recursive-design.com/
 #
 # Audiofeed generator:
-#
 # Copyright (c) 2012 Sven Pfleiderer, http://blog.roothausen.de/
 #
 # Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
@@ -45,6 +44,21 @@ module Jekyll
       if !self.limit_posts.nil? && self.limit_posts < 1
         raise ArgumentError, "Limit posts must be nil or >= 1"
       end
+    end
+
+    # The Hash payload containing site-wide data.
+    #
+    # Overrides jekyll's site_payload method to put audio formats into render context
+    #
+    def site_payload
+      {"site" => self.config.merge({
+        "time"          => self.time,
+        "posts"         => self.posts.sort { |a, b| b <=> a },
+        "pages"         => self.pages,
+        "html_pages"    => self.pages.reject { |page| !page.html? },
+        "categories"    => post_attr_hash('categories'),
+        "audioformats"  => post_attr_hash('audioformats'),
+        "tags"          => post_attr_hash('tags') } ) }
     end
 
 
@@ -127,68 +141,30 @@ module Jekyll
       end
     end
 
-    # Creates an instance of CategoryIndex for each category page, renders it, and
-    # writes the output to a file.
-    #
-    #  +category_dir+ is the String path to the category folder.
-    #  +category+     is the category currently being processed.
-    def write_category_index(category_dir, category)
-      index = CategoryIndex.new(self, self.source, category_dir, category)
-      index.render(self.layouts, site_payload)
-      index.write(self.dest)
-      # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
-      self.pages << index
-
-      # Create an Atom-feed for each index.
-      feed = CategoryFeed.new(self, self.source, category_dir, category)
-      feed.render(self.layouts, site_payload)
-      feed.write(self.dest)
-      # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
-      self.pages << feed
-    end
-
-    # Loops through the list of category pages and processes each one.
-    def write_category_indexes
-      if self.layouts.key? 'category_index'
-        dir = self.config['category_dir'] || 'categories'
-        self.categories.keys.each do |category|
-          self.write_category_index(File.join(dir, category.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase), category)
-        end
-
-        # Throw an exception if the layout couldn't be found.
-      else
-        throw "No 'category_index' layout found."
-      end
-    end
-
-
     # Creates an instance of AudioFormatFeed for each audio format, renders it, and
     # writes the output to a file.
     #
     #  +audioformat_feed_dir+ is the String path to the audioformat folder.
     #  +audioformat+     is the audioformat currently being processed.
     def write_audioformat_feed(audioformat_feed_dir, audioformat)
-
       # Create an Atom-feed for each audio format.
       feed = AudioFormatFeed.new(self, self.source, audioformat_feed_dir, audioformat)
       feed.render(self.layouts, site_payload)
+
       feed.write(self.dest)
       # Record the fact that this feed has been added, otherwise Site::cleanup will remove it.
       self.pages << feed
     end
 
-    # Loops through the list of audio formats and processes each one.
     def write_audioformat_feeds
       dir = self.config['audioformat_feed_dir'] || 'audioformat_feeds'
 
       self.audioformats.keys.each do |audioformat|
-        puts "Processing #{audioformat}"
         self.write_audioformat_feed(File.join(dir, audioformat.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase), audioformat)
       end
     end
 
   end
 
-
-
 end
+

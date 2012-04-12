@@ -32,14 +32,10 @@ module Jekyll
       # Read the YAML data from the layout page.
       self.read_yaml(File.join(base, '_includes/feed'), 'audioformat_feed.xml')
       self.data['audioformat']    = audioformat
-      # Set the title for this page.
       title_prefix             = site.config['audioformat_title_prefix'] || 'Audio format: '
       self.data['title']       = "#{title_prefix}#{audioformat}"
-      # Set the meta-description for this page.
       meta_description_prefix  = site.config['audioformat_meta_description_prefix'] || 'Audio format: '
       self.data['description'] = "#{meta_description_prefix}#{audioformat}"
-
-      # Set the correct feed URL.
       self.data['feed_url'] = "#{audioformat_feed_dir}/#{name}"
     end
 
