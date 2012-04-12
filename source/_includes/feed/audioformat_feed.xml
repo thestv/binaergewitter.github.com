@@ -1,4 +1,4 @@
----
+--
 layout: nil
 ---
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -55,7 +55,8 @@ layout: nil
     <media:credit role="author">{{ site.author }}</media:credit>
     <media:rating>nonadult</media:rating>
     <media:description type="plain">{{ site.description }}</media:description>
-    {% for post in site.posts limit: 30 %}
+
+    {% for post in site.audioformats[page.audioformat] limit: 100 %}
     {% capture post_url %}{{ site.url }}{{ post.url }}{% endcapture %}
     <item>
       <title>{{ post.title }}</title>
