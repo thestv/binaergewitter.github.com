@@ -23,8 +23,8 @@
     <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</description>
     <language>de</language>
 
-    <lastBuildDate>Thu, 05 Apr 2012 12:47:49 +0200</lastBuildDate>
-    <atom:updated>2012-04-05T12:47:49+02:00</atom:updated>
+    <lastBuildDate>Thu, 12 Apr 2012 12:06:07 +0200</lastBuildDate>
+    <atom:updated>2012-04-12T12:06:07+02:00</atom:updated>
     <atom:generator uri="http://octopress.org/">Octopress</atom:generator>
 
     <itunes:summary></itunes:summary>
@@ -53,6 +53,447 @@
     <media:credit role="author">Binärgewitter Crew</media:credit>
     <media:rating>nonadult</media:rating>
     <media:description type="plain">Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt</media:description>
+    
+    
+    <item>
+      <title>Binärgewitter Talk #010 - Sterben an SCSI Eye-Moscht</title>
+      <link>http://blog.binaergewitter.de/blog/2012/04/12/binaergewitter-talk-number-10-sterben-an-scsi-eye-moscht/</link>
+      <comments>http://blog.binaergewitter.de/blog/2012/04/12/binaergewitter-talk-number-10-sterben-an-scsi-eye-moscht/#comments</comments>
+      <pubDate>Thu, 12 Apr 2012 12:00:00 +0200</pubDate>
+      <atom:updated>2012-04-12T12:00:00+02:00</atom:updated>
+
+      
+      
+      <atom:link rel="payment"
+        href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de%2Fblog%2F2012%2F04%2F12%2Fbinaergewitter-talk-number-10-sterben-an-scsi-eye-moscht%2F&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter%20Talk%20%23010%20-%20Sterben%20an%20SCSI%20Eye-Moscht&amp;category=audio&amp;tags=podcast,tech,software"
+        type="text/html"
+      />
+
+      
+
+      
+      <category><![CDATA[talk]]></category>
+      
+
+      <media:credit role="author">Binärgewitter Crew</media:credit>
+      <media:rating>nonadult</media:rating>
+      
+      <guid isPermaLink="false">http://blog.binaergewitter.de/blog/2012/04/12/binaergewitter-talk-number-10-sterben-an-scsi-eye-moscht</guid>
+      
+      <description>
+        <![CDATA[<p>Kulturkampf in der Talk-Runde: Schwaben gegen Berliner oder so ähnlich. Neben diesem Schaukampf beschäftigen wir uns diesmal mit Automation.</p>
+
+<h2>Toter der Woche</h2>
+
+<ul>
+<li><a href="http://robmientjes.nl/item/comic-serif">Der gute Geschmack</a></li>
+<li><a href="http://www.heise.de/newsticker/meldung/Computer-fuer-die-Massen-zum-Tode-des-Commodore-Gruenders-Jack-Tramiel-1517599.html">Comodore Grüner ist tot</a></li>
+<li><a href="http://www.heise.de/newsticker/meldung/Pflege-des-Linux-Kernels-2-4-endet-1517604.html">Linux Kernel 2.4</a></li>
+<li><a href="http://www.wochenblatt.de/nachrichten/altoetting/ueberregionales/Verstaerker-Erfinder-Jim-Marshall-tot;art5572,106046">Jim Marshall - Father of Loud verstorben</a></li>
+<li><a href="http://de.wikipedia.org/wiki/Ferdinand_Alexander_Porsche">Ferdinand Alexander Porsche</a>
+
+<h2>Untoter der Woche</h2></li>
+<li><a href="http://www.rp-online.de/panorama/ausland/fruehchen-ueberlebt-stundenlang-in-kuehlraum-1.2787719">Zombie Baby aus der Kaeltekammer</a>
+
+<h2>News</h2></li>
+<li><a href="http://www.businessinsider.com/instagram-billion-dollar-valuation-2012-4">Instagram von Facebook gekauft fuer <code>ONE BILLION DOLLARS</code></a>
+
+<ul>
+<li><a href="https://instagram.com/accounts/remove/request/">Instagram Account loeschen bevor es bei Facebook landet</a></li>
+<li><a href="http://instaport.me/">Exportiere ALL DEINE BILDER</a></li>
+</ul>
+</li>
+<li><a href="http://www.computerworld.com/s/article/9225937/Mac_Malware_Outbreak_Is_Bigger_than_39_Conficker_39_">Flashback Drive-By Virus auf jedem 100ten Mac - Worse than Conficker</a></li>
+<li><a href="https://www.samba.org/samba/security/CVE-2012-1182">Samba Remote Code Execution als root</a></li>
+<li><a href="https://plus.google.com/111626127367496192147/posts">Google Glasses in Q3</a>
+
+<ul>
+<li><a href="http://blog.bit9.com/bid/80774/Project-Glass-Google-s-Augmented-Reality-Changes-What-it-is-to-be-Human?utm_source=BLOG-Project-Glass-Google-s-Augmented-Reality-Changes-What-it-is-to-be-Human-4.9.2012">What it means to be human</a></li>
+<li><a href="http://www.youtube.com/watch?v=ZwModZmOzDs">Windows Project Glass</a></li>
+<li><a href="http://www.cultofmac.com/159453/why-apple-wont-turn-you-into-a-cyborg/">Apple Fanboyism</a></li>
+</ul>
+</li>
+<li><a href="https://p.twimg.com/AoNUIKYCIAA0eip.jpg">House of Stark</a></li>
+<li><a href="http://couchdb.apache.org/">CouchDB 1.2</a></li>
+<li><a href="http://blog.agilebits.com/2012/04/09/1password-ios-pbkdf2-goodness/">Agilebits fixt potentielle Schwachstellen in 1password</a></li>
+<li><a href="http://fail0verflow.com/blog/2012/microcell-fail.html">AT&amp;T Security microcell fail</a> (marc)</li>
+<li><a href="http://mosh.mit.edu/">Mosh: Moderner SSH Ersatz?</a>
+
+<ul>
+<li><a href="https://developers.google.com/protocol-buffers/">Protocol Buffers</a></li>
+<li><a href="http://www.freshblurbs.com/installing-mosh-debian-squeeze-and-mac-os-x-lion">Installation unter Debian und OS X</a></li>
+</ul>
+</li>
+<li><a href="http://engineering.twitter.com/2012/04/mysql-at-twitter.html">MySQL at Twitter</a> (marc)</li>
+<li><a href="http://news.ycombinator.net/item?id=3805302">GO 32Bit Memory Issues</a></li>
+<li><a href="https://github.com/sneakybeaky/mod_redis">mod_redis</a> (marc)</li>
+<li><p><a href="https://github.com/blog/1098-take-over-the-galaxy-with-github">DCPU-16 Code</a></p>
+
+<ul>
+<li><a href="http://0x10c.com/">0x10c Game</a></li>
+<li><a href="http://www.minecraft.net/">Minecraft</a></li>
+<li><a href="http://0x10c.com/doc/dcpu-16.txt">DCPU-16 Spezifikation</a></li>
+<li><a href="https://github.com/dcpu16">VMs in JS, Haskell, Java, &#8230;</a>
+
+<h2>Themen</h2>
+
+<h3>Automation</h3></li>
+</ul>
+</li>
+<li><p>Scripten</p>
+
+<ul>
+<li>Shell/Ruby/Python/Perl
+
+<ul>
+<li><a href="https://github.com/rb2k/viddl-rb">viddl-rb</a></li>
+<li><a href="http://tldp.org/LDP/abs/html/">Advanved Bash Scripting Guide</a></li>
+<li><a href="http://oss.linbit.com/csync2/">einzellne Konfigdateien syncron halten dann csync2</a></li>
+<li><a href="http://joey.kitenet.net/code/etckeeper/">etckeeper</a></li>
+</ul>
+</li>
+<li>Cron</li>
+<li><a href="http://inotify.aiken.cz/?section=incron&amp;page=doc&amp;lang=en">incron</a></li>
+<li>atd</li>
+</ul>
+</li>
+<li>Softwareverteilung
+
+<ul>
+<li>pulp</li>
+<li>m23</li>
+<li>spacewalk</li>
+<li>opsi (windowsverteilung)</li>
+<li><a href="http://www.autoitscript.com/site/autoit/">AutoIT</a></li>
+<li>Active Directory</li>
+</ul>
+</li>
+<li>Rechner automatisiert installieren/provisionieren
+
+<ul>
+<li>Netboot cobbler
+
+<ul>
+<li><a href="http://de.wikipedia.org/wiki/Preboot_Execution_Environment">PXE</a></li>
+</ul>
+</li>
+<li>Images</li>
+<li><a href="http://puppetlabs.com/puppet/what-is-puppet/">Puppet</a></li>
+<li><a href="http://www.opscode.com/chef/">Chef</a></li>
+<li><a href="http://codeascraft.etsy.com/2012/03/13/making-it-virtually-easy-to-deploy-on-day-one/">Making it virtually easy to deploy on day one</a></li>
+<li><a href="http://vagrantup.com/">Vagrant</a>
+
+<ul>
+<li><a href="http://vagrantbox.es/">vagrantbox.es</a></li>
+<li><a href="http://thechangelog.com/post/17325686068/episode-0-7-2-vagrant-with-mitchell-hashimoto">Interview</a></li>
+</ul>
+</li>
+<li><a href="http://fog.io/">Fog</a></li>
+</ul>
+</li>
+<li>Backup
+
+<ul>
+<li><a href="http://www.radiotux.de/index.php?/archives/7597-Talk-144-RAID0-Backup.html">RadioTux Talk 144</a></li>
+<li>rsync</li>
+<li>unison</li>
+<li>rsnapshot</li>
+<li><a href="https://code.google.com/p/lsyncd/">lsyncd</a></li>
+<li>Time Machine</li>
+<li>backintime</li>
+<li>duplicity</li>
+<li>amanda</li>
+<li>arkeia</li>
+<li>bacula</li>
+<li>sep sesam</li>
+</ul>
+</li>
+<li>Audio/Video konvertieren
+
+<ul>
+<li>ffmpeg</li>
+<li>mplayer</li>
+<li>Handbrake
+
+<h2>Lesefoo</h2></li>
+</ul>
+</li>
+<li><a href="http://coffeespoonsofcode.wordpress.com/2012/04/07/beginners-guide-to-one-modern-web-development-stack/">Beginners guide to one modern web development stack</a> (pfleidi)</li>
+<li><a href="http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html">How to count a billion disctinct objects in 1,5 KB of memory</a> (marc)</li>
+<li><a href="http://www.codinghorror.com/blog/2012/03/how-to-hire-a-programmer.html">How to hire a programmer</a> (pfleidi)</li>
+<li><a href="http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/">PHP a fractal of bad design</a> (marc)</li>
+<li><a href="http://lwn.net/Articles/105375/">Linus on kernel management style</a> (pfleidi)</li>
+<li><a href="http://stallman.org/stallman-computing.html">How I(Richard Stallman) do my Computing</a> (makefu)</li>
+<li><a href="http://jashkenas.github.com/docco/">Annotated docco code</a> (pfleidi)</li>
+<li><a href="http://oreilly.com/news/lejeune_0400.html#">Animal Magnetism: Making O&#8217;Reilly Animals</a> (makefu)
+
+<ul>
+<li><a href="http://www.kontraband.com/pics/15421/OReilly-On-Acid/">The acid is kicking in</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Mimimi der Woche</h2>
+
+<ul>
+<li><a href="http://www.amazon.de/gp/product/B005HQPNWW/ref=as_li_ss_tl?ie=UTF8&amp;tag=trektrip&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B005HQPNWW">Brother Drucker DCPJ925DW</a> und Arch (Ingo)</li>
+<li>OS X und Bluetooth</li>
+<li>sky2 - ethtool -K eth0 rx off (ingo)</li>
+<li>Cacert und Chrome Warnungen
+
+<ul>
+<li><a href="http://www.startssl.com/">StartSSL</a></li>
+</ul>
+</li>
+<li><a href="https://plus.google.com/100883264249933714273/posts/GJM9D5VxX4G">MP3/Ogg Chapter Support in die freien Player</a>(ingo)</li>
+</ul>
+
+
+<h2>Picks</h2>
+
+<ul>
+<li><a href="http://textfromdog.tumblr.com/">Texts from dog</a> (marc)
+
+<ul>
+<li><a href="http://knowyourmeme.com/memes/yes-this-is-dog">Yes hello, this is dog</a></li>
+<li><a href="http://memerial.net/4319-hello-yes-this-is-balls">Yes hello, this is balls</a></li>
+</ul>
+</li>
+<li><a href="http://screenqueri.es/">screenquery.es</a> (pfleidi)</li>
+<li><a href="http://www.youtube.com/watch?v=vHOvl_D_tdU">Talk vom &#8220;Catch me if you can&#8221; kerl</a></li>
+<li><a href="http://vimeo.com/40084288">Talk von Steve Klabnik zu Hypermedia APIs</a> (pfleidi)</li>
+<li><a href="http://w3clove.com/">W3CLove</a> (pfleidi)
+
+<ul>
+<li>Marcs Idee: W3C Violator</li>
+</ul>
+</li>
+<li><a href="http://ip-geo.appspot.com/">IP Geo</a> <a href="http://blog.marc-seeger.de/books.html">Im Einsatz hier</a> (marc)</li>
+<li><a href="http://confreaks.com/videos/652-gogaruco2011-you-ain-t-spdy">Chris Strom: You ain&#8217;t SPDY</a> <a href="http://www.youtube.com/watch?v=zqst-oaXIHQ">yt</a> (pfleidi)</li>
+<li><a href="http://www.youtube.com/watch?v=dJxj1mou03M">Titanik SUPER 3D</a>
+
+<ul>
+<li><a href="http://twitpic.com/97vogu">ZOMG TITANIC</a></li>
+</ul>
+</li>
+</ul>
+
+]]>
+      </description>
+      
+       
+      
+      
+      <enclosure url="http://download.binaergewitter.de/2012-04-11.Binaergewitter.Talk.10.mp3" length="127903619" type="audio/mpeg" />
+      <media:content url="http://download.binaergewitter.de/2012-04-11.Binaergewitter.Talk.10.mp3" fileSize="127903619" type="audio/mpeg" />
+      <itunes:keywords></itunes:keywords>
+      <itunes:subtitle>Binärgewitter Talk #010 - Sterben an SCSI Eye-Moscht</itunes:subtitle>
+      <itunes:summary>
+        <![CDATA[Kulturkampf in der Talk-Runde: Schwaben gegen Berliner oder so ähnlich. Neben diesem Schaukampf beschäftigen wir uns diesmal mit Automation.
+
+Toter der Woche
+
+
+Der gute Geschmack
+Comodore Grüner ist tot
+Linux Kernel 2.4
+Jim Marshall - Father of Loud verstorben
+Ferdinand Alexander Porsche
+
+Untoter der Woche
+Zombie Baby aus der Kaeltekammer
+
+News
+Instagram von Facebook gekauft fuer ONE BILLION DOLLARS
+
+
+Instagram Account loeschen bevor es bei Facebook landet
+Exportiere ALL DEINE BILDER
+
+
+Flashback Drive-By Virus auf jedem 100ten Mac - Worse than Conficker
+Samba Remote Code Execution als root
+Google Glasses in Q3
+
+
+What it means to be human
+Windows Project Glass
+Apple Fanboyism
+
+
+House of Stark
+CouchDB 1.2
+Agilebits fixt potentielle Schwachstellen in 1password
+AT&amp;T Security microcell fail (marc)
+Mosh: Moderner SSH Ersatz?
+
+
+Protocol Buffers
+Installation unter Debian und OS X
+
+
+MySQL at Twitter (marc)
+GO 32Bit Memory Issues
+mod_redis (marc)
+DCPU-16 Code
+
+
+0x10c Game
+Minecraft
+DCPU-16 Spezifikation
+VMs in JS, Haskell, Java, &#8230;
+
+Themen
+
+Automation
+
+
+Scripten
+
+
+Shell/Ruby/Python/Perl
+
+
+viddl-rb
+Advanved Bash Scripting Guide
+einzellne Konfigdateien syncron halten dann csync2
+etckeeper
+
+
+Cron
+incron
+atd
+
+
+Softwareverteilung
+
+
+pulp
+m23
+spacewalk
+opsi (windowsverteilung)
+AutoIT
+Active Directory
+
+
+Rechner automatisiert installieren/provisionieren
+
+
+Netboot cobbler
+
+
+PXE
+
+
+Images
+Puppet
+Chef
+Making it virtually easy to deploy on day one
+Vagrant
+
+
+vagrantbox.es
+Interview
+
+
+Fog
+
+
+Backup
+
+
+RadioTux Talk 144
+rsync
+unison
+rsnapshot
+lsyncd
+Time Machine
+backintime
+duplicity
+amanda
+arkeia
+bacula
+sep sesam
+
+
+Audio/Video konvertieren
+
+
+ffmpeg
+mplayer
+Handbrake
+
+Lesefoo
+
+
+Beginners guide to one modern web development stack (pfleidi)
+How to count a billion disctinct objects in 1,5 KB of memory (marc)
+How to hire a programmer (pfleidi)
+PHP a fractal of bad design (marc)
+Linus on kernel management style (pfleidi)
+How I(Richard Stallman) do my Computing (makefu)
+Annotated docco code (pfleidi)
+Animal Magnetism: Making O&#8217;Reilly Animals (makefu)
+
+
+The acid is kicking in
+
+
+
+
+
+Mimimi der Woche
+
+
+Brother Drucker DCPJ925DW und Arch (Ingo)
+OS X und Bluetooth
+sky2 - ethtool -K eth0 rx off (ingo)
+Cacert und Chrome Warnungen
+
+
+StartSSL
+
+
+MP3/Ogg Chapter Support in die freien Player(ingo)
+
+
+
+Picks
+
+
+Texts from dog (marc)
+
+
+Yes hello, this is dog
+Yes hello, this is balls
+
+
+screenquery.es (pfleidi)
+Talk vom &#8220;Catch me if you can&#8221; kerl
+Talk von Steve Klabnik zu Hypermedia APIs (pfleidi)
+W3CLove (pfleidi)
+
+
+Marcs Idee: W3C Violator
+
+
+IP Geo Im Einsatz hier (marc)
+Chris Strom: You ain&#8217;t SPDY yt (pfleidi)
+Titanik SUPER 3D
+
+
+ZOMG TITANIC
+
+
+
+
+]]>
+      </itunes:summary>
+      <itunes:author>Binärgewitter Crew</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      
+    </item>
     
     
     <item>
