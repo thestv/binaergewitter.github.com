@@ -57,10 +57,10 @@ Kulturkampf in der Talk-Runde: Schwaben gegen Berliner oder so ähnlich. Neben d
     * [incron]( http://inotify.aiken.cz/?section=incron&page=doc&lang=en )
     * atd
 - Softwareverteilung
-    * pulp
-    * m23
-    * spacewalk
-    * opsi (windowsverteilung)
+    * [pulp](http://pulpproject.org/)
+    * [m23](http://m23.sourceforge.net/PostNuke-0.750/html/index.php)
+    * [spacewalk](http://spacewalk.redhat.com/)
+    * [opsi](http://www.opsi.org/en) (windowsverteilung)
     * [AutoIT]( http://www.autoitscript.com/site/autoit/ )
     * Active Directory
 - Rechner automatisiert installieren/provisionieren
@@ -76,21 +76,21 @@ Kulturkampf in der Talk-Runde: Schwaben gegen Berliner oder so ähnlich. Neben d
     * [Fog]( http://fog.io/ )
 - Backup
     * [RadioTux Talk 144](http://www.radiotux.de/index.php?/archives/7597-Talk-144-RAID0-Backup.html )
-    * rsync
+    * [rsync](https://rsync.samba.org/)
     * unison
-    * rsnapshot
+    * [rsnapshot](http://rsnapshot.org/)
     * [lsyncd]( https://code.google.com/p/lsyncd/ )
-    * Time Machine
-    * backintime
-    * duplicity
-    * amanda
-    * arkeia
-    * bacula
-    * sep sesam
+    * [Time Machine](https://www.apple.com/macosx/apps/#timemachine)
+    * [back in time](http://backintime.le-web.org/)
+    * [duplicity](http://duplicity.nongnu.org/)
+    * [amanda](http://amanda.org/)
+    * [arkeia](http://www.arkeia.com/)
+    * [bacula](http://www.bacula.org/)
+    * [sep sesam](http://sepsoftware.com/)
 - Audio/Video konvertieren
-    * ffmpeg
-    * mplayer
-    * Handbrake
+    * [ffmpeg](http://ffmpeg.org/)
+    * [mplayer](http://www.mplayerhq.hu/)
+    * [Handbrake](http://handbrake.fr/)
 ## Lesefoo
 - [Beginners guide to one modern web development stack]( http://coffeespoonsofcode.wordpress.com/2012/04/07/beginners-guide-to-one-modern-web-development-stack/ ) (pfleidi)
 - [How to count a billion disctinct objects in 1,5 KB of memory]( http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html ) (marc)
