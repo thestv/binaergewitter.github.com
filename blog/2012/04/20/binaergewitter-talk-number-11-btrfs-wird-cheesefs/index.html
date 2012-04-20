@@ -1,0 +1,511 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Binärgewitter Talk #11 - btrfs -> cheeseFS - Binärgewitter</title>
+  <meta name="author" content="Binärgewitter Crew">
+
+  
+  <meta name="description" content="Was ist eigentlich unhosted? Das fragen wir unseren Gast Jan. Er erklärt uns auch warum die Semi.coli sterben und wir trauern darum dass nicht gleich ...">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.binaergewitter.de/blog/2012/04/20/binaergewitter-talk-number-11-btrfs-wird-cheesefs">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/binaergewitter-podcast" rel="alternate" title="Binärgewitter" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+
+        t.parentNode.insertBefore(s, t);
+    })();
+/* ]]> */
+</script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Binärgewitter</a></h1>
+  
+    <h2>Web, Technologie und OpenSource Software</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.feedburner.com/binaergewitter-podcast" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:blog.binaergewitter.de" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/live/">Live</a></li>
+  <li><a href="/das-team/">Team</a></li>
+  <li><a href="/ueber-uns/">&#220;ber Bin&#228;rgewitter</a></li>
+  <li><a href="/abonnieren/">Abonnieren</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/impressum/">Impressum</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Binärgewitter Talk #11 - Btrfs -> cheeseFS</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-20T14:00:00+02:00" pubdate data-updated="true">20.04.2012</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Was ist eigentlich unhosted? Das fragen wir unseren Gast Jan. Er erklärt uns auch warum die Semi.coli sterben und wir trauern darum dass nicht gleich das Wireless World Wide Web erfunden wurde.</p>
+
+<h2>Toter der Woche</h2>
+
+<ul>
+<li><a href="http://github.com/twitter/bootstrap/issues/3057">Das Semikolon</a>
+
+<h2>Untoter der Woche</h2></li>
+<li><a href="http://jordanmechner.com/blog/2012/04/textfiles/">Prince of Persia aus den Apple II Kassetten zurueck gekehrt</a>
+
+<ul>
+<li><a href="https://github.com/jmechner/Prince-of-Persia-Apple-II">Code auf Github</a></li>
+</ul>
+</li>
+<li><a href="http://www.welt.de/kultur/musik/article106199399/Die-unheimliche-Holo-Auferstehung-des-toten-Tupac.html">Tupac, der Holo Geisterrapper</a></li>
+<li><a href="http://www.golem.de/news/freie-buerosoftware-apache-openoffice-org-3-4-als-release-candidate-verfuegbar-1204-91264.html">OpenOffice 3.4</a></li>
+<li><a href="http://blobby.sourceforge.net/data/bv2browser/index.html">Blobby Volley im Browser</a></li>
+<li><a href="http://stravid.com/projects/achtung-die-kurve/">Achtung, die Kurve!</a>
+
+<h2>News</h2></li>
+<li><a href="http://www.humblebundle.com">same procedure as every week</a></li>
+<li><a href="http://indieroyale.com">indie royale</a></li>
+<li><a href="http://www.pro-linux.de/news/1/18274/openttd-12-erschienen.html">openttd 1.2</a></li>
+<li><a href="https://github.com/zolrath/wemux">Multiuser tmux: Wemux</a></li>
+<li><a href="http://www.wired.com/wiredenterprise/2012/04/firebase/">Firebase</a></li>
+<li><a href="http://labs.floatboth.com/pkglookup/">Package Lookup für sehr viele Quellen</a>
+
+<ul>
+<li>Problem: pakete heissen bei allen distros Anders</li>
+<li>pkglookup ist mehr Meta-Suchmaschine als Lookup/Resolver</li>
+<li><a href="http://www.pro-linux.de/news/1/18276/listaller-054-freigegeben.html">listaller</a> vs openpkg</li>
+<li><a href="https://github.com/krebscode/painload/tree/master/punani">Punani Meta Package Manager</a>
+
+<ul>
+<li><code>curl euer.krebsco.de:9111/pacman/python</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="http://www.kickstarter.com/projects/306316578/light-table">Light Table IDE</a></li>
+<li><a href="http://www.kickstarter.com/projects/1182995593/make-a-better-coffeescript-compiler">Neuer CoffeeScript Compiler auf Kickstarter</a></li>
+<li><a href="http://www.heise.de/newsticker/meldung/Ikea-verkauft-Fernseher-mit-Soundsystem-1541715.html">WFT? Ikea verkauft Fernseher</a></li>
+<li><a href="http://priv.ly/">Priv.ly, Privacy trotz Facebook, Twitter etc.</a></li>
+<li><a href="http://www.neatorama.com/2012/04/14/man-beat-traffic-ticket-with-math/">Physik Prof. veröffentlicht Paper um Strafzettel zu entgehen</a></li>
+<li><a href="http://www.meetup.com/stuttgartjs/">StuttgartJS meetup</a></li>
+<li><a href="http://tinker.io/">Tinker.io (open source JSFiddle)</a></li>
+<li><a href="https://github.com/farbrausch/fr_public">Farbrausch ve röffentlicht Code aus 10 Jahren</a>
+
+<ul>
+<li><a href="https://github.com/blog/1103-ten-years-of-farbrausch-productions-on-github">Github Blogpost</a></li>
+<li><a href="http://www.youtube.com/watch?v=oKCFq5GsrV0">.kkrieger Video</a></li>
+</ul>
+</li>
+<li><a href="http://libreprojects.net">Libre Projects, Sammlung von open source Webdiensten</a></li>
+<li><a href="https://gitorious.org/codetube">Codetube federated git hosting</a></li>
+<li><a href="http://www.golem.de/news/fernbestellung-kaffeemaschine-mit-netzwerkanschluss-1204-91261.html">Haben will :) Net Coffee Machine</a></li>
+<li><a href="http://sebsauvage.net/paste/">ZeroBin, Pastebin mit client-side Encryption</a>
+
+<h2>Themen</h2>
+
+<h3><a href="http://unhosted.org">Unhosted</a></h3></li>
+<li>Was ist <a href="http://unhosted.org/#introduction">Unhosted</a>?
+
+<ul>
+<li>Offene <a href="http://w3.org/community/unhosted/wiki/RemoteStorage">remoteStorage-Spezifikation</a></li>
+<li><a href="https://github.com/unhosted">Offener Code</a>, <a href="https://groups.google.com/forum/?fromgroups#!forum/unhosted">Mailingliste</a>, IRC channel #unhosted auf freenode, <a href="http://twitter.com/unhosted">Twitter</a></li>
+</ul>
+</li>
+<li>Was ist der Mehrwert/Vorteil gegenüber X?
+
+<ul>
+<li>Offenes Protokoll, jeder kann Storage-Provider wie auch Anwendungen programmieren</li>
+<li>App-Entwickler müssen sich nicht um das Backend kümmern, Anwendungen sind nur client-seitiges HTML &amp; Javascript</li>
+<li>Nutzer bleiben in Kontrolle ihrer Daten und entscheiden, wo es gespeichert wird</li>
+</ul>
+</li>
+<li>Integration mit anderen Projekten</li>
+<li>Storage: <a href="http://owncloud.org">ownCloud</a>, <a href="http://5apps.com">5apps</a>, <a href="https://github.com/5apps/express-storage">Node.js+Redis</a>, <a href="https://github.com/5apps/liquor-cabinet">Sinatra+Riak</a>…
+
+<ul>
+<li><a href="http://packetstormsecurity.org/files/111956/TC-SA-2012-01.txt">ownCloud Exploit</a></li>
+</ul>
+</li>
+<li>Apps: <a href="http://libredocs.org/">Libre Docs</a>, <a href="http://todomvc.unhosted.5apps.com/">Todo</a>, …</li>
+<li><a href="http://addyosmani.github.com/todomvc/">TodoMVC</a></li>
+<li><a href="https://github.com/unhosted/remoteStorage.js">remoteStorage.js</a> &amp; <a href="http://tutorial.unhosted.5apps.com/">Tutorial</a></li>
+<li>Technologie: OAuth, Webfinger, Cross-Origin Resource Sharing (CORS) und Key-Value Store
+
+<ul>
+<li><a href="http://hueniverse.com/2009/08/introducing-webfinger/">Webfinger</a></li>
+<li><a href="http://oauth.net/">Oauth</a></li>
+<li><a href="http://www.w3.org/TR/cors/">CORS</a></li>
+</ul>
+</li>
+<li>Ziele: <a href="https://openphoto.me/">OpenPhoto</a>, Pilotprojekt mit Niederländischen Studenten: <a href="http://surfnet.nl">Surfnet</a>, <a href="http://opentabs.net">Banken zerstören und Transaktionen dezentralisieren</a>, Legacy support für Dropbox, Google Drive etc.</li>
+<li><a href="https://github.com/unhosted/website/wiki/Unhost12">Free-Web-Unkonferenz im September, in Unhost bei Prag</a>
+
+<h2>Lesefoo</h2></li>
+<li><a href="http://net.tutsplus.com/tutorials/html-css-techniques/the-30-css-selectors-you-must-memorize/">The 30 css selectors you must memorize</a> (pfleidi)</li>
+<li><a href="http://tomazkovacic.com/blog/14/extracting-article-text-from-html-documents/">Extracting text from HTML documents</a> (pfleidi)
+
+<h2>Mimimi der Woche</h2></li>
+<li>3ware RAID (ingo) - tw_cli /c0/u0 set storsave=performance</li>
+<li>btrfs als Ersatz fuer LVM (makefu)</li>
+<li>Wordpress und SSL-only Admin / Caching (pfleidi)
+
+<h2>Picks</h2></li>
+<li><a href="http://geoscope.agi.com/LotsOfSatellites/">Lots of Satellites</a> (pfleidi)
+
+<ul>
+<li><a href="http://hackaday.com/2012/04/16/playing-air-traffic-controller-with-software-defined-radio/">Air Traffic with </a></li>
+</ul>
+</li>
+<li><a href="http://wynnnetherland.com/journal/a-stylesheet-author-s-guide-to-terminal-colors">Terminial colors</a> bzw. <a href="http://korpus.juls.savba.sk/~garabik/software/grc.html">grc</a> (pfleidi)</li>
+<li>Sparkleshare (mal wieder) (ingo)
+
+<ul>
+<li><a href="http://xkcd.com/918/">XKCD: Google+</a></li>
+<li><a href="http://www.syncany.org">Syncany</a></li>
+</ul>
+</li>
+<li><a href="http://www.pythonanywhere.com/">Python Anywhere</a></li>
+<li><ul>
+<li>Koans
+
+<ul>
+<li><a href="https://github.com/liammclennan/JavaScript-Koans">JavaScript Koan</a></li>
+<li><a href="http://www.rubykoans.com/">Ruby Koans</a></li>
+<li><a href="https://github.com/gregmalcolm/python_koans">Python Koans</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://codetu.be/">Codetube federated git hosting</a> (Jan), <a href="http://gitorious.org/codetube">auf Gitorious</a></li>
+</ul>
+
+</div>
+
+
+
+
+
+
+
+<div class="audio-content">
+   <audio preload='none' controls><source src='http://download.binaergewitter.de/2012-04-19.Binaergewitter.Talk.11.mp3' type='audio/mp3' /><source src='http://download.binaergewitter.de/2012-04-19.Binaergewitter.Talk.11.ogg' type='audio/ogg' /></audio>
+  <p id="download-buttons">
+  
+  <a href="http://download.binaergewitter.de/2012-04-19.Binaergewitter.Talk.11.mp3"><img src="/images/audio_mp3_button.png"
+    title="download mp3" alt="download mp3" style="border:0; border-radius:0;" /></a>
+  
+  <a href="http://download.binaergewitter.de/2012-04-19.Binaergewitter.Talk.11.ogg"><img src="/images/audio_ogg_button.png"
+    title="download ogg" alt="download ogg" style="border:0; border-radius:0;" /></a>
+  
+  </p>
+</div>
+
+
+
+  <div class="flattr-button">
+  <a class="FlattrButton" style="display:none;"
+    
+    
+    title="Binärgewitter Talk #11 - btrfs -> cheeseFS"
+    data-flattr-uid="binaergewitter"
+    data-flattr-tags="podcast,tech,software"
+    data-flattr-button="compact"
+    data-flattr-category="audio"
+    href="http://blog.binaergewitter.de/blog/2012/04/20/binaergewitter-talk-number-11-btrfs-wird-cheesefs/">
+    
+  </a>
+</div>
+
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Binärgewitter Crew</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-20T14:00:00+02:00" pubdate data-updated="true">20.04.2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/talk/'>talk</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://blog.binaergewitter.de/blog/2012/04/20/binaergewitter-talk-number-11-btrfs-wird-cheesefs/" data-via="binaergewitter" data-counturl="http://blog.binaergewitter.de/blog/2012/04/20/binaergewitter-talk-number-11-btrfs-wird-cheesefs/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/04/12/binaergewitter-talk-number-10-sterben-an-scsi-eye-moscht/" title="Previous Post: Binärgewitter Talk #010 - Sterben an SCSI Eye-Moscht">&laquo; Binärgewitter Talk #010 - Sterben an SCSI Eye-Moscht</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/04/20/binaergewitter-talk-number-11-btrfs-wird-cheesefs/">Binärgewitter Talk #11 - btrfs -> cheeseFS</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/04/12/binaergewitter-talk-number-10-sterben-an-scsi-eye-moscht/">Binärgewitter Talk #010 - Sterben an SCSI Eye-Moscht</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/04/05/binaergewitter-talk-number-9-hypertext-marx-up-bonusfeatures/">Binärgewitter Talk #9 - Hypertext-Marx-Up Bonusfeatures</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/29/binaergewitter-talk-number-8-edge-rauscht-im-schritt/">Binärgewitter Talk #8 - EDGE rauscht im Schritt</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/22/binaergewitter-talk-number-7-asscrypt/">Binärgewitter Talk #7 - Asscrypt!</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+<div class="flattr-button">
+  <h1>Flattr</h1>
+  <a class="FlattrButton" style="display:none;"
+    title="Binärgewitter"
+    data-flattr-uid="binaergewitter"
+    data-flattr-tags="podcast,tech,software"
+    data-flattr-category="audio"
+    href="http://blog.binaergewitter.de">
+    Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt
+  </a>
+</div>
+</section>
+
+
+<section>
+  <h1>Github Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/binaergewitter">@binaergewitter</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'binaergewitter',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("binaergewitter", 5, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/binaergewitter" class="twitter-follow-button" data-show-count="false">Follow @binaergewitter</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Binärgewitter Crew - Lizenz <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC-BY-NC-SA</a> -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  <!-- analytics tracking code -->
+
+
+
+<!-- Piwik --> 
+<script type="text/javascript">
+  var pkBaseURL = (("https:" === document.location.protocol) ? "https://piwik.roothausen.de/" : "http://piwik.roothausen.de/");
+  document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+  </script><script type="text/javascript">
+  try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+  } catch( err ) {}
+</script><noscript><p><img src="http://piwik.roothausen.de?idsite=3" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+
+
+<!-- other JS plugins -->
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'binaergewitterpodcast';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blog.binaergewitter.de/blog/2012/04/20/binaergewitter-talk-number-11-btrfs-wird-cheesefs/';
+        var disqus_url = 'http://blog.binaergewitter.de/blog/2012/04/20/binaergewitter-talk-number-11-btrfs-wird-cheesefs/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
