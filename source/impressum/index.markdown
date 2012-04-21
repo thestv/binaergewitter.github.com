@@ -49,7 +49,7 @@ bestehende Accounts bei Facebook (über Facebook Connect), Twitter, Yahoo und Op
 Kommentare ohne Registrierung und Anmeldung (als “Gast”) ist möglich. Nähere Informationen zu Disqus und seinen 
 Funktionen finden Sie unter [www.disqus.com](https://disqus.com/).
 
-Ihre Daten werden Disqus  verarbeitet und auf Systemen von Disqus gespeichert. Für die Erhebung, Verarbeitung und 
+Ihre Daten werden von Disqus verarbeitet und auf Systemen von Disqus gespeichert. Für die Erhebung, Verarbeitung und 
 Nutzung der betreffenden Daten gelten die Nutzungsbedingungen und Datenschutzhinweise von Disqus, zu finden unter 
 [http://docs.disqus.com/help/30/](http://docs.disqus.com/help/30/) und [http://docs.disqus.com/help/29/](http://docs.disqus.com/help/29/). Wenn Sie sich 
 über Ihren Facebook-, Twitter-, 
