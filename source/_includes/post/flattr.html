@@ -2,7 +2,7 @@
   <a class="FlattrButton" style="display:none;"
     {% capture title %}{{ post.title }}{{ page.title }}{% endcapture %}
     {% capture url %}{{ post.url }}{{ page.url }}{% endcapture %}
-    title="{{ title }}"
+    title="{{ title | xml_escape }}"
     data-flattr-uid="{{ site.flattr_uid }}"
     data-flattr-tags="{{ site.flattr_tags }}"
     data-flattr-button="compact"
