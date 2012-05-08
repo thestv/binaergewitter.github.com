@@ -57,19 +57,19 @@ http://www.neowin.net/news/windows-phone-boost-as-carriers-sick-of-taking-orders
 - http://www.linuxtag.org/2012/de/meldung/article/linuxtag-startet-erste-vorrunde-zum-hacking-contest.html
 ## Themen
 ## Distributed Redudant Secure RAID Backup Storage Cloud
-- 
+
 - Get ALL the accounts on ALL the cloud platforms:
-    - getfreecloud
-    - owncube
-    - mydrive
-    - hidrive
-    - tonline mediencenter
+    - [getfreecloud](http://getfreecloud.com/)
+    - [owncube](https://owncube.com/)
+    - [mydrive](http://www.mydrive.net/)
+    - [hidrive](https://www.free-hidrive.com/)
+    - [tonline mediencenter](https://mediencenter.t-online.de/)
     - gmx mediacenter
-    - Dropbox
-    - skydrive 
+    - [Dropbox](https://www.dropbox.com/)
+    - [skydrive](https://skydrive.live.com/)
 - Proposed Software Stack:
-    * Glusterfs (strip + re auf
-    * EncFS auf
+    * [Glusterfs](http://www.gluster.org/) (strip + re auf
+    * [EncFS](http://www.arg0.net/encfs) auf
     * Webdav + Dropbox + googleDocsFS
 ## Lesefoo
 - [Scaling Instagram Präsentation]( http://speakerdeck.com/u/mikeyk/p/scaling-instagram ) (pfleidi)
@@ -84,7 +84,7 @@ http://www.amazon.de/gp/product/0596529325/ref=as_li_ss_tl?ie=UTF8&tag=retinacas
 * ruby auf nas (ingo)
     - [xkcd: Wisdom of the ancients]( http://xkcd.com/979/ )
 * apropos letzte Woche: rm / festplatte in nas kaputt und dann noch immutable (ingo)
-* GlusterFS - lokal und xattr requirements
+* [Glusterfs](http://www.gluster.org/) - lokal und xattr requirements
 ## Picks
 - [Netgear GS105E]( http://www.amazon.de/dp/B002U08F2S/?tag=krebsco-21 )
 - [Vagrant]( http://vagrantup.com/ ) (pfleidi)
