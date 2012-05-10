@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #13 - Yoldling Yeti Bazen in the Distributed Rednudant Secure RAID Backup Storage Cloud"
+title: "Binärgewitter Talk #13 - Yodling Yeti Bazen in the Distributed Redundant Secure RAID Backup Storage Cloud"
 date: 2012-05-04 14:30
 comments: true
 categories: talk
@@ -25,8 +25,8 @@ http://www.oe24.at/oesterreich/chronik/tirol/Katze-verursacht-Radunfall-Tiroler-
 ## Untoter der Woche
 - [Mandriva meldet sich mit 'we are not dead 
 yet'](http://ostatic.com/blog/mandriva-receives-reprieve-future-still-uncertain )
-- http://www.pro-linux.de/news/1/18328/microsoft-setzt-bei-skype-auf-linux.html
-- http://www.pro-linux.de/news/1/18317/tizen-10-quellcode-und-sdk-verfuegbar.html
+- [Microsoft setzt auf Linux](http://www.pro-linux.de/news/1/18328/microsoft-setzt-bei-skype-auf-linux.html)
+- [Tizen 1.0 freigegeben](http://www.pro-linux.de/news/1/18317/tizen-10-quellcode-und-sdk-verfuegbar.html)
 ## News
 - [Sega's Toylet]( http://mashable.com/2012/04/30/toylet/ )
 - [Sharks with frickin' laser beams attached to their heads](http://www.wired.com/gadgetlab/2012/05/wicked-lasers-shark/ 
@@ -53,9 +53,11 @@ http://dev.opera.com/articles/view/opera-mobile-emulator-experimental-webkit-pre
 http://www.appleinsider.com/articles/12/05/02/dropbox_working_with_apple_to_resolve_app_rejection_issue.html )
 - [Windows wirbt mit : 'sick of taking orders from Apple' fuer ihr Phone]( 
 http://www.neowin.net/news/windows-phone-boost-as-carriers-sick-of-taking-orders-from-apple )
--  http://www.heise.de/newsticker/meldung/Gefahr-durch-offene-PHP-Luecke-1567433.html
-- http://www.linuxtag.org/2012/de/meldung/article/linuxtag-startet-erste-vorrunde-zum-hacking-contest.html
+- [PHP CGI Lücke](http://www.heise.de/newsticker/meldung/Gefahr-durch-offene-PHP-Luecke-1567433.html)
+- [Linuxtag Hacking Contest](http://www.linuxtag.org/2012/de/meldung/article/linuxtag-startet-erste-vorrunde-zum-hacking-contest.html)
+
 ## Themen
+
 ## Distributed Redudant Secure RAID Backup Storage Cloud
 
 - Get ALL the accounts on ALL the cloud platforms:
@@ -71,7 +73,9 @@ http://www.neowin.net/news/windows-phone-boost-as-carriers-sick-of-taking-orders
     * [Glusterfs](http://www.gluster.org/) (strip + re auf
     * [EncFS](http://www.arg0.net/encfs) auf
     * Webdav + Dropbox + googleDocsFS
+
 ## Lesefoo
+
 - [Scaling Instagram Präsentation]( http://speakerdeck.com/u/mikeyk/p/scaling-instagram ) (pfleidi)
 - [Sopa Reloaded - WTF is CISPA]( http://allthingsd.com/20120501/wtf-is-cispa/ )
     - [Mozilla gegen CISPA]( http://www.netzwelt.de/news/92080-cispa-mozilla-foundation-kritisiert-gesetzentwurf.html )
@@ -80,11 +84,14 @@ http://www.neowin.net/news/windows-phone-boost-as-carriers-sick-of-taking-orders
 http://www.amazon.de/gp/product/0596529325/ref=as_li_ss_tl?ie=UTF8&tag=retinacast-21 )
 - [Is Node.js better?]( http://brixen.io/2012/4/9/is_node_js_better ) (pfleidi)
 - [How to be a horrible boss]( http://diegobasch.com/how-to-be-a-horrible-boss ) (pfleidi)
+
 ## Mimimi der Woche
+
 * ruby auf nas (ingo)
     - [xkcd: Wisdom of the ancients]( http://xkcd.com/979/ )
 * apropos letzte Woche: rm / festplatte in nas kaputt und dann noch immutable (ingo)
 * [Glusterfs](http://www.gluster.org/) - lokal und xattr requirements
+
 ## Picks
 - [Netgear GS105E]( http://www.amazon.de/dp/B002U08F2S/?tag=krebsco-21 )
 - [Vagrant]( http://vagrantup.com/ ) (pfleidi)
