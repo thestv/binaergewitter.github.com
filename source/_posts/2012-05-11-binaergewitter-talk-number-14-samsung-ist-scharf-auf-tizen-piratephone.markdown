@@ -50,7 +50,7 @@ Wieder mal sehr albern sprechen pfleidi, felix, ingo und jan über die News der 
 - [Kolab 2.4 ist da - jetzt mit Roundcube]( http://kolabsys.com/ )
  - [Kolab Webtest](https://webmail.klab.cc/ )
 - [Niederlande erstes Land in Europa mit Netzneutralitaet](https://www.bof.nl/2012/05/08/netherlands-first-country-in-europe-with-net-neutrality/ )
-- http://www.sueddeutsche.de/politik/kubicki-lindner-co-die-fdp-scheintot-und-aufgeblasen-1.1350410
+- [Süddeutsche FDP Kommentar](http://www.sueddeutsche.de/politik/kubicki-lindner-co-die-fdp-scheintot-und-aufgeblasen-1.1350410)
 - [Google erhaelt Lizenz fuer Selbstfahrendes Auto]( http://arstechnica.com/tech-policy/news/2012/05/google-gets-license-to-test-drive-autonomous-cars-on-nevada-roads.ars )
 - [TPB wieder populaer durch Bann in UK](http://www.neowin.net/news/the-pirate-bay-big-jump-in-traffic-following-uk-isp-ban )
 
@@ -97,7 +97,7 @@ Wieder mal sehr albern sprechen pfleidi, felix, ingo und jan über die News der 
 
 ## Picks
 
-* logcheck (ingo)
+* [logcheck](http://logcheck.org/ ) (ingo)
 * [Hipster-ass Hipster bike for Hipsters](i.imgur.com/wdmu0.jpg ) (makefu)
 * [Wasser IN SPACE]( http://www.golem.de/news/raumfahrt-wasser-wabert-im-weltall-1205-91621.html )
   * [Ganzes Wasser der Erde in einer Kugel](ga.water.usgs.gov/edu/2010/pictures/full-size/global-water-volume-large.jpg )
