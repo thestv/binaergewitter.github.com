@@ -15,14 +15,14 @@ Wieder mal sehr albern sprechen pfleidi, felix, ingo und jan über die News der 
 
 - [Dickster Kater der Welt gestorben]( http://www.welt.de/vermischtes/weltgeschehen/article106272957/Dickster-Kater-der-Welt-in-Tierheim-gestorben.html )
     * [Richard Stallman isst sich selbst]( http://www.youtube.com/watch?v=I25UeVXrEHQ )
-- [Der fliegende Baer ist tod!]( http://www.blick.ch/news/ausland/der-fliegende-baer-ist-tot-id1872570.html )
+- [Der fliegende Bär ist tod!]( http://www.blick.ch/news/ausland/der-fliegende-baer-ist-tot-id1872570.html )
 - [Adam Yauch (MCA) von den Beastie Boys](http://de.wikipedia.org/wiki/Adam_Yauch )
 - [Tyson aka python gestorben](http://sandhaut.net/blog/index.php?/archives/276-Und-leise-sag-ich-Servus....html )
 
 ## Untoter der Woche
 
 - [SEO Unternehmen in Indien]( http://www.affiliatetemple.com/google-penguin-creates-mass-unemployment-in-india/ )
-- [Franzose erfaehrt von eigenem Tod in Wahllokal]( http://www.focus.de/panorama/welt/schreck-im-wahllokal-angeblich-toter-franzose-will-stimmzettel-angeben_aid_748686.html )
+- [Franzose erfährt von eigenem Tod in Wahllokal]( http://www.focus.de/panorama/welt/schreck-im-wahllokal-angeblich-toter-franzose-will-stimmzettel-angeben_aid_748686.html )
 - [Michael Jackson wirbt fuer Coca-Cola]( http://www.handelsblatt.com/panorama/aus-aller-welt/michael-jackson-ein-toter-macht-noch-einmal-cola-werbung/6590240.html )
 
 ## Rubrik der Woche
@@ -31,7 +31,7 @@ Wieder mal sehr albern sprechen pfleidi, felix, ingo und jan über die News der 
 
 ## News
 
-- Apropos letzte Woche - [Samung tizen phone](http://www.pro-linux.de/news/1/18352/samsung-praesentiert-tizen-smartphone.html )
+- Apropos letzte Woche - [Samsung tizen phone](http://www.pro-linux.de/news/1/18352/samsung-praesentiert-tizen-smartphone.html )
 - Blast from the past week:[PHP-CGI ist in Verwendung (z.B. von Facebook), Exploit ermoeglicht Remote Code execution](http://www.metasploitminute.com/2012/05/cve-2012-1823-php-cgi-bug.html )
 - [Auf pastebin tauchen 55k Usernames und Passwörter von Twitter auf]( http://www.airdemon.net/hacker107.html )
     * [Passwortanalyse und Statistiken](http://blog.eset.se/55-000-hacked-twitter-accounts-leaked-or/ )
@@ -51,8 +51,8 @@ Wieder mal sehr albern sprechen pfleidi, felix, ingo und jan über die News der 
  - [Kolab Webtest](https://webmail.klab.cc/ )
 - [Niederlande erstes Land in Europa mit Netzneutralitaet](https://www.bof.nl/2012/05/08/netherlands-first-country-in-europe-with-net-neutrality/ )
 - [Süddeutsche FDP Kommentar](http://www.sueddeutsche.de/politik/kubicki-lindner-co-die-fdp-scheintot-und-aufgeblasen-1.1350410)
-- [Google erhaelt Lizenz fuer Selbstfahrendes Auto]( http://arstechnica.com/tech-policy/news/2012/05/google-gets-license-to-test-drive-autonomous-cars-on-nevada-roads.ars )
-- [TPB wieder populaer durch Bann in UK](http://www.neowin.net/news/the-pirate-bay-big-jump-in-traffic-following-uk-isp-ban )
+- [Google erhält Lizenz fuer Selbstfahrendes Auto]( http://arstechnica.com/tech-policy/news/2012/05/google-gets-license-to-test-drive-autonomous-cars-on-nevada-roads.ars )
+- [TPB wieder populär durch Bann in UK](http://www.neowin.net/news/the-pirate-bay-big-jump-in-traffic-following-uk-isp-ban )
 
 ## Themen
 
