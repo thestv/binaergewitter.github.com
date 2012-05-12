@@ -147,7 +147,7 @@ http://nachrichten.t-online.de/tote-fische-nach-panne-in-biogasanlage/id_5529952
 - [Pac-Man Walkthrough]( http://uncyclopedia.wikia.com/wiki/Pac-Man_%28walkthrough%29 )
 - [Ruby Rogues Podcast]( http://rubyrogues.com/ ) (pfleidi)
     * [Ruby Rogues Picks]( http://davidbradypickmachine.com/ ) (pfleidi)
-- [Speakerdeck](http://www/speakerdeck.com/) (marc)
+- [Speakerdeck](http://www.speakerdeck.com/) (marc)
 - [Software Defined Radio fuer $11]( http://hardware.slashdot.org/story/12/03/31/1914217/software-defined-radio-for-11 )
 - [augeas, config-files als AST](http://augeas.net/ )
 - [vim-trailing-whitespace]( https://github.com/bronson/vim-trailing-whitespace ) (pfleidi)
