@@ -18,16 +18,14 @@ Alternativen zu BOINC.
 - [BOINC Treffen](http://www.boinctreffen.de ) / 17-20.5.2012
 * Kategorien:
     - Distributed Computing - seti@home
-    - Distributed Thinking - openstreetmap
-     * oder auch crowdsourcing
+    - Distributed Thinking - [openstreetmap]( http://www.openstreetmap.org/ )
      * die [Zooniverse](http://www.zooniverse.org/ )-Projekte
      *  [Distributed Proofreaders](http://www.pgdp.net/c/) / [Project Gutenberg](http://www.gutenberg.org/ )
      *  [SciStarter](http://www.scistarter.com/ ): Datenbank zahlreicher "Handarbeits"-Citizen-Science-Projekte
-    - Citizen Science - Solar Storm Watch
+    - Citizen Science - [Solar Stormwatch](http://www.solarstormwatch.com/ )
 ##BOINC
 - [Berkeley Open Infrastructure for Network Computing](http://boinc.berkeley.edu/ )
-- entwicklet von *Dr. David Anderson* am [Space Science Laboratory](http://ssl.berkeley.edu/ )
-  der *University of California, Berkeley*
+- entwicklet von *Dr. David Anderson* am [Space Science Laboratory](http://ssl.berkeley.edu/ ) der *University of California, Berkeley*
 - plattformunabhängiges Server-Client-Framework
 - Server
   - hauptsächlich in C geschrieben
@@ -39,25 +37,20 @@ Alternativen zu BOINC.
   - in C geschrieben
   - bestehend aus
      - dem Kommandozeilen-Clienten (boinc) selbst (kann auch als Daemon laufen)
-     - dem Kommandozeilen-Commander (boinccmd), um per Kommandozeile einen laufenden
-       Clienten zu administrieren
-     - dem grafischen BOINC-Manager (boincmgr), um grafisch einen laufenden Clienten
-       zu managen
-     - Commander und Manager können auch zu entfernten Clienten verbinden (z.B. mehrere
-       Maschinen im LAN, aber nur ein Managing-Node)
+     - dem Kommandozeilen-Commander (boinccmd), um per Kommandozeile einen laufenden Clienten zu administrieren
+     - dem grafischen BOINC-Manager (boincmgr), um grafisch einen laufenden Clienten zu managen
+     - Commander und Manager können auch zu entfernten Clienten verbinden (z.B. mehrere Maschinen im LAN, aber nur ein Managing-Node)
   - Konfiguration ebenfalls über ein XML-File
 - Anwendungen für die eigentlichen Berechnungen werden von einzelnen Projekten bereitgestellt
   - drei Typen von Apps: klassische CPU, low CPU und [GPU](https://boinc.berkeley.edu/wiki/GPU_computing )
       * GPU -> [CUDA(Nvidia)](https://en.wikipedia.org/wiki/CUDA ) und Stream(ATI), sowie [OpenCL](https://en.wikipedia.org/wiki/OpenCL )
-  - CPU-Anwendungen können (rein theorerisch) auch [SMP]( http://en.wikipedia.org/wiki/Symmetric_multiprocessing ) sein, in der Praxis haben sich jedoch 
-  einige Probleme seitens BOINC damit gezeigt
+  - CPU-Anwendungen können (rein theorerisch) auch [SMP]( http://en.wikipedia.org/wiki/Symmetric_multiprocessing ) sein, in der Praxis haben sich jedoch einige Probleme seitens BOINC damit gezeigt
 - Nachteile von BOINC
     * Sicherheit
     * [3D im Browser]( http://de.wikipedia.org/wiki/WebGL )
 ###BOINC-Alternativen
 - einzig uns bekannte: [MAGE - Marburg Ad-hoc Grid Environment](http://www.uni-marburg.de/fb12/verteilte_systeme/forschung/grid_tools )
-- entwickelt von Arbeitsgruppe um *Prof. Dr. Bernd Freisleben* an der Universität
-  Marburg, Fachbereich Mathematik und Informatik
+- entwickelt von Arbeitsgruppe um *Prof. Dr. Bernd Freisleben* an der Universität Marburg, Fachbereich Mathematik und Informatik
 - einige (wenige) Projekte nutzen ein individuell entwickletes Server-Client-Framework
   (z.B. [Folding@Home](http://folding.stanford.edu/ ), [Distributed.net](http://www.distributed.net/Main_Page ),
   [Muon](http://www.stephenbrooks.org/muon1/ ))
@@ -93,8 +86,7 @@ Alternativen zu BOINC.
      - [Muon: Simulationen zur Planung einer Neutrino-Fabrik](http://www.stephenbrooks.org/muon1/ )
      - [Euler's Formula]( http://en.wikipedia.org/wiki/Euler%27s_formula )
      - ECM: Finden von großen Primfaktoren (>40 Stellen)
-   - [RNA World](http://www.rnaworld.de/rnaworld ): wissenschaftliches Forschungsprojekt 
-     zur Untersuchung von RNAs
+   - [RNA World](http://www.rnaworld.de/rnaworld ): wissenschaftliches Forschungsprojekt zur Untersuchung von RNAs
  - [Constellation](http://aerospaceresearch.net/constellation/ )
    - [iBats](http://www.ibats.org.uk ): mit dem iPhone Fledermäuse tracken
  - Citizen Science
