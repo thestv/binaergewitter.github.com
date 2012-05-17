@@ -84,7 +84,7 @@ Alternativen zu BOINC.
    - [Yoyo@Home](http://www.rechenkraft.net/yoyo/ ): Umbrella-/Wrapper-Projekt
      - [Evolution@Home: Simulation von Evolution](http://www.evolutionary-research.net/ )
      - [Muon: Simulationen zur Planung einer Neutrino-Fabrik](http://www.stephenbrooks.org/muon1/ )
-     - [Euler's Formula]( http://en.wikipedia.org/wiki/Euler%27s_formula )
+     - [EulerNet]( http://euler.free.fr/details.htm ) (beendet)
      - ECM: Finden von großen Primfaktoren (>40 Stellen)
    - [RNA World](http://www.rnaworld.de/rnaworld ): wissenschaftliches Forschungsprojekt zur Untersuchung von RNAs
  - [Constellation](http://aerospaceresearch.net/constellation/ )
