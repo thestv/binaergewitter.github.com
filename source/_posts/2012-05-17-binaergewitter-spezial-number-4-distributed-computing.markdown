@@ -9,7 +9,7 @@ audio:
   mp3: http://download.binaergewitter.de/2012-05-17.Binaergewitter.Spezial.4.mp3
   ogg: http://download.binaergewitter.de/2012-05-17.Binaergewitter.Spezial.4.ogg
 ---
-BOINC gibt es zwar schon lange und es wird immer noch viel benutzt. Felix und Ingo sprechen mit Torbjörn und Andreas über den Rechenkraft e.V., Distributed Computing, BOINC, Einsatzszenarien und 
+BOINC gibt es zwar schon lange und es wird immer noch viel benutzt. Felix und Ingo sprechen mit Torbjörn und Andreas über den Rechenkraft.net e.V., Distributed Computing, BOINC, Einsatzszenarien und 
 Alternativen zu BOINC.
 
 - WP: [verteiltes Rechnen](https://de.wikipedia.org/wiki/Verteiltes_Rechnen)
@@ -17,7 +17,7 @@ Alternativen zu BOINC.
 - WP: [Cloud](https://de.wikipedia.org/wiki/Cloud_Computing )
 - [BOINC Treffen](http://www.boinctreffen.de ) / 17-20.5.2012
 * Kategorien:
-    - Distributed Computing - seti@home
+    - Distributed Computing - SETI@Home
     - Distributed Thinking - [openstreetmap]( http://www.openstreetmap.org/ )
      * die [Zooniverse](http://www.zooniverse.org/ )-Projekte
      *  [Distributed Proofreaders](http://www.pgdp.net/c/) / [Project Gutenberg](http://www.gutenberg.org/ )
@@ -48,6 +48,7 @@ Alternativen zu BOINC.
 - Nachteile von BOINC
     * Sicherheit
     * [3D im Browser]( http://de.wikipedia.org/wiki/WebGL )
+
 ###BOINC-Alternativen
 - einzig uns bekannte: [MAGE - Marburg Ad-hoc Grid Environment](http://www.uni-marburg.de/fb12/verteilte_systeme/forschung/grid_tools )
 - entwickelt von Arbeitsgruppe um *Prof. Dr. Bernd Freisleben* an der Universität Marburg, Fachbereich Mathematik und Informatik
@@ -62,14 +63,15 @@ Alternativen zu BOINC.
   - Negativbeispiel: Crashtest-Simulation (zu enge Abhängigkeit der Daten), Particle-Tracking (zu große Datenmenge)
   - Stichwort [Embarrassingly Parrallel]( http://en.wikipedia.org/wiki/Embarrassingly_parallel )
 - bestehende Programme können in BOINC eingehangen werden ([BOINCWrapper](http://boinc.berkeley.edu/trac/wiki/WrapperApp ))
+  - z.B. [Autodock - Molecular Modeling]( http://en.wikipedia.org/wiki/AutoDock )
 - [eine relativ vollständige List aller DC-Projekte im Rechenkraft.net-Wiki](https://www.rechenkraft.net/wiki/index.php?title=Projekt%C3%BCbersicht )
+
 ###BOINC-Projekte
 - die Urgesteine
   - [SETI@Home](http://setiathome.berkeley.edu/ ): Radiosignale nach Außerirdischen durchsuchen
   - [Distributed.net](http://www.distributed.net/Main_Page ): Encryption knacken, Optimalen 
     Gulomb-Maßstab berechnen
   - [Folding@Home](http://folding.stanford.edu ): Proteine falten (auch mit PS3 und GPUs)
-      - [Autodock - Molecular Modeling]( http://en.wikipedia.org/wiki/AutoDock )
 - deutsche Aushängeschilder
   - [Einstein@Home](http://einstein.phys.uwm.edu/ ): Gravitationswellen suchen, Radiopulsare finden
   - [POEM@Home](http://boinc.fzk.de/poem/ ): Proteine falten
@@ -79,6 +81,7 @@ Alternativen zu BOINC.
   - [AirQualityEgg]( http://www.kickstarter.com/projects/edborden/air-quality-egg )
   - [Radioactive@Home](http://radioactiveathome.org/boinc/ ): Radioaktive Strahlung messen und melden
   - [Distributed Rainbow Tables]( http://www.freerainbowtables.com/ ): Rechnen an Rainbow Tables for the greater good
+
 ##Rechenkraft.net e.V.
 - [Rechenkraft.net](http://rechenkraft.net)
    - [Yoyo@Home](http://www.rechenkraft.net/yoyo/ ): Umbrella-/Wrapper-Projekt
@@ -88,12 +91,9 @@ Alternativen zu BOINC.
      - ECM: Finden von großen Primfaktoren (>40 Stellen)
    - [RNA World](http://www.rnaworld.de/rnaworld ): wissenschaftliches Forschungsprojekt zur Untersuchung von RNAs
  - [Constellation](http://aerospaceresearch.net/constellation/ )
-   - [iBats](http://www.ibats.org.uk ): mit dem iPhone Fledermäuse tracken
  - Citizen Science
+   - [iBats](http://www.ibats.org.uk ): mit dem iPhone Fledermäuse tracken
    - [DontFlushMe](http://www.dontflush.me): für weniger Sch\*\*\*\* im Hudson River (New York)
- - [Boincoid]( http://boincoid.sourceforge.net/ )
-
-
-
-
+ - [Boincoid]( http://boincoid.sourceforge.net/ ): BOINC-Clienten übers Smartphone managen
+ - [NativeBOINC]( http://krzyszp.info/index.php?option=com_content&view=article&id=29:nativeboinc-for-android&catid=7:linux&Itemid=6 ): derzeit wohl beste Android-Client mit Unterstützung für Milkyway@Home, PrimeGrid, Enigma@Home und Radioactive@Home
 
