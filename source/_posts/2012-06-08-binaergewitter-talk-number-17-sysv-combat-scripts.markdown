@@ -71,7 +71,7 @@ Drei Zombies essen Pokemons, tanzen wieder durch die News der letzten Woche und 
 
 ## Picks
 
-- [Twitter Logo sieht aus wie Batman]( p.twimg.com/AuzyQyHCAAEPVz0.png#twimg )
+- [Twitter Logo sieht aus wie Batman]( http://p.twimg.com/AuzyQyHCAAEPVz0.png#twimg )
 - [Pyload](http://pyload.org/ )(felix)
 - [Redis]( http://redis.io ) (pfleidi)
 - [Sinatra]( http://www.sinatrarb.com ) (pfleidi)
