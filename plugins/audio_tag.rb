@@ -33,7 +33,7 @@ module Jekyll
       if @markup =~ UrlSyntax
         @audio = $1.split(",")
       elsif @markup =~ VarSyntax
-        # Liquid does not expand variables on custom tags inside templates 
+        # Liquid does not expand variables on custom tags inside templates
         # so we need to look it up manually
         lookup = context[$1]
         if lookup.is_a?(Hash)
@@ -44,7 +44,7 @@ module Jekyll
       end
 
       generate_html
-    end 
+    end
 
     private
 

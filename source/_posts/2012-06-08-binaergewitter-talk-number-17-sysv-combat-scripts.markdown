@@ -5,7 +5,7 @@ date: 2012-06-08 13:30
 comments: true
 categories: talk
 sharing: true
-audio:
+audioformats:
   mp3: http://download.binaergewitter.de/2012-06-07.Binaergewitter.Talk.17.mp3
   ogg: http://download.binaergewitter.de/2012-06-07.Binaergewitter.Talk.17.ogg
 ---

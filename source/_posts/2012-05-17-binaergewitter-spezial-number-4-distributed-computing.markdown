@@ -5,7 +5,7 @@ date: 2012-05-17 15:30
 comments: true
 categories: spezial
 sharing: true
-audio:
+audioformats:
   mp3: http://download.binaergewitter.de/2012-05-17.Binaergewitter.Spezial.4.mp3
   ogg: http://download.binaergewitter.de/2012-05-17.Binaergewitter.Spezial.4.ogg
 ---

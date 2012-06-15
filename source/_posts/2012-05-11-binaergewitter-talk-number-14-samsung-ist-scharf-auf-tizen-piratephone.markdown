@@ -5,7 +5,7 @@ date: 2012-05-11 12:30
 comments: true
 categories: talk
 sharing: true
-audio:
+audioformats:
   mp3: http://download.binaergewitter.de/2012-05-10.Binaergewitter.Talk.14.mp3
   ogg: http://download.binaergewitter.de/2012-05-10.Binaergewitter.Talk.14.ogg 
 ---

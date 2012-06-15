@@ -8,7 +8,6 @@ layout: nil
   xmlns:media="http://search.yahoo.com/mrss/"
   >
 
-
   <channel>
     <title><![CDATA[{{ site.title }}]]></title>
     <link>{{ site.url }}</link>
@@ -56,7 +55,8 @@ layout: nil
     <media:credit role="author">{{ site.author }}</media:credit>
     <media:rating>nonadult</media:rating>
     <media:description type="plain">{{ site.description }}</media:description>
-    {% for post in site.posts limit: 30 %}
+
+    {% for post in site.audioformats[page.audioformat] limit: 100 %}
     {% capture post_url %}{{ site.url }}{{ post.url }}{% endcapture %}
     <item>
       <title>{{ post.title }}</title>
@@ -88,13 +88,15 @@ layout: nil
       <description>
         <![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]>
       </description>
-      {% if post.audio %}
-      {% if post.audio.mp3 %} {% assign podcast_audio = post.audio.mp3 %}
-      {% else %} {% assign podcast_audio = post.audio %}
-      {% endif %}
+      {% if post.audioformats %}
+      {% assign podcast_audio = post.audioformats[page.audioformat] %}
       {% assign_audio_metadata podcast_audio_meta = podcast_audio %}
-      <enclosure url="{{ podcast_audio }}" length="{{ podcast_audio_meta.content_length }}" type="{{ podcast_audio_meta.content_type }}" />
-      <media:content url="{{ podcast_audio}}" fileSize="{{ podcast_audio_meta.content_length }}" type="{{ podcast_audio_meta.content_type }}" />
+      <enclosure url="{{ podcast_audio }}"
+        length="{{ podcast_audio_meta.content_length }}"
+        type="{{ podcast_audio_meta.content_type }}" />
+      <media:content url="{{ podcast_audio}}"
+        fileSize="{{ podcast_audio_meta.content_length }}"
+        type="{{ podcast_audio_meta.content_type }}" />
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
       <itunes:subtitle>{{ post.title }}</itunes:subtitle>
       <itunes:summary>
