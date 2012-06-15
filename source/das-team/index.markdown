@@ -14,4 +14,4 @@ footer: true
 
 - hadez ([@hdznrrd](https://twitter.com/hdznrrd)) ([blog](http://nrrd.de/))
 - Markus Schlichting ([@madmas](https://twitter.com/madmas)) ([blog](http://www.mynethome.de/))
-
+- Jan-Christoph Borchardt ([@jancborchardt](https://twitter.com/jancborchardt))
