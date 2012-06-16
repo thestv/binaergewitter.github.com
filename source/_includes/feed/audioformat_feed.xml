@@ -86,7 +86,7 @@ layout: nil
       <guid isPermaLink="false">{{ site.url }}{{ post.id }}</guid>
       {% endif %}
       <description>
-        <![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]>
+        <![CDATA[{{ post.content | markdownify | expand_urls: site.url | cdata_escape }}]]>
       </description>
       {% if post.audioformats %}
       {% assign podcast_audio = post.audioformats[page.audioformat] %}
@@ -100,7 +100,7 @@ layout: nil
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
       <itunes:subtitle>{{ post.title }}</itunes:subtitle>
       <itunes:summary>
-        <![CDATA[{{ post.content | strip_html | truncate: 4000 | cdata_escape }}]]>
+        <![CDATA[{{ post.content | markdownify | strip_html | truncate: 4000 | cdata_escape }}]]>
       </itunes:summary>
       <itunes:author>{{ site.author }}</itunes:author>
       <itunes:explicit>no</itunes:explicit>
