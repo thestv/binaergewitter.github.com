@@ -61,7 +61,7 @@ Seit langem mal wieder eine wirklich grosse Runde mit Besuch aus dem EU-Ausland 
 
 - Application Server
 - Datenbanken
-    - NoSQL ( [Binärgewitter Spezial #1 ( http://blog.binaergewitter.de/blog/2011/01/09/binaergewitter-number-1-nosql/ ) )
+    - NoSQL: [Binärgewitter Spezial #1]( http://blog.binaergewitter.de/blog/2011/01/09/binaergewitter-number-1-nosql/ )
 - Middleware
 - Caching
     * Reverse-Proxys
