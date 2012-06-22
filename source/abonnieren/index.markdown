@@ -11,6 +11,10 @@ Natürlich könnt ihr uns auch abonnieren. Wir sind schließlich ein Podcast. En
 
 [http://feeds.feedburner.com/binaergewitter-podcast](http://feeds.feedburner.com/binaergewitter-podcast)
 
+## OGG Vorbis Feed
+
+[http://feeds.feedburner.com/binaergewitter-podcast-ogg](http://feeds.feedburner.com/binaergewitter-podcast-ogg)
+
 ## Bittorrent-Feed
 
 [http://bitlove.org/binaergewitter/talk/feed](http://bitlove.org/binaergewitter/talk/feed )
