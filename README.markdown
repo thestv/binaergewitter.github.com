@@ -1,6 +1,6 @@
 ## Octopod
 
-Octopod is a Octropress with more Features like with Podcasting and Flattr Support.
+Octopod is a Octropress with more Features like Podcasting and Flattr Support.
 
 ## What is Octopress?
 
