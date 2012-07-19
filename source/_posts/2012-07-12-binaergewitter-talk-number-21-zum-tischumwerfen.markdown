@@ -10,7 +10,7 @@ audioformats:
   ogg: http://download.binaergewitter.de/2012-07-12.Binaergewitter.Talk.21.ogg
   m4a: http://download.binaergewitter.de/2012-07-12.Binaergewitter.Talk.21.m4a
 ---
-Das neue Studiosetup ist so gut wie fertig, dafür haben wir pfleidi diesmal verloren. Macht nix wir quatschen über Indoornavigation, Security Fuckups und vieles mehr.
+Das neue Studiosetup ist so gut wie fertig, dafür haben wir pfleidi diesmal verloren. Macht aber nix wir quatschen über Indoornavigation, Security Fuckups und vieles mehr.
 
 ## Rubrik der Woche
 ### Security Fuckups der Woche
@@ -27,7 +27,7 @@ Das neue Studiosetup ist so gut wie fertig, dafür haben wir pfleidi diesmal ver
 ## Media Player Foo der Woche
 * [XBMC](http://xbmc.org/ )
 * [openELEC](http://openelec.tv/ )
-* [LG 3D Bluray Player - Nacholge Modell]http://www.amazon.de/gp/product/B007KJ57O8/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B007KJ57O8&linkCode=as2&tag=trektrip )
+* [LG 3D Bluray Player - Nachfolge Modell]http://www.amazon.de/gp/product/B007KJ57O8/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B007KJ57O8&linkCode=as2&tag=trektrip )
 * [Boxee Box](http://www.amazon.de/gp/product/B0043EV3MS/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B0043EV3MS&linkCode=as2&tag=trektrip )
 
 ## Untoter der Woche
@@ -75,6 +75,7 @@ Das neue Studiosetup ist so gut wie fertig, dafür haben wir pfleidi diesmal ver
 
 ## Mimimi der Woche
 * [C++](wtf://lol) (Marc)
+
 ## Picks
 - [Pancake Kissen]( https://lh5.googleusercontent.com/-zkz8G_CUnvE/T_7tBMbrhEI/AAAAAAAAIn4/g0_c6hlBoCA/s735/Pancake.jpeg )
 - [Table Flipping]( http://knowyourmeme.com/memes/flipping-tables-%E2%95%AF%E2%96%A1%EF%BC%89%E2%95%AF%EF%B8%B5-%E2%94%BB%E2%94%81%E2%94%BB )
