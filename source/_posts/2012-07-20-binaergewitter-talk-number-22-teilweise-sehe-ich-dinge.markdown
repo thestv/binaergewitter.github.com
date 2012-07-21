@@ -32,7 +32,7 @@ Das muss man wirklich wissen, ist man nun bei 0 Grad Kelvin ganz tot? Neben den 
 * [SSD bei AWS]( http://aws.typepad.com/aws/2012/07/new-high-io-ec2-instance-type-hi14xlarge.html ) 
 * [Nexus 7 geht nicht auf]( http://www.youtube.com/watch?v=32DD4DF7Qpo )
     * [oder doch]( https://www.youtube.com/watch?v=GWl1m0Cd4eI )
-* [Das einzige problem: Sie halten sich an Geschwindigkeitsbegrenzungen]( http://www.slate.com/blogs/future_tense/2012/07/13/eric_schmidt_on_self_driving_cars_biggest_problem_they_obey_speed_limits.html )
+* [Das einzige problem: Sie halten sich an Geschwindigkeitsbegrenzungen]( http://www.slate.com/blogs/future_tense/2012/07/13/eric_schmidt_on_self_driving_cars_biggest_problem_they_obey_speed_limits.html 
 * [Hack the hackers: pcap_log Privilege Escalation]( http://packetstormsecurity.org/files/114784/metasploit-localroot.txt )
 * [Nao Evolution of Dance]( http://www.youtube.com/watch?v=2laujomh0JY )    
 * [Twitter gibt RedPhone frei]( https://github.com/WhisperSystems/RedPhone )
@@ -50,7 +50,7 @@ Das muss man wirklich wissen, ist man nun bei 0 Grad Kelvin ganz tot? Neben den 
 * [Atomwaffen sind garnicht schlimm]( http://www.npr.org/blogs/krulwich/2012/07/16/156851175/five-men-agree-to-stand-directly-under-an-exploding-nuclear-bomb?ps=cprs )
 * [Apple's Dilemma: The 7-inch IPad](http://connectedmonster.com/2012/07/17/apples-dilemma-the-7-inch-ipad/ )
 * [Apple muss sich oeffentlich bei Samsung entschuldigen]( http://www.bloomberg.com/news/2012-07-18/apple-must-publish-notice-samsung-didn-t-copy-ipad-judge-says.html )
-   * [Bildvergleich](i.imgur.com/TmUj2.jpg )
+   * [Bildvergleich](http://i.imgur.com/TmUj2.jpg )
 * [Shell Crowdsources Ads - "Let's Go!"]( http://arcticready.com/social/gallery )
     * [... ist ein gut gemachter Hoax von Green Peace]( http://www.upi.com/blog/2012/07/17/Shell-Lets-Go-campaign-a-brilliant-elaborate-hoax-UPDATED/5651342541859/#!/2/ )
 * [UTF-8 URLs]( http://موقع.وزارة-الاتصالات.مصر/ )
