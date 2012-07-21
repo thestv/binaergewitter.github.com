@@ -27,7 +27,7 @@ Das neue Studiosetup ist so gut wie fertig, dafür haben wir pfleidi diesmal ver
 ## Media Player Foo der Woche
 * [XBMC](http://xbmc.org/ )
 * [openELEC](http://openelec.tv/ )
-* [LG 3D Bluray Player - Nachfolge Modell]http://www.amazon.de/gp/product/B007KJ57O8/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B007KJ57O8&linkCode=as2&tag=trektrip )
+* [LG 3D Bluray Player - Nachfolge Modell](http://www.amazon.de/gp/product/B007KJ57O8/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B007KJ57O8&linkCode=as2&tag=trektrip )
 * [Boxee Box](http://www.amazon.de/gp/product/B0043EV3MS/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B0043EV3MS&linkCode=as2&tag=trektrip )
 
 ## Untoter der Woche
