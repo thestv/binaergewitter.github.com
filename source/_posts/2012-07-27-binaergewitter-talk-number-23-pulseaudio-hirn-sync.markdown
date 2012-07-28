@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Binärgewitter Talk #23 - Pulsaudio-Hirn-Sync"
-date: 2012-07-27 13:30
+title: "Binärgewitter Talk #23 - Pulseaudio-Hirn-Sync"
+date: 2012-07-27 18:30
 comments: true
 categories: talk
 sharing: true
@@ -10,7 +10,8 @@ audioformats:
   ogg: http://download.binaergewitter.de/2012-07-26.Binaergewitter.Talk.23.ogg
   m4a: http://download.binaergewitter.de/2012-07-26.Binaergewitter.Talk.23.m4a
 ---
-Wieder mal in Vollbesetzung düsen wir durch die News die Felix ausgesucht hat. Nur mit dem Toten der Woche hat er es diesmal irgendwie nicht hinbekommen, dafür reden wir über (gesprochene) Sprachen und Security Foo.
+Wieder mal in Vollbesetzung düsen wir durch die News, die Felix ausgesucht hat. Nur mit dem Toten der Woche hat er es diesmal irgendwie nicht hinbekommen, dafür reden wir über (gesprochene) Sprachen und 
+Security Foo.
 
 ## Kategorie der Woche
 
@@ -24,22 +25,21 @@ Wieder mal in Vollbesetzung düsen wir durch die News die Felix ausgesucht hat. 
 
 ## Untoter der Woche
 
-* [heute vor 125: Esperanto](http://www.zdf.de/ZDF/zdfportal/web/heute-Nachrichten/4672/23607064/6d99bd/Das-Linux-der-Sprachen.html )
+* [125 Jahre Esperanto](http://www.zdf.de/ZDF/zdfportal/web/heute-Nachrichten/4672/23607064/6d99bd/Das-Linux-der-Sprachen.html )
   - [Pimperanto]( http://www.pimpo.de/pimpo.htm )
   - [Klingonische Wikipedia](http://klingon.wikia.com/ )
 
 ## News
 
-- [Google fiber]( http://fiber.google.com/plans/residential/ ) 
-- [Den Laptop mit neuem USB 3.0 laden - 100W Power]( http://www.techweekeurope.co.uk/news/usb-3-0-power-delivery-charging-86983 )
-    - [USB 3.0 Power Delivery Specification]
-(http://www.usb.org/press/USB_Power_Delivery_Spec_Completion_FINAL.pdf ) von Intel, HP, Microsoft, ST-Erricson
+- [Google fiber]( http://fiber.google.com/plans/residential/ )
+- [Den Laptop mit neuem USB 3.0 laden - 100W Power](http://www.techweekeurope.co.uk/news/usb-3-0-power-delivery-charging-86983 )
+    - [USB 3.0 Power Delivery Specification](http://www.usb.org/press/USB_Power_Delivery_Spec_Completion_FINAL.pdf ) von Intel, HP, Microsoft, ST-Erricson
     - [6 Unterstuetzte Powerprofile von 5,12,20 Volt](http://semiaccurate.com/2012/07/23/100w-over-usb-is-here-with-the-new-power-delivery-spec/ ) - Nie wieder proprietaere Ladegerate!
-    - [Duck]( http://assets.cantbeunseen.com/hashed_silo_content/silo_content/22917/resized/duck.jpg )
+    - [Duck]( assets.cantbeunseen.com/hashed_silo_content/silo_content/22917/resized/duck.jpg )
 - [Seeing women as objects]( http://onlinelibrary.wiley.com/doi/10.1002/ejsp.1890/abstract )
 - [Sicherheitsluecke in Millionen Hotel-Tueren]( http://www.forbes.com/sites/andygreenberg/2012/07/23/hacker-will-expose-potential-security-flaw-in-more-than-four-million-hotel-room-keycard-locks/ ) 
 - [Apple bei Blackhat]( http://go.bloomberg.com/tech-blog/2012-07-24-apple-warms-up-to-hackers-plans-presentation-at-black-hat/ )
-- [Redis Sentinal beta]( http://antirez.com/post/redis-sentinel-beta-released.html ) 
+- [Redis Sentinal beta]( http://antirez.com/post/redis-sentinel-beta-released.html ) (Marc)
 - [fuck yeah mehr spiele](http://www.pro-linux.de/news/1/18665/valve-chef-gabe-newell-will-alle-spiele-auf-linux-bringen.html )
     - [Warum Steam auf die Linux Pattform will - Weil Windows 8 (Market Place) suckt]( http://linux.slashdot.org/story/12/07/26/1249246/why-valve-wants-to-port-games-to-linux-because-windows-8-is-a-catastrophe )
     - [HN Thread - "CEO's zweifeln oeffentlich an der Zukunft der Windows Plattform"]( http://news.ycombinator.net/item?id=4293046 )
@@ -47,7 +47,7 @@ Wieder mal in Vollbesetzung düsen wir durch die News die Felix ausgesucht hat. 
 - [Korean 27 inch TFTs]( http://techreport.com/articles.x/23291 ) + [HN]( http://news.ycombinator.com/item?id=4292450 )
 - [The Rise of The Junk Web]( http://tech.slashdot.org/story/12/07/26/0412214/the-rise-of-the-junkweb-and-why-its-so-awesome )
 - [Google meint, dass Apples erfindungen so cool sind, dass sie geteilt werden sollten]( http://allthingsd.com/20120720/google-claims-popularity-has-made-some-apple-patents-de-facto-essentials/ )
-- [Lenovo CEO gibt sein $3mio Bonus an seine Mitarbeiter]( http://www.dailytech.com/Lenovo+CEO+Gives+Part+of+His+3+Million+USD+Bonus+to+10000+Employees/article25227.htm )
+- [Lenovo CEO gibt sein $3mio bonus an seine mitarbeiter]( http://www.dailytech.com/Lenovo+CEO+Gives+Part+of+His+3+Million+USD+Bonus+to+10000+Employees/article25227.htm )
 - [Google kauft Sparrow]( http://www.heise.de/newsticker/meldung/Google-kauft-App-Entwickler-Sparrow-1649196.html )
     * [CAPTAIN JACK SPARROW]( http://www.youtube.com/watch?v=GI6CfKcMhjY )
 - [Flugzeugstandorte vortaeuschen  um Flugkontrolle zu verwirren]( http://www.forbes.com/sites/andygreenberg/2012/07/25/next-gen-air-traffic-control-vulnerable-to-hackers-spoofing-planes-out-of-thin-air/ )
@@ -79,16 +79,16 @@ Wieder mal in Vollbesetzung düsen wir durch die News die Felix ausgesucht hat. 
 ## Mimimi der Woche
 
 - Mastercard SecureCode (Marc)
-- Arch Linux upgrade mal wieder (pfleidi), ich habs ja gesagt...
+- Arch Linux upgrade mal wieder (pfleidi)
 - Spotify Client (pfleidi)
 
 ## Picks
 
 - [Youtube unblocker]( http://www.unblocker.yt/ )
-    * [gesperrtes beispiel video](http://www.youtube.com/watch?v=CqGK1mpFvgQ )
+    * [gesperrtes beispiel Video](http://www.youtube.com/watch?v=CqGK1mpFvgQ )
 - [Richard Feynman on quantum mechanics]( http://www.youtube.com/watch?v=xdZMXWmlp9g )
 - [Dark knight rises]( http://www.imdb.com/title/tt1345836/ )
-- [url2png]( url2png.com )
+- [url2png]( http://url2png.com )
 - [PJL]( http://de.wikipedia.org/wiki/Printer_Job_Language )
     - [HP PJL Directory Traversal]( http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02004333 )
         - Fix: Turn off the Service
