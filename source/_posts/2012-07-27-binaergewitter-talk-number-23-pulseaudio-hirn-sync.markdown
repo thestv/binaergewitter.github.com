@@ -35,7 +35,7 @@ Security Foo.
 - [Den Laptop mit neuem USB 3.0 laden - 100W Power](http://www.techweekeurope.co.uk/news/usb-3-0-power-delivery-charging-86983 )
     - [USB 3.0 Power Delivery Specification](http://www.usb.org/press/USB_Power_Delivery_Spec_Completion_FINAL.pdf ) von Intel, HP, Microsoft, ST-Erricson
     - [6 Unterstuetzte Powerprofile von 5,12,20 Volt](http://semiaccurate.com/2012/07/23/100w-over-usb-is-here-with-the-new-power-delivery-spec/ ) - Nie wieder proprietaere Ladegerate!
-    - [Duck]( assets.cantbeunseen.com/hashed_silo_content/silo_content/22917/resized/duck.jpg )
+    - [Duck]( http://assets.cantbeunseen.com/hashed_silo_content/silo_content/22917/resized/duck.jpg )
 - [Seeing women as objects]( http://onlinelibrary.wiley.com/doi/10.1002/ejsp.1890/abstract )
 - [Sicherheitsluecke in Millionen Hotel-Tueren]( http://www.forbes.com/sites/andygreenberg/2012/07/23/hacker-will-expose-potential-security-flaw-in-more-than-four-million-hotel-room-keycard-locks/ ) 
 - [Apple bei Blackhat]( http://go.bloomberg.com/tech-blog/2012-07-24-apple-warms-up-to-hackers-plans-presentation-at-black-hat/ )
@@ -47,10 +47,10 @@ Security Foo.
 - [Korean 27 inch TFTs]( http://techreport.com/articles.x/23291 ) + [HN]( http://news.ycombinator.com/item?id=4292450 )
 - [The Rise of The Junk Web]( http://tech.slashdot.org/story/12/07/26/0412214/the-rise-of-the-junkweb-and-why-its-so-awesome )
 - [Google meint, dass Apples erfindungen so cool sind, dass sie geteilt werden sollten]( http://allthingsd.com/20120720/google-claims-popularity-has-made-some-apple-patents-de-facto-essentials/ )
-- [Lenovo CEO gibt sein $3mio bonus an seine mitarbeiter]( http://www.dailytech.com/Lenovo+CEO+Gives+Part+of+His+3+Million+USD+Bonus+to+10000+Employees/article25227.htm )
+- [Lenovo CEO gibt sein $3mio Bonus an seine Mitarbeiter]( http://www.dailytech.com/Lenovo+CEO+Gives+Part+of+His+3+Million+USD+Bonus+to+10000+Employees/article25227.htm )
 - [Google kauft Sparrow]( http://www.heise.de/newsticker/meldung/Google-kauft-App-Entwickler-Sparrow-1649196.html )
     * [CAPTAIN JACK SPARROW]( http://www.youtube.com/watch?v=GI6CfKcMhjY )
-- [Flugzeugstandorte vortaeuschen  um Flugkontrolle zu verwirren]( http://www.forbes.com/sites/andygreenberg/2012/07/25/next-gen-air-traffic-control-vulnerable-to-hackers-spoofing-planes-out-of-thin-air/ )
+- [Flugzeugstandorte vortäuschen um Flugkontrolle zu verwirren]( http://www.forbes.com/sites/andygreenberg/2012/07/25/next-gen-air-traffic-control-vulnerable-to-hackers-spoofing-planes-out-of-thin-air/ )
     * [Überlebens-RADAR]( http://www.youtube.com/watch?v=uF39MjuY6ug )
 - [Iranisches Atomprogramm spielt AC/DC]( http://news.ycombinator.net/item?id=4286696 )
 - [Robot Trash Can]( http://hackaday.com/2012/07/20/robot-trash-can-catches-anything-you-throw-near-it/ )
@@ -71,10 +71,10 @@ Security Foo.
 - [Message in a Bottle]( http://www.youtube.com/watch?v=NG8goJpbKk0 )
 - [Latency: The new web performance bottleneck]( http://www.igvita.com/2012/07/19/latency-the-new-web-performance-bottleneck/ )
 - [Machine Learning for the impatient]( http://www.aelag.com/147952673 )
-- [Warum haben Fernseher 60/50hz]( http://hackaday.com/2012/07/24/hows-the-60hz-coming-from-your-wall/ )
-- [Auphonic Blog Podcast Formate](https://auphonic.com/blog/2012/01/07/podcast-comparison-part-1-file-formats-and-bitrates/ )
+- [Warum haben Fernseher 60/50hz]( http://hackaday.com/2012/07/24/hows-the-60hz-coming-from-your-wall/ ) (felix)
+- [Auphonic Blog Podcast Formate](https://auphonic.com/blog/2012/01/07/podcast-comparison-part-1-file-formats-and-bitrates/ ) (ingo)
 - [The Gentleperson's Guide to Forum Spies]( http://cryptome.org/2012/07/gent-forum-spies.htm )
-- [The design of LLVM]( http://www.drdobbs.com/architecture-and-design/the-design-of-llvm/240001128 )
+- [The design of LLVM]( http://www.drdobbs.com/architecture-and-design/the-design-of-llvm/240001128 ) (pfleidi)
 
 ## Mimimi der Woche
 
