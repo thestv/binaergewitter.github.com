@@ -36,17 +36,17 @@ Felix und Marc rocken alleine den Themenstau der letzten Wochen durch.
     * https://threatpost.com/en_us/blogs/new-attack-uses-ssltls-information-leak-hijack-https-sessions-090512
     * https://chromiumcodereview.appspot.com/10825183
 - [Opus]( http://www.opus-codec.org/ )
-    * [wiki]( http://en.wikipedia.org/wiki/Opus_(audio_format) )
+    * [wiki]( http://en.wikipedia.org/wiki/Opus_(audio_format) 
     * [auf deutsch]( http://www.zdnet.de/88123034/ietf-verabschiedet-lizenzfreien-online-audio-standard-opus/ )
     * [Firefox Announcement](https://hacks.mozilla.org/2012/07/firefox-beta-15-supports-the-new-opus-audio-format/ )
 - [Getohlene Apple UUIDS]( http://www.golem.de/news/anonymous-1-000-001-iphone-udids-gestohlen-und-veroeffentlicht-1209-94318.html )
     - [UDIDs explained]( http://arstechnica.com/apple/2012/09/ask-ars-whats-the-big-deal-with-iphone-udids )
     - [Quelle der UDIDs ist Blue Toad Publishing]( http://redtape.nbcnews.com/_news/2012/09/10/13781440-exclusive-the-real-source-of-apple-device-ids-leaked-by-anonymous-last-week )
 - [Apple vs Samsung: Samsungs geraete sind abgekupfert - 1Mrd Schaden]( http://www.theverge.com/2012/8/24/3254422/apple-samsung-trial-verdict )
-    - http://lh6.googleusercontent.com/-6d234SvPnHg/UDsciQpy0QI/AAAAAAAAAtM/pqGOjyoNpOU/s522/5181866_700b%5B1%5D.jpg
-    - ["Was? Apple ist das gleiche wie Samsung? Ich hab gewusst, dass wir von Apple abgezockt wurden!" - Beste Marketing Kampagne fuer Samsung?](https://plus.google.com/u/0/114476892281222708332/posts/246srfbqg6G )
+    - [Bild](http://lh6.googleusercontent.com/-6d234SvPnHg/UDsciQpy0QI/AAAAAAAAAtM/pqGOjyoNpOU/s522/5181866_700b%5B1%5D.jpg )
+    - ["Was? Apple ist das gleiche wie Samsung? Ich hab gewusst, dass wir von Apple abgezockt wurden!" - Beste Marketing Kampagne für Samsung?](https://plus.google.com/u/0/114476892281222708332/posts/246srfbqg6G )
     - [Samsung eroeffnet Apple Store in Australien]( http://allthingsd.com/20120823/samsung-opens-new-apple-store-in-australia/ )
-    - [Samsung zahlt mit 30 trucks voll mit 5Cent Muenzen (hoax)](http://www.zurmat.com/2012/08/29/samsung-pays-apple-1-billion-sending-30-trucks-full-of-5-cent-coins/ )
+    - [Samsung zahlt mit 30 trucks voll mit 5Cent Münzen (hoax)](http://www.zurmat.com/2012/08/29/samsung-pays-apple-1-billion-sending-30-trucks-full-of-5-cent-coins/ )
     - [GooPhone - iPhone Knockoff - will mit geleaktem Parts Apple wegen iPhone5 Design verklagen]( http://gizmodo.com/5940253/chinese-clone-company-will-sue-apple-over-iphone-5-design )
 - Iphone5
     - [t]( http://lh6.googleusercontent.com/-jHgWtPfNooo/UFFxsJWqkFI/AAAAAAAAAoI/5c486irdIwo/s547/iphone.jpg )
@@ -72,15 +72,12 @@ Felix und Marc rocken alleine den Themenstau der letzten Wochen durch.
 ## Themen
 ### Lesefoo
 - [Web Fonts Performance: Making Pretty, Fast]( http://www.igvita.com/2012/09/12/web-fonts-performance-making-pretty-fast/ ) (Marc)
-- [Airtime Community Blog](http://www.sourcefabric.org/en/community/blog/) Ingo
 - [How I lost 14KG in 10 weeks]( http://paulrouget.com/e/diet/ ) (pfleidi)
     * [Paleosophie 1]( http://paleosophie.de/blog/2012/08/alles-was-man-uber-kohlenhydrate-wissen-sollte-teil-1-was-genau-sind-kohlenhydrate )
     * [Paleosophoe 2]( http://paleosophie.de/blog/2012/09/alles-was-man-uber-kohlenhydrate-wissen-sollte-teil-2-welche-warum-und-wieviel )
 - [Klare Methodennamen]( http://37signals.com/svn/posts/3250-clarity-over-brevity-in-variable-and-method-names ) (Marc)
     - litterate programming
 - [The RTLinux Manifesto]( http://rtm-cs.sinp.msu.ru/manual/rtl/rtlmanifesto.pdf )
-- [What killed the Linux desktop]( http://tirania.org/blog/archive/2012/Aug-29.html ) (pfleidi)
-    * [Diskussion auf Google+]( https://plus.google.com/115250422803614415116/posts/hMT5kW8LKJk )
 - [Phishing by Data URI]( http://klevjers.com/papers/phishing.pdf )
 - [Design of SQLite 4]( http://www.sqlite.org/src4/doc/trunk/www/design.wiki ) (Marc)
 - [Startup is the New Hipster]( http://fosslien.com/startup/ )
