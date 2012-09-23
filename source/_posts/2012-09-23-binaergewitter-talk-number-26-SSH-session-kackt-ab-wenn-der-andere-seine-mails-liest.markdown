@@ -8,7 +8,7 @@ sharing: true
 audioformats:
   mp3: http://download.binaergewitter.de/2012-09-20.Binaergewitter.Talk.26.mp3
   ogg: http://download.binaergewitter.de/2012-09-20.Binaergewitter.Talk.26.ogg
-  m4a: http://download.binaergewitter.de/2012-09-20.Binaergewitter.Talk.26.mp3
+  m4a: http://download.binaergewitter.de/2012-09-20.Binaergewitter.Talk.26.m4a
 ---
 Felix ist die einzige Konstante, aber Ingo ist auch wieder aus dem Stress und dem Urlaub zurück. Diesmal weinen wir über First World Problems und freuen und über Kleinigkeiten wie Zugverbindungen mit Google Maps.
 
