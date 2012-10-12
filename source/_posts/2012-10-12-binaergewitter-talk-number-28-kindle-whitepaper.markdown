@@ -70,7 +70,7 @@ Diesmal etwas kürzer als gewohnt, aber nicht weniger witzig oder informativ. Wi
   - [SoundCodec in Rockbox](http://www.rockbox.org/wiki/SoundCodecs )
 - [@MorgonFreeman]( https://twitter.com/morgonfreeman )
     * dagegen (marc)
-- [Hoaxilla mit Vorspann hinten]()
+- [Hoaxilla mit Vorspann hinten](http://www.hoaxilla.com/)
 - [Die Strömung](http://www.audioponies.de/ )
 - [Gum Pro]( https://www.amazon.de/dp/B001BWQTOC/ref=as_li_ss_til?tag=pfleidi-21 ) (pfleidi)
 - [Bottle beware!]( https://www.youtube.com/watch?v=4dKwHOfd2dk&feature=player_embedded )
