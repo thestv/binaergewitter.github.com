@@ -6,7 +6,7 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-10-11.Binaergewitter.Talk.28.ogg
+  mp3: http://download.binaergewitter.de/2012-10-11.Binaergewitter.Talk.28.mp3
   ogg: http://download.binaergewitter.de/2012-10-11.Binaergewitter.Talk.28.ogg
   m4a: http://download.binaergewitter.de/2012-10-11.Binaergewitter.Talk.28.m4a
   opus: http://download.binaergewitter.de/2012-10-11.Binaergewitter.Talk.28.opus
