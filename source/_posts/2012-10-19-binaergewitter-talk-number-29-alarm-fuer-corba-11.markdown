@@ -30,10 +30,10 @@ Auch giftige Kontaktlinsenflüssigkeit hält uns nicht davon ab euch auch diesma
 ## News
 
 - [Durch die installierte Steam App geowned]( http://arstechnica.com/security/2012/10/steam-vulnerability-can-lead-to-remote-insertion-of-malicious-code/ )
-- [Gigantischer Virus in Kontaktlinsenfluessigkeit gefunden]( http://arstechnica.com/science/2012/10/contact-lens-solution-hosts-giant-virus-ecosystem-of-parasites/ )
+- [Gigantischer Virus in Kontaktlinsenflüssigkeit gefunden]( http://arstechnica.com/science/2012/10/contact-lens-solution-hosts-giant-virus-ecosystem-of-parasites/ )
 - [Kostenlose Spiele bei Origin]( http://www.golem.de/news/origin-massenhaft-kostenlose-downloads-durch-key-panne-1210-95089.html )
 - [Raspberry Pie bekommt mehr RAM]( http://www.raspberrypi.org/archives/2180 )
-- [Apple wirft Geld auf schweizer Bahn um das Uhrdesign nutzen zu dürfen ( http://arstechnica.com/apple/2012/10/apple-puts-money-where-its-mouth-is-pays-for-swiss-railway-clock-design )
+- [Apple wirft Geld auf schweizer Bahn um das Uhrdesign nutzen zu dürfen]( http://arstechnica.com/apple/2012/10/apple-puts-money-where-its-mouth-is-pays-for-swiss-railway-clock-design )
 - [3D Printer DRM Patente damit die Leute keine Autos mehr downloaden]( http://torrentfreak.cjom/3d-printer-drm-patent-to-stop-people-downloading-a-car-121012/ )
 - [epetition gegen die GEMA-Vermutung](https://epetitionen.bundestag.de/petitionen/_2012/_08/_28/Petition_35441.html )
 - [Creative Commons Verwertungsgesellschaft](http://c3s.cc/ )
@@ -52,7 +52,7 @@ Auch giftige Kontaktlinsenflüssigkeit hält uns nicht davon ab euch auch diesma
     * [WebRTC Architektur]( http://www.webrtc.org/reference/architecture )
     * [WebRTC Spec]( http://www.w3.org/TR/webrtc/ )
 - [Kindle Whispercast]( http://www.golem.de/news/whispercast-for-kindle-jedem-schueler-das-gleiche-schul-e-book-1210-95147.html )
-- [Amazon Cloudplayer](http://www.amazon.de/gp/help/customer/display.html/?ie=UTF8&camp=1638&creative=19454&linkCode=ur2&nodeId=200935230&site-redirect=de&tag=jitcreat-21 )
+- [Amazon Cloudplayer](http://www.amazon.de/gp/help/customer/display.html/?ie=UTF8&camp=1638&creative=19454&linkCode=ur2&nodeId=200935230&site-redirect=de&tag=trektrip )
   - [Hörspiel Mark Brandis Alarm für die Erde](http://www.amazon.de/gp/product/B005VYHQ7U/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B005VYHQ7U&linkCode=as2&tag=trektrip )
 
 ## Lesefoo
