@@ -23,7 +23,7 @@ Ohne Pfleidi aber mit News, Messen und mehr Graveyards....
 
 ## Toter der Woche
 * [Hitler]( https://fragdenstaat.de/anfrage/erste-durchfuhrungsverordnung-zum-heilpraktikergesetz/ )
-    - [Aufzug] ( simplypix.files.wordpress.com/2010/02/aufzugold.jpg )
+    - [Aufzug] ( http://simplypix.files.wordpress.com/2010/02/aufzugold.jpg )
 * [Qype](http://qype.de )
 
 ## News
