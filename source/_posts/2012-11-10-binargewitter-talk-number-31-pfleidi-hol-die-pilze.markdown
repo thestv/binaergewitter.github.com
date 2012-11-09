@@ -12,8 +12,6 @@ audioformats:
   opus: http://download.binaergewitter.de/2012-11-08.Binaergewitter.Talk.31.opus
 ---
 
-# Binärgewitter Talk 31 - Pfleidi hol die Pilze
-
 # Kategorie der Woche
 
 ## Papagei der Woche
