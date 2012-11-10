@@ -8,7 +8,7 @@ sharing: true
 audioformats:
   mp3: http://download.binaergewitter.de/2012-11-08.Binaergewitter.Talk.31.mp3
   ogg: http://download.binaergewitter.de/2012-11-08.Binaergewitter.Talk.31.ogg
-  m4a: http://download.binaergewitter.de/2012-11-08.Binaergewitter.Talk.31.om4a
+  m4a: http://download.binaergewitter.de/2012-11-08.Binaergewitter.Talk.31.m4a
   opus: http://download.binaergewitter.de/2012-11-08.Binaergewitter.Talk.31.opus
 ---
 
@@ -40,9 +40,7 @@ audioformats:
 - [Markdown: The Spec]( http://news.ycombinator.net/item?id=4716322 )
 - [Escape from Callback Hell]( http://elm-lang.org/learn/Escape-from-Callback-Hell.elm )
 - [A Password manager is not enough?]( http://www.itproportal.com/2012/11/01/online-security-tips-a-password-manager-alone-isnt-enough/ )
-
-- ARM statt Intel bei Apple?
-
+- ARM statt Intel bei Apple
 - [A Slower Speed of Light]( http://gamelab.mit.edu/games/a-slower-speed-of-light/ )
 - [DNT in Chrome]( http://arstechnica.com/tech-policy/2012/11/do-not-track-finally-arrives-with-version-23-of-chrome/ )
 - [Der Cyber 9/11]( http://www.networkworld.com/news/2012/110712-security-experts-push-back-at-264036.html )
@@ -54,11 +52,10 @@ audioformats:
 - [Hackers Trade Tips on DDoS,SQL Injection]( http://www.informationweek.com/security/attacks/hackers-trade-tips-on-ddos-sql-injection/240012531 )
     * [Alternativer Link]( http://www.theregister.co.uk/2012/11/08/hard_token_in_credit_card/ )
 - [Archlinux: End of initscripts]( https://www.archlinux.org/news/end-of-initscripts-support/ )
-
 - [Walt Disney kauft Lucasfilms]( http://arstechnica.com/gaming/2012/10/walt-disney-buys-lucasfilm-promises-star-wars-episode-7-in-2015/ )
 - [Star Wars Preview]( https://lh4.googleusercontent.com/-8MAw_UJERYw/UJBAppoOOXI/AAAAAAAAYfg/WH077Gamz9M/s500/tumblr_mc7lqvKn4d1ri1fcro1_500.gif )
 - [Google Nexus 4 Review]( http://www.androidpolice.com/2012/11/07/google-nexus-4-review-the-beautifully-crafted-premium-flagship-phone-that-android-deserves/ ) (rb2k)
-    - antennapod
+    - [antennapod](https://play.google.com/store/apps/details?id=de.danoeh.antennapod )
 - [Google Wallet jetzt HartToken]( http://arstechnica.com/gadgets/2012/11/google-wallet-may-integrate-programmable-payment-cards/ ) (felix)
 - [White people mourning Romney]( http://whitepeoplemourningromney.tumblr.com/ ) (rb2k)
 - [Firefox :Save For Later]( https://blog.mozilla.org/ux/2012/10/save-for-later/ )
@@ -96,7 +93,4 @@ audioformats:
 - [Pornkins]( http://www.pornkins.com/store )
 - [Inspector web and the mystery of the shadow DOM]( http://2012.jsconf.eu/speaker/2012/08/24/inspector-web-and-the-mystery-of-the-shadow-dom.html ) (pfleidi)
 - [Terrible Linux Wallpapers]( http://terriblelinuxwallpaper.tumblr.com/ ) via daswort
-- Castle
-
-Verabschiedung:
-"Drei – drei – drei, bei Issos Keilerei"
+- [Castle](http://de.wikipedia.org/wiki/Castle_%28Fernsehserie%29 )
