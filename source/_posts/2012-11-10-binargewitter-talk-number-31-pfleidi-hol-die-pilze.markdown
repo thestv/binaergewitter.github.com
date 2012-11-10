@@ -8,7 +8,7 @@ sharing: true
 audioformats:
   mp3: http://download.binaergewitter.de/2012-11-08.Binaergewitter.Talk.31.mp3
   ogg: http://download.binaergewitter.de/2012-11-08.Binaergewitter.Talk.31.ogg
-  m4a: http://download.binaergewitter.de/2012-11-08.Binaergewitter.Talk.31.om4a
+  m4a: http://download.binaergewitter.de/2012-11-08.Binaergewitter.Talk.31.m4a
   opus: http://download.binaergewitter.de/2012-11-08.Binaergewitter.Talk.31.opus
 ---
 
